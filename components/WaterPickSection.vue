@@ -53,7 +53,7 @@
   
       h2 {
         font-size: 2.5rem;
-        color: var(--primary-color);
+        color: var(--primary);
         margin-bottom: 1.5rem;
       }
   
@@ -91,7 +91,7 @@
       .product-info {
         h3 {
           font-size: 1.75rem;
-          color: var(--primary-color);
+          color: var(--primary);
           margin-bottom: 1rem;
         }
   
@@ -121,7 +121,7 @@
                 content: "✓";
                 position: absolute;
                 left: 0;
-                color: var(--primary-color);
+                color: var(--primary);
                 font-weight: bold;
               }
             }
@@ -130,7 +130,7 @@
   
         .buy-button {
           display: inline-block;
-          background: var(--primary-color);
+          background: var(--primary);
           color: white;
           padding: 1rem 2rem;
           border-radius: 0.5rem;

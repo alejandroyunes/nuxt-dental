@@ -65,7 +65,7 @@
   
       h2 {
         font-size: 2.5rem;
-        color: var(--primary-color);
+        color: var(--primary);
         margin-bottom: 1.5rem;
       }
   
@@ -107,7 +107,7 @@
   
         h3 {
           font-size: 1.75rem;
-          color: var(--primary-color);
+          color: var(--primary);
           margin-bottom: 1rem;
         }
   
@@ -118,7 +118,7 @@
   
         .learn-more {
           display: inline-block;
-          color: var(--primary-color);
+          color: var(--primary);
           text-decoration: none;
           font-weight: 600;
           transition: transform 0.3s ease;
@@ -145,7 +145,7 @@
   
       .cta-button {
         display: inline-block;
-        background: var(--primary-color);
+        background: var(--primary);
         color: white;
         padding: 1rem 2.5rem;
         border-radius: 50px;

@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import HeroSection from '~/components/organisms/billboards/dental-main/index.vue'
-import IrrigatorGrid from '~/components/organisms/grids/IrrigatorGrid.vue'
-import ProsConsSection from '~/components/organisms/grids/ProsConsSection.vue'
+import IrrigatorGrid from '~/components/IrrigatorGrid.vue'
+import ProsConsSection from '~/components/ProsConsSection.vue'
 import { useBlogPosts } from '~/components/composables/useBlogPosts';
-import InfoSection from '~/components/organisms/grids/InfoSection.vue';
-import TypeSection from '~/components/organisms/grids/TypeSection.vue';
-import FeaturedPosts from '~/components/organisms/grids/FeaturedPosts.vue';
-import ComparisonSection from '~/components/organisms/grids/ComparisonSection.vue';
-import WaterPickSection from '~/components/organisms/grids/WaterPickSection.vue';
+import InfoSection from '~/components/InfoSection.vue';
+import TypeSection from '~/components/TypeSection.vue';
+import FeaturedPosts from '~/components/FeaturedPosts.vue';
+import ComparisonSection from '~/components/ComparisonSection.vue';
+import WaterPickSection from '~/components/WaterPickSection.vue';
 
 useSeoMeta({
   title: 'Servicio Web Profesional en Colombia',
@@ -26,17 +26,12 @@ useSeoMeta({
 
 const { posts, loading, error } = useBlogPosts();
 
-const heroData = {
-  titleH2: "Enhance your oral health",
-  title: "With an Oral Dental Irrigator",
-  subtitle: "We've gone the extra mile by diving deep into reviews, user comments, forum discussions, brand reputation sentiments, and more, all to empower you in making a well-informed decision for your Oral Dental Irrigator. Your dental care journey just got a whole lot easier! 😊",
-  buttonText: "View Irrigators"
-};
+
 
 </script>
 
 <template>
-  <HeroSection v-bind="heroData" />
+  <HeroSection />
 
   <IrrigatorGrid />
   <ProsConsSection />

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import BlogCard from '~/components/organisms/grids/BlogCard.vue';
+import BlogCard from '~/components/BlogCard.vue';
  interface BlogPost {
   id: number;
   title: string;

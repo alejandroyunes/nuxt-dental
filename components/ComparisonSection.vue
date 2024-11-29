@@ -136,7 +136,7 @@
   
     h2 {
       font-size: 2.5rem;
-      color: var(--primary-color);
+      color: var(--primary);
       margin-bottom: 1rem;
       text-align: center;
     }
@@ -168,7 +168,7 @@
       }
   
       th {
-        background: var(--primary-color);
+        background: var(--primary);
         color: white;
         font-weight: 600;
         white-space: nowrap;
@@ -187,7 +187,7 @@
       }
   
       .prime-badge {
-        color: var(--primary-color);
+        color: var(--primary);
         font-size: 1.2rem;
         font-weight: bold;
       }
@@ -198,20 +198,20 @@
         background: #e5e7eb;
         border-radius: 2rem;
         font-weight: 600;
-        color: var(--primary-color);
+        color: var(--primary);
       }
   
       .satisfaction {
         .rating {
           font-weight: 600;
-          color: var(--primary-color);
+          color: var(--primary);
         }
       }
   
       .view-price-btn {
         display: inline-block;
         padding: 0.5rem 1rem;
-        background: var(--primary-color);
+        background: var(--primary);
         color: white;
         text-decoration: none;
         border-radius: 0.5rem;

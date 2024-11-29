@@ -215,7 +215,7 @@ const irrigators: IrrigatorProduct[] = [
     display: inline-block;
     width: 100%;
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: var(--primary);
     color: white;
     text-align: center;
     text-decoration: none;

@@ -93,7 +93,7 @@
   
       h2 {
         font-size: 2.5rem;
-        color: var(--primary-color);
+        color: var(--primary);
         margin-bottom: 1.5rem;
       }
   
@@ -131,7 +131,7 @@
       h3 {
         font-size: 1.25rem;
         margin-bottom: 1rem;
-        color: var(--primary-color);
+        color: var(--primary);
       }
   
       .characteristics {
@@ -152,7 +152,7 @@
             
             &:before {
               content: "•";
-              color: var(--primary-color);
+              color: var(--primary);
               font-weight: bold;
               margin-right: 0.5rem;
             }
@@ -164,7 +164,7 @@
         display: inline-block;
         width: 100%;
         padding: 1rem;
-        background: var(--primary-color);
+        background: var(--primary);
         color: white;
         text-align: center;
         text-decoration: none;

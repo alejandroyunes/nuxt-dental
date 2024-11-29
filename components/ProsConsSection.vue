@@ -150,7 +150,7 @@ const data: ProsCons = {
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      background: var(--primary-color);
+      background: var(--primary);
       color: white;
       padding: 1rem 2rem;
       border-radius: 50px;
