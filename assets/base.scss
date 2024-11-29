@@ -11,15 +11,15 @@
   --warning: #ffe979;
   --danger: #dc3545;
 
-  --white: rgb(255, 255, 255);
-  --white-soft:rgb(243, 243, 243);
+  --white: linear-gradient(135deg, #e9f1f7 0%, #ecf0f3 100%);
+  --white-soft: #f8fafc;
   --white-base: rgb(238, 238, 238);
 
   --white-transparent: rgba(255, 255, 255, 0.5);
   --white-transparent-base: rgba(255, 255, 255, 0.1);
 
-  --black: #282828;
-  --black-soft: rgb(28, 28, 28);
+  --black: #272626;
+  --black-soft: #64748b;;
   --black-base: rgb(107, 107, 107);
 
   --black-transparent: rgba(0, 0, 0, 0.5);
@@ -27,7 +27,7 @@
 
   --gray: rgb(70, 70, 70);
   --gray-soft: rgb(109, 100, 100);
-  --gray-base: rgb(167, 154, 154);
+  --gray-base: rgb(247, 246, 246);
 
   --blue: rgb(39 67 85);
   --blue-soft: rgb(109, 183, 233);
@@ -54,6 +54,10 @@
 
   --border-white: rgb(153, 153, 153);
   --border-black: rgb(142, 109, 109);
+
+  //new
+
+  --background-text: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
 
   --max-width: 1280px;
   --tablet-width: 1024px;

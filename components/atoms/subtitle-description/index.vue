@@ -5,18 +5,17 @@ type Props = {
   title: string
   description?: string
   marginTop?: boolean
+  subtext?: string
 }
 
-const { title, description, marginTop } = defineProps<Props>()
+const { title, description, marginTop, subtext } = defineProps<Props>()
 
 </script>
 
 <template>
-  <section class="subtitle-description">
-
+  <div class="subtitle-description">
     <h2 class="subtitle" :class="{ 'extra-top-space': marginTop }">{{ title }}</h2>
-
     <p class="description">{{ description }}</p>
-
-  </section>
+    <p class="subtext">{{ subtext }}</p>
+  </div>
 </template>
