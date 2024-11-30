@@ -1,5 +1,5 @@
 <script setup>
-import './comparison-section.scss'
+import './comparison.scss'
 const models = [
   {
     name: 'Waterpik WF-02',

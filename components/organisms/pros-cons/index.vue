@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import './pros-and-cons.scss'
+import './pros-cons.scss'
 interface ProsCons {
   pros: string[];
   cons: string[];
