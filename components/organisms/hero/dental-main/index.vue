@@ -5,7 +5,7 @@ const heroData = {
   titleH2: "Enhance your oral health with an",
   title: "Oral Dental Irrigator",
   subtitle: "We've gone the extra mile by diving deep into reviews, user comments, forum discussions, brand reputation sentiments, and more, all to empower you in making a well-informed decision for your Oral Dental Irrigator. Your dental care journey just got a whole lot easier! 😊",
-  buttonText: "View Irrigators"
+  buttonText: "View Best Dental Irrigators"
 };
 
 </script>

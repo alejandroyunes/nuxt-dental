@@ -1,5 +1,5 @@
 <script setup>
-import './waterpick.scss'
+import './product-card.scss'
 </script>
 
 <template>

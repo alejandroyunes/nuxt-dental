@@ -1,13 +1,14 @@
 <script setup lang="ts">
-import HeroSection from '~/components/organisms/billboards/dental-main/index.vue'
-import IrrigatorGrid from '~/components/organisms/grids/IrrigatorGrid.vue'
-import ProsConsSection from '~/components/ProsConsSection.vue'
+import HeroSection from '~/components/organisms/hero/dental-main/index.vue'
+import ReviewsGrid from '~/components/organisms/grids/review/ReviewsGrid.vue'
+import ProsConsSection from '~/components/organisms/pros-cons/ProsConsSection.vue'
 import { useBlogPosts } from '~/components/composables/useBlogPosts';
 import InfoGridSection from '~/components/organisms/grids/InfoGridSection.vue';
 import TypeSection from '~/components/organisms/type-section/TypeSection.vue';
 import FeaturedPosts from '~/components/FeaturedPosts.vue';
 import ComparisonSection from '~/components/organisms/tables/ComparisonSection.vue';
-import WaterPickSection from '~/components/organisms/product/WaterPickSection.vue';
+import WaterPickSection from '~/components/organisms/product/card/index.vue';
+import { useIrrigator } from '~/components/composables/useIrrigator';
 
 useSeoMeta({
   title: 'Servicio Web Profesional en Colombia',
@@ -25,15 +26,14 @@ useSeoMeta({
 })
 
 const { posts, loading, error } = useBlogPosts();
-
+const { irrigators, titleInfo } = useIrrigator()
 
 
 </script>
 
 <template>
   <HeroSection />
-
-  <IrrigatorGrid />
+  <ReviewsGrid :irrigators="irrigators" :irrigatorTitle="titleInfo" />
   <ProsConsSection />
   <InfoGridSection />
   <TypeSection />

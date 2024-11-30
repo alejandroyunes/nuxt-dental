@@ -1,0 +1,132 @@
+.card-details {
+  display: grid;
+  grid-template-columns: .8fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  background: white;
+  padding: 6rem 24px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .card-image {
+    justify-self: flex-start;
+    margin-left: 80px;
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 0.5rem;
+    }
+
+    @media (max-width: 1024px) {
+      justify-self: center;
+      margin-left: 0;
+    }
+  }
+
+  .card-info {
+    h1 {
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: .2rem;
+      line-height: 1.7;
+      font-size: 1.1rem;
+    }
+
+    .price {
+      margin-top: .5rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #3498db;
+    }
+
+    .rating {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin: .3rem 0 .1rem;
+
+      .stars {
+        position: relative;
+        display: inline-block;
+        color: #ffd700;
+        font-size: 1.4rem;
+
+        &::before {
+          content: "★★★★★";
+        }
+
+        &::after {
+          content: "★★★★★";
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: calc(var(--rating) * 20%);
+          overflow: hidden;
+          color: #ffd700;
+        }
+      }
+
+      span {
+        color: #64748b;
+        font-size: 0.875rem;
+      }
+    }
+
+    .characteristics {
+      margin: .5rem 0 2rem;
+
+      h4 {
+        font-size: 1.25rem;
+        color: var(--secondary-color);
+        margin-bottom: 1rem;
+      }
+
+      ul {
+        list-style: none;
+
+        li {
+          margin-bottom: 0.75rem;
+          padding-left: 1.5rem;
+          position: relative;
+
+          &:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .buy-button {
+      display: inline-flex;
+      background: var(--primary);
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.3rem;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: var(--secondary);
+        transform: translateY(-2px);
+      }
+    }
+  }
+}
