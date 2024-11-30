@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import { useRoute } from 'vue-router'
 import CardDetails from '~/components/organisms/product/card-details/index.vue'
-
+import TableContext from '~/components/organisms/tables/context/index.vue'
 const route = useRoute()
 
 const id = route.params.id
@@ -27,5 +27,6 @@ const irrigator = ref({
 <template>
   <section>
     <CardDetails />
+    <TableContext />
   </section>
 </template>
