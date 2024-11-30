@@ -24,7 +24,7 @@ export const nicefeelFC1592: ProductDetails = {
       "Convenient and Portable Design.",
       "Durable and Long-lasting."
     ],
-    buyLink: nicwellF5025GlobalData.nicwellf5025ProductUrl,
+    buyLink: nicefeelFC1592bkGlobalData.nicefeelFC1592bkProductUrl,
   },
   tableOfContent: [
     {

@@ -13,7 +13,7 @@ export const bitvaeC2: ProductDetails = {
     alt: "Bitvae C2 Professional Water Dental Flosser, 260ml",
     title: "Bitvae C2 Professional Water Dental Flosser, 260ml",
     subtitle: "Achieve a brighter smile with advanced features and ergonomic design.",
-    description: "Bitvae C2 Professional Water Dental Flosser, 260ml",
+    description: "Experience advanced oral care with the Bitvae C2 Water Dental Flosser. Keep your mouth clean and healthy with cutting-edge features and portability.",
     price: "$19.99",
     updatedDate: '11/21/2023',
     rating: {

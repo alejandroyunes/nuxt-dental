@@ -56,15 +56,30 @@ export const inSmartFC256: ProductDetails = {
     message: "This portable water flosser creates over 1250-1700 plus/min jets of water, reaching areas normal toothbrushes can't, ensuring healthy gums and a thorough teeth clean. Its IPX7 waterproof design allows for use in the shower, featuring three operation modes for a personalized experience. With a large 200ml water tank and extended battery life, it's perfect for daily use at home and on the go.",
   },
   proAndCons: {
-    id: 'pro-and-cons-nicefeelFC1592bk',
-    title: 'Pros and Cons of Nicefeel FC1592BK',
-    message:
-      'Evaluate the advantages and disadvantages of the Nicefeel FC1592-BK Cordless Water Flosser.',
+    id: 'pro-and-cons-insmartFC256',
+    title: 'Pros and Cons of InSmart FC256',
+    message: "It's essential to consider these customer experiences to make an informed decision about the InSmart Professional Cordless Water Dental Flosser.",
     pros: [
-
+      {
+        title: 'Large water reservoir for uninterrupted use.',
+      },
+      {
+        title: '1800 times/minute high-pressure water pulse',
+      },
+      {
+        title: 'Latest technology lithium battery for long-lasting use.',
+      },
+      {
+        title: 'Low-noise design for a comfortable experience.',
+      },
     ],
     cons: [
-
+      {
+        title: 'Reports of breakage after a few months of use, including issues with the device not holding a charge.',
+      },
+      {
+        title: 'Complaints about the tip breaking every time, indicating potential fragility.',
+      },
     ],
   },
   comparison: {
