@@ -1,5 +1,6 @@
 <script setup>
 import './card-details.scss'
+
 </script>
 
 <template>

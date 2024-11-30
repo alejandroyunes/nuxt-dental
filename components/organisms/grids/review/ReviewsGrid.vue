@@ -25,9 +25,9 @@ const { irrigatorTitle, irrigators } = defineProps<{ irrigators: IrrigatorProduc
             <div class="stars" :style="{ '--rating': irrigator.rating }"></div>
             <span>({{ irrigator.reviewCount }} reviews)</span>
           </div>
-          <router-link :to="`/${irrigatorTitle.slug}/${irrigator.id}`" class="button">
+          <NuxtLink :to="`/${irrigatorTitle.slug}/${irrigator.id}`" class="button">
             Read Review
-          </router-link>
+          </NuxtLink>
         </div>
       </div>
     </div>

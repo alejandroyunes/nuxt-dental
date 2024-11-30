@@ -5,7 +5,7 @@ import { ref } from 'vue';
 const isDropdownVisible = ref(false);
 
 const showDropdown = () => {
-  isDropdownVisible.value = true;
+  isDropdownVisible.value = !isDropdownVisible.value;
 };
 
 const hideDropdown = () => {
@@ -16,7 +16,7 @@ const hideDropdown = () => {
 
 <template>
   <div class="accordion-container">
-    <div class="wrapper" @mouseover="showDropdown" @mouseleave="hideDropdown">
+    <div class="wrapper" @click="showDropdown" @mouseleave="hideDropdown">
       <button class="trigger">
         <span class="text">Table of Content</span>
         <span class="caret" :class="{ 'caret-active': isDropdownVisible }"></span>
