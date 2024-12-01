@@ -26,13 +26,13 @@ useSeoMeta({
 })
 
 const { posts, loading, error } = useBlogPosts()
-const { irrigators, titleInfo } = getPortables()
+const { reviews, reviewTitle } = getPortables()
 
 </script>
 
 <template>
   <HeroSection />
-  <ReviewsGrid :irrigators="irrigators" :irrigatorTitle="titleInfo" />
+  <ReviewsGrid :reviews="reviews" :reviewTitle="reviewTitle" />
   <ProsConsSection />
   <InfoGridSection />
   <TypeSection />

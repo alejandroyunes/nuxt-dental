@@ -53,8 +53,47 @@ const coslusF5020E: ProductDetails = {
   ],
   title: {
     id: 'the-best-of-coslus-F5020E',
-    title: 'The Best of Coslus FC165',
-    message: "With its ultra-fine dual-thread water pulse technology to the upgraded 300ml water tank, the Coslus FC165 offers a superior and efficient teeth cleaning experience. Enjoy the benefits of improved gum health, fresh breath, and a confident smile. With a rechargeable battery, portability for travel, and a variety of user-friendly features, the Coslus FC165 stands out as the best choice for your oral care needs.",
+    title: 'The Best of Coslus F5020E',
+    description: "The Coslus FC165 offers a superior and efficient teeth cleaning experience. Enjoy the benefits of improved gum health, fresh breath, and a confident smile. With a rechargeable battery, portability for travel, and a variety of user-friendly features, the Coslus FC165 stands out as the best choice for your oral care needs.",
+    subtext: "With its ultra-fine dual-thread water pulse technology to the upgraded 300ml water tank,"
+  },
+  features: {
+    id: 'the-best-of-coslus-F5020E test',
+    title: "The Best of Coslus F5020E",
+    data: [
+      {
+        title: 'Quality',
+        description: "Customers praise the oral irrigator's quality, ease of use, and effectiveness in dental cleaning. Overall satisfaction with its performance.",
+      },
+      {
+        title: 'Ease of Use',
+        description: "Users find the oral irrigator convenient, powerful, and ready for use with various settings. Many incorporate it into their daily routine.",
+      },
+      {
+        title: 'Value',
+        description: "Customers appreciate the value, considering the oral irrigator a great investment for its price.",
+      },
+      {
+        title: 'Ease of Cleaning',
+        description: "Users like the ease of cleaning, stating it effectively removes debris, making their mouth feel clean. Positive feedback on water pressure and nozzle variety.",
+      },
+      {
+        title: 'Size',
+        description: "Customers value the compact size, portability, and lightweight design of the oral irrigator. They also praise adjustable pressure and battery life.",
+      },
+      {
+        title: 'Battery Life',
+        description: "Satisfaction with the battery life, with users noting it holds a charge for an extended period. Positive remarks on the rechargeable feature.",
+      },
+      {
+        title: 'Power',
+        description: "Users commend the power of the oral irrigator, highlighting three power levels, efficiency, and user-friendly operation.",
+      },
+      {
+        title: 'Pressure',
+        description: "Impressed with the water pressure, users appreciate the multiple modes and nozzles, with strong water flow for effective cleaning. Overall satisfaction with pressure.",
+      }
+    ]
   },
   proAndCons: {
     id: 'pro-and-cons-F5020E',
@@ -160,24 +199,8 @@ const coslusF5020E: ProductDetails = {
     title: 'Why Choose Coslus F5020E?',
     items: {
       itemTitle: [
-        'Quality:',
-        "Ease of Use:",
-        "Value:",
-        "Ease of Cleaning:",
-        "Size:",
-        "Battery Life:",
-        "Power:",
-        "Pressure:",
       ],
       itemContent: [
-        "Customers praise the oral irrigator's quality, ease of use, and effectiveness in dental cleaning. Overall satisfaction with its performance.",
-        "Users find the oral irrigator convenient, powerful, and ready for use with various settings. Many incorporate it into their daily routine.",
-        "Customers appreciate the value, considering the oral irrigator a great investment for its price.",
-        "Users like the ease of cleaning, stating it effectively removes debris, making their mouth feel clean. Positive feedback on water pressure and nozzle variety.",
-        "Customers value the compact size, portability, and lightweight design of the oral irrigator. They also praise adjustable pressure and battery life.",
-        "Satisfaction with the battery life, with users noting it holds a charge for an extended period. Positive remarks on the rechargeable feature.",
-        "Users commend the power of the oral irrigator, highlighting three power levels, efficiency, and user-friendly operation.",
-        "Impressed with the water pressure, users appreciate the multiple modes and nozzles, with strong water flow for effective cleaning. Overall satisfaction with pressure."
       ]
     }
   }

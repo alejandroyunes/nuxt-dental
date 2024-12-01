@@ -1,16 +1,21 @@
-<script setup>
-import './accordion.scss';
-import { ref } from 'vue';
+<script setup lang="ts">
+import './accordion.scss'
+import { ref } from 'vue'
+import type { ProductDetails } from '~/types/product-details'
 
-const isDropdownVisible = ref(false);
+const { info } = defineProps<{
+  info?: ProductDetails['tableOfContent']
+}>()
+
+const isDropdownVisible = ref(false)
 
 const showDropdown = () => {
-  isDropdownVisible.value = !isDropdownVisible.value;
-};
+  isDropdownVisible.value = !isDropdownVisible.value
+}
 
 const hideDropdown = () => {
-  isDropdownVisible.value = false;
-};
+  isDropdownVisible.value = false
+}
 
 </script>
 
@@ -22,9 +27,11 @@ const hideDropdown = () => {
         <span class="caret" :class="{ 'caret-active': isDropdownVisible }"></span>
       </button>
       <div v-if="isDropdownVisible" class="menu">
-        <a href="#" class="item">Explore Option 1</a>
-        <a href="#" class="item">Discover Option 2</a>
-        <a href="#" class="item">Select Option 3</a>
+        <div v-for="item in info">
+          <NuxtLink :to="item.id" class="item">
+            {{ item.content }}
+          </NuxtLink>
+        </div>
       </div>
     </div>
   </div>

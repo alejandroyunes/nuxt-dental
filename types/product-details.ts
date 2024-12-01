@@ -23,7 +23,16 @@ export interface ProductDetails {
   title: {
     id: string
     title: string
-    message: string
+    description: string
+    subtext: string
+  }
+  features: {
+    id: string
+    title: string
+    data: {
+      title: string
+      description: string
+    }[]
   },
   proAndCons: {
     id: string
@@ -62,8 +71,8 @@ export interface ProductDetails {
     id: string
     title: string
     items: {
-        itemTitle: string[]
-        itemContent: string[]
+      itemTitle: string[]
+      itemContent: string[]
     }
   }
 }

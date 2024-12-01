@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import './card-details.scss'
-import type { ProductDetails } from '~/types/product-details';
+import type { ProductDetails } from '~/types/product-details'
 
 const { info } = defineProps<{
   info?: ProductDetails['info']
