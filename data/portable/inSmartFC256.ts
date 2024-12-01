@@ -23,6 +23,9 @@ const inSmartFC256: ProductDetails = {
       "Charging with all USB port.",
       "Nozzle Tips for the whole family.",
       "Convenient travel carrying bag.",
+      "Long-lasting 2000 mAh rechargeable battery.",
+      "Easy-to-clean detachable water tank.",
+      "Quiet operation with four water pressure modes.",
     ]
   },
   tableOfContent: [
@@ -46,8 +49,8 @@ const inSmartFC256: ProductDetails = {
   title: {
     id: 'the-best-of-insmartFC256',
     title: 'The Best of InSmart FC256',
-    description: "This portable water flosser creates over 1250-1700 plus/min jets of water, reaching areas normal toothbrushes can't, ensuring healthy gums and a thorough teeth clean. Its IPX7 waterproof design allows for use in the shower, featuring three operation modes for a personalized experience.",
-    subtext: ' With a large 200ml water tank and extended battery life, it\'s perfect for daily use at home and on the go.',
+    description: "This portable water flosser creates over 1400-1800 pulsations/min of water jets, reaching areas normal toothbrushes can't, ensuring healthy gums and a thorough teeth clean. Its IPX7 waterproof design allows for use in the shower, featuring four operation modes for a personalized experience.",
+    subtext: 'With a large 300ml water tank and extended 2000 mAh battery life, it\'s perfect for daily use at home and on the go.',
   },
   features: {
     id: 'why-insmartFC256',
@@ -55,19 +58,19 @@ const inSmartFC256: ProductDetails = {
     data: [
       {
         title: 'InSmart cordless',
-        description: 'water dental flosser is an extremely convenient option over traditional oral irrigators. It gives flossing excellence with the convenience of being cordless and rechargeable.',
+        description: 'water dental flosser is an extremely convenient option over traditional oral irrigators. It provides flossing excellence with the convenience of being cordless and rechargeable.',
       },
       {
         title: 'It is perfect',
-        description: 'for removal of food residue between teeth and below the gums, where the brushing alone can not reach. It is excellent at removing hard-to-reach range that can cause bad breath, and tooth decay.',
+        description: 'for the removal of food residue between teeth and below the gums, where brushing alone cannot reach. It excels at removing hard-to-reach areas that can cause bad breath and tooth decay.',
       },
       {
-        title: 'Built in 1500mA',
-        description: 'Li-ion rechargeable batteries operates standby 2 weeks when full charge.',
+        title: 'Built-in 2000mAh',
+        description: 'Li-ion rechargeable battery operates for up to 30 days on a full charge, offering excellent standby time.',
       },
       {
-        title: 'The main flosser',
-        description: 'and water tank are designed separately to help clean the dirt in the water tank.',
+        title: 'Separate flosser',
+        description: 'and water tank design allows easy cleaning of dirt and plaque in the water tank, keeping the device hygienic.',
       },
     ]
   },
@@ -83,13 +86,13 @@ const inSmartFC256: ProductDetails = {
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/td5m6r5zdqqa1criayzq.webp',
         alt: 'InSmart FC256 Oral Irrigator Image',
         prime: true,
-        dimensions: '8.27 x 3.15 x 1.97 in, 14 oz',
-        tips: '4',
+        dimensions: '8.27 x 3.15 x 1.97 in, 14.07 oz',
+        tips: '6',
         capacity: '300 ml',
-        highlight: 'Travel Carrying bag, Ease of use, Size',
-        problem: 'Battery Life, Durability',
+        highlight: 'Travel Carrying bag, Ease of use, Size, 4 Water Pressure Modes',
+        problem: 'Battery Life, Durability, Nozzle Wear',
         price: 'Great Price',
-        satisfaction: '8/10',
+        satisfaction: '8.5/10',
         view: 'View Price',
       },
       {
@@ -110,7 +113,7 @@ const inSmartFC256: ProductDetails = {
       },
       {
         id: 3,
-        productUrl: '/reviews/portable-and-affordable-oral-irrigators/waterpikF02', 
+        productUrl: '/reviews/portable-and-affordable-oral-irrigators/waterpikF02',
         model: 'Waterpik WF-02',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp',
         alt: 'Waterpik Model WF-02',
@@ -147,19 +150,19 @@ const inSmartFC256: ProductDetails = {
     title: 'Pros and Cons of InSmart FC256',
     cta: 'Buy on Amazon',
     buyLink: 'https://amzn.to/3Nbst4b',
-    description: "It's essential to consider these customer experiences to make an informed decision about the InSmart Professional Cordless Water Dental Flosser.",
+    description: "It's essential to consider these customer experiences to make an informed decision about the InSmart Professional Cordless Water Dental Flosser, ensuring it meets your needs for oral care and convenience.",
     pros: [
       {
-        title: 'Large water reservoir for uninterrupted use.',
+        title: 'Large 300ml water reservoir for uninterrupted use.',
       },
       {
-        title: '1800 times/minute high-pressure water pulse',
+        title: '1400-1800 times/minute high-pressure water pulse for effective cleaning.',
       },
       {
-        title: 'Latest technology lithium battery for long-lasting use.',
+        title: 'Latest 2000mAh lithium battery for long-lasting use (up to 30 days on a full charge).',
       },
       {
-        title: 'Low-noise design for a comfortable experience.',
+        title: 'Low-noise design for a comfortable and quiet experience.',
       },
     ],
     cons: [
@@ -167,7 +170,7 @@ const inSmartFC256: ProductDetails = {
         title: 'Reports of breakage after a few months of use, including issues with the device not holding a charge.',
       },
       {
-        title: 'Complaints about the tip breaking every time, indicating potential fragility.',
+        title: 'Complaints about the tip breaking, indicating potential fragility of the nozzle.',
       },
     ],
   },
