@@ -11,7 +11,7 @@ const bitvaeC2: ProductDetails = {
     subtitle: "Achieve a brighter smile with advanced features and ergonomic design.",
     description: "Experience advanced oral care with the Bitvae C2 Water Dental Flosser. Keep your mouth clean and healthy with cutting-edge features and portability.",
     price: "$19.99",
-    updatedDate: '11/21/2023',
+    updatedDate: '03/12/2023',
     buyLink: 'https://amzn.to/3R3veFS',
     cta: 'Buy Now on Amazon',
     rating: {
@@ -153,7 +153,7 @@ const bitvaeC2: ProductDetails = {
   proAndCons: {
     id: 'pro-and-cons-bitvae-c2',
     title: "Pros and Cons",
-    description: "Explore the advantages and considerations of the Bitvae C2 Water Dental Flosser.",
+    description: "After thorough analysis of customer feedback, product reviews, and ratings, Bitvae stands out with an impressive average star rating of 4.3. Having sold thousands of oral irrigators on Amazon, Bitvae is synonymous with high-quality products and overwhelmingly positive user reviews. Explore the advantages and considerations of the Bitvae C2 Water Dental Flosser.",
     cta: 'Buy on Amazon',
     buyLink: 'https://amzn.to/3R3veFS',
     pros: [
