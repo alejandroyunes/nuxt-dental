@@ -10,8 +10,8 @@ const nicefeelFC1592: ProductDetails = {
     alt: 'Nicefeel Cordless Water Flosser FC1592BK, 300ml',
     title: "Nicefeel Cordless Water Flosser FC1592BK, 300ml",
     subtitle: 'State-of-the-art oral care device designed for optimal gum health and effective teeth cleaning',
-    description: 'This portable device is suitable for travel with its IPX7 waterproof design. Perfect for individuals with periodontitis and braces.',
-    price: "$79.99",
+    description: "Experience the pinnacle of oral care with Nicefeel's Cordless Water Flosser—a portable and rechargeable solution that enhances gum health, teeth cleaning, and overall hygiene.",
+    price: "$21.99",
     updatedDate: '11/20/2023',
     buyLink: 'https://amzn.to/3RvbA7j',
     cta: 'Buy on Amazon',
@@ -20,13 +20,14 @@ const nicefeelFC1592: ProductDetails = {
       reviews: 22112,
     },
     characteristics: [
-      "Versatile Cleaning Modes Normal, Soft, Pulse.",
-      "Water Proof: IPX7 Dual Waterproof.",
-      "Water Pressure: 30-120PSI.",
-      "Powerful and Efficient Cleaning.",
-      "Battery: 1400mAh Lithium Battery.",
-      "Convenient and Portable Design.",
-      "Durable and Long-lasting."
+      'Battery Powered: 1400mAh',
+      'Portable',
+      'Multiple Pressure Settings',
+      'Multiple Operation Modes',
+      'Rechargeable',
+      'Multiple Tips',
+      'Prevents Bad Breath',
+      'Gum Health',
     ]
   },
   tableOfContent: [
@@ -51,28 +52,28 @@ const nicefeelFC1592: ProductDetails = {
     id: 'the-best-of-nicefeelFC1592bk',
     title: 'The Best of Nicefeel FC1592BK',
     description: "Experience the pinnacle of oral care with Nicefeel's Cordless Water Flosser—a portable and rechargeable solution that effortlessly enhances gum health, teeth cleaning, and overall dental hygiene. With a 300ml detachable water tank, three cleaning modes, and a travel-friendly design.",
-    subtext: 'It\'s the perfect choice for efficient, hassle-free oral care, earning praise for its value, performance, and portability.',
+    subtext: "It's the perfect choice for efficient, hassle-free oral care, earning praise for its value, performance, and portability.",
   },
   features: {
     id: 'why-nicefeelFC1592bk',
     title: 'Why Choose the Nicefeel FC1592BK?',
     data: [
       {
-        title: 'Powerful and Efficient Cleaning',
-        description: "The Nicefeel FC1592BK features a high-pressure water pulse of 1800 times/minute, ensuring powerful and efficient cleaning that reaches areas traditional brushing can't.",
+        title: 'Detachable and Cleanable Water Tank',
+        description: 'The 300ml tank is easy to fill and clean, designed with a leak-proof drainage system for safety and comfort.',
       },
       {
-        title: 'Versatile Cleaning Modes',
-        description: "With three cleaning modes (Normal, Soft, Pulse), this water flosser offers versatile options to meet various oral cleaning needs, providing a personalized experience.",
+        title: 'Memory Function with 3 Cleaning Modes',
+        description: 'Choose from Normal, Soft, or Pulse modes. The Memory Function remembers your preferred mode, even after the device is turned off.',
       },
       {
-        title: 'Convenient and Portable Design',
-        description: "Designed for convenience and portability, this cordless and rechargeable oral irrigator is perfect for travel, ensuring you can maintain your oral health on the go.",
+        title: '360° Rotating Long Nozzle',
+        description: 'Reaches 99.99% of food residues in every corner that traditional brushing can’t reach.',
       },
       {
-        title: 'Durable and Long-lasting',
-        description: "Constructed with durability in mind, the Nicefeel FC1592BK boasts a 300ml detachable water tank, IPX7 waterproofing, and a reliable 1400mAh lithium battery for long-lasting use.",
-      }
+        title: 'Compact and Portable Design',
+        description: 'Perfect for travel, offering convenience without sacrificing performance.',
+      },
     ]
   },
   comparison: {
@@ -90,9 +91,9 @@ const nicefeelFC1592: ProductDetails = {
         dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
         tips: '4',
         capacity: '300 ml',
-        highlight: 'Compact Design, Long Battery Life',
-        problem: 'Durability',
-        price: 'Great Price',
+        highlight: 'Battery-powered, memory function, 3 cleaning modes',
+        problem: 'Not suitable for large families',
+        price: '$21.99',
         satisfaction: '8/10',
         view: 'View Price',
       },

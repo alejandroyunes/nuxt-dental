@@ -83,7 +83,7 @@ const inSmartFC256: ProductDetails = {
         id: 1,
         productUrl: '/reviews/portable-and-affordable-oral-irrigators/inSmartFC256',
         model: 'InSmart FC256',
-        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/td5m6r5zdqqa1criayzq.webp',
+        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/wepwdcnie4cnqdymep3c.webp',
         alt: 'InSmart FC256 Oral Irrigator Image',
         prime: true,
         dimensions: '8.27 x 3.15 x 1.97 in, 14.07 oz',
