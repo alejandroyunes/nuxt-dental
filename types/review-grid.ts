@@ -1,5 +1,7 @@
-export interface IrrigatorProduct {
+export interface ReviewGrid {
   id: number,
+  productId: number,
+  fileName: string,
   name: string,
   image: string,
   alt: string,

@@ -6,8 +6,9 @@ import {
 } from './best-portable'
 import type { ProductDetails } from '~/types/product-details'
 
-export const colusF5020E: ProductDetails = {
+const coslusF5020E: ProductDetails = {
   id: 5,
+  fileName: 'coslusF5020E',
   info: {
     image: coslus300mlGlobalData.coslus300ml,
     alt: 'Coslus Water Dental Flosser F5020E, 300ml',
@@ -181,3 +182,5 @@ export const colusF5020E: ProductDetails = {
     }
   }
 };
+
+export default coslusF5020E

@@ -1,5 +1,6 @@
 export interface ProductDetails {
   id: number
+  fileName: string
   info: {
     image: string
     alt: string

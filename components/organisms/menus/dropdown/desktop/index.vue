@@ -33,27 +33,9 @@ const servicesLinks = [
     icon: GraphicDesignSvg,
     iconAlt: 'Diseño gráfico'
   },
-  {
-    title: 'Marketing de motores de búsqueda',
-    link: '/marketing-en-motores-de-busqueda',
-    icon: SeoSvg,
-    iconAlt: 'Marketing de motores de búsqueda'
-  },
-  {
-    title: 'Marketing de medios sociales',
-    link: '/marketing-en-redes-sociales',
-    icon: MarketingSvg,
-    iconAlt: 'Marketing en redes sociales'
-  }
 ]
 
 const supportLinks = [
-  {
-    title: 'Blog',
-    link: '/blog',
-    icon: AnnouncementsSvg,
-    iconAlt: 'Blog'
-  },  
   {
     title: 'Contacta con soporte',
     link: '/contacta-con-soporte',

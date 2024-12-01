@@ -4,7 +4,7 @@
   gap: 4rem;
   align-items: center;
   background: white;
-  padding: 6rem 24px;
+  padding: 7rem 24px 5rem;
   max-width: var(--max-width);
   margin: 0 auto;
 
@@ -18,9 +18,8 @@
     justify-self: flex-start;
     margin-left: 80px;
 
-    img {
-      width: 100%;
-      max-width: 400px;
+    .image {
+      max-width: 500px;
       height: auto;
       border-radius: 0.5rem;
     }

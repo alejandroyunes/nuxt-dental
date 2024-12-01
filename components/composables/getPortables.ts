@@ -1,18 +1,20 @@
 import { ref, onMounted } from 'vue'
-import type { IrrigatorProduct } from "~/types/irrigator-grid"
+import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
 import { waterpikF02 } from '~/data/portable/waterpikF02'
 import { nicwellF5025 } from '~/data/portable/nicwellF5025'
 import { nicefeelFC1592 } from '~/data/portable/nicefeelFC1592'
 import { inSmartFC256 } from "~/data/portable/inSmartFC256"
-import { colusF5020E } from "~/data/portable/colusF5020E"
+import coslusF5020E from "~/data/portable/coslusF5020E"
 import { bitvaeC2 } from "~/data/portable/bitvaeC2"
 
 export function getPortables() {
 
-  const irrigators = ref<IrrigatorProduct[]>([
+  const irrigators = ref<ReviewGrid[]>([
     {
       id: 1,
+      productId: waterpikF02.id,
+      fileName: waterpikF02.fileName,
       name: waterpikF02.info.title,
       image: waterpikF02.info.image,
       alt: waterpikF02.info.alt,
@@ -22,6 +24,8 @@ export function getPortables() {
     },
     {
       id: 2,
+      productId: nicwellF5025.id,
+      fileName: nicwellF5025.fileName,
       name: nicwellF5025.info.title,
       image: nicwellF5025.info.image,
       alt: nicwellF5025.info.alt,
@@ -31,6 +35,8 @@ export function getPortables() {
     },
     {
       id: 3,
+      productId: nicefeelFC1592.id,
+      fileName: nicefeelFC1592.fileName,
       name: nicefeelFC1592.info.title,
       image: nicefeelFC1592.info.image,
       alt: nicefeelFC1592.info.alt,
@@ -40,6 +46,8 @@ export function getPortables() {
     },
     {
       id: 4,
+      productId: inSmartFC256.id,
+      fileName: inSmartFC256.fileName,
       name: inSmartFC256.info.title,
       image: inSmartFC256.info.image,
       alt: inSmartFC256.info.alt,
@@ -49,15 +57,19 @@ export function getPortables() {
     },
     {
       id: 5,
-      name: colusF5020E.info.title,
-      image: colusF5020E.info.image,
-      alt: colusF5020E.info.alt,
-      price: colusF5020E.info.price,
-      rating: colusF5020E.info.rating.stars,
-      reviewCount: colusF5020E.info.rating.reviews
+      productId: coslusF5020E.id,
+      fileName: coslusF5020E.fileName,
+      name: coslusF5020E.info.title,
+      image: coslusF5020E.info.image,
+      alt: coslusF5020E.info.alt,
+      price: coslusF5020E.info.price,
+      rating: coslusF5020E.info.rating.stars,
+      reviewCount: coslusF5020E.info.rating.reviews
     },
     {
       id: 6,
+      productId: bitvaeC2.id,
+      fileName: bitvaeC2.fileName,
       name: bitvaeC2.info.title,
       image: bitvaeC2.info.image,
       alt: bitvaeC2.info.alt,

@@ -24,42 +24,6 @@ const navLinks = [
     icon: WebDesignSvg,
     iconAlt: 'Diseño web'
   },
-  {
-    title: 'Diseño gráfico',
-    link: '/diseno-grafico',
-    icon: GraphicDesignSvg,
-    iconAlt: 'Diseño gráfico'
-  },
-  {
-    title: 'Marketing de motores de búsqueda',
-    link: '/marketing-en-motores-de-busqueda',
-    icon: SeoSvg,
-    iconAlt: 'Marketing de motores de búsqueda'
-  },
-  {
-    title: 'Marketing de medios sociales',
-    link: '/marketing-en-redes-sociales',
-    icon: MarketingSvg,
-    iconAlt: 'Marketing de medios sociales'
-  },
-  {
-    title: 'Contacta con soporte',
-    link: '/contacta-con-soporte',
-      icon: SupportSvg,
-    iconAlt: 'Contacta con soporte'
-  },
-  {
-    title: 'Sugerencias',
-    link: '/sugerencias',
-    icon: SuggestionsSvg,
-    iconAlt: 'Sugerencias'
-  },
-  {
-    title: 'Blog',
-    link: '/blog',
-    icon: AnnouncementsSvg,
-    iconAlt: 'Blog'
-  }
 ]
 
 const socialLinks = [

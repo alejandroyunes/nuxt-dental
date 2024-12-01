@@ -28,7 +28,6 @@ useSeoMeta({
 const { posts, loading, error } = useBlogPosts()
 const { irrigators, titleInfo } = getPortables()
 
-
 </script>
 
 <template>

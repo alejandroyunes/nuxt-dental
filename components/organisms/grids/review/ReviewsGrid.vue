@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import './reviews-grid.scss'
-import SubtitleDescription from "~/components/atoms/subtitle-description/index.vue";
-import type { IrrigatorProduct } from "~/types/irrigator-grid";
-import type { TitleInfo } from "~/types/title-info";
+import SubtitleDescription from "~/components/atoms/subtitle-description/index.vue"
+import type { ReviewGrid } from "~/types/review-grid"
+import type { TitleInfo } from "~/types/title-info"
 
-const { irrigatorTitle, irrigators } = defineProps<{ irrigators: IrrigatorProduct[], irrigatorTitle: TitleInfo }>()
+const { irrigatorTitle, irrigators } = defineProps<{ irrigators: ReviewGrid[], irrigatorTitle: TitleInfo }>()
 
 </script>
 
@@ -25,7 +25,7 @@ const { irrigatorTitle, irrigators } = defineProps<{ irrigators: IrrigatorProduc
             <div class="stars" :style="{ '--rating': irrigator.rating }"></div>
             <span>({{ irrigator.reviewCount }} reviews)</span>
           </div>
-          <NuxtLink :to="`/${irrigatorTitle.slug}/${irrigator.id}`" class="button">
+          <NuxtLink :to="`/${irrigatorTitle.slug}/${irrigator.fileName}`" class="button">
             Read Review
           </NuxtLink>
         </div>

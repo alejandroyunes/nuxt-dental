@@ -156,5 +156,3 @@ export const nicefeelFC1592: ProductDetails = {
     }
   }
 };
-
-
