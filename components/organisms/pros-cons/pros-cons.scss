@@ -1,6 +1,7 @@
 .pros-cons {
   padding: 4rem 2rem;
   background: white;
+  scroll-margin-top: 40px;
 
   &__header {
     max-width: 800px;
@@ -29,7 +30,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    padding: 0 1rem;
 
     @media (max-width: 1024px) {
       grid-template-columns: 1fr;

@@ -8,7 +8,7 @@ import { inSmartFC256 } from "~/data/portable/inSmartFC256"
 import coslusF5020E from "~/data/portable/coslusF5020E"
 import { bitvaeC2 } from "~/data/portable/bitvaeC2"
 
-export function getPortables() {
+export function getPortablesReviews() {
 
   const reviews = ref<ReviewGrid[]>([
     {

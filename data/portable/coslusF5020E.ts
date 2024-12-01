@@ -35,20 +35,16 @@ const coslusF5020E: ProductDetails = {
       id: `#the-best-of-coslus-F5020E`
     },
     {
-      content: '\u2022 Why Choose Coslus F5020E',
+      content: '\u2022 Why opt for the Coslus Model F5020E?',
       id: `#why-coslus-F5020E`
-    },
-    {
-      content: '\u2022 Pros and Cons',
-      id: `#pro-and-cons-F5020E`
     },
     {
       content: '\u2022 Comparison table with other irrigators',
       id: `#how-does-the-coslus-compares-to-other-irrigators`
     },
     {
-      content: '\u2022 Why opt for the Coslus F5020E',
-      id: `#why-opt-for-coslus-F5020E`
+      content: '\u2022 Pros and Cons',
+      id: `#pro-and-cons-F5020E`
     },
   ],
   title: {
@@ -58,7 +54,7 @@ const coslusF5020E: ProductDetails = {
     subtext: "Enjoy the benefits of an exceptionally long 30-day battery life, making it a portable solution for home and travel. Its IPX7 waterproof design, user-friendly features, and a 3-year lifespan guarantee make it a reliable and thoughtful choice for optimal oral health."
   },
   features: {
-    id: '#why-coslus-F5020E',
+    id: 'why-coslus-F5020E',
     title: "Why opt for the Coslus Model F5020E?",
     data: [
       {
