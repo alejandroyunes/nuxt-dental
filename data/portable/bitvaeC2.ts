@@ -7,9 +7,9 @@ const bitvaeC2: ProductDetails = {
     image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/cou9qve0gvhthybqligf.webp',
     imageSmall: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/ditfkdygrm4qoohqzttw.webp',
     alt: "Bitvae C2 Professional Water Dental Flosser, 260ml",
-    title: "Bitvae C2 Professional Water Dental Flosser, 260ml",
-    subtitle: "Achieve a brighter smile with advanced features and ergonomic design.",
-    description: "Experience advanced oral care with the Bitvae C2 Water Dental Flosser. Keep your mouth clean and healthy with cutting-edge features and portability.",
+    title: "Bitvae Water Dental Flosser for Teeth - Black",
+    subtitle: "Cordless, 3 Modes, 5 Intensities, IPX7 Waterproof, 260ml Reservoir",
+    description: "The Bitvae C2 provides advanced oral care with customizable cleaning options, a large-capacity reservoir, and a sleek design suitable for travel.",
     price: "$19.99",
     updatedDate: '03/12/2023',
     buyLink: 'https://amzn.to/3R3veFS',
@@ -20,63 +20,60 @@ const bitvaeC2: ProductDetails = {
     },
     characteristics: [
       "Wide Mouth Reservoir for Easy Cleaning.",
-      "Large Capacity for a 60-Second Full Mouth Clean.",
-      "3 Hours Charging for 40-Day Battery Life.",
-      "3 Pressure Settings, 6 Replaceable Nozzles, and More."
+      "260ml tank for a 60-second full-mouth clean.",
+      "3 Modes and 5 Intensity Settings for personalized oral care.",
+      "FDA, FCC, CE, PSE certified for safety.",
+      "40-day battery life after 4 hours of charging.",
     ]
   },
   tableOfContent: [
-    {
-      content: '\u2022 The Best of Bitvae C2',
-      id: `#the-best-of-bitvae-c2`
-    },
-    {
-      content: '\u2022 Why Choose Bitvae C2?',
-      id: `#why-bitvae-c2`
-    },
-    {
-      content: '\u2022 Comparison table with other irrigators',
-      id: `#how-does-the-bitvae-c2-compares-to-other-irrigators`
-    },
-    {
-      content: '\u2022 Pros and Cons',
-      id: `#pro-and-cons-bitvae-c2`
-    }
+    { id: '#the-best-of-bitvae-c2', content: '\u2022 The Best of Bitvae C2' },
+    { id: '#why-bitvae-c2', content: '\u2022 Why Choose Bitvae C2?' },
+    { id: '#how-does-the-bitvae-c2-compares-to-other-irrigators', content: '\u2022 Comparison table with other irrigators' },
+    { id: '#pro-and-cons-bitvae-c2', content: '\u2022 Pros and Cons' },
   ],
   title: {
     id: 'the-best-of-bitvae-c2',
     title: 'The Best of Bitvae C2',
-    description: "The Bitvae C2 Professional Water Dental Flosser is a leading choice for dental care, boasting a range of impressive features: Portable, 300ml tank, 6 nozzles, 3 pressure settings, ergonomic design, removable tank, special pressure frequency.",
-    subtext: 'Achieve a brighter smile with advanced features and ergonomic design.'
+    description: "Portable, with a 300ml tank, ergonomic design, 6 nozzles, and special pressure frequency for a brighter smile.",
+    subtext: 'Achieve a brighter smile with advanced features and ergonomic design.',
   },
   features: {
     id: 'why-bitvae-c2',
     title: 'Why Choose Bitvae C2?',
     data: [
       {
-        title: 'At Home,',
-        description: 'In the office, or on the go.',
+        title: 'Ultimate Portability',
+        description: 'Compact and cordless design makes it perfect for use at home, in the office, or on the go.',
       },
       {
-        title: "For blind",
-        description: 'spots and hard-to-clean areas.',
+        title: 'Precision Cleaning',
+        description: 'Advanced 3 modes and 5 intensity settings target blind spots and hard-to-reach areas for a tailored experience.',
       },
       {
-        title: "Bitvae",
-        description: 'wide reservoir is easy to clean.',
+        title: 'Hygienic Wide-Mouth Reservoir',
+        description: 'Detachable, easy-to-clean design ensures optimal hygiene for everyday use.',
       },
       {
-        title: "6pcs",
-        description: 'of replaceable nozzles.',
+        title: 'Versatile Nozzle Options',
+        description: 'Includes 6 replaceable nozzles for diverse cleaning needs, from gum care to plaque removal.',
       },
       {
-        title: "The leading brand",
-        description: 'in cordless oral irrigator battery life, up to 40 days of working time.',
+        title: 'Long-Lasting Battery',
+        description: 'Enjoy up to 40 days of usage on a single 4-hour charge, perfect for worry-free travel.',
       },
       {
-        title: "Get a complete",
-        description: 'clean in 60 seconds with one refill.',
-      }
+        title: 'Large Capacity Reservoir',
+        description: 'The 260ml water tank supports a full 60-second deep clean without frequent refills.',
+      },
+      {
+        title: 'Certified Quality',
+        description: 'FDA, FCC, CE, and PSE certifications guarantee reliable safety and performance.',
+      },
+      {
+        title: 'Enhanced Oral Health',
+        description: 'Promotes gum health, fresh breath, and bright smiles with regular use.',
+      },
     ],
   },
   comparison: {
@@ -91,7 +88,7 @@ const bitvaeC2: ProductDetails = {
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/ditfkdygrm4qoohqzttw.webp',
         alt: 'Bitvae C2 Oral Irrigator Image',
         prime: true,
-        dimensions: '4 x 3 x 8 in, 12 oz',
+        dimensions: '2.6 x 3.7 x 8.78 inches; 13.44 ounces',
         tips: '6',
         capacity: '260 ml',
         highlight: 'Effective Cleaning, Compact Design, Long Battery Life',
@@ -153,31 +150,18 @@ const bitvaeC2: ProductDetails = {
   proAndCons: {
     id: 'pro-and-cons-bitvae-c2',
     title: "Pros and Cons",
-    description: "After thorough analysis of customer feedback, product reviews, and ratings, Bitvae stands out with an impressive average star rating of 4.3. Having sold thousands of oral irrigators on Amazon, Bitvae is synonymous with high-quality products and overwhelmingly positive user reviews. Explore the advantages and considerations of the Bitvae C2 Water Dental Flosser.",
+    description: "Bitvae C2 offers impressive cleaning capabilities and portability, though durability and water resistance may be considerations.",
     cta: 'Buy on Amazon',
     buyLink: 'https://amzn.to/3R3veFS',
     pros: [
-      {
-        title: 'Customers praise its ability to remove debris and provide a thorough clean.',
-      },
-      {
-        title: 'Portable and lightweight, making it suitable for travel and small spaces.',
-      },
-      {
-        title: 'Multiple speeds, nozzle options, and a 60-second flossing time for a tailored experience.',
-      },
-      {
-        title: 'Positive feedback on battery durability, lasting up to 40 days in the lowest pressure mode.',
-      },
+      { title: 'Thorough cleaning with customizable modes and nozzles.' },
+      { title: 'Portable and lightweight for travel.' },
+      { title: 'Durable battery lasting up to 40 days.' },
     ],
     cons: [
-      {
-        title: 'Mixed opinions on product durability, with reports of breakages and head detachment.',
-      },
-      {
-        title: 'Some customers mention water leakage and challenges in drying the water reservoir.',
-      },
-    ]
+      { title: 'Durability concerns from some customers.' },
+      { title: 'Potential water leakage issues.' },
+    ],
   },
 }
 
