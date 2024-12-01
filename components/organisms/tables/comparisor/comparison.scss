@@ -1,5 +1,5 @@
 .comparison-section {
-  padding: 5rem 24px;
+  padding: 5rem 24px 0;
   background: white;
 
   h2 {
@@ -87,9 +87,10 @@
       text-decoration: none;
       border-radius: 0.5rem;
       transition: background-color 0.3s ease;
+      cursor: pointer;
 
       &:hover {
-        background: var(--secondary-color);
+        background: var(--secondary);
       }
     }
   }

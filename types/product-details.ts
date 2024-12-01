@@ -34,10 +34,32 @@ export interface ProductDetails {
       description: string
     }[]
   },
+  comparison: {
+    id: string
+    title: string
+    description: string
+    models: {
+      id: number
+      productUrl: string
+      model: string
+      image: string
+      alt: string
+      prime: boolean
+      dimensions: string
+      tips: string
+      capacity: string
+      highlight: string
+      problem: string
+      price: string
+      satisfaction: string
+      view: string
+    }[]
+  },
   proAndCons: {
     id: string
     title: string
-    message: string
+    description: string
+    cta: string
     pros: {
       title: string
     }[],
@@ -45,34 +67,4 @@ export interface ProductDetails {
       title: string
     }[]
   },
-  comparison: {
-    id: string
-    title: string
-    message: string
-    primeUrl: string
-    item: {
-      id: number
-      models: string
-      image: string
-      alt: string
-      prime: boolean
-      dimensions: string
-      multifunctionaltips: string
-      capacity: string
-      highlight: string
-      problem: string
-      price: string
-      satisfaction: string
-      view: string
-      url: string
-    }[]
-  },
-  why: {
-    id: string
-    title: string
-    items: {
-      itemTitle: string[]
-      itemContent: string[]
-    }
-  }
 }

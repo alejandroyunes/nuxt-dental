@@ -54,12 +54,12 @@ const coslusF5020E: ProductDetails = {
   title: {
     id: 'the-best-of-coslus-F5020E',
     title: 'The Best of Coslus F5020E',
-    description: "The Coslus FC165 offers a superior and efficient teeth cleaning experience. Enjoy the benefits of improved gum health, fresh breath, and a confident smile. With a rechargeable battery, portability for travel, and a variety of user-friendly features, the Coslus FC165 stands out as the best choice for your oral care needs.",
-    subtext: "With its ultra-fine dual-thread water pulse technology to the upgraded 300ml water tank,"
+    description: "The Coslus F5020E water dental flosser stands out for its advanced 0.3mm+0.3mm ultra-fine dual-thread water pulse technology, delivering high water pressure pulses at 1400-1800 times per minute. This ensures efficient plaque removal for deep teeth cleaning and improved gum health. With an upgraded 300ml water tank, it eliminates the need for frequent refills, providing convenience in your oral cleaning routine.",
+    subtext: "Enjoy the benefits of an exceptionally long 30-day battery life, making it a portable solution for home and travel. Its IPX7 waterproof design, user-friendly features, and a 3-year lifespan guarantee make it a reliable and thoughtful choice for optimal oral health."
   },
   features: {
-    id: 'the-best-of-coslus-F5020E test',
-    title: "The Best of Coslus F5020E",
+    id: '#why-coslus-F5020E',
+    title: "Why opt for the Coslus Model F5020E?",
     data: [
       {
         title: 'Quality',
@@ -95,10 +95,82 @@ const coslusF5020E: ProductDetails = {
       }
     ]
   },
+  comparison: {
+    id: 'how-does-the-coslus-compares-to-other-irrigators',
+    title: 'Compare the Coslus F5020E with other irrigators',
+    description: 'Explore the features, advantages, and user satisfaction ratings of top irrigator models in 2025.',
+    models: [
+      {
+        id: 1,
+        productUrl: '/reviews/portable-and-affordable-oral-irrigators/coslusF5020E',
+        model: 'Coslus F5020E',
+        image: coslus300mlGlobalData.coslus300ml,
+        alt: 'Coslus F5020E Oral Irrigator',
+        prime: true,
+        dimensions: '1.97 x 2.74 x 12.2 in, 15.52 oz',
+        tips: '5',
+        capacity: '300ml',
+        highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
+        problem: 'Limited water capacity',
+        price: 'Excelent price',
+        satisfaction: '9/10',
+        view: 'View Price'
+      },
+      {
+        id: 2,
+        productUrl: '/reviews/portable-and-affordable-oral-irrigators/waterpikWF02',
+        model: 'Waterpik WF-02',
+        image: waterPikGlobalData.waterpikwf02,
+        alt: 'Waterpik Model WF-02',
+        prime: true,
+        dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
+        tips: '2',
+        capacity: '5oz reservoir for 30 seconds of flossing time',
+        highlight: 'Economical, Portable, Waterproof, Customizable.',
+        problem: 'Battery replacement, Limited water capacity.',
+        price: 'Best buy',
+        satisfaction: '9/10',
+        view: 'View Price',
+      },
+      {
+        id: 2,
+        productUrl: '/reviews/portable-and-affordable-oral-irrigators/nicwellF5025',
+        model: 'Nicwell F5025',
+        image: nicwellF5025GlobalData.nicwellf5025,
+        alt: 'Nicwell 200ml Oral Irrigator',
+        prime: true,
+        dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
+        tips: '5',
+        capacity: '200 ml',
+        highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
+        problem: 'Charging',
+        price: 'Great Price',
+        satisfaction: '9/10',
+        view: 'View Price',
+      },
+      {
+        id: 4,
+        productUrl: '/reviews/portable-and-affordable-oral-irrigators/bitvaeC2',
+        model: 'Bitvae C2',
+        image: bitvaec2GlobalData.bitvaec2,
+        alt: 'Bitvae C2 Oral Irrigator Image',
+        prime: true,
+        dimensions: '4 x 3 x 8 in, 12 oz',
+        tips: '6',
+        capacity: '260 ml',
+        highlight: 'Effective Cleaning, Compact Design, Long Battery Life',
+        problem: 'Water Resistance, Durability',
+        price: 'Great Price',
+        satisfaction: '9/10',
+        view: 'View Price',
+      },
+    ],
+  },
   proAndCons: {
     id: 'pro-and-cons-F5020E',
-    title: "Pros and Cons",
-    message: "While praised for its outstanding value, users note considerations for improvement, expressing a desire for more nozzle options and variations in size preferences. Either way, the Coslus FC165 offers efficient plaque removal, unmatched portability, and user-friendly design.",
+    title: "Pros and Cons of Coslus F5020E",
+    description: "While praised for its outstanding value, users note considerations for improvement, expressing a desire for more nozzle options and variations in size preferences. Either way, the Coslus FC165 offers efficient plaque removal, unmatched portability, and user-friendly design.",
+    cta: 'Buy on Amazon',
     pros: [
       {
         title: 'Advanced water pulse technology and adjustable pressure levels.',
@@ -122,88 +194,6 @@ const coslusF5020E: ProductDetails = {
       },
     ],
   },
-  comparison: {
-    id: 'how-does-the-coslus-compares-to-other-irrigators',
-    title: 'Compare the Coslus C2 with other irrigators',
-    message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
-    primeUrl: coslus300mlGlobalData.amazonPrime,
-    item: [
-      {
-        id: 1,
-        models: 'Coslus F5020E',
-        image: coslus300mlGlobalData.coslus300ml,
-        alt: 'Coslus F5020E Oral Irrigator',
-        prime: true,
-        dimensions: '1.97 x 2.74 x 12.2 in, 15.52 oz',
-        multifunctionaltips: '5',
-        capacity: '300ml',
-        highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
-        problem: 'Limited water capacity',
-        price: 'Excelent price',
-        satisfaction: '9/10',
-        view: 'View Price',
-        url: coslus300mlGlobalData.coslus300mlProductUrl
-      },
-      {
-        id: 2,
-        models: 'Waterpik WF-02',
-        image: waterPikGlobalData.waterpikwf02,
-        alt: 'Waterpik Model WF-02',
-        prime: true,
-        dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
-        multifunctionaltips: '2',
-        capacity: '5oz reservoir for 30 seconds of flossing time',
-        highlight: 'Economical, Portable, Waterproof, Customizable.',
-        problem: 'Battery replacement, Limited water capacity.',
-        price: 'Best buy',
-        satisfaction: '9/10',
-        view: 'View Price',
-        url: waterPikGlobalData.waterpikwf02ProductUrl
-      },
-      {
-        id: 3,
-        models: 'Nicwell F5025',
-        image: nicwellF5025GlobalData.nicwellf5025,
-        alt: 'Nicwell 200ml Oral Irrigator',
-        prime: true,
-        dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
-        multifunctionaltips: '5',
-        capacity: '200 ml',
-        highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
-        problem: 'Charging',
-        price: 'Great Price',
-        satisfaction: '9/10',
-        view: 'View Price',
-        url: nicwellF5025GlobalData.nicwellf5025ProductUrl
-      },
-      {
-        id: 4,
-        models: 'Bitvae C2',
-        image: bitvaec2GlobalData.bitvaec2,
-        alt: 'Bitvae C2 Oral Irrigator Image',
-        prime: true,
-        dimensions: '4 x 3 x 8 in, 12 oz',
-        multifunctionaltips: '6',
-        capacity: '260 ml',
-        highlight: 'Effective Cleaning, Compact Design, Long Battery Life',
-        problem: 'Water Resistance, Durability',
-        price: 'Great Price',
-        satisfaction: '9/10',
-        view: 'View Price',
-        url: bitvaec2GlobalData.bitvaec2ProductUrl
-      },
-    ],
-  },
-  why: {
-    id: 'why-coslus-F5020E',
-    title: 'Why Choose Coslus F5020E?',
-    items: {
-      itemTitle: [
-      ],
-      itemContent: [
-      ]
-    }
-  }
 };
 
 export default coslusF5020E

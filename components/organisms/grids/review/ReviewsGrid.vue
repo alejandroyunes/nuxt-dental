@@ -4,7 +4,10 @@ import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
 import TitleDescription from "~/components/atoms/title-description/index.vue"
 
-const { reviewTitle, reviews } = defineProps<{ reviews: ReviewGrid[], reviewTitle: TitleInfo }>()
+const { reviewTitle, reviews } = defineProps<{
+  reviews: ReviewGrid[],
+  reviewTitle: TitleInfo
+}>()
 
 </script>
 

@@ -42,7 +42,7 @@ if(product.value) {
     <Accordion :info="product?.tableOfContent" />
     <Title :info="product?.title" marginTop />
     <Features :info="product?.features" />
-    <ProsCons />
-    <TableComparison />
+    <TableComparison :info="product?.comparison" />
+    <ProsCons :info="product?.proAndCons" />
   </section>
 </template>

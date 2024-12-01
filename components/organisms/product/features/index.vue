@@ -9,7 +9,7 @@ const { info } = defineProps<{
 </script>
 
 <template>
-  <div class="blog-text" :id="info?.id">
+  <div class="features" :id="info?.id">
     <h1 class="title">{{ info?.title }}</h1>
 
     <div v-for="(feature, index) in info?.data" :key="index" class="feature">
