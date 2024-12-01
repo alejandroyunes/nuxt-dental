@@ -97,7 +97,7 @@ const nicwellF5025: ProductDetails = {
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp',
         alt: 'Nicwell 200ml Oral Irrigator',
         prime: true,
-        dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
+        dimensions: '8.11 x 4.06 x 2.73 in, 14.4 oz',
         tips: '5',
         capacity: '200 ml',
         highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
