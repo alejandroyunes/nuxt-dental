@@ -9,8 +9,8 @@ const nicwellF5025: ProductDetails = {
     alt: 'Nicwell Professional Water Flosser F5025',
     title: 'Nicwell Professional Water Flosser F5025, 200ml',
     subtitle: 'Smart Oral Irrigator',
-    description: 'Nicwell Professional Water Flosser is a game-changer for maintaining healthy gums and teeth, offering a refreshing and refreshing experience for your oral hygiene routine.',
-    price: "27.99",
+    description: 'Nicwell Professional Water Flosser is a game-changer for maintaining healthy gums and teeth, offering a refreshing and deep clean experience for your oral hygiene routine. Its advanced water pulse technology provides a superior clean, particularly for those with sensitive gums and dental appliances.',
+    price: "27.98",
     updatedDate: '11/20/2023',
     buyLink: 'https://amzn.to/3GsK58d',
     cta: 'Buy on Amazon',
@@ -21,11 +21,12 @@ const nicwellF5025: ProductDetails = {
     characteristics: [
       "4 Flossing Modes: Choose from Clean, Soft, Massage, and Customized modes to cater to various teeth and gum conditions.",
       "Portable and Lightweight: The cordless, rechargeable design makes it ideal for travel, and it comes with extra jet tips for the whole family.",
-      "IPX7 Waterproof double-sealing rings, Nicwell oral irrigator prevent water leakage reliably.",
-      "All the jet tips are sealed under sterile production environments.",
+      "IPX7 Waterproof double-sealing rings prevent water leakage reliably, allowing use in the shower.",
+      "All jet tips are sealed under sterile production environments.",
       "12 months after-sale service.",
-      "Up to 21 days of use with a single charge.",
-      "Available in black, pink and white.",
+      "Up to 30 days of use with a single charge.",
+      "Available in black, pink, and white.",
+      "Ideal for sensitive teeth, with adjustable pressure levels for beginners.",
     ]
   },
   tableOfContent: [
@@ -51,7 +52,7 @@ const nicwellF5025: ProductDetails = {
     title: 'The Best of Nicwell F5025 Professional Water Flosser',
     description:
       'Nicwell Water Dental Flosser redefines oral care with its upgraded pulsation technique, delivering a high-pressure water pulse for deep cleaning, gum massage, and improved blood circulation. It effectively addresses issues like bleeding gums, bad breath, and is beneficial for orthodontic brace and bridge care.',
-    subtext: 'Portable, rechargeable, and designed for optimal oral health on the go.',
+    subtext: 'Portable, rechargeable, and designed for optimal oral health on the go. Ideal for sensitive teeth and those with braces.',
   },
   features: {
     id: 'why-nicwell-f5025',
@@ -59,11 +60,11 @@ const nicwellF5025: ProductDetails = {
     data: [
       {
         title: 'Value for Money',
-        description: 'Many customers emphasize that the oral irrigator is well worth the price. If you\'re looking for an effective and affordable solution for oral care, this product could offer good value.',
+        description: 'Many customers emphasize that the oral irrigator is well worth the price. If you\'re looking for an effective and affordable solution for oral care, this product could offer good value.'
       },
       {
         title: 'Cleanliness',
-        description: 'Users praise the oral irrigator for its ability to clean between teeth effectively, leaving a refreshing and clean feeling. If maintaining oral hygiene is a priority for you, this product may enhance your daily routine.',
+        description: 'Users praise the oral irrigator for its ability to clean between teeth effectively, leaving a refreshing and clean feeling. The advanced water pulse technology ensures a deep clean and improved gum health.'
       },
       {
         title: 'Ease of Use',
@@ -71,11 +72,15 @@ const nicwellF5025: ProductDetails = {
       },
       {
         title: 'Performance',
-        description: 'Despite mixed opinions, a significant number of customers find the overall performance of the oral irrigator impressive. If you are seeking a device that performs well in maintaining oral health, this product may meet your expectations.'
+        description: 'Despite mixed opinions, a significant number of customers find the overall performance of the oral irrigator impressive. It effectively removes plaque, massages gums, and improves breath freshness. If you are seeking a device that performs well in maintaining oral health, this product may meet your expectations.'
       },
       {
         title: 'Convenience',
-        description: 'Customers appreciate the convenience the oral irrigator brings to their daily routine. If you are looking for a time-saving and efficient way to care for your teeth, this product might offer the convenience you desire.'
+        description: 'Customers appreciate the convenience the oral irrigator brings to their daily routine. With a 30-day battery life, it\'s perfect for home, office, or travel use. Its compact design makes it easy to carry and use anywhere.'
+      },
+      {
+        title: 'For Sensitive Teeth',
+        description: 'If you have sensitive teeth or gums, the adjustable pressure settings and multiple modes provide a customizable, gentle experience. Start with the low pressure and gradually increase to adapt to your needs.'
       }
     ]
   },
@@ -97,7 +102,7 @@ const nicwellF5025: ProductDetails = {
         capacity: '200 ml',
         highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
         problem: 'Charging',
-        price: 'Great Price',
+        price: '$27.98',
         satisfaction: '9/10',
         view: 'View Price',
       },

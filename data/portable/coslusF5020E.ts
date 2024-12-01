@@ -10,7 +10,7 @@ const coslusF5020E: ProductDetails = {
     title: "Coslus Water Dental Flosser Teeth Pick, F5020E 300ml",
     subtitle: 'Discover the superior dental care experience with the Coslus F5020E water dental flosser.',
     description: 'Deep clean every oral corner precisely! Keep healthier gums and brighter teeth with Coslus F5020E. This water dental flosser offers superior dental care with high-pressure water pulses and advanced technology.',
-    price: "$29.99",
+    price: "$29.98",
     updatedDate: '11/20/2023',
     buyLink: 'https://amzn.to/3NhjGhd',
     cta: 'Buy on Amazon',
@@ -105,7 +105,7 @@ const coslusF5020E: ProductDetails = {
         capacity: '300ml',
         highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
         problem: 'Limited water capacity',
-        price: '$29.99',
+        price: '$29.98',
         satisfaction: '9/10',
         view: 'View Price'
       },
