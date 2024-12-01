@@ -2,11 +2,11 @@ import { ref, onMounted } from 'vue'
 import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
 import waterpikF02 from '~/data/portable/waterpikF02'
-import { nicwellF5025 } from '~/data/portable/nicwellF5025'
-import { nicefeelFC1592 } from '~/data/portable/nicefeelFC1592'
-import { inSmartFC256 } from "~/data/portable/inSmartFC256"
+import nicwellF5025 from '~/data/portable/nicwellF5025'
+import nicefeelFC1592 from '~/data/portable/nicefeelFC1592'
+import inSmartFC256 from "~/data/portable/inSmartFC256"
 import coslusF5020E from "~/data/portable/coslusF5020E"
-import { bitvaeC2 } from "~/data/portable/bitvaeC2"
+import bitvaeC2 from "~/data/portable/bitvaeC2"
 
 export function getPortablesReviews() {
 

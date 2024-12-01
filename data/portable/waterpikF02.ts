@@ -48,8 +48,8 @@ const waterpikF02: ProductDetails = {
   title: {
     id: 'the-best-of-waterpic-wf02',
     title: 'The Best of Waterpik Model WF-02 Professional Water Flosser',
-    description: "Waterpik's Cordless Express Water Flosser, featuring a battery-operated, portable, and waterproof design, is perfect for on-the-go oral care.",
-    subtext: "With 2 pressure settings, a water on/off slider, 30 seconds of flossing time, and included AA batteries, it's easy to use anytime, anywhere, for healthier gums and brighter teeth.",
+    description: "Waterpik's Cordless Express Water Flosser, featuring a battery-operated, portable, and waterproof design, is perfect for on-the-go oral care. With 2 pressure settings, a water on/off slider, 30 seconds of flossing time, and included AA batteries.",
+    subtext: "It's easy to use anytime, anywhere, for healthier gums and brighter teeth.",
   },
   features: {
     id: 'why-waterpic-wf02',
@@ -68,11 +68,11 @@ const waterpikF02: ProductDetails = {
         description: "Clinically proven to remove up to 99.9% of plaque, offering an effective solution for superior oral cleanliness compared to traditional brushing and flossing.",
       },
       {
-        title: 'Mouthwash Compatibility:',
+        title: 'Mouthwash Compatibility',
         description: "Users can add their favorite mouthwash for a personalized and fresher clean, enhancing the overall flossing experience.",
       },
       {
-        title: 'Manufacturer\'s Warranty and Customer Support:',
+        title: 'Manufacturer\'s Warranty and Customer Support',
         description: "Backed by a 1-year manufacturer's warranty, ensuring product reliability and customer satisfaction.",
       }
     ]

@@ -8,7 +8,6 @@ const { info } = defineProps<{
 
 </script>
 
-
 <template>
   <div class="card-details">
     <div class="card-image">
