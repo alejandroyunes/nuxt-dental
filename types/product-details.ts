@@ -3,18 +3,20 @@ export interface ProductDetails {
   fileName: string
   info: {
     image: string
+    imageSmall: string
     alt: string
     title: string
     subtitle: string
     description: string
     price: string
+    updatedDate: string
+    buyLink: string
+    cta: string
     rating: {
       stars: number
       reviews: number
     }
     characteristics: string[]
-    buyLink: string
-    updatedDate: string
   }
   tableOfContent: {
     id: string
@@ -60,6 +62,7 @@ export interface ProductDetails {
     title: string
     description: string
     cta: string
+    buyLink: string
     pros: {
       title: string
     }[],

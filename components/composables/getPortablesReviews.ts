@@ -1,7 +1,7 @@
 import { ref, onMounted } from 'vue'
 import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
-import { waterpikF02 } from '~/data/portable/waterpikF02'
+import waterpikF02 from '~/data/portable/waterpikF02'
 import { nicwellF5025 } from '~/data/portable/nicwellF5025'
 import { nicefeelFC1592 } from '~/data/portable/nicefeelFC1592'
 import { inSmartFC256 } from "~/data/portable/inSmartFC256"
@@ -16,7 +16,7 @@ export function getPortablesReviews() {
       productId: waterpikF02.id,
       fileName: waterpikF02.fileName,
       name: waterpikF02.info.title,
-      image: waterpikF02.info.image,
+      image: waterpikF02.info.imageSmall,
       alt: waterpikF02.info.alt,
       price: waterpikF02.info.price,
       rating: waterpikF02.info.rating.stars,
@@ -27,7 +27,7 @@ export function getPortablesReviews() {
       productId: nicwellF5025.id,
       fileName: nicwellF5025.fileName,
       name: nicwellF5025.info.title,
-      image: nicwellF5025.info.image,
+      image: nicwellF5025.info.imageSmall,
       alt: nicwellF5025.info.alt,
       price: nicwellF5025.info.price,
       rating: nicwellF5025.info.rating.stars,
@@ -38,7 +38,7 @@ export function getPortablesReviews() {
       productId: nicefeelFC1592.id,
       fileName: nicefeelFC1592.fileName,
       name: nicefeelFC1592.info.title,
-      image: nicefeelFC1592.info.image,
+      image: nicefeelFC1592.info.imageSmall,
       alt: nicefeelFC1592.info.alt,
       price: nicefeelFC1592.info.price,
       rating: nicefeelFC1592.info.rating.stars,
@@ -49,7 +49,7 @@ export function getPortablesReviews() {
       productId: inSmartFC256.id,
       fileName: inSmartFC256.fileName,
       name: inSmartFC256.info.title,
-      image: inSmartFC256.info.image,
+      image: inSmartFC256.info.imageSmall,
       alt: inSmartFC256.info.alt,
       price: inSmartFC256.info.price,
       rating: inSmartFC256.info.rating.stars,
@@ -60,7 +60,7 @@ export function getPortablesReviews() {
       productId: coslusF5020E.id,
       fileName: coslusF5020E.fileName,
       name: coslusF5020E.info.title,
-      image: coslusF5020E.info.image,
+      image: coslusF5020E.info.imageSmall,
       alt: coslusF5020E.info.alt,
       price: coslusF5020E.info.price,
       rating: coslusF5020E.info.rating.stars,
@@ -71,7 +71,7 @@ export function getPortablesReviews() {
       productId: bitvaeC2.id,
       fileName: bitvaeC2.fileName,
       name: bitvaeC2.info.title,
-      image: bitvaeC2.info.image,
+      image: bitvaeC2.info.imageSmall,
       alt: bitvaeC2.info.alt,
       price: bitvaeC2.info.price,
       rating: bitvaeC2.info.rating.stars,

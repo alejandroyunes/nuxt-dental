@@ -18,7 +18,7 @@ const { reviewTitle, reviews } = defineProps<{
     <div class="irrigator-grid">
       <div v-for="review in reviews" :key="review.id" class="irrigator-card">
         <div class="image-wrapper">
-          <img :src="review.image" :alt="review.name" class="image">
+          <NuxtImg :src="review.image" :alt="review.name" class="image" />
         </div>
         <div class="content">
           <h3>{{ review.name }}</h3>

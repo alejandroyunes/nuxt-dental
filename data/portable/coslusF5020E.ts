@@ -1,22 +1,19 @@
-import {
-  waterPikGlobalData,
-  bitvaec2GlobalData,
-  nicwellF5025GlobalData,
-  coslus300mlGlobalData
-} from './best-portable'
 import type { ProductDetails } from '~/types/product-details'
 
 const coslusF5020E: ProductDetails = {
   id: 5,
   fileName: 'coslusF5020E',
   info: {
-    image: coslus300mlGlobalData.coslus300ml,
+    image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541238/Best/Coslus300ml/nnbu7ewuqkl8cp4zkbh0.webp',
+    imageSmall: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp',
     alt: 'Coslus Water Dental Flosser F5020E, 300ml',
     title: "Coslus Water Dental Flosser Teeth Pick, F5020E 300ml",
     subtitle: 'Discover the superior dental care experience with the Coslus F5020E water dental flosser.',
     description: 'Deep clean every oral corner precisely! Keep healthier gums and brighter teeth.',
     price: "$29.99",
     updatedDate: '11/20/2023',
+    buyLink: 'https://amzn.to/3NhjGhd',
+    cta: 'Buy on Amazon',
     rating: {
       stars: 4.4,
       reviews: 27395,
@@ -27,7 +24,6 @@ const coslusF5020E: ProductDetails = {
       "Rechargeable battery and compact design, Coslus FC165 is perfect for on-the-go use.",
       "Ease of use with adjustable pressure levels, multiple nozzles, and three convenient modes tailored for different age groups.",
     ],
-    buyLink: coslus300mlGlobalData.amazonPrime,
   },
   tableOfContent: [
     {
@@ -100,7 +96,7 @@ const coslusF5020E: ProductDetails = {
         id: 1,
         productUrl: '/reviews/portable-and-affordable-oral-irrigators/coslusF5020E',
         model: 'Coslus F5020E',
-        image: coslus300mlGlobalData.coslus300ml,
+        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp',
         alt: 'Coslus F5020E Oral Irrigator',
         prime: true,
         dimensions: '1.97 x 2.74 x 12.2 in, 15.52 oz',
@@ -114,15 +110,15 @@ const coslusF5020E: ProductDetails = {
       },
       {
         id: 2,
-        productUrl: '/reviews/portable-and-affordable-oral-irrigators/waterpikWF02',
+        productUrl: '/reviews/portable-and-affordable-oral-irrigators/waterpikF02', 
         model: 'Waterpik WF-02',
-        image: waterPikGlobalData.waterpikwf02,
+        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp',
         alt: 'Waterpik Model WF-02',
         prime: true,
         dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
         tips: '2',
         capacity: '5oz reservoir for 30 seconds of flossing time',
-        highlight: 'Economical, Portable, Waterproof, Customizable.',
+        highlight: 'Economical, Portable, Customizable.',
         problem: 'Battery replacement, Limited water capacity.',
         price: 'Best buy',
         satisfaction: '9/10',
@@ -132,7 +128,7 @@ const coslusF5020E: ProductDetails = {
         id: 2,
         productUrl: '/reviews/portable-and-affordable-oral-irrigators/nicwellF5025',
         model: 'Nicwell F5025',
-        image: nicwellF5025GlobalData.nicwellf5025,
+        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp',
         alt: 'Nicwell 200ml Oral Irrigator',
         prime: true,
         dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
@@ -148,7 +144,7 @@ const coslusF5020E: ProductDetails = {
         id: 4,
         productUrl: '/reviews/portable-and-affordable-oral-irrigators/bitvaeC2',
         model: 'Bitvae C2',
-        image: bitvaec2GlobalData.bitvaec2,
+        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/ditfkdygrm4qoohqzttw.webp',
         alt: 'Bitvae C2 Oral Irrigator Image',
         prime: true,
         dimensions: '4 x 3 x 8 in, 12 oz',
@@ -166,7 +162,8 @@ const coslusF5020E: ProductDetails = {
     id: 'pro-and-cons-F5020E',
     title: "Pros and Cons of Coslus F5020E",
     description: "While praised for its outstanding value, users note considerations for improvement, expressing a desire for more nozzle options and variations in size preferences. Either way, the Coslus FC165 offers efficient plaque removal, unmatched portability, and user-friendly design.",
-    cta: 'Buy on Amazon',
+    cta: 'Buy Now on Amazon',
+    buyLink: 'https://amzn.to/3NhjGhd',
     pros: [
       {
         title: 'Advanced water pulse technology and adjustable pressure levels.',
