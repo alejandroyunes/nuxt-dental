@@ -33,10 +33,9 @@ const { reviewsCounter, reviewTitleCounter } = getCounterReviews()
   <HeroSection />
   <ReviewsGrid :reviews="reviews" :reviewTitle="reviewTitle" />
   <ReviewsGrid :reviews="reviewsCounter" :reviewTitle="reviewTitleCounter" />
-  <ProsConsSection />
-  <InfoGridSection />
+  <!-- <InfoGridSection /> -->
   <TypeSection />
-  <ComparisonSection />
-  <WaterPickSection />
+  <!-- <ComparisonSection /> -->
+  <!-- <WaterPickSection /> -->
 
 </template>
