@@ -48,7 +48,7 @@ const questions = ref<FAQ []>([
 
 <template>
   <section class="questions-and-answers-container">
-    <details v-for="(item, index) in questions" :key="index">
+    <details v-for="(item, index) in questions" :key="index" open>
       <summary>
 
         <div class='summary-title'>
