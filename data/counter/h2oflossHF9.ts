@@ -10,7 +10,7 @@ const h2oflossHF9: ProductDetails = {
     title: "H2ofloss Dental Water Flosser, HF-9, 800ml",
     subtitle: "Professional Countertop Oral Irrigator",
     description: "Elevate your oral hygiene with 13 multifunctional tips, 800ml capacity, and a quiet design. Removes up to 99.9% of plaque and offers a customizable cleaning experience.",
-    price: "$27.99 (after 24% off, was $36.99)",
+    price: "$27.99",
     updatedDate: "11/23/2023",
     buyLink: "https://www.amazon.com/dp/B010NNIZQE",
     cta: "Buy Now",
