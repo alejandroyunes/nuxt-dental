@@ -12,7 +12,7 @@ const synhopeM6Plus: ProductDetails = {
     description: "",
     price: "",
     updatedDate: "",
-    buyLink: "",
+    buyLink: "https://amzn.to/46MIggT",
     cta: "",
     rating: {
       stars: 0,
@@ -104,7 +104,7 @@ const synhopeM6Plus: ProductDetails = {
     title: "",
     description: "",
     cta: "",
-    buyLink: "",
+    buyLink: "https://amzn.to/46MIggT",
     pros: [
       { title: "" },
       { title: "" },
