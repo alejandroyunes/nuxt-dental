@@ -2,6 +2,7 @@ import { ref, onMounted } from 'vue'
 import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
 import turewell610 from '~/data/counter/turewell610'
+import h2oflossHF9 from '~/data/counter/h2oflossHF9'
 
 export function getCounterReviews() {
   const reviewsCounter = ref<ReviewGrid[]>([
@@ -16,6 +17,17 @@ export function getCounterReviews() {
       rating: turewell610.info.rating.stars,
       reviewCount: turewell610.info.rating.reviews
     },
+    {
+      id: 2,
+      productId: h2oflossHF9.id,
+      fileName: h2oflossHF9.fileName,
+      name: h2oflossHF9.info.title,
+      image: h2oflossHF9.info.imageSmall,
+      alt: h2oflossHF9.info.alt,
+      price: h2oflossHF9.info.price,
+      rating: h2oflossHF9.info.rating.stars,
+      reviewCount: h2oflossHF9.info.rating.reviews
+    }
   ])
   const reviewTitleCounter = ref<TitleInfo>({
     title: 'Affordable CounterTop Irrigators',

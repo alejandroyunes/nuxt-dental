@@ -71,7 +71,7 @@ const turewell610: ProductDetails = {
     models: [
       {
         id: 1,
-        productUrl: '/reviews/affordable-countertop-irrigators/turewellFC165',
+        productUrl: '/reviews/affordable-countertop-irrigators/counter/turewellFC165',
         model: 'Turewell FC165',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/gse4hbnpov22zwrdkpyl.webp',
         alt: 'Turewell FC165 Oral Irrigator',
@@ -87,7 +87,7 @@ const turewell610: ProductDetails = {
       },
       {
         id: 2,
-        productUrl: '/reviews/countertop-and-affordable-oral-irrigators/h2oflossHF9',
+        productUrl: '/reviews/countertop-and-affordable-oral-irrigators/counter/h2oflossHF9',
         model: 'H2ofloss HF-9',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700761200/Best/CounterTop/h2ofloss-HF9/ekdpaygkjqtbbvzb17qj.webp',
         alt: 'H2ofloss HF-9 Oral Irrigator',
@@ -103,7 +103,7 @@ const turewell610: ProductDetails = {
       },
       {
         id: 3,
-        productUrl: '/reviews/countertop-and-affordable-oral-irrigators/sawgmoreB09',
+        productUrl: '/reviews/countertop-and-affordable-oral-irrigators/counter/sawgmoreB09',
         model: 'Sawgmore B09',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700914063/Best/CounterTop/Sawgmore/eltsrjk4gxf7zocubifd.webp',
         alt: 'Sawgmore B09 Oral Irrigator',
@@ -119,7 +119,7 @@ const turewell610: ProductDetails = {
       },
       {
         id: 4,
-        productUrl: '/reviews/countertop-and-affordable-oral-irrigators/zerhuntFC169',
+        productUrl: '/reviews/countertop-and-affordable-oral-irrigators/counter/zerhuntFC169',
         model: 'Zerhunt FC169',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936985/Best/CounterTop/ZerhuntFC169/dpabeazxbmr5dx9kjh8z.webp',
         alt: 'Zerhunt FC169 Oral Irrigator',
