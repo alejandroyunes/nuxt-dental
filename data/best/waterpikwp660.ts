@@ -1,18 +1,18 @@
 import type { ProductDetails } from '~/types/product-details'
 
-const turewell610: ProductDetails = {
+const waterpikwp660: ProductDetails = {
   id: 100,
-  fileName: 'turewell610',
+  fileName: 'waterpikwp660',
   info: {
-    image: "",
-    imageSmall: "",
+    image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701061723/compareIrrigators/WaterPicWP660/tepdnmxuyc7ninueroog.webp",
+    imageSmall: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701061724/compareIrrigators/WaterPicWP660/vkmivxwn8bllfoochcoj.webp",
     alt: "",
     title: "",
     subtitle: "",
     description: "",
     price: "",
     updatedDate: "",
-    buyLink: "",
+    buyLink: "https://amzn.to/419tnE6",
     cta: "Buy on Amazon",
     rating: {
       stars: 0,
@@ -83,7 +83,7 @@ const turewell610: ProductDetails = {
     models: [
       {
         id: 0,
-        productUrl: "/reviews/portable-oral-irrigators/best/turewell610",
+        productUrl: "/reviews/portable-oral-irrigators/best/waterpikwp660",
         model: "",
         image: "",
         alt: "",
@@ -104,7 +104,7 @@ const turewell610: ProductDetails = {
     title: "",
     description: "",
     cta: "Buy on Amazon",
-    buyLink: "",
+    buyLink: "https://amzn.to/419tnE6",
     pros: [
       { title: "" },
       { title: "" },
@@ -117,4 +117,4 @@ const turewell610: ProductDetails = {
   },
 }
 
-export default turewell610
+export default waterpikwp660
