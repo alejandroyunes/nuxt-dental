@@ -3,6 +3,7 @@ import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
 import turewell610 from '~/data/counter/turewell610'
 import h2oflossHF9 from '~/data/counter/h2oflossHF9'
+import sawgmoreB09 from '~/data/counter/sawgmoreB09'
 
 export function getCounterReviews() {
   const reviewsCounter = ref<ReviewGrid[]>([
@@ -27,7 +28,18 @@ export function getCounterReviews() {
       price: h2oflossHF9.info.price,
       rating: h2oflossHF9.info.rating.stars,
       reviewCount: h2oflossHF9.info.rating.reviews
-    }
+    },
+    {
+      id: 3,
+      productId: sawgmoreB09.id,
+      fileName: sawgmoreB09.fileName,
+      name: sawgmoreB09.info.title,
+      image: sawgmoreB09.info.imageSmall,
+      alt: sawgmoreB09.info.alt,
+      price: sawgmoreB09.info.price,
+      rating: sawgmoreB09.info.rating.stars,
+      reviewCount: sawgmoreB09.info.rating.reviews
+    },
   ])
   const reviewTitleCounter = ref<TitleInfo>({
     title: 'Affordable CounterTop Irrigators',

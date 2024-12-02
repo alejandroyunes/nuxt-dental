@@ -1,7 +1,7 @@
 import type { ProductDetails } from '~/types/product-details';
 
 const h2oflossHF9: ProductDetails = {
-  id: 6,
+  id: 2,
   fileName: 'h2oflossHF9',
   info: {
     image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700761200/Best/CounterTop/h2ofloss-HF9/ubmexkklvzwgeqftfsnq.webp",
@@ -44,7 +44,7 @@ const h2oflossHF9: ProductDetails = {
     },
     {
       content: '\u2022 Pros and Cons of the H2ofloss HF-9?',
-      id: `#props-and-cons`
+      id: `#pros-and-cons`
     },
   ],
   title: {
@@ -115,7 +115,7 @@ const h2oflossHF9: ProductDetails = {
     ]
   },
   proAndCons: {
-    id: "props-and-cons",
+    id: "pros-and-cons",
     title: "Pros and Cons of the H2ofloss HF-9",
     description: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the H2ofloss Dental Water Flosser, HF-9, 800ml is the right fit for them.",
     cta: "View all Reviews",
