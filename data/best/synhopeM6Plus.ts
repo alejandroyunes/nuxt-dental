@@ -78,7 +78,7 @@ const synhopeM6Plus: ProductDetails = {
         id: 1,
         productUrl: "/reviews/portable-oral-irrigators/best/synhopeM6Plus",
         model: "SYNHOPE M6Plus",
-        image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701618666/typesOfIrrigators/portable/Synhope-b08/kqe8imskviqh6vic6xbl.webp",
+        image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701618666/typesOfIrrigators/portable/Synhope-b08/raqx09dsxkupdjhcgg7v.webp",
         alt: "SYNHOPE M6Plus",
         prime: true,
         dimensions: "4.88 inches compact size",
