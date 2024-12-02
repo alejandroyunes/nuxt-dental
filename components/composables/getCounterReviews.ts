@@ -3,7 +3,7 @@ import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
 import turewell610 from '~/data/counter/turewell610'
 import h2oflossHF9 from '~/data/counter/h2oflossHF9'
-import sawgmoreB09 from '~/data/counter/sawgmoreB09'
+import sawgmoreB09 from '~/data/counter/sawgmoreFC166'
 
 export function getCounterReviews() {
   const reviewsCounter = ref<ReviewGrid[]>([
