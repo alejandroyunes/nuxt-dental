@@ -16,17 +16,6 @@ export function getCounterReviews() {
       rating: turewell610.info.rating.stars,
       reviewCount: turewell610.info.rating.reviews
     },
-    {
-      id: 2,
-      productId: turewell610.id,
-      fileName: turewell610.fileName,
-      name: turewell610.info.title,
-      image: turewell610.info.imageSmall,
-      alt: turewell610.info.alt,
-      price: turewell610.info.price,
-      rating: turewell610.info.rating.stars,
-      reviewCount: turewell610.info.rating.reviews
-    }
   ])
   const reviewTitleCounter = ref<TitleInfo>({
     title: 'Affordable CounterTop Irrigators',
