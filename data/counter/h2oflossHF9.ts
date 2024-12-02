@@ -1,4 +1,4 @@
-import type { ProductDetails } from '~/types/product-details'
+import type { ProductDetails } from '~/types/product-details';
 
 const h2oflossHF9: ProductDetails = {
   id: 6,
@@ -9,9 +9,9 @@ const h2oflossHF9: ProductDetails = {
     alt: "H2ofloss HF-9 Dental Water Flosser",
     title: "H2ofloss Dental Water Flosser, HF-9, 800ml",
     subtitle: "Professional Countertop Oral Irrigator",
-    description: "Elevate your oral hygiene with 12 multifunctional tips, 800ml capacity, and a quiet design.",
-    price: "$27.99 (after 24% off)",
-    updatedDate: "Last updated: 11/23/2023",
+    description: "Elevate your oral hygiene with 13 multifunctional tips, 800ml capacity, and a quiet design. Removes up to 99.9% of plaque and offers a customizable cleaning experience.",
+    price: "$27.99 (after 24% off, was $36.99)",
+    updatedDate: "11/23/2023",
     buyLink: "https://www.amazon.com/dp/B010NNIZQE",
     cta: "Buy Now",
     rating: {
@@ -19,11 +19,15 @@ const h2oflossHF9: ProductDetails = {
       reviews: 16116,
     },
     characteristics: [
-      "12 Multifunctional Tips for versatile oral care.",
-      "6 Water Pressure Settings for a customized cleaning experience.",
+      "13 Multifunctional Tips for versatile oral care.",
+      "5 Water Pressure Settings with a range from 5-110 PSI.",
       "1200 Pulses/Minute Frequency for effective plaque removal.",
-      "Suitable for the whole family, including users with braces or implants.",
-    ]
+      "Quiet design with overheat protection function.",
+      "Exclusive Prime price with free shipping to Colombia.",
+      "Pause function on the handle for ease of use.",
+      "Compatible with 110VAC/60Hz outlets for North America.",
+      "24-month warranty for peace of mind.",
+    ],
   },
   tableOfContent: [
     {
@@ -55,11 +59,11 @@ const h2oflossHF9: ProductDetails = {
     data: [
       {
         title: "Multifunctional Tips",
-        description: "12 multifunctional tips for versatile oral care.",
+        description: "13 multifunctional tips for versatile oral care.",
       },
       {
         title: "Water Pressure Settings",
-        description: "6 customizable water pressure settings.",
+        description: "5 customizable water pressure settings ranging from 5-110 PSI.",
       },
       {
         title: "Pulse Frequency",
@@ -99,8 +103,8 @@ const h2oflossHF9: ProductDetails = {
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700761200/Best/CounterTop/h2ofloss-HF9/ekdpaygkjqtbbvzb17qj.webp',
         alt: 'H2ofloss HF-9 Oral Irrigator',
         prime: true,
-        dimensions: '8.39 x 2.56 x 4 in, 3.95 lbs',
-        tips: '12',
+        dimensions: '8.39 x 2.56 x 4 in, 4.14 lbs',
+        tips: '13',
         capacity: '800 ml',
         highlight: 'User-Friendly Design, Versatility and Cleaning Power',
         problem: 'Leaking Problems, Noise Levels',
@@ -122,6 +126,7 @@ const h2oflossHF9: ProductDetails = {
       { title: "User-friendly with easy pressure control" },
       { title: "Effective at cleaning between teeth" },
       { title: "24-month warranty and 24-hour email support" },
+      { title: "Exclusive Prime price and free shipping to Colombia" },
     ],
     cons: [
       { title: "Mixed opinions on build quality and durability" },
@@ -129,6 +134,6 @@ const h2oflossHF9: ProductDetails = {
       { title: "Leaks reported by some users" },
     ],
   },
-}
+};
 
-export default h2oflossHF9
+export default h2oflossHF9;
