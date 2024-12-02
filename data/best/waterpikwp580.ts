@@ -1,19 +1,19 @@
 import type { ProductDetails } from '~/types/product-details'
 
-const turewell610: ProductDetails = {
-  id: 6,
-  fileName: 'turewell610',
+const waterpikwp580: ProductDetails = {
+  id: 2,
+  fileName: 'waterpikwp580',
   info: {
-    image: "",
-    imageSmall: "",
+    image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701428933/Best/Waterpik-wp-580/fiptwjxmmnfoz0xfrcg3.webp",
+    imageSmall: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700995936/Best/SingleBests/skhiw9t8lpaq1ccghqon.webp",
     alt: "",
     title: "",
     subtitle: "",
     description: "",
     price: "",
     updatedDate: "",
-    buyLink: "",
-    cta: "",
+    buyLink: "https://amzn.to/46O8vDQ",
+    cta: "Buy on Amazon",
     rating: {
       stars: 0,
       reviews: 0,
@@ -27,10 +27,10 @@ const turewell610: ProductDetails = {
     ]
   },
   tableOfContent: [
-    { id: "", content: "" },
-    { id: "", content: "" },
-    { id: "", content: "" },
-    { id: "", content: "" },
+    { id: "#overview", content: "Overview" },
+    { id: "#features", content: "Features" },
+    { id: "#comparison", content: "Comparison" },
+    { id: "#pros-cons", content: "Pros and Cons" },
   ],
   title: {
     id: "",
@@ -83,7 +83,7 @@ const turewell610: ProductDetails = {
     models: [
       {
         id: 0,
-        productUrl: "",
+        productUrl: "/reviews/portable-oral-irrigators/best/synhopeM6Plus",
         model: "",
         image: "",
         alt: "",
@@ -103,8 +103,8 @@ const turewell610: ProductDetails = {
     id: "",
     title: "",
     description: "",
-    cta: "",
-    buyLink: "",
+    cta: "Buy on Amazon",
+    buyLink: "https://amzn.to/46O8vDQ",
     pros: [
       { title: "" },
       { title: "" },
@@ -117,4 +117,4 @@ const turewell610: ProductDetails = {
   },
 }
 
-export default turewell610
+export default waterpikwp580
