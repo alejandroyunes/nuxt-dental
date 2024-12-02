@@ -1,11 +1,11 @@
 import type { ProductDetails } from '~/types/product-details'
 
 const turewell610: ProductDetails = {
-  id: 6,
+  id: 1,
   fileName: 'turewell610',
   info: {
     image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/lefgkh44oubzssdeegxz.webp",
-    imageSmall: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/gse4hbnpov22zwrdkpyl.webp'",
+    imageSmall: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/gse4hbnpov22zwrdkpyl.webp",
     alt: 'Turewell Water Flossing Oral Irrigator',
     title: "Turewell Water Flossing Oral Irrigator FC165, 600ml",
     subtitle: "Dental Water Teeth Cleaner",
@@ -32,7 +32,7 @@ const turewell610: ProductDetails = {
       id: `#the-best-of-turewell`
     },
     {
-      content: '\u2022 Why Choose Turewell?',
+      content: '\u2022 Features of the Turewell FC165',
       id: `#features-of-turewell`
     },
     {
@@ -40,12 +40,12 @@ const turewell610: ProductDetails = {
       id: `#how-does-the-turewell-compares-to-other-irrigators`
     },
     {
-      content: '\u2022 Props and Cons?',
-      id: `#props-and-cons`
+      content: '\u2022 Pros and Cons',
+      id: `#pros-and-cons`
     },
   ],
   title: {
-    id: "#the-best-of-turewell",
+    id: "the-best-of-turewell",
     title: "Turewell Water Flossing Oral Irrigator FC165, 600ml",
     description: "A budget-friendly water flosser with 8 nozzles and a 600ml tank, providing a complete solution for oral hygiene.",
     subtext: "Best for braces, kids, and those looking for an efficient, easy-to-use water flosser."
@@ -65,13 +65,13 @@ const turewell610: ProductDetails = {
     ],
   },
   comparison: {
-    id: "#how-does-the-turewell-compares-to-other-irrigators",
+    id: "how-does-the-turewell-compares-to-other-irrigators",
     title: "Compare the Turewell FC165 with other irrigators",
     description: "See how the Turewell FC165 compares to similar models in terms of features, price, and user satisfaction.",
     models: [
       {
         id: 1,
-        productUrl: '/reviews/countertop-and-affordable-oral-irrigators/turewellFC165',
+        productUrl: '/reviews/affordable-countertop-irrigators/turewellFC165',
         model: 'Turewell FC165',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/gse4hbnpov22zwrdkpyl.webp',
         alt: 'Turewell FC165 Oral Irrigator',
@@ -136,7 +136,7 @@ const turewell610: ProductDetails = {
     ]
   },
   proAndCons: {
-    id: "#props-and-cons",
+    id: "pros-and-cons",
     title: "Pros and Cons of the Turewell FC165",
     description: "Pros and cons to help you decide if the Turewell FC165 is the right choice for your oral hygiene needs.",
     cta: "Buy Now on Amazon",

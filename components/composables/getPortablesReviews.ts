@@ -80,10 +80,10 @@ export function getPortablesReviews() {
   ])
 
   const reviewTitle = ref<TitleInfo>({
-    title: "Portable and Affordable Oral Irrigators",
+    title: "Affordable And Portable Oral Irrigators",
     description: "Upgrade your smile game without breaking the bank! Dive into the coolest portable and affordable oral irrigators on Amazon. We've rounded up the best brands for easy, breezy dental care.",
     subtext: "Click on view more to read our review of the top-rated portable oral Irrigators.",
-    slug: "reviews/portable-and-affordable-oral-irrigators"
+    slug: "reviews/affordable-and-portable-oral-irrigators/portable"
   })
 
   const loading = ref(false)

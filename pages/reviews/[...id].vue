@@ -11,7 +11,7 @@ import Title from '~/components/atoms/title-description/index.vue'
 const route = useRoute()
 const fileRoute = route.params.id
 
-const { product, loading, error } = getProductDetails(fileRoute[1])
+const { product, loading, error } = getProductDetails(fileRoute[2], fileRoute[1])
 
 watch([product, loading, error], ([newProduct, newLoading, newError]) => {
 

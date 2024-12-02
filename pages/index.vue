@@ -7,6 +7,7 @@ import TypeSection from '~/components/organisms/type-section/TypeSection.vue'
 import ComparisonSection from '~/components/organisms/tables/comparisor/index.vue'
 import WaterPickSection from '~/components/organisms/product/card/index.vue'
 import { getPortablesReviews } from '~/components/composables/getPortablesReviews'
+import { getCounterReviews } from '~/components/composables/getCounterReviews'
 
 useSeoMeta({
   title: 'Servicio Web Profesional en Colombia',
@@ -24,12 +25,14 @@ useSeoMeta({
 })
 
 const { reviews, reviewTitle } = getPortablesReviews()
+const { reviewsCounter, reviewTitleCounter } = getCounterReviews()
 
 </script>
 
 <template>
   <HeroSection />
   <ReviewsGrid :reviews="reviews" :reviewTitle="reviewTitle" />
+  <ReviewsGrid :reviews="reviewsCounter" :reviewTitle="reviewTitleCounter" />
   <ProsConsSection />
   <InfoGridSection />
   <TypeSection />
