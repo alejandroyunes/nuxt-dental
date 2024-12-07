@@ -1,16 +1,8 @@
 <script setup lang="ts">
-import HeroSection from '~/components/organisms/hero/dental-main/index.vue'
 import ReviewsGrid from '~/components/organisms/grids/review/ReviewsGrid.vue'
-import ProsConsSection from '~/components/organisms/pros-cons/index.vue'
-import InfoGridSection from '~/components/organisms/grids/InfoGridSection.vue'
 import TypeSection from '~/components/organisms/type-section/TypeSection.vue'
-import ComparisonSection from '~/components/organisms/tables/comparisor/index.vue'
-import WaterPickSection from '~/components/organisms/product/card/index.vue'
-import { getPortablesReviews } from '~/components/composables/getPortablesReviews'
 import { getBestIrrigators } from '~/components/composables/getBestIrrigators'
 import QuestionsAndAnswers from '~/components/organisms/questions-answers/index.vue'
-import TitleDescription from '~/components/atoms/title-description/index.vue'
-
 
 useSeoMeta({
   title: 'Servicio Web Profesional en Colombia',
@@ -27,7 +19,7 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 })
 
-const { reviews, reviewTitle } = getPortablesReviews()
+
 const { bestIrrigators, bestIrrigatorsTitle } = getBestIrrigators()
 
 </script>

@@ -10,7 +10,7 @@ import bitvaeC2 from "~/data/portable/bitvaeC2"
 
 export function getPortablesReviews() {
 
-  const reviews = ref<ReviewGrid[]>([
+  const reviewPortables = ref<ReviewGrid[]>([
     {
       id: 1,
       productId: waterpikF02.id,
@@ -79,7 +79,7 @@ export function getPortablesReviews() {
     }
   ])
 
-  const reviewTitle = ref<TitleInfo>({
+  const reviewTitlePortables = ref<TitleInfo>({
     title: "Affordable And Portable Oral Irrigators",
     description: "Upgrade your smile game without breaking the bank! Dive into the coolest portable and affordable oral irrigators on Amazon. We've rounded up the best brands for easy, breezy dental care.",
     subtext: "Click on view more to read our review of the top-rated portable oral Irrigators.",
@@ -104,8 +104,8 @@ export function getPortablesReviews() {
   onMounted(fetchPosts)
 
   return {
-    reviews,
-    reviewTitle,
+    reviewPortables,
+    reviewTitlePortables,
     loading,
     error
   }

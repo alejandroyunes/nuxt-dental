@@ -6,7 +6,8 @@ import h2oflossHF9 from '~/data/counter/h2oflossHF9'
 import sawgmoreB09 from '~/data/counter/sawgmoreFC166'
 
 export function getCounterReviews() {
-  const reviewsCounterTop = ref<ReviewGrid[]>([
+
+  const reviewCounterTop = ref<ReviewGrid[]>([
     {
       id: 1,
       productId: turewell610.id,
@@ -64,7 +65,7 @@ export function getCounterReviews() {
   onMounted(fetchPosts)
 
   return {
-    reviewsCounterTop,
+    reviewCounterTop,
     reviewTitleCounterTop,
     loadingCounter,
     errorCounter
