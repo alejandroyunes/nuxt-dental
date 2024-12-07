@@ -70,9 +70,9 @@ const { info } = defineProps<{
               </td>
             </tr>
             <tr>
-              <td>View More</td>
+              <td>View</td>
               <td v-for="model in info?.models" :key="model.id">
-                <NuxtLink :href="model.productUrl" class="view-price-btn">View More</NuxtLink>
+                <NuxtLink :href="model.productUrl" class="view-price-btn">More</NuxtLink>
               </td>
             </tr>
           </tbody>

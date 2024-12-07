@@ -14,7 +14,7 @@ const { reviewTitle, reviews } = defineProps<{
 
 <template>
   <section class="irrigator-grid" >
-    <TitleDescription :info="reviewTitle" :class="{ 'extra-top-space': marginTop }" />
+    <TitleDescription :info="reviewTitle" :marginTop="marginTop" />
 
     <div class="grid">
       <div v-for="review in reviews" :key="review.id" class="irrigator-card">
