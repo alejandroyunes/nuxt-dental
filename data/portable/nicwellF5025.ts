@@ -92,7 +92,7 @@ const nicwellF5025: ProductDetails = {
     models: [
       {
         id: 1,
-        productUrl: 'reviews//portable-and-affordable-oral-irrigators/nicwellF5025',
+        productUrl: '/reviews/portable-and-affordable-oral-irrigators/nicwellF5025',
         model: 'Nicwell F5025',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp',
         alt: 'Nicwell 200ml Oral Irrigator',
@@ -104,7 +104,6 @@ const nicwellF5025: ProductDetails = {
         problem: 'Charging',
         price: '$27.98',
         satisfaction: '9/10',
-        view: 'View Price',
       },
       {
         id: 2,
@@ -120,7 +119,6 @@ const nicwellF5025: ProductDetails = {
         problem: 'Durability',
         price: 'Great Price',
         satisfaction: '8/10',
-        view: 'View Price',
       },
       {
         id: 3,
@@ -136,7 +134,6 @@ const nicwellF5025: ProductDetails = {
         problem: 'Limited water capacity',
         price: 'Excelent price',
         satisfaction: '9/10',
-        view: 'View Price',
       },
       {
         id: 4,
@@ -152,7 +149,6 @@ const nicwellF5025: ProductDetails = {
         problem: 'Battery replacement, Limited water capacity',
         price: 'Best buy',
         satisfaction: '9/10',
-        view: 'View Price',
       }
     ]
   },

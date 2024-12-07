@@ -96,7 +96,6 @@ const waterpikF02: ProductDetails = {
         problem: 'Battery replacement, Limited water capacity.',
         price: '$37.71',
         satisfaction: '9/10',
-        view: 'View Price',
       },
       {
         id: 2,
@@ -112,7 +111,6 @@ const waterpikF02: ProductDetails = {
         problem: 'Charging',
         price: 'Great Price',
         satisfaction: '9/10',
-        view: 'View Price',
       },
       {
         id: 3,
@@ -128,7 +126,6 @@ const waterpikF02: ProductDetails = {
         problem: 'Durability',
         price: 'Great Price',
         satisfaction: '8/10',
-        view: 'View Price',
       },
       {
         id: 4,
@@ -144,7 +141,6 @@ const waterpikF02: ProductDetails = {
         problem: 'Limited water capacity',
         price: 'Excelent price',
         satisfaction: '9/10',
-        view: 'View Price',
       },
     ]
   },

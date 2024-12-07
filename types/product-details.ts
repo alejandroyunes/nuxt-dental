@@ -54,7 +54,6 @@ export interface ProductDetails {
       problem: string
       price: string
       satisfaction: string
-      view: string
     }[]
   },
   proAndCons: {
