@@ -1,6 +1,4 @@
 .types-section {
-  padding: 5rem 24px;
-  background: white;
 
   .types-header {
     text-align: center;
@@ -106,7 +104,7 @@
       transition: all 0.3s ease;
 
       &:hover {
-        background: var(--secondary-color);
+        background: var(--secondary);
         transform: translateY(-2px);
       }
     }

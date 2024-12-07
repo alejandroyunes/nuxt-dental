@@ -7,8 +7,10 @@ import TypeSection from '~/components/organisms/type-section/TypeSection.vue'
 import ComparisonSection from '~/components/organisms/tables/comparisor/index.vue'
 import WaterPickSection from '~/components/organisms/product/card/index.vue'
 import { getPortablesReviews } from '~/components/composables/getPortablesReviews'
-import { getCounterReviews } from '~/components/composables/getCounterReviews'
+import { getBestIrrigators } from '~/components/composables/getBestIrrigators'
 import QuestionsAndAnswers from '~/components/organisms/questions-answers/index.vue'
+import TitleDescription from '~/components/atoms/title-description/index.vue'
+
 
 useSeoMeta({
   title: 'Servicio Web Profesional en Colombia',
@@ -26,14 +28,12 @@ useSeoMeta({
 })
 
 const { reviews, reviewTitle } = getPortablesReviews()
-const { reviewsCounterTop, reviewTitleCounterTop } = getCounterReviews()
+const { bestIrrigators, bestIrrigatorsTitle } = getBestIrrigators()
 
 </script>
 
 <template>
-  <HeroSection />
-  <ReviewsGrid :reviews="reviews" :reviewTitle="reviewTitle" />
-  <ReviewsGrid :reviews="reviewsCounterTop" :reviewTitle="reviewTitleCounterTop" />
+  <ReviewsGrid :reviews="bestIrrigators" :reviewTitle="bestIrrigatorsTitle" marginTop />
   <TypeSection />
   <QuestionsAndAnswers />
 

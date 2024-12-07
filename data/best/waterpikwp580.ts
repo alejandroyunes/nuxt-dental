@@ -27,10 +27,10 @@ const waterpikwp580: ProductDetails = {
     ],
   },
   tableOfContent: [
-    { id: "waterpik-wp580", content: "Overview" },
-    { id: "features", content: "Key Features" },
-    { id: "comparison", content: "Comparison with Similar Models" },
-    { id: "pros-cons", content: "Pros and Cons" },
+    { id: "#waterpik-wp580", content: "Overview" },
+    { id: "#features", content: "Key Features" },
+    { id: "#comparison", content: "Comparison with Similar Models" },
+    { id: "#pros-cons", content: "Pros and Cons" },
   ],
   title: {
     id: "waterpik-wp580",

@@ -37,7 +37,7 @@ if(product.value) {
 </script>
 
 <template>
-  <section>
+  <section class="product-section">
     <CardDetails :info="product?.info" />
     <Accordion :info="product?.tableOfContent" />
     <Title :info="product?.title" marginTop />

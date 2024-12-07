@@ -27,10 +27,10 @@ const waterpikwp660: ProductDetails = {
     ],
   },
   tableOfContent: [
-    { id: "overview", content: "Overview" },
-    { id: "features", content: "Key Features" },
-    { id: "comparison", content: "Comparison with Similar Models" },
-    { id: "pros-cons", content: "Pros and Cons" },
+    { id: "#overview", content: "Overview" },
+    { id: "#features", content: "Key Features" },
+    { id: "#comparison", content: "Comparison with Similar Models" },
+    { id: "#pros-cons", content: "Pros and Cons" },
   ],
   title: {
     id: "overview",

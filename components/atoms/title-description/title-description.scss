@@ -1,5 +1,5 @@
 .title-description {
-  padding: 0 20px 40px;
+  padding: 0 0 40px;
   margin: 0 auto;
   max-width: var(--tablet-width);
   text-align: center;
@@ -31,10 +31,6 @@
 
   .extra-top-space {
     padding-top: 40px;
-  
-    @media (max-width: 900px) {
-      padding-top: 0;
-    }
   }
 }
 

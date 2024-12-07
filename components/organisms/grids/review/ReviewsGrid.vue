@@ -6,16 +6,17 @@ import TitleDescription from "~/components/atoms/title-description/index.vue"
 
 const { reviewTitle, reviews } = defineProps<{
   reviews: ReviewGrid[],
-  reviewTitle: TitleInfo
+  reviewTitle: TitleInfo,
+  marginTop?: boolean
 }>()
 
 </script>
 
 <template>
-  <section class="irrigator-section">
-    <TitleDescription :info="reviewTitle" />
+  <section class="irrigator-grid" >
+    <TitleDescription :info="reviewTitle" :class="{ 'extra-top-space': marginTop }" />
 
-    <div class="irrigator-grid">
+    <div class="grid">
       <div v-for="review in reviews" :key="review.id" class="irrigator-card">
         <div class="image-wrapper">
           <NuxtImg :src="review.image" :alt="review.name" class="image" />

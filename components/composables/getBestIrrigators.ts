@@ -5,8 +5,8 @@ import turewell610 from '~/data/counter/turewell610'
 import h2oflossHF9 from '~/data/counter/h2oflossHF9'
 import sawgmoreB09 from '~/data/counter/sawgmoreFC166'
 
-export function getCounterReviews() {
-  const reviewsCounterTop = ref<ReviewGrid[]>([
+export function getBestIrrigators() {
+  const bestIrrigators = ref<ReviewGrid[]>([
     {
       id: 1,
       productId: turewell610.id,
@@ -41,7 +41,7 @@ export function getCounterReviews() {
       reviewCount: sawgmoreB09.info.rating.reviews
     },
   ])
-  const reviewTitleCounterTop = ref<TitleInfo>({
+  const bestIrrigatorsTitle = ref<TitleInfo>({
     title: 'Affordable CounterTop Irrigators',
     description: 'Explore the best budget-friendly countertop oral irrigators that provide superior dental care with high water pulsation, multiple pressure settings, and various tips for different needs.',
     subtext: 'Achieve effective, professional-level cleaning without the high cost. Perfect for families and individuals looking for a reliable and affordable oral care solution.',
@@ -64,8 +64,8 @@ export function getCounterReviews() {
   onMounted(fetchPosts)
 
   return {
-    reviewsCounterTop,
-    reviewTitleCounterTop,
+    bestIrrigators,
+    bestIrrigatorsTitle,
     loadingCounter,
     errorCounter
   }
