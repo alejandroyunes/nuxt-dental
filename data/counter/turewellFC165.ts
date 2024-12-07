@@ -1,8 +1,8 @@
 import type { ProductDetails } from '~/types/product-details'
 
-const turewell610: ProductDetails = {
+const turewellFC165: ProductDetails = {
   id: 1,
-  fileName: 'turewell610',
+  fileName: 'turewellFC165',
   info: {
     image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/lefgkh44oubzssdeegxz.webp",
     imageSmall: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/gse4hbnpov22zwrdkpyl.webp",
@@ -10,7 +10,7 @@ const turewell610: ProductDetails = {
     title: "Turewell Water Flossing Oral Irrigator FC165, 600ml",
     subtitle: "Dental Water Teeth Cleaner",
     description: "The Turewell FC165 effectively removes 99.99% of debris, offering superior oral care by reaching areas traditional methods miss, ideal for braces, kids, and those seeking deep cleaning.",
-    price: "$31.99",
+    price: "$39.99",
     updatedDate: "11/18/2023",
     buyLink: "https://amzn.to/46Ose6r",
     cta: "Buy on Amazon",
@@ -81,58 +81,39 @@ const turewell610: ProductDetails = {
         capacity: '600 ml',
         highlight: '8 Nozzles, Value, Ease of use',
         problem: 'Water Resistance',
-        price: '$31.99',
+        price: '$39.99',
         satisfaction: '8/10',
-        view: 'View Price',
       },
       {
         id: 2,
-        productUrl: '/reviews/countertop-and-affordable-oral-irrigators/counter/h2oflossHF9',
+        productUrl: "/reviews/affordable-countertop-irrigators/counter/sawgmoreFC166",
+        model: "Sawgmore FC166",
+        image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700914063/Best/CounterTop/Sawgmore/eltsrjk4gxf7zocubifd.webp",
+        alt: "FC166 Water Flosser",
+        prime: true,
+        dimensions: "7.9 x 4.5 x 3.9 inches",
+        tips: "8",
+        capacity: "600ml",
+        highlight: "10 adjustable pressure levels",
+        problem: "May require frequent refills at high settings",
+        price: "$31.34",
+        satisfaction: "8/10'",
+      },
+      {
+        id: 3,
+        productUrl: '/reviews/affordable-countertop-irrigators/counter/h2oflossHF9',
         model: 'H2ofloss HF-9',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700761200/Best/CounterTop/h2ofloss-HF9/ekdpaygkjqtbbvzb17qj.webp',
         alt: 'H2ofloss HF-9 Oral Irrigator',
         prime: true,
-        dimensions: '8.39 x 2.56 x 4 in, 3.95 lbs',
-        tips: '12',
+        dimensions: '8.39 x 2.56 x 4 in, 4.14 lbs',
+        tips: '13',
         capacity: '800 ml',
         highlight: 'User-Friendly Design, Versatility and Cleaning Power',
         problem: 'Leaking Problems, Noise Levels',
-        price: 'Good Price',
+        price: '$36.99',
         satisfaction: '9/10',
-        view: 'View Price',
       },
-      {
-        id: 3,
-        productUrl: '/reviews/countertop-and-affordable-oral-irrigators/counter/sawgmoreB09',
-        model: 'Sawgmore B09',
-        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700914063/Best/CounterTop/Sawgmore/eltsrjk4gxf7zocubifd.webp',
-        alt: 'Sawgmore B09 Oral Irrigator',
-        prime: true,
-        dimensions: '7.09 x 5.31 x 8.27 in, 2.2 lbs',
-        tips: '8',
-        capacity: '600 ml',
-        highlight: '8 Nozzles, Value, Ease of use',
-        problem: 'Noisy',
-        price: 'Good Price',
-        satisfaction: '8/10',
-        view: 'View Price'
-      },
-      {
-        id: 4,
-        productUrl: '/reviews/countertop-and-affordable-oral-irrigators/counter/zerhuntFC169',
-        model: 'Zerhunt FC169',
-        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936985/Best/CounterTop/ZerhuntFC169/dpabeazxbmr5dx9kjh8z.webp',
-        alt: 'Zerhunt FC169 Oral Irrigator',
-        prime: true,
-        dimensions: '5 x 5.5 x 7.9 in, 1.72 lbs',
-        tips: '4',
-        capacity: '600 ml',
-        highlight: 'Multiple Pressure Settings, Multiple Tips',
-        problem: 'Leaking Problems',
-        price: 'Good Price',
-        satisfaction: '8/10',
-        view: 'View Price'
-      }
     ]
   },
   proAndCons: {
@@ -155,4 +136,4 @@ const turewell610: ProductDetails = {
   },
 }
 
-export default turewell610
+export default turewellFC165

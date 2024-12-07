@@ -27,19 +27,19 @@ const turewell610: ProductDetails = {
     ]
   },
   tableOfContent: [
-    { id: "title", content: "Overview" },
-    { id: "features", content: "Key Features" },
-    { id: "comparison", content: "Comparison with Similar Models" },
-    { id: "pros-cons", content: "Pros and Cons" },
+    { id: "#title", content: "Overview" },
+    { id: "#features", content: "Key Features" },
+    { id: "#comparison", content: "Comparison with Similar Models" },
+    { id: "#pros-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: "",
+    id: "title",
     title: "",
     description: "",
     subtext: "",
   },
   features: {
-    id: "",
+    id: "features",
     title: "",
     data: [
       {
@@ -77,13 +77,13 @@ const turewell610: ProductDetails = {
     ],
   },
   comparison: {
-    id: "",
+    id: "comparison",
     title: "",
     description: "",
     models: [
       {
         id: 0,
-        productUrl: "/reviews/portable-oral-irrigators/best/turewell610",
+        productUrl: "/reviews/portable-oral-irrigators/best/exampleFC65",
         model: "",
         image: "",
         alt: "",
@@ -95,12 +95,11 @@ const turewell610: ProductDetails = {
         problem: "",
         price: "",
         satisfaction: "",
-        view: "",
       }
     ]
   },
   proAndCons: {
-    id: "",
+    id: "pros-cons",
     title: "",
     description: "",
     cta: "Buy on Amazon",

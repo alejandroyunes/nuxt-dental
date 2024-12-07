@@ -1,7 +1,7 @@
 import { ref, onMounted } from 'vue'
 import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
-import turewell610 from '~/data/counter/turewell610'
+import turewellFC165 from '~/data/counter/turewellFC165'
 import h2oflossHF9 from '~/data/counter/h2oflossHF9'
 import sawgmoreB09 from '~/data/counter/sawgmoreFC166'
 
@@ -10,14 +10,14 @@ export function getCounterReviews() {
   const reviewCounterTop = ref<ReviewGrid[]>([
     {
       id: 1,
-      productId: turewell610.id,
-      fileName: turewell610.fileName,
-      name: turewell610.info.title,
-      image: turewell610.info.imageSmall,
-      alt: turewell610.info.alt,
-      price: turewell610.info.price,
-      rating: turewell610.info.rating.stars,
-      reviewCount: turewell610.info.rating.reviews
+      productId: turewellFC165.id,
+      fileName: turewellFC165.fileName,
+      name: turewellFC165.info.title,
+      image: turewellFC165.info.imageSmall,
+      alt: turewellFC165.info.alt,
+      price: turewellFC165.info.price,
+      rating: turewellFC165.info.rating.stars,
+      reviewCount: turewellFC165.info.rating.reviews
     },
     {
       id: 2,
