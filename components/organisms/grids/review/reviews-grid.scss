@@ -64,34 +64,14 @@
 
 			.rating {
 				display: flex;
-				align-items: center;
+				justify-content: space-between;
 				gap: 0.5rem;
-				margin-bottom: 1rem;
-
-				.stars {
-					position: relative;
-					display: inline-block;
-					color: #ffd700;
-					font-size: 1.4rem;
-
-					&::before {
-						content: "★★★★★";
-					}
-
-					&::after {
-						content: "★★★★★";
-						position: absolute;
-						left: 0;
-						top: 0;
-						width: calc(var(--rating) * 20%);
-						overflow: hidden;
-						color: #ffd700;
-					}
-				}
-
+				margin: .5rem 0 .8rem;
+	
 				span {
-					color: #64748b;
-					font-size: 0.875rem;
+					color: var(--text-color);
+					font-weight: bold;
+					font-size: 1rem;
 				}
 			}
 

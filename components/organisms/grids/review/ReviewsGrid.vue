@@ -13,7 +13,7 @@ const { reviewTitle, reviews } = defineProps<{
 </script>
 
 <template>
-  <section class="irrigator-grid" >
+  <section class="irrigator-grid">
     <TitleDescription :info="reviewTitle" :marginTop="marginTop" />
 
     <div class="grid">
@@ -23,10 +23,10 @@ const { reviewTitle, reviews } = defineProps<{
         </div>
         <div class="content">
           <h3>{{ review.name }}</h3>
-          <div class="price">{{ review.price }}</div>
+          <div class="price">Price: {{ review.price }}</div>
           <div class="rating">
-            <div class="stars" :style="{ '--rating': review.rating }"></div>
-            <span>({{ review.reviewCount }} reviews)</span>
+            <span> ⭐ {{ review.rating }} Stars</span>
+            <span> ❤️ {{ review.reviewCount }} reviews</span>
           </div>
           <NuxtLink :to="`/${reviewTitle.slug}/${review.fileName}`" class="button">
             Read Review

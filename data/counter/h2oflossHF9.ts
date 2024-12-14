@@ -1,18 +1,21 @@
 import type { ProductDetails } from '~/types/product-details';
+import { sawgmoreFC166GlobalData } from './global';
+import { turewellFC165GlobalData } from './global';
+import { h2oflossHF9GlobalData } from './global';
 
-const h2oflossHF9: ProductDetails = {
+export const h2oflossHF9: ProductDetails = {
   id: 2,
   fileName: 'h2oflossHF9',
   info: {
-    image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700761200/Best/CounterTop/h2ofloss-HF9/ubmexkklvzwgeqftfsnq.webp",
-    imageSmall: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700761200/Best/CounterTop/h2ofloss-HF9/ekdpaygkjqtbbvzb17qj.webp",
+    image: h2oflossHF9GlobalData.imageLarge,
+    imageSmall: h2oflossHF9GlobalData.imageSmall,
     alt: "H2ofloss HF-9 Dental Water Flosser",
     title: "H2ofloss Dental Water Flosser, HF-9, 800ml",
     subtitle: "Professional Countertop Oral Irrigator",
     description: "Elevate your oral hygiene with 13 multifunctional tips, 800ml capacity, and a quiet design. Removes up to 99.9% of plaque and offers a customizable cleaning experience.",
-    price: "$36.99",
-    updatedDate: "11/23/2023",
-    buyLink: "https://www.amazon.com/dp/B010NNIZQE",
+    price: h2oflossHF9GlobalData.productPrice,
+    updatedDate: h2oflossHF9GlobalData.updatedDate,
+    buyLink: h2oflossHF9GlobalData.amazonUrl,
     cta: "Buy Now",
     rating: {
       stars: 4.3,
@@ -98,9 +101,9 @@ const h2oflossHF9: ProductDetails = {
     models: [
       {
         id: 1,
-        productUrl: '/reviews/affordable-countertop-irrigators/counter/h2oflossHF9',
+        path: h2oflossHF9GlobalData.path,
         model: 'H2ofloss HF-9',
-        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700761200/Best/CounterTop/h2ofloss-HF9/ekdpaygkjqtbbvzb17qj.webp',
+        image: h2oflossHF9GlobalData.imageSmall,
         alt: 'H2ofloss HF-9 Oral Irrigator',
         prime: true,
         dimensions: '8.39 x 2.56 x 4 in, 4.14 lbs',
@@ -108,14 +111,14 @@ const h2oflossHF9: ProductDetails = {
         capacity: '800 ml',
         highlight: 'User-Friendly Design, Versatility and Cleaning Power',
         problem: 'Leaking Problems, Noise Levels',
-        price: '$36.99',
+        price: h2oflossHF9GlobalData.productPrice,
         satisfaction: '9/10',
       },
       {
         id: 2,
-        productUrl: "/reviews/affordable-countertop-irrigators/counter/sawgmoreFC166",
+        path: sawgmoreFC166GlobalData.path,
         model: "Sawgmore FC166",
-        image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700914063/Best/CounterTop/Sawgmore/eltsrjk4gxf7zocubifd.webp",
+        image: sawgmoreFC166GlobalData.imageSmall,
         alt: "FC166 Water Flosser",
         prime: true,
         dimensions: "7.9 x 4.5 x 3.9 inches",
@@ -123,14 +126,14 @@ const h2oflossHF9: ProductDetails = {
         capacity: "600ml",
         highlight: "10 adjustable pressure levels",
         problem: "May require frequent refills at high settings",
-        price: "$31.34",
+        price: sawgmoreFC166GlobalData.productPrice,
         satisfaction: "8/10'",
       },
       {
         id: 3,
-        productUrl: '/reviews/affordable-countertop-irrigators/counter/turewellFC165',
+        path: turewellFC165GlobalData.path,
         model: 'Turewell FC165',
-        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/gse4hbnpov22zwrdkpyl.webp',
+        image: turewellFC165GlobalData.imageSmall,
         alt: 'Turewell FC165 Oral Irrigator',
         prime: true,
         dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
@@ -138,7 +141,7 @@ const h2oflossHF9: ProductDetails = {
         capacity: '600 ml',
         highlight: '8 Nozzles, Value, Ease of use',
         problem: 'Water Resistance',
-        price: '$39.99',
+        price: turewellFC165GlobalData.productPrice,
         satisfaction: '8/10',
       },
     ]
@@ -148,7 +151,7 @@ const h2oflossHF9: ProductDetails = {
     title: "Pros and Cons of the H2ofloss HF-9",
     description: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the H2ofloss Dental Water Flosser, HF-9, 800ml is the right fit for them.",
     cta: "View all Reviews",
-    buyLink: "https://www.amazon.com/dp/B010NNIZQE",
+    buyLink: h2oflossHF9GlobalData.amazonUrl,
     pros: [
       { title: "Great performance and cleaning capabilities" },
       { title: "Affordable, offering good value for the price" },
@@ -165,4 +168,3 @@ const h2oflossHF9: ProductDetails = {
   },
 };
 
-export default h2oflossHF9;

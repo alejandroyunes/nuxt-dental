@@ -1,8 +1,8 @@
 import type { ProductDetails } from '~/types/product-details'
 
-const turewell610: ProductDetails = {
+const example: ProductDetails = {
   id: 100,
-  fileName: 'turewell610',
+  fileName: '',
   info: {
     image: "",
     imageSmall: "",
@@ -116,4 +116,4 @@ const turewell610: ProductDetails = {
   },
 }
 
-export default turewell610
+export default example

@@ -26,14 +26,14 @@ useSeoMeta({
 })
 
 const { reviewPortables, reviewTitlePortables } = getPortablesReviews()
-const { reviewCounterTop, reviewTitleCounterTop } = getCounterReviews()
+const { counterReviewDescription, counterReviewTitle } = getCounterReviews()
 
 </script>
 
 <template>
   <HeroSection />
   <ReviewsGrid :reviews="reviewPortables" :reviewTitle="reviewTitlePortables" />
-  <ReviewsGrid :reviews="reviewCounterTop" :reviewTitle="reviewTitleCounterTop" />
+  <ReviewsGrid :reviews="counterReviewDescription" :reviewTitle="counterReviewTitle" />
   <TypeSection />
   <QuestionsAndAnswers />
 

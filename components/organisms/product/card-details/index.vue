@@ -22,8 +22,8 @@ const { info } = defineProps<{
 
       <div class="price">{{ info?.price }}</div>
       <div class="rating">
-        <div class="stars" :style="{ '--rating': info?.rating.stars }"></div>
-        <span>({{ info?.rating.reviews }} reviews)</span>
+        <span> ⭐ {{ info?.rating.stars }} Stars</span>
+        <span> ❤️ {{ info?.rating.reviews }} reviews</span>
       </div>
 
       <div class="characteristics">
@@ -35,7 +35,7 @@ const { info } = defineProps<{
         </ul>
       </div>
 
-      <NuxtLink :to="info?.buyLink" class="buy-button">{{ info?.cta }}</NuxtLink>
+      <NuxtLink :to="info?.buyLink" class="buy-button">👉 {{ info?.cta }}</NuxtLink>
     </div>
   </div>
 </template>

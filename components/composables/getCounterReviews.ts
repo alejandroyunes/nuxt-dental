@@ -1,53 +1,18 @@
 import { ref, onMounted } from 'vue'
 import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
-import turewellFC165 from '~/data/counter/turewellFC165'
-import h2oflossHF9 from '~/data/counter/h2oflossHF9'
-import sawgmoreB09 from '~/data/counter/sawgmoreFC166'
+import { counterReviewsDescription, counterReviewsTitle } from '~/data/counter/reviews'
+
 
 export function getCounterReviews() {
 
-  const reviewCounterTop = ref<ReviewGrid[]>([
-    {
-      id: 1,
-      productId: turewellFC165.id,
-      fileName: turewellFC165.fileName,
-      name: turewellFC165.info.title,
-      image: turewellFC165.info.imageSmall,
-      alt: turewellFC165.info.alt,
-      price: turewellFC165.info.price,
-      rating: turewellFC165.info.rating.stars,
-      reviewCount: turewellFC165.info.rating.reviews
-    },
-    {
-      id: 2,
-      productId: h2oflossHF9.id,
-      fileName: h2oflossHF9.fileName,
-      name: h2oflossHF9.info.title,
-      image: h2oflossHF9.info.imageSmall,
-      alt: h2oflossHF9.info.alt,
-      price: h2oflossHF9.info.price,
-      rating: h2oflossHF9.info.rating.stars,
-      reviewCount: h2oflossHF9.info.rating.reviews
-    },
-    {
-      id: 3,
-      productId: sawgmoreB09.id,
-      fileName: sawgmoreB09.fileName,
-      name: sawgmoreB09.info.title,
-      image: sawgmoreB09.info.imageSmall,
-      alt: sawgmoreB09.info.alt,
-      price: sawgmoreB09.info.price,
-      rating: sawgmoreB09.info.rating.stars,
-      reviewCount: sawgmoreB09.info.rating.reviews
-    },
-  ])
-  const reviewTitleCounterTop = ref<TitleInfo>({
-    title: 'Affordable CounterTop Irrigators',
-    description: 'Explore the best budget-friendly countertop oral irrigators that provide superior dental care with high water pulsation, multiple pressure settings, and various tips for different needs.',
-    subtext: 'Achieve effective, professional-level cleaning without the high cost. Perfect for families and individuals looking for a reliable and affordable oral care solution.',
-    slug: 'reviews/affordable-countertop-irrigators/counter'
+  const counterReviewTitle = ref<TitleInfo>({
+    title: '',
+    description: '',
+    subtext: '',
+    slug: ''
   })
+  const counterReviewDescription = ref<ReviewGrid[]>([])
 
   const loadingCounter = ref(false)
   const errorCounter = ref<string | null>(null)
@@ -55,6 +20,8 @@ export function getCounterReviews() {
   const fetchPosts = async () => {
     loadingCounter.value = true
     try {
+      counterReviewTitle.value = await counterReviewsTitle
+      counterReviewDescription.value = await counterReviewsDescription
       loadingCounter.value = false
     } catch (e) {
       errorCounter.value = 'Failed to fetch posts'
@@ -65,8 +32,8 @@ export function getCounterReviews() {
   onMounted(fetchPosts)
 
   return {
-    reviewCounterTop,
-    reviewTitleCounterTop,
+    counterReviewTitle,
+    counterReviewDescription,
     loadingCounter,
     errorCounter
   }

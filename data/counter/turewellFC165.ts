@@ -1,18 +1,22 @@
 import type { ProductDetails } from '~/types/product-details'
+import { h2oflossHF9GlobalData } from './global'
+import { sawgmoreFC166GlobalData } from './global'
+import { turewellFC165GlobalData } from './global'
 
-const turewellFC165: ProductDetails = {
+
+export const turewellFC165: ProductDetails = {
   id: 1,
   fileName: 'turewellFC165',
   info: {
-    image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/lefgkh44oubzssdeegxz.webp",
-    imageSmall: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/gse4hbnpov22zwrdkpyl.webp",
+    image: turewellFC165GlobalData.imageLarge,
+    imageSmall: turewellFC165GlobalData.imageSmall,
     alt: 'Turewell Water Flossing Oral Irrigator',
     title: "Turewell Water Flossing Oral Irrigator FC165, 600ml",
     subtitle: "Dental Water Teeth Cleaner",
     description: "The Turewell FC165 effectively removes 99.99% of debris, offering superior oral care by reaching areas traditional methods miss, ideal for braces, kids, and those seeking deep cleaning.",
-    price: "$39.99",
-    updatedDate: "11/18/2023",
-    buyLink: "https://amzn.to/46Ose6r",
+    price: turewellFC165GlobalData.productPrice,
+    updatedDate: turewellFC165GlobalData.updatedDate,
+    buyLink: turewellFC165GlobalData.amazonUrl,
     cta: "Buy on Amazon",
     rating: {
       stars: 4.3,
@@ -71,9 +75,9 @@ const turewellFC165: ProductDetails = {
     models: [
       {
         id: 1,
-        productUrl: '/reviews/affordable-countertop-irrigators/counter/turewellFC165',
+        path: turewellFC165GlobalData.path,
         model: 'Turewell FC165',
-        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/gse4hbnpov22zwrdkpyl.webp',
+        image: turewellFC165GlobalData.imageSmall,
         alt: 'Turewell FC165 Oral Irrigator',
         prime: true,
         dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
@@ -81,14 +85,14 @@ const turewellFC165: ProductDetails = {
         capacity: '600 ml',
         highlight: '8 Nozzles, Value, Ease of use',
         problem: 'Water Resistance',
-        price: '$39.99',
+        price: turewellFC165GlobalData.productPrice,
         satisfaction: '8/10',
       },
       {
         id: 2,
-        productUrl: "/reviews/affordable-countertop-irrigators/counter/sawgmoreFC166",
+        path: sawgmoreFC166GlobalData.path,
         model: "Sawgmore FC166",
-        image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700914063/Best/CounterTop/Sawgmore/eltsrjk4gxf7zocubifd.webp",
+        image: sawgmoreFC166GlobalData.imageSmall,
         alt: "FC166 Water Flosser",
         prime: true,
         dimensions: "7.9 x 4.5 x 3.9 inches",
@@ -96,14 +100,14 @@ const turewellFC165: ProductDetails = {
         capacity: "600ml",
         highlight: "10 adjustable pressure levels",
         problem: "May require frequent refills at high settings",
-        price: "$31.34",
+        price: sawgmoreFC166GlobalData.productPrice,
         satisfaction: "8/10'",
       },
       {
         id: 3,
-        productUrl: '/reviews/affordable-countertop-irrigators/counter/h2oflossHF9',
+        path: h2oflossHF9GlobalData.path,
         model: 'H2ofloss HF-9',
-        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700761200/Best/CounterTop/h2ofloss-HF9/ekdpaygkjqtbbvzb17qj.webp',
+        image: h2oflossHF9GlobalData.imageSmall,
         alt: 'H2ofloss HF-9 Oral Irrigator',
         prime: true,
         dimensions: '8.39 x 2.56 x 4 in, 4.14 lbs',
@@ -111,7 +115,7 @@ const turewellFC165: ProductDetails = {
         capacity: '800 ml',
         highlight: 'User-Friendly Design, Versatility and Cleaning Power',
         problem: 'Leaking Problems, Noise Levels',
-        price: '$36.99',
+        price: h2oflossHF9GlobalData.productPrice,
         satisfaction: '9/10',
       },
     ]
@@ -121,7 +125,7 @@ const turewellFC165: ProductDetails = {
     title: "Pros and Cons of the Turewell FC165",
     description: "Pros and cons to help you decide if the Turewell FC165 is the right choice for your oral hygiene needs.",
     cta: "Buy Now on Amazon",
-    buyLink: "https://amzn.to/46Ose6r",
+    buyLink: turewellFC165GlobalData.amazonUrl,
     pros: [
       { title: "Good value for the price." },
       { title: "Effectively removes plaque and debris." },
@@ -135,5 +139,3 @@ const turewellFC165: ProductDetails = {
     ],
   },
 }
-
-export default turewellFC165

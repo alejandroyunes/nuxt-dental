@@ -42,7 +42,7 @@ export interface ProductDetails {
     description: string
     models: {
       id: number
-      productUrl: string
+      path: string
       model: string
       image: string
       alt: string
