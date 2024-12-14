@@ -33,9 +33,7 @@ const toggleSliderTopNav = () => {
 </script>
 
 <template>
-
   <header class="header">
-
     <div class="container">
       <div class="logo-and-title">
         <NuxtLink to="/" class="logo">
@@ -54,8 +52,6 @@ const toggleSliderTopNav = () => {
         </div>
 
         <Dropdown class="desktop-only" />
-        <ButtonsGlowOn text="Contacto" link="/contacto" class="contact-button desktop-only"
-          aria-label="Ir a la sección de contacto" />
 
         <div class="hamburger-menu mobile-only" @click="toggleSliderTopNav">
           <HamburgerVerticalSvg class="icon" aria-label="Abrir menú de navegación" />
@@ -64,9 +60,7 @@ const toggleSliderTopNav = () => {
         <SliderTopNav :toggle="toggleSliderTopNav" :isOpen="isSliderTopNavOpen" />
       </div>
     </div>
-
   </header>
-
 </template>
 
 <style lang="scss" scoped>
@@ -142,14 +136,6 @@ const toggleSliderTopNav = () => {
 
         @media (max-width: 768px) {
           display: flex;
-        }
-      }
-
-      .contact-button {
-        margin-left: 1rem;
-
-        @media (max-width: 768px) {
-          margin-left: .2rem;
         }
       }
 
