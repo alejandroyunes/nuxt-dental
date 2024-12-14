@@ -4,7 +4,7 @@ import { h2oflossHF9GlobalData } from './global'
 import { sawgmoreFC166GlobalData } from './global'
 import { turewellFC165GlobalData } from './global'
 
-export const oeeterM01: ProductDetails = {
+const oeeterM01: ProductDetails = {
   id: 4,
   fileName: 'oeeterM01',
   info: {
@@ -155,3 +155,5 @@ export const oeeterM01: ProductDetails = {
     ],
   },
 }
+
+export default oeeterM01

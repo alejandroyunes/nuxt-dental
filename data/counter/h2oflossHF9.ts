@@ -3,8 +3,9 @@ import { sawgmoreFC166GlobalData } from './global';
 import { turewellFC165GlobalData } from './global';
 import { h2oflossHF9GlobalData } from './global';
 import { oeeterM01GlobalData } from './global';
+import turewellFC165 from './turewellFC165';
 
-export const h2oflossHF9: ProductDetails = {
+const h2oflossHF9: ProductDetails = {
   id: 2,
   fileName: 'h2oflossHF9',
   info: {
@@ -114,6 +115,7 @@ export const h2oflossHF9: ProductDetails = {
         price: h2oflossHF9GlobalData.productPrice,
         satisfaction: '9/10',
       },
+      turewellFC165.comparison.models[0],
       {
         id: 2,
         path: sawgmoreFC166GlobalData.path,
@@ -183,3 +185,4 @@ export const h2oflossHF9: ProductDetails = {
   },
 };
 
+export default h2oflossHF9;

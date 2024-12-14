@@ -20,7 +20,11 @@ const { info } = defineProps<{
         {{ info?.description }}
       </p>
 
-      <div class="price">{{ info?.price }}</div>
+      <div class="price-and-date">
+        <p class="price">{{ info?.price }}</p>
+        <p class="date">last updated: <strong>{{ info?.updatedDate }}</strong></p>
+      </div>
+
       <div class="rating">
         <span> ⭐ {{ info?.rating.stars }} Stars</span>
         <span> ❤️ {{ info?.rating.reviews }} reviews</span>

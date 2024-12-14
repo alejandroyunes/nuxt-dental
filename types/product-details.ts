@@ -61,11 +61,7 @@ export interface ProductDetails {
     description: string
     cta: string
     buyLink: string
-    pros: {
-      title: string
-    }[],
-    cons: {
-      title: string
-    }[]
+    pros: { title: string }[],
+    cons: { title: string }[]
   },
 }

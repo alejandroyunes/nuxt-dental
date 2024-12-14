@@ -1,11 +1,11 @@
 import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
-import { turewellFC165 } from './turewellFC165'
-import { h2oflossHF9 } from './h2oflossHF9'
-import { sawgmoreFC166 } from './sawgmoreFC166'
-import { oeeterM01 } from './oeeterM01'
-import { heyaxa2302WF } from './heyaxa2302WF'
-import { turewellFC162 } from './turewellFC162'
+import turewellFC165 from './turewellFC165'
+import h2oflossHF9 from './h2oflossHF9'
+import sawgmoreFC166 from './sawgmoreFC166'
+import oeeterM01 from './oeeterM01'
+import heyaxa2302WF from './heyaxa2302WF'
+import turewellFC162 from './turewellFC162'
 
 export const counterReviewsTitle: TitleInfo = {
   title: 'Affordable CounterTop Irrigators',

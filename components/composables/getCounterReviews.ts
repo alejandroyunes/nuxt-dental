@@ -3,7 +3,6 @@ import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
 import { counterReviewsDescription, counterReviewsTitle } from '~/data/counter/reviews'
 
-
 export function getCounterReviews() {
 
   const counterReviewTitle = ref<TitleInfo>({

@@ -4,7 +4,7 @@ import { turewellFC165GlobalData } from './global';
 import { sawgmoreFC166GlobalData } from './global';
 import { oeeterM01GlobalData } from './global';
 
-export const turewellFC162: ProductDetails = {
+const turewellFC162: ProductDetails = {
   id: 6,
   fileName: 'turewellFC162',
   info: {
@@ -86,9 +86,9 @@ export const turewellFC162: ProductDetails = {
       {
         id: 1,
         path: turewellFC162GlobalData.path,
-        model: "TUREWELL FC162",
+        model: "Turewell FC162",
         image: turewellFC162GlobalData.image,
-        alt: "TUREWELL FC162 Water Dental Flosser",
+        alt: "Turewell FC162 Water Dental Flosser",
         prime: true,
         dimensions: "10 x 8 x 6 inches",
         tips: "8",
@@ -163,3 +163,5 @@ export const turewellFC162: ProductDetails = {
     ],
   },
 };
+
+export default turewellFC162

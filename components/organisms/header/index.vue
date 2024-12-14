@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import './header.scss'
 import { ref } from 'vue'
 import { setDarkMode } from '~/utils/utils'
 
@@ -40,15 +39,10 @@ const toggleSliderTopNav = () => {
     <div class="container">
       <div class="logo-and-title">
         <NuxtLink to="/" class="logo">
-        <NuxtPicture
-          src="/logo.png"
-          alt="Logo de páginas profesionales"
-          densities="x1"
-          sizes="xs:56px md:56px xl:56px"
-          format="png"
-        />
-      </NuxtLink>
-      <h1>Dental Irrigator</h1>
+          <NuxtPicture src="/logo.png" alt="Logo de páginas profesionales" densities="x1"
+            sizes="xs:56px md:56px xl:56px" format="png" />
+        </NuxtLink>
+        <h1>Dental Irrigator</h1>
       </div>
 
 
@@ -60,7 +54,8 @@ const toggleSliderTopNav = () => {
         </div>
 
         <Dropdown class="desktop-only" />
-        <ButtonsGlowOn text="Contacto" link="/contacto" class="contact-button desktop-only" aria-label="Ir a la sección de contacto" />
+        <ButtonsGlowOn text="Contacto" link="/contacto" class="contact-button desktop-only"
+          aria-label="Ir a la sección de contacto" />
 
         <div class="hamburger-menu mobile-only" @click="toggleSliderTopNav">
           <HamburgerVerticalSvg class="icon" aria-label="Abrir menú de navegación" />
@@ -69,7 +64,105 @@ const toggleSliderTopNav = () => {
         <SliderTopNav :toggle="toggleSliderTopNav" :isOpen="isSliderTopNavOpen" />
       </div>
     </div>
-    
+
   </header>
 
 </template>
+
+<style lang="scss" scoped>
+.header {
+  width: 100%;
+  padding: 0;
+  z-index: 10;
+  position: fixed;
+  background-color: var(--background-base);
+  box-shadow: var(--shadow-base);
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: var(--max-width);
+    height: 68px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    .logo-and-title {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      h1 {
+        font-size: 1.5rem;
+        color: var(--heading);
+        margin-left: 10px;
+      }
+
+      .logo {
+        max-width: 56px;
+
+        img {
+          display: flex;
+          align-items: center;
+          justify-content: baseline;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    .details {
+      display: flex;
+      align-items: center;
+
+      .dark-mode-icons {
+        display: flex;
+        margin-right: .4rem;
+        padding: 20px 0;
+        cursor: pointer;
+
+        .sun,
+        .moon {
+          margin-right: 16px;
+
+          @media (max-width: 768px) {
+            margin: 0 10px;
+          }
+        }
+
+        @media (max-width: 768px) {
+          margin-right: 0;
+        }
+      }
+
+      .hamburger-menu {
+        padding: 10px 10px 10px 0;
+        cursor: pointer;
+
+        @media (max-width: 768px) {
+          display: flex;
+        }
+      }
+
+      .contact-button {
+        margin-left: 1rem;
+
+        @media (max-width: 768px) {
+          margin-left: .2rem;
+        }
+      }
+
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 0;
+
+    .container {
+      padding: 20px;
+      margin: 10px 10px 0;
+    }
+  }
+}
+</style>

@@ -4,7 +4,7 @@ import { h2oflossHF9GlobalData } from './global';
 import { sawgmoreFC166GlobalData } from './global';
 import { heyaxa2302WFGlobalData } from './global';
 
-export const sawgmoreFC166: ProductDetails = {
+const sawgmoreFC166: ProductDetails = {
   id: 3,
   fileName: 'sawgmoreFC166',
   info: {
@@ -149,3 +149,5 @@ export const sawgmoreFC166: ProductDetails = {
     ],
   },
 };
+
+export default sawgmoreFC166

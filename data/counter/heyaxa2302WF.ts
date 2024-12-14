@@ -4,7 +4,7 @@ import { sawgmoreFC166GlobalData } from './global';
 import { h2oflossHF9GlobalData } from './global';
 import { oeeterM01GlobalData } from './global';
 
-export const heyaxa2302WF: ProductDetails = {
+const heyaxa2302WF: ProductDetails = {
   id: 5,
   fileName: 'heyaxa2302WF',
   info: {
@@ -162,3 +162,5 @@ export const heyaxa2302WF: ProductDetails = {
     ],
   },
 };
+
+export default heyaxa2302WF

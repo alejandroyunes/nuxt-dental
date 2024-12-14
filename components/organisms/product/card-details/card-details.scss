@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    
+
     .image {
       max-width: 400px;
       height: auto;
@@ -28,8 +28,6 @@
         max-width: 400px;
       }
     }
-
-
 
     @media (max-width: 1024px) {
       justify-self: center;
@@ -50,11 +48,25 @@
       font-size: 1.1rem;
     }
 
-    .price {
-      margin-top: .5rem;
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #3498db;
+    .price-and-date {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+
+      .price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: var(--primary);
+      }
+
+      .date {
+        color: var(--text);
+        font-size: 1rem;
+
+        strong {
+          font-weight: bold;
+        }
+      }
     }
 
     .rating {

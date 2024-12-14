@@ -41,8 +41,8 @@ if(product.value) {
     <CardDetails :info="product?.info" />
     <Accordion :info="product?.tableOfContent" />
     <Title :info="product?.title" marginTop />
-    <Features :info="product?.features" />
     <TableComparison :info="product?.comparison" />
     <ProsCons :info="product?.proAndCons" />
+    <Features :info="product?.features" />
   </section>
 </template>

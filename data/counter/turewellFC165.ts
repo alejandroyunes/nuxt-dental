@@ -4,7 +4,7 @@ import { sawgmoreFC166GlobalData } from './global'
 import { turewellFC165GlobalData } from './global'
 import { oeeterM01GlobalData } from './global'
 
-export const turewellFC165: ProductDetails = {
+const turewellFC165: ProductDetails = {
   id: 1,
   fileName: 'turewellFC165',
   info: {
@@ -153,3 +153,5 @@ export const turewellFC165: ProductDetails = {
     ],
   },
 }
+
+export default turewellFC165
