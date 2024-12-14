@@ -28,6 +28,7 @@ const { reviewTitle, reviews } = defineProps<{
 
           <div>
             <p class="price">Price: {{ review.price }}</p>
+            <p>Last Updated: {{ review.updatedDate }}</p>
             <div class="rating">
               <span> ⭐ {{ review.rating }} Stars</span>
               <span> ❤️ {{ review.reviewCount }} reviews</span>

@@ -10,9 +10,9 @@ export const oeeterM01: ProductDetails = {
   info: {
     image: oeeterM01GlobalData.image,
     alt: "Oeeter M01 Water Dental Flosser",
-    title: "Oeeter M01 Water Dental Flosser",
+    title: "Oeeter M01, Water Dental Flosser, 600ml.",
     subtitle: "Professional Oral Care with Adjustable Modes and Tips",
-    description: "Oeeter M01 water dental flosser offers 10 adjustable pressure settings, 3 cleaning modes, 7 tips, and a 600ML water reservoir for effective oral hygiene.",
+    description: "Oeeter M01 water dental flosser offers 10 adjustable pressure settings, 3 cleaning modes, 7 tips, and a 600ml water reservoir for effective oral hygiene.",
     price: oeeterM01GlobalData.productPrice,
     updatedDate: oeeterM01GlobalData.updatedDate,
     buyLink: oeeterM01GlobalData.amazonUrl,

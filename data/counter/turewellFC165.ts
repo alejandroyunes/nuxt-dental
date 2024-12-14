@@ -10,7 +10,7 @@ export const turewellFC165: ProductDetails = {
   info: {
     image: turewellFC165GlobalData.image,
     alt: 'Turewell Water Flossing Oral Irrigator',
-    title: "Turewell Water Flossing Oral Irrigator FC165, 600ml",
+    title: "Turewell FC165, Water Flossing Oral Irrigator, 600ml.",
     subtitle: "Dental Water Teeth Cleaner",
     description: "The Turewell FC165 effectively removes 99.99% of debris, offering superior oral care by reaching areas traditional methods miss, ideal for braces, kids, and those seeking deep cleaning.",
     price: turewellFC165GlobalData.productPrice,

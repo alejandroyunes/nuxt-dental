@@ -24,7 +24,8 @@ export const counterReviewsDescription: ReviewGrid[] = [
     alt: turewellFC165.info.alt,
     price: turewellFC165.info.price,
     rating: turewellFC165.info.rating.stars,
-    reviewCount: turewellFC165.info.rating.reviews
+    reviewCount: turewellFC165.info.rating.reviews,
+    updatedDate: turewellFC165.info.updatedDate
   },
   {
     id: 2,
@@ -35,7 +36,8 @@ export const counterReviewsDescription: ReviewGrid[] = [
     alt: h2oflossHF9.info.alt,
     price: h2oflossHF9.info.price,
     rating: h2oflossHF9.info.rating.stars,
-    reviewCount: h2oflossHF9.info.rating.reviews
+    reviewCount: h2oflossHF9.info.rating.reviews,
+    updatedDate: h2oflossHF9.info.updatedDate
   },
   {
     id: 3,
@@ -46,7 +48,8 @@ export const counterReviewsDescription: ReviewGrid[] = [
     alt: sawgmoreFC166.info.alt,
     price: sawgmoreFC166.info.price,
     rating: sawgmoreFC166.info.rating.stars,
-    reviewCount: sawgmoreFC166.info.rating.reviews
+    reviewCount: sawgmoreFC166.info.rating.reviews,
+    updatedDate: sawgmoreFC166.info.updatedDate
   },
   {
     id: 4,
@@ -57,7 +60,8 @@ export const counterReviewsDescription: ReviewGrid[] = [
     alt: oeeterM01.info.alt,
     price: oeeterM01.info.price,
     rating: oeeterM01.info.rating.stars,
-    reviewCount: oeeterM01.info.rating.reviews
+    reviewCount: oeeterM01.info.rating.reviews,
+    updatedDate: oeeterM01.info.updatedDate
   },
   {
     id: 5,
@@ -68,7 +72,8 @@ export const counterReviewsDescription: ReviewGrid[] = [
     alt: heyaxa2302WF.info.alt,
     price: heyaxa2302WF.info.price,
     rating: heyaxa2302WF.info.rating.stars,
-    reviewCount: heyaxa2302WF.info.rating.reviews
+    reviewCount: heyaxa2302WF.info.rating.reviews,
+    updatedDate: heyaxa2302WF.info.updatedDate
   },
   {
     id: 6,
@@ -79,6 +84,7 @@ export const counterReviewsDescription: ReviewGrid[] = [
     alt: turewellFC162.info.alt,
     price: turewellFC162.info.price,
     rating: turewellFC162.info.rating.stars,
-    reviewCount: turewellFC162.info.rating.reviews
+    reviewCount: turewellFC162.info.rating.reviews,
+    updatedDate: turewellFC162.info.updatedDate
   }
 ]

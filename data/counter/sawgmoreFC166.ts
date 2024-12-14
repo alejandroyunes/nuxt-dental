@@ -10,7 +10,7 @@ export const sawgmoreFC166: ProductDetails = {
   info: {
     image: sawgmoreFC166GlobalData.image,
     alt: "Sawgmore FC166 Water Flosser Oral Irrigator ",
-    title: "Sawgmore Water Flosser Oral Irrigator FC166, 600ml",
+    title: "Sawgmore FC166, Water Flosser Oral Irrigator, 600ml.",
     subtitle: "Easy and efficient, deep cleaning",
     description: "The perfect tooth cleaner for those with braces, implants, crowns, or periodontal pockets. Sawgmore water flosser can effectively remove 99.9% of plaque and solve various oral problems.",
     price: sawgmoreFC166GlobalData.productPrice,

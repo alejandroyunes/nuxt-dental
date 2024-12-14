@@ -9,8 +9,8 @@ export const turewellFC162: ProductDetails = {
   fileName: 'turewellFC162',
   info: {
     image: turewellFC162GlobalData.image,
-    alt: "TUREWELL FC162 Water Dental Flosser",
-    title: "TUREWELL FC162 Water Dental Flosser, 600ML",
+    alt: "Turewell FC162 Water Dental Flosser",
+    title: "TureWell FC162, Water Dental Flosser, 600ml.",
     subtitle: "Electric Water Dental Oral Irrigator for Teeth-Clean (Black)",
     description: "The TUREWELL FC162 is a powerful and efficient water dental flosser that improves gum health, removes plaque, and whitens teeth. It features 10 adjustable pressure levels, 8 specialized water jet tips for family use, a 600ml water tank, and a leakproof design. Ideal for braces, implants, crowns, and periodontal pockets.",
     price: turewellFC162GlobalData.productPrice,

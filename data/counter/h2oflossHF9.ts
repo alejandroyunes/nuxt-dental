@@ -10,7 +10,7 @@ export const h2oflossHF9: ProductDetails = {
   info: {
     image: h2oflossHF9GlobalData.image,
     alt: "H2ofloss HF-9 Dental Water Flosser",
-    title: "H2ofloss Dental Water Flosser, HF-9, 800ml",
+    title: "H2ofloss HF-9, Dental Water Flosser, 800ml.",
     subtitle: "Professional Countertop Oral Irrigator",
     description: "Elevate your oral hygiene with 13 multifunctional tips, 800ml capacity, and a quiet design. Removes up to 99.9% of plaque and offers a customizable cleaning experience.",
     price: h2oflossHF9GlobalData.productPrice,

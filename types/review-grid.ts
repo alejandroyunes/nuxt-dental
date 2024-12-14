@@ -6,6 +6,7 @@ export interface ReviewGrid {
   image: string,
   alt: string,
   price: string,
+  updatedDate: string
   rating: number,
   reviewCount: number
 }

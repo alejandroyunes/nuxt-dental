@@ -9,11 +9,11 @@ export const heyaxa2302WF: ProductDetails = {
   fileName: 'heyaxa2302WF',
   info: {
     image: heyaxa2302WFGlobalData.image,
-    alt: "HEYAXA Water Dental Flosser - White",
-    title: "HEYAXA 1000ML Water Dental Flosser",
+    alt: "Heyaxa 2302WF Water Dental Flosser",
+    title: "Heyaxa 2302WF, Water Dental Flosser, 1000ml.",
     subtitle: "Professional Oral Irrigator with UV Storage",
     description:
-      "Efficient and deep cleaning for gum health and oral hygiene. Featuring a 1000ML tank, 10 adjustable pressure levels, and 7 nozzles for family use. Ideal for gum health and braces.",
+      "Efficient and deep cleaning for gum health and oral hygiene. Featuring a 1000ml tank, 10 adjustable pressure levels, and 7 nozzles for family use. Ideal for gum health and braces.",
     price: heyaxa2302WFGlobalData.productPrice,
     updatedDate: heyaxa2302WFGlobalData.updatedDate,
     buyLink: heyaxa2302WFGlobalData.amazonUrl,
@@ -23,7 +23,7 @@ export const heyaxa2302WF: ProductDetails = {
       reviews: 125,
     },
     characteristics: [
-      "1000ML large water tank for uninterrupted cleaning",
+      "1000ml large water tank for uninterrupted cleaning",
       "10 adjustable pressure levels (30-125 PSI)",
       "7 nozzles for various oral care needs",
       "Unique UV storage compartment for hygiene",
@@ -40,7 +40,7 @@ export const heyaxa2302WF: ProductDetails = {
   ],
   title: {
     id: "title",
-    title: "HEYAXA 1000ML Dental Water Flosser",
+    title: "HEYAXA 1000ml Dental Water Flosser",
     description: "Experience superior oral hygiene with this advanced oral irrigator.",
     subtext: "Perfect for family use, braces, and gum health.",
   },
@@ -54,7 +54,7 @@ export const heyaxa2302WF: ProductDetails = {
           "Pulses up to 1700 times/min with 360° rotating nozzles for thorough cleaning, massaging gums, and preventing tooth stains.",
       },
       {
-        title: "Large 1000ML Water Tank",
+        title: "Large 1000ml Water Tank",
         description: "Provides up to 180 seconds of uninterrupted cleaning, perfect for family use.",
       },
       {
@@ -91,7 +91,7 @@ export const heyaxa2302WF: ProductDetails = {
         prime: true,
         dimensions: "10 x 8 x 6 inches",
         tips: "6",
-        capacity: "900ML",
+        capacity: "900ml",
         highlight: "Compact and portable",
         problem: "Smaller tank capacity",
         price: heyaxa2302WFGlobalData.productPrice,
@@ -106,7 +106,7 @@ export const heyaxa2302WF: ProductDetails = {
         prime: true,
         dimensions: "8 x 6 x 4 inches",
         tips: "7 Tips",
-        capacity: "600ML",
+        capacity: "600ml",
         highlight: "Compact and portable design with magnetic handle",
         problem: "Lower water capacity compared to competitors",
         price: oeeterM01GlobalData.productPrice,
