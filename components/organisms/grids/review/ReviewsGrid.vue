@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import './reviews-grid.scss'
 import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
 import TitleDescription from "~/components/atoms/title-description/index.vue"
@@ -43,3 +42,91 @@ const { reviewTitle, reviews } = defineProps<{
 
   </section>
 </template>
+
+<style scoped lang="scss">
+.irrigator-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+
+
+    @media (max-width: 1024px) {
+      grid-template-columns: 1fr;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 12px;
+      background-color: var(--background-soft);
+      box-shadow: var(--shadow-card);
+
+      .image {
+        object-fit: cover;
+        transition: transform 0.3s ease;
+        padding: 20px;
+      }
+
+      &:hover .image {
+        transform: scale(1.05);
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1.5rem;
+        height: 100%;
+    
+
+        h3 {
+          font-size: 1.25rem;
+          color: var(--text-color);
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      .price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3498db;
+        margin-bottom: 0.5rem;
+      }
+
+      .rating {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5rem;
+        margin: .5rem 0 .8rem;
+
+        span {
+          color: var(--text-color);
+          font-weight: bold;
+          font-size: 1rem;
+        }
+      }
+
+      .button {
+        display: inline-block;
+        width: 100%;
+        padding: 0.75rem 1.5rem;
+        background: var(--primary);
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 6px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background: darken(#3498db, 10%);
+        }
+      }
+    }
+  }
+}
+</style>
