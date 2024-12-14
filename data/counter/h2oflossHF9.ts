@@ -2,6 +2,7 @@ import type { ProductDetails } from '~/types/product-details';
 import { sawgmoreFC166GlobalData } from './global';
 import { turewellFC165GlobalData } from './global';
 import { h2oflossHF9GlobalData } from './global';
+import { oeeterM01GlobalData } from './global';
 
 export const h2oflossHF9: ProductDetails = {
   id: 2,
@@ -16,7 +17,7 @@ export const h2oflossHF9: ProductDetails = {
     price: h2oflossHF9GlobalData.productPrice,
     updatedDate: h2oflossHF9GlobalData.updatedDate,
     buyLink: h2oflossHF9GlobalData.amazonUrl,
-    cta: "Buy Now",
+    cta: "Buy Now on Amazon",
     rating: {
       stars: 4.3,
       reviews: 16116,
@@ -144,13 +145,28 @@ export const h2oflossHF9: ProductDetails = {
         price: turewellFC165GlobalData.productPrice,
         satisfaction: '8/10',
       },
+      {
+        id: 4,
+        path: oeeterM01GlobalData.path,
+        model: "Oeeter M01",
+        image: oeeterM01GlobalData.imageSmall,
+        alt: "Oeeter M01 Water Dental Flosser",
+        prime: true,
+        dimensions: "8 x 6 x 4 inches",
+        tips: "7 Tips",
+        capacity: "600ML",
+        highlight: "Compact and portable design with magnetic handle",
+        problem: "Lower water capacity compared to competitors",
+        price: oeeterM01GlobalData.productPrice,
+        satisfaction: "4.0/5",
+      },
     ]
   },
   proAndCons: {
     id: "pros-and-cons",
     title: "Pros and Cons of the H2ofloss HF-9",
     description: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the H2ofloss Dental Water Flosser, HF-9, 800ml is the right fit for them.",
-    cta: "View all Reviews",
+    cta: "Buy Now on Amazon",
     buyLink: h2oflossHF9GlobalData.amazonUrl,
     pros: [
       { title: "Great performance and cleaning capabilities" },

@@ -1,6 +1,6 @@
 import type { ProductDetails } from '~/types/product-details';
 import { turewellFC162GlobalData } from './global';
-import { heyaxa2302WFGlobalData } from './global';
+import { turewellFC165GlobalData } from './global';
 import { sawgmoreFC166GlobalData } from './global';
 import { oeeterM01GlobalData } from './global';
 
@@ -101,18 +101,18 @@ export const turewellFC162: ProductDetails = {
       },
       {
         id: 2,
-        path: heyaxa2302WFGlobalData.path,
-        model: "HEYAXA 2302WF",
-        image: heyaxa2302WFGlobalData.imageSmall,
-        alt: "HEYAXA 2302WF Water Flosser",
+        path: turewellFC165GlobalData.path,
+        model: 'Turewell FC165',
+        image: turewellFC165GlobalData.imageSmall,
+        alt: 'Turewell FC165 Oral Irrigator',
         prime: true,
-        dimensions: "10 x 8 x 6 inches",
-        tips: "6",
-        capacity: "900ML",
-        highlight: "Compact and portable",
-        problem: "Smaller tank capacity",
-        price: heyaxa2302WFGlobalData.productPrice,
-        satisfaction: "4.0/5",
+        dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
+        tips: '8',
+        capacity: '600 ml',
+        highlight: '8 Nozzles, Value, Ease of use',
+        problem: 'Water Resistance',
+        price: turewellFC165GlobalData.productPrice,
+        satisfaction: '8/10',
       },
       {
         id: 3,

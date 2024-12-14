@@ -2,7 +2,7 @@ import type { ProductDetails } from '~/types/product-details'
 import { h2oflossHF9GlobalData } from './global'
 import { sawgmoreFC166GlobalData } from './global'
 import { turewellFC165GlobalData } from './global'
-
+import { oeeterM01GlobalData } from './global'
 
 export const turewellFC165: ProductDetails = {
   id: 1,
@@ -117,6 +117,21 @@ export const turewellFC165: ProductDetails = {
         problem: 'Leaking Problems, Noise Levels',
         price: h2oflossHF9GlobalData.productPrice,
         satisfaction: '9/10',
+      },
+      {
+        id: 4,
+        path: oeeterM01GlobalData.path,
+        model: "Oeeter M01",
+        image: oeeterM01GlobalData.imageSmall,
+        alt: "Oeeter M01 Water Dental Flosser",
+        prime: true,
+        dimensions: "8 x 6 x 4 inches",
+        tips: "7 Tips",
+        capacity: "600ML",
+        highlight: "Compact and portable design with magnetic handle",
+        problem: "Lower water capacity compared to competitors",
+        price: oeeterM01GlobalData.productPrice,
+        satisfaction: "4.0/5",
       },
     ]
   },

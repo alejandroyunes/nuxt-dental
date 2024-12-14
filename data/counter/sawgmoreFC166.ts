@@ -2,8 +2,7 @@ import type { ProductDetails } from '~/types/product-details';
 import { turewellFC165GlobalData } from './global';
 import { h2oflossHF9GlobalData } from './global';
 import { sawgmoreFC166GlobalData } from './global';
-
-
+import { heyaxa2302WFGlobalData } from './global';
 
 export const sawgmoreFC166: ProductDetails = {
   id: 3,
@@ -116,6 +115,21 @@ export const sawgmoreFC166: ProductDetails = {
         problem: 'Leaking Problems, Noise Levels',
         price: h2oflossHF9GlobalData.productPrice,
         satisfaction: '9/10',
+      },
+      {
+        id: 4,
+        path: heyaxa2302WFGlobalData.path,
+        model: "HEYAXA 2302WF",
+        image: heyaxa2302WFGlobalData.imageSmall,
+        alt: "HEYAXA 2302WF Water Flosser",
+        prime: true,
+        dimensions: "10 x 8 x 6 inches",
+        tips: "6",
+        capacity: "900ML",
+        highlight: "Compact and portable",
+        problem: "Smaller tank capacity",
+        price: heyaxa2302WFGlobalData.productPrice,
+        satisfaction: "4.0/5",
       },
     ],
   },

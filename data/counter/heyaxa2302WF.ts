@@ -5,7 +5,7 @@ import { h2oflossHF9GlobalData } from './global';
 import { oeeterM01GlobalData } from './global';
 
 export const heyaxa2302WF: ProductDetails = {
-  id: 1,
+  id: 5,
   fileName: 'heyaxa2302WF',
   info: {
     image: heyaxa2302WFGlobalData.imageLarge,
@@ -15,7 +15,7 @@ export const heyaxa2302WF: ProductDetails = {
     subtitle: "Professional Oral Irrigator with UV Storage",
     description:
       "Efficient and deep cleaning for gum health and oral hygiene. Featuring a 1000ML tank, 10 adjustable pressure levels, and 7 nozzles for family use. Ideal for gum health and braces.",
-    price: "$55.99",
+    price: heyaxa2302WFGlobalData.productPrice,
     updatedDate: heyaxa2302WFGlobalData.updatedDate,
     buyLink: heyaxa2302WFGlobalData.amazonUrl,
     cta: "Buy on Amazon",
