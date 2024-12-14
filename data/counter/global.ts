@@ -48,6 +48,17 @@ export const heyaxa2302WFGlobalData = {
   updatedDate: '11/23/2023'
 }
 
+export const turewellFC162GlobalData = {
+  imageLarge: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733958763/irrigators/turewell/fc162_ajdbgq.webp',
+  imageSmall: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/lefgkh44oubzssdeegxz.webp',
+  amazonUrl: 'https://www.amazon.com/TUREWELL-FC162-Irrigator10-Adjustable-Replaceable/dp/B0876YT6RW/ref=sr_1_3_sspa?crid=3I5D5TLGJ0VLJ&dib=eyJ2IjoiMSJ9.WX-kO1B3iHSu_Kfy5dZcIO9lKZrfuQr3WyiiAOuiy2Y.Q48-jZLEYogdISvepYTX_3T67o5jAcI9Q-cgpYB_9P0&dib_tag=se&keywords=turewell+162&qid=1734152803&sprefix=turewell+162%2Caps%2C222&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1',
+  productPrice: '31.99',
+  amazonPrime: 'https://www.amazon.com',
+  path: '/reviews/portable-oral-irrigators/best/turewellFC162',
+  updatedDate: '11/23/2023'
+}
+
+
 
 export const zerhuntFC169GlobalData = {
   headerBgImage: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936985/Best/CounterTop/ZerhuntFC169/q56nnqpinm9wzl0b2kx2.webp',

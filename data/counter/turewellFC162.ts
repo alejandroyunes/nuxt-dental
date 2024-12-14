@@ -1,28 +1,36 @@
-import type { ProductDetails } from '~/types/product-details'
-const turewellFC162: ProductDetails = {
+import type { ProductDetails } from '~/types/product-details';
+import { turewellFC162GlobalData } from './global';
+import { heyaxa2302WFGlobalData } from './global';
+import { sawgmoreFC166GlobalData } from './global';
+import { oeeterM01GlobalData } from './global';
+
+export const turewellFC162: ProductDetails = {
   id: 6,
   fileName: 'turewellFC162',
   info: {
-    image: "https://res.cloudinary.com/dcpdkock3/image/upload/v1733958763/irrigators/turewell/fc162_ajdbgq.webp", // Example image URL
-    imageSmall: "https://res.cloudinary.com/dcpdkock3/image/upload/v1733958763/irrigators/turewell/fc162_ajdbgq.webp", // Example small image URL
+    image: turewellFC162GlobalData.imageLarge,
+    imageSmall: turewellFC162GlobalData.imageSmall,
     alt: "TUREWELL FC162 Water Dental Flosser",
-    title: "TUREWELL FC162 Water Dental Flosser for Teeth/Braces, 10 Pressure Levels",
+    title: "TUREWELL FC162 Water Dental Flosser for Teeth/Braces, 10 Pressure Levels, 8 Water Jet Tips for Family, 600ML",
     subtitle: "Electric Water Dental Oral Irrigator for Teeth-Clean (Black)",
-    description: "The TUREWELL FC162 is a powerful and efficient water dental flosser that helps in cleaning teeth, improving gum health, and whitening teeth. With 10 adjustable pressure settings, it comes with 8 dental water jet tips suitable for the whole family. It offers high-pressure performance with a large 600ml water tank for uninterrupted cleaning.",
-    price: "$31.99",
-    updatedDate: "2024-12-11",
-    buyLink: "https://www.amazon.com/dp/B0876YT6RW",
+    description: "The TUREWELL FC162 is a powerful and efficient water dental flosser that improves gum health, removes plaque, and whitens teeth. It features 10 adjustable pressure levels, 8 specialized water jet tips for family use, a 600ml water tank, and a leakproof design. Ideal for braces, implants, crowns, and periodontal pockets.",
+    price: turewellFC162GlobalData.productPrice,
+    updatedDate: turewellFC162GlobalData.updatedDate,
+    buyLink: turewellFC162GlobalData.amazonUrl,
     cta: "Buy on Amazon",
     rating: {
       stars: 4.3,
-      reviews: 8788,
+      reviews: 8794,
     },
     characteristics: [
       "Corded Electric Power Source",
-      "10 Adjustable Water Pressure Settings",
-      "8 Dental Water Jet Tips",
-      "600ml Large Water Tank",
+      "10 Adjustable Water Pressure Settings (30-125 PSI)",
+      "8 Dental Water Jet Tips (3 high-pressure, 5 specialized)",
+      "600ml Large Water Tank for 90 Seconds of Use",
+      "360° Rotatable Nozzle",
       "Leakproof and Anti-Leak Design",
+      "Suction Cups for Stability",
+      "Heartiness Organizer for Storing Tips",
     ]
   },
   tableOfContent: [
@@ -34,7 +42,7 @@ const turewellFC162: ProductDetails = {
   title: {
     id: "title",
     title: "TUREWELL FC162 Water Dental Flosser",
-    description: "A powerful oral irrigator designed to improve gum health and clean teeth with precision.",
+    description: "A powerful oral irrigator designed to improve gum health, remove plaque, and clean teeth with precision.",
     subtext: "10 Pressure Levels, 8 Tips, 600ml Capacity",
   },
   features: {
@@ -43,27 +51,31 @@ const turewellFC162: ProductDetails = {
     data: [
       {
         title: "10 Adjustable Water Pressure Settings",
-        description: "Customize the pressure settings for different family members and needs, ranging from sensitive teeth to experienced users."
+        description: "Customize pressure from 30-125 PSI for kids, beginners, and experienced users."
       },
       {
         title: "8 Dental Water Jet Tips",
-        description: "Includes 3 ordinary high-pressure tips and 5 special-use jet tips (Orthodontic, Tongue Cleaner, Periodontal, Plaque, Toothbrush) for thorough cleaning."
+        description: "Includes 3 ordinary high-pressure tips and 5 specialized tips (Orthodontic, Tongue Cleaner, Periodontal, Plaque, Toothbrush)."
       },
       {
         title: "600ml Large Water Tank",
-        description: "Allows for up to 90 seconds of continuous water flow, with an easy-to-control on/off switch."
-      },
-      {
-        title: "Leakproof and Anti-Leak Design",
-        description: "Improved double-sealing rings ensure no water leakage during use."
+        description: "Provides up to 90 seconds of uninterrupted use, with an easy on/off switch on the handle."
       },
       {
         title: "360° Rotatable Nozzle",
-        description: "Reaches all areas of the mouth for effective cleaning and tartar removal."
+        description: "Reaches all areas of the mouth for effective tartar and food debris removal."
       },
       {
         title: "Suction Cups for Stability",
-        description: "Helps prevent accidental sliding during use."
+        description: "Prevents accidental sliding during use."
+      },
+      {
+        title: "Leakproof and Anti-Leak Design",
+        description: "Improved double-sealing rings ensure no water leakage."
+      },
+      {
+        title: "Heartiness Organizer",
+        description: "Stores tips in a clean and organized way."
       },
     ],
   },
@@ -73,20 +85,65 @@ const turewellFC162: ProductDetails = {
     description: "We compare the TUREWELL FC162 with other popular dental flossers to help you make an informed decision.",
     models: [
       {
-        id: 0,
-        path: "/reviews/portable-oral-irrigators/best/turewellFC162",
-        model: "Example FC65",
-        image: "https://res.cloudinary.com/dcpdkock3/image/upload/v1733958763/irrigators/turewell/fc162_ajdbgq.webp",
-        alt: "Example FC65 Oral Irrigator",
+        id: 1,
+        path: turewellFC162GlobalData.path,
+        model: "TUREWELL FC162",
+        image: turewellFC162GlobalData.imageSmall,
+        alt: "TUREWELL FC162 Water Dental Flosser",
         prime: true,
-        dimensions: "8.74 x 6.18 x 4.96 inches",
-        tips: "5 Tips",
-        capacity: "500ml",
+        dimensions: "10 x 8 x 6 inches",
+        tips: "8",
+        capacity: "600ml",
         highlight: "Affordable with solid performance",
-        problem: "Smaller water tank",
-        price: "$31.99",
+        problem: "Corded power source may limit portability",
+        price: turewellFC162GlobalData.productPrice,
         satisfaction: "4.3/5 stars",
-      }
+      },
+      {
+        id: 2,
+        path: heyaxa2302WFGlobalData.path,
+        model: "HEYAXA 2302WF",
+        image: heyaxa2302WFGlobalData.imageSmall,
+        alt: "HEYAXA 2302WF Water Flosser",
+        prime: true,
+        dimensions: "10 x 8 x 6 inches",
+        tips: "6",
+        capacity: "900ML",
+        highlight: "Compact and portable",
+        problem: "Smaller tank capacity",
+        price: heyaxa2302WFGlobalData.productPrice,
+        satisfaction: "4.0/5",
+      },
+      {
+        id: 3,
+        path: oeeterM01GlobalData.path,
+        model: "Oeeter M01",
+        image: oeeterM01GlobalData.imageSmall,
+        alt: "Oeeter M01 Water Dental Flosser",
+        prime: true,
+        dimensions: "8 x 6 x 4 inches",
+        tips: "7 Tips",
+        capacity: "600ML",
+        highlight: "Compact and portable design with magnetic handle",
+        problem: "Lower water capacity compared to competitors",
+        price: oeeterM01GlobalData.productPrice,
+        satisfaction: "4.0/5",
+      },
+      {
+        id: 4,
+        path: sawgmoreFC166GlobalData.path,
+        model: "Sawgmore FC166",
+        image: sawgmoreFC166GlobalData.imageSmall,
+        alt: "FC166 Water Flosser",
+        prime: true,
+        dimensions: "7.9 x 4.5 x 3.9 inches",
+        tips: "8",
+        capacity: "600ml",
+        highlight: "10 adjustable pressure levels",
+        problem: "May require frequent refills at high settings",
+        price: sawgmoreFC166GlobalData.productPrice,
+        satisfaction: "8/10'",
+      },
     ]
   },
   proAndCons: {
@@ -94,17 +151,16 @@ const turewellFC162: ProductDetails = {
     title: "Pros and Cons",
     description: "Here's a breakdown of the pros and cons of the TUREWELL FC162 Water Dental Flosser.",
     cta: "Buy on Amazon",
-    buyLink: "https://www.amazon.com/dp/B0876YT6RW",
+    buyLink: turewellFC162GlobalData.amazonUrl,
     pros: [
       { title: "10 Pressure Settings for Customizable Use" },
       { title: "Large Water Tank for Longer Use" },
       { title: "8 Specialized Tips for Versatile Cleaning" },
+      { title: "Heartiness Organizer for Convenient Tip Storage" },
     ],
     cons: [
       { title: "Corded Power Source" },
       { title: "May be too large for travel" },
     ],
   },
-}
-
-export default turewellFC162;
+};

@@ -5,7 +5,7 @@ import { h2oflossHF9 } from './h2oflossHF9'
 import { sawgmoreFC166 } from './sawgmoreFC166'
 import { oeeterM01 } from './oeeterM01'
 import { heyaxa2302WF } from './heyaxa2302WF'
-// import { turewellFC162 } from './turewellFC162'
+import { turewellFC162 } from './turewellFC162'
 
 export const counterReviewsTitle: TitleInfo = {
   title: 'Affordable CounterTop Irrigators',
@@ -70,15 +70,15 @@ export const counterReviewsDescription: ReviewGrid[] = [
     rating: heyaxa2302WF.info.rating.stars,
     reviewCount: heyaxa2302WF.info.rating.reviews
   },
-  // {
-  //   id: 6,
-  //   productId: turewellFC162.id,
-  //   fileName: turewellFC162.fileName,
-  //   name: turewellFC162.info.title,
-  //   image: turewellFC162.info.imageSmall,
-  //   alt: turewellFC162.info.alt,
-  //   price: turewellFC162.info.price,
-  //   rating: turewellFC162.info.rating.stars,
-  //   reviewCount: turewellFC162.info.rating.reviews
-  // }
+  {
+    id: 6,
+    productId: turewellFC162.id,
+    fileName: turewellFC162.fileName,
+    name: turewellFC162.info.title,
+    image: turewellFC162.info.imageSmall,
+    alt: turewellFC162.info.alt,
+    price: turewellFC162.info.price,
+    rating: turewellFC162.info.rating.stars,
+    reviewCount: turewellFC162.info.rating.reviews
+  }
 ]
