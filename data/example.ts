@@ -5,7 +5,7 @@ const example: ProductDetails = {
   fileName: '',
   info: {
     image: "",
-    imageSmall: "",
+    image: "",
     alt: "",
     title: "",
     subtitle: "",

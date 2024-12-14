@@ -3,7 +3,6 @@ export interface ProductDetails {
   fileName: string
   info: {
     image: string
-    imageSmall: string
     alt: string
     title: string
     subtitle: string

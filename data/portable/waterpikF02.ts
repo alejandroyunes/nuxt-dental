@@ -5,7 +5,7 @@ const waterpikF02: ProductDetails = {
   fileName: 'waterpikF02',
   info: {
     image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500932/Best/WaterPicWF02/cyczyuuch0e4h3twemey.webp',
-    imageSmall: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp',
+    image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp',
     alt: "Waterpik Water Flosser Model WF-02",
     title: "Waterpik Water Flosser Model WF-02, 5oz",
     subtitle: "Cordless Express Portable Water Flosser",

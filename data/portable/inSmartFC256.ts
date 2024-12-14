@@ -5,7 +5,7 @@ const inSmartFC256: ProductDetails = {
   fileName: 'inSmartFC256',
   info: {
     image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/td5m6r5zdqqa1criayzq.webp',
-    imageSmall: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/wepwdcnie4cnqdymep3c.webp',
+    image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/wepwdcnie4cnqdymep3c.webp',
     alt: 'InSmart Professional Cordless Water Dental Flosser FC256, 300ml',
     title: "InSmart Professional Cordless Water Dental Flosser - Efficient Oral Care",
     subtitle: 'Dentists highly recommend and choose the global-brand InSmart Portable Water Dental Flosser because it goes beyond the limitations of daily brushing.',

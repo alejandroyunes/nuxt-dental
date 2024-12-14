@@ -5,7 +5,7 @@ const bitvaeC2: ProductDetails = {
   fileName: 'bitvaeC2',
   info: {
     image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/cou9qve0gvhthybqligf.webp',
-    imageSmall: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/ditfkdygrm4qoohqzttw.webp',
+    image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/ditfkdygrm4qoohqzttw.webp',
     alt: "Bitvae C2 Professional Water Dental Flosser, 260ml",
     title: "Bitvae Water Dental Flosser for Teeth - Black",
     subtitle: "Cordless, 3 Modes, 5 Intensities, IPX7 Waterproof, 260ml Reservoir",

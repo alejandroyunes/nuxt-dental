@@ -5,7 +5,7 @@ const nicwellF5025: ProductDetails = {
   fileName: 'nicwellF5025',
   info: {
     image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/rtxb5naorekpycb465eg.webp',
-    imageSmall: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp',
+    image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp',
     alt: 'Nicwell Professional Water Flosser F5025',
     title: 'Nicwell Professional Water Flosser F5025, 200ml',
     subtitle: 'Smart Oral Irrigator',

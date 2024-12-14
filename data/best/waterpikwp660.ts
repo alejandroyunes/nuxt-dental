@@ -5,7 +5,7 @@ const waterpikwp660: ProductDetails = {
   fileName: 'waterpikwp660',
   info: {
     image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701061723/compareIrrigators/WaterPicWP660/tepdnmxuyc7ninueroog.webp",
-    imageSmall: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701061724/compareIrrigators/WaterPicWP660/vkmivxwn8bllfoochcoj.webp",
+    image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701061724/compareIrrigators/WaterPicWP660/vkmivxwn8bllfoochcoj.webp",
     alt: "Waterpik Aquarius WP-660 Water Flosser",
     title: "Waterpik Aquarius WP-660 Water Flosser",
     subtitle: "Professional, Advanced Water Flossing Technology",

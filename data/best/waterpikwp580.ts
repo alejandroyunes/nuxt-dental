@@ -5,7 +5,7 @@ const waterpikwp580: ProductDetails = {
   fileName: 'waterpikwp580',
   info: {
     image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701428933/Best/Waterpik-wp-580/fiptwjxmmnfoz0xfrcg3.webp",
-    imageSmall: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700995936/Best/SingleBests/skhiw9t8lpaq1ccghqon.webp",
+    image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700995936/Best/SingleBests/skhiw9t8lpaq1ccghqon.webp",
     alt: "Waterpik Cordless Advanced 2.0 Water Flosser",
     title: "Waterpik Cordless Advanced 2.0 Water Flosser",
     subtitle: "Portable, Rechargeable, Waterproof",

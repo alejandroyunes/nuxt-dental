@@ -16,23 +16,29 @@ const { reviewTitle, reviews } = defineProps<{
   <section class="irrigator-grid">
     <TitleDescription :info="reviewTitle" :marginTop="marginTop" />
 
-    <div class="grid">
-      <div v-for="review in reviews" :key="review.id" class="irrigator-card">
-        <div class="image-wrapper">
-          <NuxtImg :src="review.image" :alt="review.name" class="image" />
-        </div>
+    <div class="cards">
+      <div v-for="review in reviews" :key="review.id" class="card">
+
+        <NuxtImg :src="review.image" :alt="review.name" class="image" />
+
         <div class="content">
-          <h3>{{ review.name }}</h3>
-          <div class="price">Price: {{ review.price }}</div>
-          <div class="rating">
-            <span> ⭐ {{ review.rating }} Stars</span>
-            <span> ❤️ {{ review.reviewCount }} reviews</span>
+          <div>
+            <h3>{{ review.name }}</h3>
           </div>
-          <NuxtLink :to="`/${reviewTitle.slug}/${review.fileName}`" class="button">
-            Read Review
-          </NuxtLink>
+
+          <div>
+            <p class="price">Price: {{ review.price }}</p>
+            <div class="rating">
+              <span> ⭐ {{ review.rating }} Stars</span>
+              <span> ❤️ {{ review.reviewCount }} reviews</span>
+            </div>
+            <NuxtLink :to="`/${reviewTitle.slug}/${review.fileName}`" class="button">
+              Read Review
+            </NuxtLink>
+          </div>
         </div>
       </div>
     </div>
+
   </section>
 </template>

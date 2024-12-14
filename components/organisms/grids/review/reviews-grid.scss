@@ -1,41 +1,26 @@
 .irrigator-grid {
-	background-color: var(--background);
+	max-width: 1200px;
+	margin: 0 auto;
 
-	.grid {
+	.cards {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		gap: 2rem;
-		max-width: 1200px;
-		margin: 0 auto;
+
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		gap: 1rem;
 
 		@media (max-width: 1024px) {
 			grid-template-columns: 1fr;
 		}
 
-		.irrigator-card {
-			background: var(--white);
+		.card {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			background: var(--gray-base);
 			border-radius: 12px;
-			overflow: hidden;
-			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-			transition: transform 0.3s ease;
-
-			&:hover {
-				transform: translateY(-4px);
-			}
-
-			.image-wrapper {
-				position: relative;
-				width: 100%;
-				padding-top: 100%;
-				overflow: hidden;
-			}
 
 			.image {
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
 				object-fit: cover;
 				transition: transform 0.3s ease;
 				padding: 20px;
@@ -46,7 +31,11 @@
 			}
 
 			.content {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
 				padding: 1.5rem;
+				height: 100%;
 
 				h3 {
 					font-size: 1.25rem;
@@ -67,7 +56,7 @@
 				justify-content: space-between;
 				gap: 0.5rem;
 				margin: .5rem 0 .8rem;
-	
+
 				span {
 					color: var(--text-color);
 					font-weight: bold;

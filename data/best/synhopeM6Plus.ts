@@ -5,7 +5,7 @@ const synhopeM6Plus: ProductDetails = {
   fileName: 'synhopeM6Plus',
   info: {
     image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701618666/typesOfIrrigators/portable/Synhope-b08/kqe8imskviqh6vic6xbl.webp",
-    imageSmall: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701618666/typesOfIrrigators/portable/Synhope-b08/raqx09dsxkupdjhcgg7v.webp",
+    image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701618666/typesOfIrrigators/portable/Synhope-b08/raqx09dsxkupdjhcgg7v.webp",
     alt: "SYNHOPE M6Plus Water Flosser",
     title: "SYNHOPE M6Plus Water Flosser",
     subtitle: "Mini Cordless Portable Oral Irrigator",
