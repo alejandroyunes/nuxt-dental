@@ -164,12 +164,14 @@ const supportLinks = [
             background-color: 'none';
 
             &:hover {
-              background-color: var(--background-soft);
+              background-color: var(--background-dark);
+              color: var(--white);
             }
 
             p {
               margin-left: 1rem;
               font-weight: 500;
+
             }
           }
 

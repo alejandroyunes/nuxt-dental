@@ -6,6 +6,7 @@
   --secondary-soft: #5c6b7d;
 
   --indigo: #2c3e50;
+  --indigo-soft: #5c6b7d;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffe979;
@@ -55,9 +56,8 @@
   --border-white: rgb(153, 153, 153);
   --border-black: rgb(142, 109, 109);
 
-  //new
-
-  --background-text: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+  --background-text-black: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+  --background-text-white: linear-gradient(135deg, #8bc5ff 0%, #226b9b 100%);
 
   --max-width: 1280px;
   --tablet-width: 1024px;
@@ -68,10 +68,13 @@
   --background: var(--white);
   --background-soft: var(--white-soft);
   --background-base: var(--white-base);
+  --background-dark: var(--indigo-soft);
 
   --background-opposite: var(--black);
   --background-opposite-soft: var(--black-soft);
   --background-opposite-base: var(--black-base);
+
+  --background-text: var(--background-text-black);
 
   --heading: var(--black);
   --heading-soft: var(--black-soft);
@@ -98,10 +101,13 @@
   --background: var(--black);
   --background-soft: var(--black-soft);
   --background-base: var(--black-base);
+  --background-dark: var(--indigo);
 
   --background-opposite: var(--white);
   --background-opposite-soft: var(--white-soft);
   --background-opposite-base: var(--white-base);
+
+  --background-text: var(--background-text-white);
 
   --heading: var(--white);
   --heading-soft: var(--white-soft);
