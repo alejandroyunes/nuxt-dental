@@ -82,7 +82,7 @@ const { reviewTitle, reviews } = defineProps<{
         justify-content: space-between;
         padding: 1.5rem;
         height: 100%;
-    
+
 
         h3 {
           font-size: 1.25rem;
