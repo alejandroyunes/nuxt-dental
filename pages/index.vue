@@ -28,7 +28,6 @@ useSeoMeta({
 const { reviewPortables, reviewTitlePortables } = getPortablesReviews()
 const { counterReviewDescription, counterReviewTitle } = getCounterReviews()
 
-
 </script>
 
 <template>
@@ -37,7 +36,4 @@ const { counterReviewDescription, counterReviewTitle } = getCounterReviews()
   <ReviewsGrid :reviews="counterReviewDescription" :reviewTitle="counterReviewTitle" />
   <TypeSection />
   <QuestionsAndAnswers />
-
-  
-
 </template>
