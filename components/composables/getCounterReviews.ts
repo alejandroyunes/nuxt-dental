@@ -1,17 +1,17 @@
 import { ref, onMounted } from 'vue'
 import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
-import { counterReviewsDescription, counterReviewsTitle } from '~/data/counter/reviews'
+import { bestCounterReviewsDescription, bestCounterReviewsTitle } from '~/data/counter/02-reviews'
 
 export function getCounterReviews() {
 
-  const counterReviewTitle = ref<TitleInfo>({
+  const bestCounterReviewTitle = ref<TitleInfo>({
     title: '',
     description: '',
     subtext: '',
     slug: ''
   })
-  const counterReviewDescription = ref<ReviewGrid[]>([])
+  const bestCounterReviewDescription = ref<ReviewGrid[]>([])
 
   const loadingCounter = ref(false)
   const errorCounter = ref<string | null>(null)
@@ -19,8 +19,8 @@ export function getCounterReviews() {
   const fetchPosts = async () => {
     loadingCounter.value = true
     try {
-      counterReviewTitle.value = await counterReviewsTitle
-      counterReviewDescription.value = await counterReviewsDescription
+      bestCounterReviewTitle.value = await bestCounterReviewsTitle
+      bestCounterReviewDescription.value = await bestCounterReviewsDescription
       loadingCounter.value = false
     } catch (e) {
       errorCounter.value = 'Failed to fetch posts'
@@ -31,8 +31,8 @@ export function getCounterReviews() {
   onMounted(fetchPosts)
 
   return {
-    counterReviewTitle,
-    counterReviewDescription,
+    bestCounterReviewTitle,
+    bestCounterReviewDescription,
     loadingCounter,
     errorCounter
   }

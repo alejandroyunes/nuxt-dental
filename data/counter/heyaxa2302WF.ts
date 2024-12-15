@@ -1,8 +1,8 @@
 import type { ProductDetails } from '~/types/product-details';
-import { heyaxa2302WFGlobalData } from './global';
-import { sawgmoreFC166GlobalData } from './global';
-import { h2oflossHF9GlobalData } from './global';
-import { oeeterM01GlobalData } from './global';
+import { heyaxa2302WFGlobalData } from './01-global';
+import { sawgmoreFC166GlobalData } from './01-global';
+import { h2oflossHF9GlobalData } from './01-global';
+import { oeeterM01GlobalData } from './01-global';
 
 const heyaxa2302WF: ProductDetails = {
   id: 5,

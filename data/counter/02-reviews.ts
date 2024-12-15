@@ -7,14 +7,14 @@ import oeeterM01 from './oeeterM01'
 import heyaxa2302WF from './heyaxa2302WF'
 import turewellFC162 from './turewellFC162'
 
-export const counterReviewsTitle: TitleInfo = {
+export const bestCounterReviewsTitle: TitleInfo = {
   title: 'Affordable CounterTop Irrigators',
   description: 'Explore the best budget-friendly countertop oral irrigators that provide superior dental care with high water pulsation, multiple pressure settings, and various tips for different needs.',
   subtext: 'Achieve effective, professional-level cleaning without the high cost. Perfect for families and individuals looking for a reliable and affordable oral care solution.',
   slug: 'reviews/affordable-countertop-irrigators/counter'
 }
 
-export const counterReviewsDescription: ReviewGrid[] = [
+export const bestCounterReviewsDescription: ReviewGrid[] = [
   {
     id: 1,
     productId: turewellFC165.id,

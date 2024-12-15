@@ -1,112 +1,40 @@
 import { ref, onMounted } from 'vue'
 import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
-import waterpikF02 from '~/data/portable/waterpikF02'
-import nicwellF5025 from '~/data/portable/nicwellF5025'
-import nicefeelFC1592 from '~/data/portable/nicefeelFC1592'
-import inSmartFC256 from "~/data/portable/inSmartFC256"
-import coslusF5020E from "~/data/portable/coslusF5020E"
-import bitvaeC2 from "~/data/portable/bitvaeC2"
+import { bestPortableReviewsDescription, bestPortableReviewsTitle } from "~/data/portable/02-reviews"
 
 export function getPortablesReviews() {
 
-  const reviewPortables = ref<ReviewGrid[]>([
-    {
-      id: 1,
-      productId: waterpikF02.id,
-      fileName: waterpikF02.fileName,
-      name: waterpikF02.info.title,
-      image: waterpikF02.info.image,
-      alt: waterpikF02.info.alt,
-      price: waterpikF02.info.price,
-      rating: waterpikF02.info.rating.stars,
-      reviewCount: waterpikF02.info.rating.reviews
-    },
-    {
-      id: 2,
-      productId: nicwellF5025.id,
-      fileName: nicwellF5025.fileName,
-      name: nicwellF5025.info.title,
-      image: nicwellF5025.info.image,
-      alt: nicwellF5025.info.alt,
-      price: nicwellF5025.info.price,
-      rating: nicwellF5025.info.rating.stars,
-      reviewCount: nicwellF5025.info.rating.reviews
-    },
-    {
-      id: 3,
-      productId: nicefeelFC1592.id,
-      fileName: nicefeelFC1592.fileName,
-      name: nicefeelFC1592.info.title,
-      image: nicefeelFC1592.info.image,
-      alt: nicefeelFC1592.info.alt,
-      price: nicefeelFC1592.info.price,
-      rating: nicefeelFC1592.info.rating.stars,
-      reviewCount: nicefeelFC1592.info.rating.reviews
-    },
-    {
-      id: 4,
-      productId: inSmartFC256.id,
-      fileName: inSmartFC256.fileName,
-      name: inSmartFC256.info.title,
-      image: inSmartFC256.info.image,
-      alt: inSmartFC256.info.alt,
-      price: inSmartFC256.info.price,
-      rating: inSmartFC256.info.rating.stars,
-      reviewCount: inSmartFC256.info.rating.reviews
-    },
-    {
-      id: 5,
-      productId: coslusF5020E.id,
-      fileName: coslusF5020E.fileName,
-      name: coslusF5020E.info.title,
-      image: coslusF5020E.info.image,
-      alt: coslusF5020E.info.alt,
-      price: coslusF5020E.info.price,
-      rating: coslusF5020E.info.rating.stars,
-      reviewCount: coslusF5020E.info.rating.reviews
-    },
-    {
-      id: 6,
-      productId: bitvaeC2.id,
-      fileName: bitvaeC2.fileName,
-      name: bitvaeC2.info.title,
-      image: bitvaeC2.info.image,
-      alt: bitvaeC2.info.alt,
-      price: bitvaeC2.info.price,
-      rating: bitvaeC2.info.rating.stars,
-      reviewCount: bitvaeC2.info.rating.reviews
-    }
-  ])
-
-  const reviewTitlePortables = ref<TitleInfo>({
-    title: "Affordable And Portable Oral Irrigators",
-    description: "Upgrade your smile game without breaking the bank! Dive into the coolest portable and affordable oral irrigators on Amazon. We've rounded up the best brands for easy, breezy dental care.",
-    subtext: "Click on view more to read our review of the top-rated portable oral Irrigators.",
-    slug: "reviews/affordable-and-portable-oral-irrigators/portable"
+  const bestpPortableReviewTitle = ref<TitleInfo>({
+    title: '',
+    description: '',
+    subtext: '',
+    slug: ''
   })
+  const bestpPortableReviewDescription = ref<ReviewGrid[]>([])
 
-  const loading = ref(false)
-  const error = ref<string | null>(null)
+  const loadingBestPortable = ref(false)
+  const errorBestPortable = ref<string | null>(null)
 
   const fetchPosts = async () => {
-    loading.value = true
+    loadingBestPortable.value = true
     try {
-      // In a real application, this would be an API call
-      // await fetch('/api/posts')
-      loading.value = false
+      bestpPortableReviewTitle.value = await bestPortableReviewsTitle
+      bestpPortableReviewDescription.value = await bestPortableReviewsDescription
+      loadingBestPortable.value = false
+
     } catch (e) {
-      error.value = 'Failed to fetch posts'
-      loading.value = false
+      errorBestPortable.value = 'Failed to fetch posts'
+      loadingBestPortable.value = false
     }
   }
 
   onMounted(fetchPosts)
 
   return {
-    reviewPortables,
-    reviewTitlePortables,
-    loading,
-    error
+    bestpPortableReviewTitle,
+    bestpPortableReviewDescription,
+    loadingBestPortable,
+    errorBestPortable
   }
 }

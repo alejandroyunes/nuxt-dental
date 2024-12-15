@@ -5,7 +5,6 @@ const coslusF5020E: ProductDetails = {
   fileName: 'coslusF5020E',
   info: {
     image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541238/Best/Coslus300ml/nnbu7ewuqkl8cp4zkbh0.webp',
-    image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp',
     alt: 'Coslus Water Dental Flosser F5020E, 300ml',
     title: "Coslus Water Dental Flosser Teeth Pick, F5020E 300ml",
     subtitle: 'Discover the superior dental care experience with the Coslus F5020E water dental flosser.',
@@ -95,7 +94,7 @@ const coslusF5020E: ProductDetails = {
     models: [
       {
         id: 1,
-        productUrl: '/reviews/portable-and-affordable-oral-irrigators/coslusF5020E',
+        path: '/reviews/portable-and-affordable-oral-irrigators/coslusF5020E',
         model: 'Coslus F5020E',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp',
         alt: 'Coslus F5020E Oral Irrigator',
@@ -110,7 +109,7 @@ const coslusF5020E: ProductDetails = {
       },
       {
         id: 2,
-        productUrl: '/reviews/portable-and-affordable-oral-irrigators/waterpikF02', 
+        path: '/reviews/portable-and-affordable-oral-irrigators/waterpikF02', 
         model: 'Waterpik WF-02',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp',
         alt: 'Waterpik Model WF-02',
@@ -125,7 +124,7 @@ const coslusF5020E: ProductDetails = {
       },
       {
         id: 3,
-        productUrl: '/reviews/portable-and-affordable-oral-irrigators/nicwellF5025',
+        path: '/reviews/portable-and-affordable-oral-irrigators/nicwellF5025',
         model: 'Nicwell F5025',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp',
         alt: 'Nicwell 200ml Oral Irrigator',
@@ -140,7 +139,7 @@ const coslusF5020E: ProductDetails = {
       },
       {
         id: 4,
-        productUrl: '/reviews/portable-and-affordable-oral-irrigators/bitvaeC2',
+        path: '/reviews/portable-and-affordable-oral-irrigators/bitvaeC2',
         model: 'Bitvae C2',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/ditfkdygrm4qoohqzttw.webp',
         alt: 'Bitvae C2 Oral Irrigator Image',

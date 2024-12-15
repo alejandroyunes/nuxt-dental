@@ -5,7 +5,6 @@ const inSmartFC256: ProductDetails = {
   fileName: 'inSmartFC256',
   info: {
     image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/td5m6r5zdqqa1criayzq.webp',
-    image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/wepwdcnie4cnqdymep3c.webp',
     alt: 'InSmart Professional Cordless Water Dental Flosser FC256, 300ml',
     title: "InSmart Professional Cordless Water Dental Flosser - Efficient Oral Care",
     subtitle: 'Dentists highly recommend and choose the global-brand InSmart Portable Water Dental Flosser because it goes beyond the limitations of daily brushing.',
@@ -81,7 +80,7 @@ const inSmartFC256: ProductDetails = {
     models: [
       {
         id: 1,
-        productUrl: '/reviews/portable-and-affordable-oral-irrigators/inSmartFC256',
+        path: '/reviews/portable-and-affordable-oral-irrigators/inSmartFC256',
         model: 'InSmart FC256',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/wepwdcnie4cnqdymep3c.webp',
         alt: 'InSmart FC256 Oral Irrigator Image',
@@ -96,7 +95,7 @@ const inSmartFC256: ProductDetails = {
       },
       {
         id: 2,
-        productUrl: '/reviews/portable-and-affordable-oral-irrigators/coslusF5020E',
+        path: '/reviews/portable-and-affordable-oral-irrigators/coslusF5020E',
         model: 'Coslus F5020E',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp',
         alt: 'Coslus F5020E Oral Irrigator',
@@ -111,7 +110,7 @@ const inSmartFC256: ProductDetails = {
       },
       {
         id: 3,
-        productUrl: '/reviews/portable-and-affordable-oral-irrigators/waterpikF02', 
+        path: '/reviews/portable-and-affordable-oral-irrigators/waterpikF02', 
         model: 'Waterpik WF-02',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp',
         alt: 'Waterpik Model WF-02',
@@ -126,7 +125,7 @@ const inSmartFC256: ProductDetails = {
       },
       {
         id: 4,
-        productUrl: 'reviews//portable-and-affordable-oral-irrigators/nicwellF5025',
+        path: 'reviews//portable-and-affordable-oral-irrigators/nicwellF5025',
         model: 'Nicwell F5025',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp',
         alt: 'Nicwell 200ml Oral Irrigator',

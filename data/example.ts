@@ -5,7 +5,6 @@ const example: ProductDetails = {
   fileName: '',
   info: {
     image: "",
-    image: "",
     alt: "",
     title: "",
     subtitle: "",
@@ -83,7 +82,7 @@ const example: ProductDetails = {
     models: [
       {
         id: 0,
-        productUrl: "/reviews/portable-oral-irrigators/best/exampleFC65",
+        path: '',
         model: "",
         image: "",
         alt: "",

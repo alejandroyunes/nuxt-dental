@@ -25,15 +25,15 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 })
 
-const { reviewPortables, reviewTitlePortables } = getPortablesReviews()
-const { counterReviewDescription, counterReviewTitle } = getCounterReviews()
+const { bestpPortableReviewDescription, bestpPortableReviewTitle } = getPortablesReviews()
+const { bestCounterReviewDescription, bestCounterReviewTitle } = getCounterReviews()
 
 </script>
 
 <template>
   <HeroSection />
-  <ReviewsGrid :reviews="reviewPortables" :reviewTitle="reviewTitlePortables" />
-  <ReviewsGrid :reviews="counterReviewDescription" :reviewTitle="counterReviewTitle" />
+  <ReviewsGrid :reviews="bestpPortableReviewDescription" :reviewTitle="bestpPortableReviewTitle" />
+  <ReviewsGrid :reviews="bestCounterReviewDescription" :reviewTitle="bestCounterReviewTitle" />
   <TypeSection />
   <QuestionsAndAnswers />
 </template>

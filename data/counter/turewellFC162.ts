@@ -1,8 +1,8 @@
 import type { ProductDetails } from '~/types/product-details';
-import { turewellFC162GlobalData } from './global';
-import { turewellFC165GlobalData } from './global';
-import { sawgmoreFC166GlobalData } from './global';
-import { oeeterM01GlobalData } from './global';
+import { turewellFC162GlobalData } from './01-global';
+import { turewellFC165GlobalData } from './01-global';
+import { sawgmoreFC166GlobalData } from './01-global';
+import { oeeterM01GlobalData } from './01-global';
 
 const turewellFC162: ProductDetails = {
   id: 6,

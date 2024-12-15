@@ -2,10 +2,9 @@ import type { ProductDetails } from '~/types/product-details'
 
 const waterpikF02: ProductDetails = {
   id: 1,
-  fileName: 'waterpikF02',
+  fileName: 'waterpikFW02',
   info: {
     image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500932/Best/WaterPicWF02/cyczyuuch0e4h3twemey.webp',
-    image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp',
     alt: "Waterpik Water Flosser Model WF-02",
     title: "Waterpik Water Flosser Model WF-02, 5oz",
     subtitle: "Cordless Express Portable Water Flosser",
@@ -84,7 +83,7 @@ const waterpikF02: ProductDetails = {
     models: [
       {
         id: 1,
-        productUrl: '/reviews/portable-and-affordable-oral-irrigators/waterpikF02', 
+        path: '/reviews/portable-and-affordable-oral-irrigators/waterpikF02', 
         model: 'Waterpik WF-02',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp',
         alt: 'Waterpik Model WF-02',
@@ -99,7 +98,7 @@ const waterpikF02: ProductDetails = {
       },
       {
         id: 2,
-        productUrl: '/reviews/portable-and-affordable-oral-irrigators/nicwellF5025',
+        path: '/reviews/portable-and-affordable-oral-irrigators/nicwellF5025',
         model: 'Nicwell F5025',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp',
         alt: 'Nicwell 200ml Oral Irrigator',
@@ -114,7 +113,7 @@ const waterpikF02: ProductDetails = {
       },
       {
         id: 3,
-        productUrl: '/reviews/portable-and-affordable-oral-irrigators/nicefeelFC1592',
+        path: '/reviews/portable-and-affordable-oral-irrigators/nicefeelFC1592',
         model: 'Nicefeel FC1592-BK',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700616746/Best/Nicefeel-FC1592-BK/rp9vi5urhelrbxwgjquw.webp',
         alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
@@ -129,7 +128,7 @@ const waterpikF02: ProductDetails = {
       },
       {
         id: 4,
-        productUrl: '/reviews/portable-and-affordable-oral-irrigators/coslusF5020E',
+        path: '/reviews/portable-and-affordable-oral-irrigators/coslusF5020E',
         model: 'Coslus F5020E',
         image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp',
         alt: 'Coslus F5020E Oral Irrigator',

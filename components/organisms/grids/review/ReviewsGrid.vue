@@ -17,9 +17,7 @@ const { reviewTitle, reviews } = defineProps<{
 
     <div class="cards">
       <div v-for="review in reviews" :key="review.id" class="card">
-
         <NuxtImg :src="review.image" :alt="review.name" class="image" />
-
         <div class="content">
           <div>
             <h3>{{ review.name }}</h3>
