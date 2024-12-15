@@ -5,7 +5,7 @@ const nicefeelFC1592: ProductDetails = {
   id: 3,
   fileName: 'nicefeelFC1592',
   info: {
-    image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700616746/Best/Nicefeel-FC1592-BK/v8nqddi1cgtueifglkip.webp',
+    image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733957238/irrigators/nicefeel/fc1592bk_hxsx75.webp',
     alt: 'Nicefeel Cordless Water Flosser FC1592BK, 300ml',
     title: "Nicefeel Cordless Water Flosser FC1592BK, 300ml",
     subtitle: 'State-of-the-art oral care device designed for optimal gum health and effective teeth cleaning',

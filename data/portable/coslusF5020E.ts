@@ -4,7 +4,7 @@ const coslusF5020E: ProductDetails = {
   id: 5,
   fileName: 'coslusF5020E',
   info: {
-    image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541238/Best/Coslus300ml/nnbu7ewuqkl8cp4zkbh0.webp',
+    image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733957574/irrigators/coslus/f5020e_ahlexp.webp',
     alt: 'Coslus Water Dental Flosser F5020E, 300ml',
     title: "Coslus Water Dental Flosser Teeth Pick, F5020E 300ml",
     subtitle: 'Discover the superior dental care experience with the Coslus F5020E water dental flosser.',

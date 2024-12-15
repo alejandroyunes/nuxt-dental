@@ -136,7 +136,7 @@ const sawgmoreFC166: ProductDetails = {
     id: "pros-and-cons",
     title: "Pros and Cons of the Sawgmore FC166",
     description: "An honest look at the Sawgmore FC166 Water Flosser.",
-    cta: "Find out more",
+    cta: "Buy on Amazon",
     buyLink: sawgmoreFC166GlobalData.amazonUrl,
     pros: [
       { title: "High quality and value" },

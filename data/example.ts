@@ -1,7 +1,7 @@
 import type { ProductDetails } from '~/types/product-details'
 
 const example: ProductDetails = {
-  id: 100,
+  id: 1,
   fileName: '',
   info: {
     image: "",
