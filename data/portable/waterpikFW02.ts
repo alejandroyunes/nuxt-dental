@@ -15,86 +15,85 @@ const waterpikF02: ProductDetails = {
     buyLink: waterPikWF02GlobalData.amazonUrl,
     cta: 'Buy on Amazon',
     rating: {
-      stars: 5,
-      reviews: 78232,
+      stars: 4.2,
+      reviews: 48061,
     },
     characteristics: [
-      "Portable and waterproof design.",
-      "2 pressure settings (45-75 PSI) for customizable cleaning.",
-      "1200 water pulses per minute.",
-      "Easy-to-fill, removable 5-ounce reservoir for 30 seconds of flossing time.",
-      "2 JT-450E water flossing tips.",
-      "Compact dimension.",
+      "Portable",
+      "Waterproof for Shower Use",
+      "Removes Plaque",
+      "ADA Accepted",
+      "Gum Health"
     ],
   },
   tableOfContent: [
-    {
-      content: '\u2022 The Best of Waterpik WF-02',
-      id: `#the-best-of-waterpic-wf02`
-    },
-    {
-      content: '\u2022 Why Choose Waterpik WF-02?',
-      id: `#why-waterpic-wf02`
-    },
-    {
-      content: '\u2022 Comparison table with other irrigators',
-      id: `#how-does-the-waterpik-compares-to-other-irrigators`
-    },
-    {
-      content: '\u2022 Pros and Cons',
-      id: `#pro-and-cons-wf02`
-    },
+    { id: "#title", content: "Overview" },
+    { id: "#features", content: "Key Features" },
+    { id: "#comparison", content: "Comparison with Similar Models" },
+    { id: "#pros-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: 'the-best-of-waterpic-wf02',
-    title: 'The Best of Waterpik Model WF-02 Professional Water Flosser',
-    description: "Waterpik's Cordless Express Water Flosser, featuring a battery-operated, portable, and waterproof design, is perfect for on-the-go oral care. With 2 pressure settings, a water on/off slider, 30 seconds of flossing time, and included AA batteries.",
-    subtext: "It's easy to use anytime, anywhere, for healthier gums and brighter teeth.",
+    id: "title",
+    title: "Waterpik Cordless Water Flosser",
+    description: "Battery Operated & Portable, ADA Accepted, for Travel & Home",
+    subtext: "Waterpik's Cordless Express Water Flosser, featuring a battery-operated, portable, and waterproof design, is perfect for on-the-go oral care. With 2 pressure settings, a water on/off slider, 30 seconds of flossing time, and included AA batteries, it's easy to use anytime, anywhere, for healthier gums and brighter teeth.",
   },
   features: {
-    id: 'why-waterpic-wf02',
-    title: 'Why Choose Waterpik WF-02?',
+    id: "features",
+    title: "Key Features",
     data: [
       {
-        title: 'Portability and On-the-Go Use',
-        description: 'Designed for travel, small bathrooms, and shower use, providing flexibility and convenience in maintaining oral hygiene wherever you go.',
+        title: "Battery Operated",
+        description: "Powered by 3 AA batteries, no outlets or charging needed."
       },
       {
-        title: 'Waterproof Construction',
-        description: "Waterproof construction enhances durability and allows for use in the shower, adding versatility to your oral care routine.",
+        title: "Waterproof for Shower Use",
+        description: "Perfect for use in the shower, adding convenience."
       },
       {
-        title: 'Clinically Proven Plaque Removal',
-        description: "Clinically proven to remove up to 99.9% of plaque, offering an effective solution for superior oral cleanliness compared to traditional brushing and flossing.",
+        title: "ADA Accepted",
+        description: "Accepted by the American Dental Association for safety and effectiveness."
       },
       {
-        title: 'Mouthwash Compatibility',
-        description: "Users can add their favorite mouthwash for a personalized and fresher clean, enhancing the overall flossing experience.",
+        title: "Removes Plaque",
+        description: "Removes up to 99.9% of plaque and bacteria from treated areas."
       },
       {
-        title: 'Manufacturer\'s Warranty and Customer Support',
-        description: "Backed by a 1-year manufacturer's warranty, ensuring product reliability and customer satisfaction.",
-      }
+        title: "Portable Design",
+        description: "Compact and travel-friendly for on-the-go use."
+      },
+      {
+        title: "Easy to Use",
+        description: "Fill the reservoir and glide the tip along the gumline for healthier gums."
+      },
+      {
+        title: "Two Pressure Settings",
+        description: "Adjustable water pressure for a customized cleaning experience."
+      },
+      {
+        title: "Long-lasting Batteries",
+        description: "Includes 3 AA batteries, lasting 1-2 months with daily use."
+      },
     ]
   },
   comparison: {
-    id: 'how-does-the-waterpik-compares-to-other-irrigators',
-    title: 'Compare the Waterpik WF-02 with other irrigators',
-    description: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
+    id: "comparison",
+    title: "Comparison with Similar Models",
+    description: "Compare the Waterpik Cordless Express with other models for travel and home use.",
     models: [
       {
         id: 1,
         path: '/reviews/portable-and-affordable-oral-irrigators/waterpikF02', 
         model: 'Waterpik WF-02',
-        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp',
+        image: waterPikWF02GlobalData.image,
         alt: 'Waterpik Model WF-02',
         prime: true,
-        dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
-        tips: '2',
-        capacity: '5oz reservoir for 30 seconds of flossing time',
-        highlight: 'Economical, Portable, Customizable.',
-        problem: 'Battery replacement, Limited water capacity.',
-        price: '$37.71',
+        dimensions: "3.6 x 2.5 x 11.75 inches",
+        tips: "Includes 2 Classic Jet Tips",
+        capacity: "5 oz Reservoir",
+        highlight: "No outlets or charging needed",
+        problem: "Requires regular battery replacement",
+        price: waterPikWF02GlobalData.productPrice,
         satisfaction: '9/10',
       },
     ]
