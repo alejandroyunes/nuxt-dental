@@ -96,6 +96,21 @@ const waterpikF02: ProductDetails = {
         price: waterPikWF02GlobalData.productPrice,
         satisfaction: '9/10',
       },
+      {
+        id: 2,
+        path: nicwellF5025GlobalData.path,
+        model: 'Nicwell F5025',
+        image: nicwellF5025GlobalData.image,
+        alt: 'Nicwell 300ml Oral Irrigator',
+        prime: true,
+        dimensions: '8.11 x 4.06 x 2.73 in, 14.4 oz',
+        tips: "6 replaceable tips",
+        capacity: "300ml",
+        highlight: "Offers 5 cleaning modes with advanced features.",
+        problem: "Slightly heavier than Nicefeel.",
+        price: nicwellF5025GlobalData.productPrice,
+        satisfaction: '9/10',
+      },
     ]
   },
   proAndCons: {

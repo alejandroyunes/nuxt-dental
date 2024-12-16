@@ -1,5 +1,6 @@
 import type { ProductDetails } from '~/types/product-details'
-import { nicwellF5025GlobalData } from './01-global'
+import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, coslusC20F5020EGlobalData } from './01-global'
+
 
 const nicwellF5025: ProductDetails = {
   id: 2,
@@ -72,6 +73,21 @@ const nicwellF5025: ProductDetails = {
         highlight: "Offers 5 cleaning modes with advanced features.",
         problem: "Slightly heavier than Nicefeel.",
         price: nicwellF5025GlobalData.productPrice,
+        satisfaction: '9/10',
+      },
+      {
+        id: 2,
+        path: waterPikWF02GlobalData.path,
+        model: 'Waterpik WF-02',
+        image: waterPikWF02GlobalData.image,
+        alt: 'Waterpik Model WF-02',
+        prime: true,
+        dimensions: "3.6 x 2.5 x 11.75 inches",
+        tips: "Includes 2 Classic Jet Tips",
+        capacity: "5 oz Reservoir",
+        highlight: "No outlets or charging needed",
+        problem: "Requires regular battery replacement",
+        price: waterPikWF02GlobalData.productPrice,
         satisfaction: '9/10',
       },
     ]
