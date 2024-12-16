@@ -23,7 +23,7 @@ const waterpikF02: ProductDetails = {
       "Waterproof for Shower Use",
       "Removes Plaque",
       "ADA Accepted",
-      "Gum Health"
+      "Gum Health",
     ],
   },
   tableOfContent: [
@@ -83,7 +83,7 @@ const waterpikF02: ProductDetails = {
     models: [
       {
         id: 1,
-        path: '/reviews/portable-and-affordable-oral-irrigators/waterpikF02', 
+        path: waterPikWF02GlobalData.path, 
         model: 'Waterpik WF-02',
         image: waterPikWF02GlobalData.image,
         alt: 'Waterpik Model WF-02',
@@ -115,9 +115,8 @@ const waterpikF02: ProductDetails = {
         title: 'Allows for use in the shower, enhancing versatility and convenience.',
       },
       {
-        title: ' Removable 5-ounce reservoir with easy-fill design for convenient use.',
+        title: 'Removable 5-ounce reservoir with easy-fill design for convenient use.',
       },
-
     ],
     cons: [
       {

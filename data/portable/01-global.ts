@@ -1,7 +1,7 @@
 export const waterPikWF02GlobalData = {
   image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733957216/irrigators/waterpik/wf-02_x378ij.webp',  
   amazonUrl: 'https://amzn.to/3TjtFqp',
-  productPrice: '37.97',
+  productPrice: '36.89',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/affordable-countertop-irrigators/portable/waterpikFW02',
   updatedDate: '11/23/2023'
@@ -30,7 +30,7 @@ export const coslusC20F5020EGlobalData = {
   amazonUrl: 'https://amzn.to/3NhjGhd',
   productPrice: '37.15',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/portable/coslus300ml',
+  path: '/reviews/affordable-countertop-irrigators/portable/coslusF5020E',
   updatedDate: '11/23/2023'
 }
 
@@ -39,7 +39,7 @@ export const insmartFC256GlobalData = {
   amazonUrl: 'https://amzn.to/3Nbst4b',
   productPrice: '25.98',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/portable/insmartFC256',
+  path: '/reviews/affordable-countertop-irrigators/portable/inSmartFC256',
   updatedDate: '11/23/2023'
 }
 
@@ -48,6 +48,6 @@ export const bitvaeC2GlobalData = {
   amazonUrl: 'https://amzn.to/3R3veFS',
   amazonPrime: 'https://www.amazon.com',
   productPrice: '19.99',
-  path: '/reviews/affordable-countertop-irrigators/portable/bitvaec2',
+  path: '/reviews/affordable-countertop-irrigators/portable/bitvaeC2',
   updatedDate: '11/23/2023'
 }
