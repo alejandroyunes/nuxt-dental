@@ -83,7 +83,7 @@ const waterpikF02: ProductDetails = {
     models: [
       {
         id: 1,
-        path: waterPikWF02GlobalData.path, 
+        path: waterPikWF02GlobalData.path,
         model: 'Waterpik WF-02',
         image: waterPikWF02GlobalData.image,
         alt: 'Waterpik Model WF-02',
@@ -105,29 +105,15 @@ const waterpikF02: ProductDetails = {
     cta: 'Buy Now on Amazon',
     buyLink: waterPikWF02GlobalData.amazonUrl,
     pros: [
-      {
-        title: 'Ideal for travel, small bathrooms, and on-the-go oral care.',
-      },
-      {
-        title: 'Runs on 3 AA batteries (included), eliminating the need for charging cords.',
-      },
-      {
-        title: 'Allows for use in the shower, enhancing versatility and convenience.',
-      },
-      {
-        title: 'Removable 5-ounce reservoir with easy-fill design for convenient use.',
-      },
+      { title: 'Ideal for travel, small bathrooms, and on-the-go oral care.' },
+      { title: 'Runs on 3 AA batteries (included), eliminating the need for charging cords.' },
+      { title: 'Allows for use in the shower, enhancing versatility and convenience.' },
+      { title: 'Removable 5-ounce reservoir with easy-fill design for convenient use.' },
     ],
     cons: [
-      {
-        title: 'Requires regular replacement of 3 AA batteries (every 1-2 months, depending on use).',
-      },
-      {
-        title: 'The 5-ounce reservoir may require refilling for extended flossing sessions.',
-      },
-      {
-        title: 'While customizable, the flosser provides only two pressure settings.',
-      },
+      { title: 'Requires regular replacement of 3 AA batteries (every 1-2 months, depending on use).' },
+      { title: 'The 5-ounce reservoir may require refilling for extended flossing sessions.' },
+      { title: 'While customizable, the flosser provides only two pressure settings.' },
     ]
   },
 }
