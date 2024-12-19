@@ -1,7 +1,6 @@
 import type { ProductDetails } from '~/types/product-details'
 import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, coslusC20F5020EGlobalData } from './01-global'
 
-
 const nicwellF5025: ProductDetails = {
   id: 2,
   fileName: 'nicwellF5025',

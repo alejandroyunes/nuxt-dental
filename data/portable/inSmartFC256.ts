@@ -1,17 +1,18 @@
 import type { ProductDetails } from '~/types/product-details'
+import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, insmartFC256GlobalData } from './01-global'
 
 const inSmartFC256: ProductDetails = {
   id: 4,
   fileName: 'inSmartFC256',
   info: {
-    image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733957551/irrigators/insmart/fc256_qb9w8d.webp',
+    image: insmartFC256GlobalData.image,
     alt: 'InSmart Professional Cordless Water Dental Flosser FC256, 300ml',
-    title: "InSmart Professional Cordless Water Dental Flosser - Efficient Oral Care",
+    title: "InSmart FC256 Professional Cordless Water Dental Flosser, 300ml.",
     subtitle: 'Dentists highly recommend and choose the global-brand InSmart Portable Water Dental Flosser because it goes beyond the limitations of daily brushing.',
     description: 'Upgrade your oral care routine with the InSmart Professional Cordless Water Dental Flosser. Featuring a 300ML detachable tank, 1800 times/minute water pulse, and 4 cleaning modes, this rechargeable flosser ensures efficient plaque removal and gum health. Perfect for home and travel.',
-    price: "$25.98",
-    updatedDate: '11/20/2023',
-    buyLink: 'https://amzn.to/3Nbst4b',
+    price: insmartFC256GlobalData.productPrice,
+    updatedDate: insmartFC256GlobalData.updatedDate,
+    buyLink: insmartFC256GlobalData.amazonUrl,
     cta: 'Buy on Amazon',
     rating: {
       stars: 4.3,
@@ -28,31 +29,19 @@ const inSmartFC256: ProductDetails = {
     ]
   },
   tableOfContent: [
-    {
-      content: '\u2022 The Best of InSmart FC256',
-      id: `#the-best-of-insmartFC256`
-    },
-    {
-      content: '\u2022 Why Choose InSmart FC256?',
-      id: `#why-insmartFC256`
-    },
-    {
-      content: '\u2022 Comparison table with other irrigators',
-      id: `#how-does-the-insmartFC256-compares-to-other-irrigators`
-    },
-    {
-      content: '\u2022 Pros and Cons',
-      id: `#pro-and-cons-insmartFC256`
-    },
+    { id: "#title", content: "Overview" },
+    { id: "#features", content: "Key Features" },
+    { id: "#comparison", content: "Comparison with Similar Models" },
+    { id: "#pros-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: 'the-best-of-insmartFC256',
+    id: "title",
     title: 'The Best of InSmart FC256',
     description: "This portable water flosser creates over 1400-1800 pulsations/min of water jets, reaching areas normal toothbrushes can't, ensuring healthy gums and a thorough teeth clean. Its IPX7 waterproof design allows for use in the shower, featuring four operation modes for a personalized experience.",
     subtext: 'With a large 300ml water tank and extended 2000 mAh battery life, it\'s perfect for daily use at home and on the go.',
   },
   features: {
-    id: 'why-insmartFC256',
+    id: "features",
     title: 'Why Choose InSmart FC256?',
     data: [
       {
@@ -74,15 +63,15 @@ const inSmartFC256: ProductDetails = {
     ]
   },
   comparison: {
-    id: 'how-does-the-insmartFC256-compares-to-other-irrigators',
+    id: "comparison",
     title: 'Compare the InSmart FC256 with other irrigators',
     description: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
     models: [
       {
         id: 1,
-        path: '/reviews/portable-and-affordable-oral-irrigators/inSmartFC256',
+        path: insmartFC256GlobalData.path,
         model: 'InSmart FC256',
-        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/wepwdcnie4cnqdymep3c.webp',
+        image: insmartFC256GlobalData.image,
         alt: 'InSmart FC256 Oral Irrigator Image',
         prime: true,
         dimensions: '8.27 x 3.15 x 1.97 in, 14.07 oz',
@@ -90,61 +79,61 @@ const inSmartFC256: ProductDetails = {
         capacity: '300 ml',
         highlight: 'Travel Carrying bag, Ease of use, Size, 4 Water Pressure Modes',
         problem: 'Battery Life, Durability, Nozzle Wear',
-        price: '$25.98',
+        price: insmartFC256GlobalData.productPrice,
         satisfaction: '8.5/10',
       },
       {
         id: 2,
-        path: '/reviews/portable-and-affordable-oral-irrigators/coslusF5020E',
-        model: 'Coslus F5020E',
-        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp',
-        alt: 'Coslus F5020E Oral Irrigator',
+        path: nicwellF5025GlobalData.path,
+        model: 'Nicwell F5025',
+        image: nicwellF5025GlobalData.image,
+        alt: 'Nicwell 300ml Oral Irrigator',
         prime: true,
-        dimensions: '2.17 x 2.74 x 12.2 in, 15.31 oz',
-        tips: '5',
-        capacity: '300ml',
-        highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
-        problem: 'Limited water capacity',
-        price: '$29.98',
+        dimensions: '8.11 x 4.06 x 2.73 in, 14.4 oz',
+        tips: "6 replaceable tips",
+        capacity: "300ml",
+        highlight: "Offers 5 cleaning modes with advanced features.",
+        problem: "Slightly heavier than Nicefeel.",
+        price: nicwellF5025GlobalData.productPrice,
         satisfaction: '9/10',
       },
       {
         id: 3,
-        path: '/reviews/portable-and-affordable-oral-irrigators/waterpikF02', 
+        path: waterPikWF02GlobalData.path,
         model: 'Waterpik WF-02',
-        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp',
+        image: waterPikWF02GlobalData.image,
         alt: 'Waterpik Model WF-02',
         prime: true,
-        dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
-        tips: '2',
-        capacity: '5oz reservoir for 30 seconds of flossing time',
-        highlight: 'Economical, Portable, Customizable.',
-        problem: 'Battery replacement, Limited water capacity.',
-        price: '$37.71',
+        dimensions: "3.6 x 2.5 x 11.75 inches",
+        tips: "Includes 2 Classic Jet Tips",
+        capacity: "5 oz Reservoir",
+        highlight: "No outlets or charging needed",
+        problem: "Requires regular battery replacement",
+        price: waterPikWF02GlobalData.productPrice,
         satisfaction: '9/10',
       },
       {
         id: 4,
-        path: 'reviews//portable-and-affordable-oral-irrigators/nicwellF5025',
-        model: 'Nicwell F5025',
-        image: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp',
-        alt: 'Nicwell 200ml Oral Irrigator',
+        path: nicefeelFC1592bkGlobalData.path,
+        model: 'Nicefeel FC1592-BK',
+        image: nicefeelFC1592bkGlobalData.image,
+        alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
         prime: true,
-        dimensions: '8.11 x 4.06 x 2.73 in, 14.4 oz',
-        tips: '5',
-        capacity: '200 ml',
-        highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
-        problem: 'Charging',
-        price: '$27.98',
-        satisfaction: '9/10',
+        dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
+        tips: '4',
+        capacity: '300 ml',
+        highlight: 'Battery-powered, memory function, 3 cleaning modes',
+        problem: 'Not suitable for large families',
+        price: nicefeelFC1592bkGlobalData.productPrice,
+        satisfaction: '8/10',
       },
     ]
   },
   proAndCons: {
-    id: 'pro-and-cons-insmartFC256',
+    id: 'pro-and-cons',
     title: 'Pros and Cons of InSmart FC256',
     cta: 'Buy on Amazon',
-    buyLink: 'https://amzn.to/3Nbst4b',
+    buyLink: insmartFC256GlobalData.amazonUrl,
     description: "It's essential to consider these customer experiences to make an informed decision about the InSmart Professional Cordless Water Dental Flosser, ensuring it meets your needs for oral care and convenience.",
     pros: [
       {

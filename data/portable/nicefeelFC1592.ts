@@ -7,7 +7,7 @@ const nicefeelFC1592: ProductDetails = {
   info: {
     image: nicefeelFC1592bkGlobalData.image,
     alt: 'Nicefeel Cordless Water Flosser FC1592BK, 300ml',
-    title: "Nicefeel Cordless Water Flosser FC1592BK, 300ml",
+    title: "Nicefeel Cordless Water Flosser FC1592BK, 300ml.",
     subtitle: 'State-of-the-art oral care device designed for optimal gum health and effective teeth cleaning',
     description: "Experience the pinnacle of oral care with Nicefeel's Cordless Water Flosser—a portable and rechargeable solution that enhances gum health, teeth cleaning, and overall hygiene.",
     price: nicefeelFC1592bkGlobalData.productPrice,
