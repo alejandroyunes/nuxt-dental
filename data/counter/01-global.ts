@@ -52,7 +52,7 @@ export const turewellFC162GlobalData = {
   updatedDate: '11/23/2023'
 }
 
-
+//New not included
 export const zerhuntFC169GlobalData = {
   headerBgImage: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936985/Best/CounterTop/ZerhuntFC169/q56nnqpinm9wzl0b2kx2.webp',
   headerBgMobileImage: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936985/Best/CounterTop/ZerhuntFC169/i7wt20lh4gdlf5cij8rc.webp',
