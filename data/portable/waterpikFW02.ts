@@ -111,6 +111,21 @@ const waterpikF02: ProductDetails = {
         price: nicwellF5025GlobalData.productPrice,
         satisfaction: '9/10',
       },
+      {
+        id: 3,
+        path: nicefeelFC1592bkGlobalData.path,
+        model: 'Nicefeel FC1592-BK',
+        image: nicefeelFC1592bkGlobalData.image,
+        alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
+        prime: true,
+        dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
+        tips: '4',
+        capacity: '300 ml',
+        highlight: 'Battery-powered, memory function, 3 cleaning modes',
+        problem: 'Not suitable for large families',
+        price: nicefeelFC1592bkGlobalData.productPrice,
+        satisfaction: '8/10',
+      },
     ]
   },
   proAndCons: {

@@ -16,7 +16,7 @@ const nicefeelFC1592: ProductDetails = {
     cta: 'Buy on Amazon',
     rating: {
       stars: 4.2,
-      reviews: 22112,
+      reviews: 22172,
     },
     characteristics: [
       'Battery Powered: 1400mAh',
@@ -83,7 +83,36 @@ const nicefeelFC1592: ProductDetails = {
         price: nicefeelFC1592bkGlobalData.productPrice,
         satisfaction: '8/10',
       },
-
+      {
+        id: 2,
+        path: nicwellF5025GlobalData.path,
+        model: 'Nicwell F5025',
+        image: nicwellF5025GlobalData.image,
+        alt: 'Nicwell 300ml Oral Irrigator',
+        prime: true,
+        dimensions: '8.11 x 4.06 x 2.73 in, 14.4 oz',
+        tips: "6 replaceable tips",
+        capacity: "300ml",
+        highlight: "Offers 5 cleaning modes with advanced features.",
+        problem: "Slightly heavier than Nicefeel.",
+        price: nicwellF5025GlobalData.productPrice,
+        satisfaction: '9/10',
+      },
+      {
+        id: 3,
+        path: waterPikWF02GlobalData.path,
+        model: 'Waterpik WF-02',
+        image: waterPikWF02GlobalData.image,
+        alt: 'Waterpik Model WF-02',
+        prime: true,
+        dimensions: "3.6 x 2.5 x 11.75 inches",
+        tips: "Includes 2 Classic Jet Tips",
+        capacity: "5 oz Reservoir",
+        highlight: "No outlets or charging needed",
+        problem: "Requires regular battery replacement",
+        price: waterPikWF02GlobalData.productPrice,
+        satisfaction: '9/10',
+      },
     ]
   },
   proAndCons: {
