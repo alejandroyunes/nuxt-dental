@@ -1,5 +1,5 @@
 import type { ProductDetails } from '~/types/product-details'
-import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, coslusC20F5020EGlobalData } from './01-global'
+import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, bitvaeC2GlobalData } from './01-global'
 
 const nicwellF5025: ProductDetails = {
   id: 2,
@@ -103,6 +103,21 @@ const nicwellF5025: ProductDetails = {
         problem: 'Not suitable for large families',
         price: nicefeelFC1592bkGlobalData.productPrice,
         satisfaction: '8/10',
+      },
+      {
+        id: 4,
+        path: bitvaeC2GlobalData.path,
+        model: 'Bitvae C2',
+        image: bitvaeC2GlobalData.image,
+        alt: 'Bitvae C2 Oral Irrigator Image',
+        prime: true,
+        dimensions: '2.6 x 3.7 x 8.78 inches; 13.44 ounces',
+        tips: '6',
+        capacity: '260 ml',
+        highlight: 'Effective Cleaning, Compact Design, Long Battery Life',
+        problem: 'Water Resistance, Durability',
+        price: bitvaeC2GlobalData.productPrice,
+        satisfaction: '9/10',
       },
     ]
   },

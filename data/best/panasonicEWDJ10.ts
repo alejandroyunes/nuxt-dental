@@ -5,7 +5,6 @@ const panasonicEWDJ10: ProductDetails = {
   fileName: 'panasonicEWDJ10',
   info: {
     image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701541960/typesOfIrrigators/portable/Panasonic-EW-DJ10/k2z9vwzvovgs6rfzzemh.webp",
-    image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701541960/typesOfIrrigators/portable/Panasonic-EW-DJ10/k2z9vwzvovgs6rfzzemh.webp",
     alt: "Panasonic Portable Water Flosser EW-DJ10",
     title: "Panasonic EW-DJ10 Portable Water Flosser",
     subtitle: "Cordless and Travel-Friendly Oral Irrigator",
@@ -71,7 +70,7 @@ const panasonicEWDJ10: ProductDetails = {
     models: [
       {
         id: 1,
-        productUrl: "/reviews/portable-oral-irrigators/best/panasonicEWDJ10",
+        path: "/reviews/portable-oral-irrigators/best/panasonicEWDJ10",
         model: "Panasonic EW-DJ10",
         image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701541960/typesOfIrrigators/portable/Panasonic-EW-DJ10/k2z9vwzvovgs6rfzzemh.webp",
         alt: "Panasonic Portable Water Flosser EW-DJ10",

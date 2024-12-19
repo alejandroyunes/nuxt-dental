@@ -126,6 +126,21 @@ const waterpikF02: ProductDetails = {
         price: nicefeelFC1592bkGlobalData.productPrice,
         satisfaction: '8/10',
       },
+      {
+        id: 4,
+        path: coslusC20F5020EGlobalData.path,
+        model: 'Coslus F5020E',
+        image: coslusC20F5020EGlobalData.image,
+        alt: 'Coslus F5020E Oral Irrigator',
+        prime: true,
+        dimensions: '2.17 x 2.74 x 12.2 in, 15.31 oz',
+        tips: '5',
+        capacity: '300ml',
+        highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
+        problem: 'Limited water capacity',
+        price: coslusC20F5020EGlobalData.productPrice,
+        satisfaction: '9/10',
+      },
     ]
   },
   proAndCons: {

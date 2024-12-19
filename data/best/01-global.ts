@@ -3,6 +3,6 @@ export const panasonicEWDJ10GlobalData = {
   amazonUrl: 'https://amzn.to/3RvvXBh',
   productPrice: '31.99',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/portable-oral-irrigators/best/panasonicEWDJ10',
+  path: '/reviews/portable-oral-irrigators/best/panasonicEWDJ10   ',
   updatedDate: '11/23/2023'
 }
