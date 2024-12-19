@@ -114,7 +114,7 @@ const waterpikF02: ProductDetails = {
     ]
   },
   proAndCons: {
-    id: 'pro-and-cons-wf02',
+    id: 'pro-and-cons',
     title: "Pros and Cons Waterpik Model WF-02",
     description: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the Waterpik Cordless Express WF-02 is the right fit for them.",
     cta: 'Buy Now on Amazon',

@@ -93,7 +93,7 @@ const nicwellF5025: ProductDetails = {
     ]
   },
   proAndCons: {
-    id: 'pro-and-cons-f5025',
+    id: 'pro-and-cons',
     title: 'Pros and Cons of Nicwell F5025',
     description:
       'In summary, while the oral irrigator has notable positive aspects such as value, cleanliness, ease of use, and overall performance, there are significant concerns regarding quality, water resistance, battery life, and the charging feature. Users\' experiences with these aspects vary, making it important for potential buyers to consider these factors based on their personal preferences and needs.',
@@ -107,7 +107,7 @@ const nicwellF5025: ProductDetails = {
       { title: 'Convenient compared to traditional flossing.' },
     ],
     cons: [
-      { title: ' Opinions on water resistance, battery life, and overall performance are mixed, indicating varying experiences among users.' },
+      { title: 'Opinions on water resistance, battery life, and overall performance are mixed, indicating varying experiences among users.' },
       { title: 'Customers are not satisfied with the charging feature of the oral irrigator. They mention that the charger is a USB and they never have a usb charger in the bathroom.' },
     ],
   },
