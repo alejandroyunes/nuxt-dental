@@ -47,7 +47,7 @@ export const bitvaeC2GlobalData = {
   image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734250326/irrigators/bitvae/bitvaeC2_lwkgaz.webp',
   amazonUrl: 'https://amzn.to/3R3veFS',
   amazonPrime: 'https://www.amazon.com',
-  productPrice: '19.99',
+  productPrice: '25.99',
   path: '/reviews/affordable-countertop-irrigators/portable/bitvaeC2',
   updatedDate: '11/23/2023'
 }

@@ -1,5 +1,5 @@
 import type { ProductDetails } from '~/types/product-details'
-import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, coslusC20F5020EGlobalData } from './01-global'
+import { coslusC20F5020EGlobalData, nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, insmartFC256GlobalData } from './01-global'
 
 const coslusF5020E: ProductDetails = {
   id: 5,
@@ -16,7 +16,7 @@ const coslusF5020E: ProductDetails = {
     cta: 'Buy on Amazon',
     rating: {
       stars: 4.4,
-      reviews: 27467,
+      reviews: 28578,
     },
     characteristics: [
       "Advanced 0.3mm+0.3mm ultra-fine dual-thread water pulse technology, professionally endorsed by an American dental team, removes 99.9% of dental plaque.",
@@ -96,10 +96,55 @@ const coslusF5020E: ProductDetails = {
         price: coslusC20F5020EGlobalData.productPrice,
         satisfaction: '9/10',
       },
+      {
+        id: 2,
+        path: insmartFC256GlobalData.path,
+        model: 'InSmart FC256',
+        image: insmartFC256GlobalData.image,
+        alt: 'InSmart FC256 Oral Irrigator Image',
+        prime: true,
+        dimensions: '8.27 x 3.15 x 1.97 in, 14.07 oz',
+        tips: '6',
+        capacity: '300 ml',
+        highlight: 'Travel Carrying bag, Ease of use, Size, 4 Water Pressure Modes',
+        problem: 'Battery Life, Durability, Nozzle Wear',
+        price: insmartFC256GlobalData.productPrice,
+        satisfaction: '8.5/10',
+      },
+      {
+        id: 3,
+        path: nicwellF5025GlobalData.path,
+        model: 'Nicwell F5025',
+        image: nicwellF5025GlobalData.image,
+        alt: 'Nicwell 300ml Oral Irrigator',
+        prime: true,
+        dimensions: '8.11 x 4.06 x 2.73 in, 14.4 oz',
+        tips: "6 replaceable tips",
+        capacity: "300ml",
+        highlight: "Offers 5 cleaning modes with advanced features.",
+        problem: "Slightly heavier than Nicefeel.",
+        price: nicwellF5025GlobalData.productPrice,
+        satisfaction: '9/10',
+      },
+      {
+        id: 4,
+        path: nicefeelFC1592bkGlobalData.path,
+        model: 'Nicefeel FC1592-BK',
+        image: nicefeelFC1592bkGlobalData.image,
+        alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
+        prime: true,
+        dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
+        tips: '4',
+        capacity: '300 ml',
+        highlight: 'Battery-powered, memory function, 3 cleaning modes',
+        problem: 'Not suitable for large families',
+        price: nicefeelFC1592bkGlobalData.productPrice,
+        satisfaction: '8/10',
+      },
     ],
   },
   proAndCons: {
-    id: 'pro-and-cons-F5020E',
+    id: 'pro-and-cons',
     title: "Pros and Cons of Coslus F5020E",
     description: "While praised for its outstanding value, users note considerations for improvement, expressing a desire for more nozzle options and variations in size preferences. Either way, the Coslus FC165 offers efficient plaque removal, unmatched portability, and user-friendly design.",
     cta: 'Buy Now on Amazon',
