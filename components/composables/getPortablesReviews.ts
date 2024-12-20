@@ -14,7 +14,7 @@ export function getPortablesReviews() {
   const bestpPortableReviewDescription = ref<ReviewGrid[]>([])
 
   const loadingBestPortable = ref(false)
-  const errorBestPortable = ref<string | null>(null)
+  const errorBestPortable = ref(false)
 
   const fetchPosts = async () => {
     loadingBestPortable.value = true
@@ -24,7 +24,7 @@ export function getPortablesReviews() {
       loadingBestPortable.value = false
 
     } catch (e) {
-      errorBestPortable.value = 'Failed to fetch posts'
+      errorBestPortable.value = true
       loadingBestPortable.value = false
     }
   }

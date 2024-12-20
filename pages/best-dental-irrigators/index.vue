@@ -19,13 +19,12 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 })
 
-
-const { bestIrrigators, bestIrrigatorsTitle } = getBestIrrigators()
+const { bestIrrigatorReviewDescription, bestIrrigatorReviewTitle } = getBestIrrigators()
 
 </script>
 
 <template>
-  <ReviewsGrid :reviews="bestIrrigators" :reviewTitle="bestIrrigatorsTitle" marginTop />
+  <ReviewsGrid :reviews="bestIrrigatorReviewDescription" :reviewTitle="bestIrrigatorReviewTitle" marginTop />
   <TypeSection />
   <QuestionsAndAnswers />
 
