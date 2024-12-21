@@ -53,7 +53,7 @@ const synhopeM6Plus: ProductDetails = {
     models: [
       {
         id: 1,
-        path: synhopeM6PlusGlobalData.path || "/products/synhope-flosser",
+        path: synhopeM6PlusGlobalData.path,
         model: "SYNHOPE Mini Cordless",
         image: synhopeM6PlusGlobalData.image,
         alt: "SYNHOPE Mini Cordless Water Flosser",
