@@ -5,7 +5,7 @@ import { sawgmoreFC166GlobalData } from './01-global';
 import { oeeterM01GlobalData } from './01-global';
 
 const turewellFC162: ProductDetails = {
-  id: 6,
+  id: turewellFC162GlobalData.id,
   fileName: 'turewellFC162',
   info: {
     image: turewellFC162GlobalData.image,
@@ -17,10 +17,7 @@ const turewellFC162: ProductDetails = {
     updatedDate: turewellFC162GlobalData.updatedDate,
     buyLink: turewellFC162GlobalData.amazonUrl,
     cta: "Buy on Amazon",
-    rating: {
-      stars: 4.3,
-      reviews: 8794,
-    },
+    rating: turewellFC162GlobalData.rating,
     characteristics: [
       "Corded Electric Power Source",
       "10 Adjustable Water Pressure Settings (30-125 PSI)",
@@ -96,7 +93,7 @@ const turewellFC162: ProductDetails = {
         highlight: "Affordable with solid performance",
         problem: "Corded power source may limit portability",
         price: turewellFC162GlobalData.productPrice,
-        satisfaction: "4.3/5 stars",
+        satisfaction: turewellFC162GlobalData.rating.stars,
       },
       {
         id: 2,
@@ -111,7 +108,7 @@ const turewellFC162: ProductDetails = {
         highlight: '8 Nozzles, Value, Ease of use',
         problem: 'Water Resistance',
         price: turewellFC165GlobalData.productPrice,
-        satisfaction: '8/10',
+        satisfaction: turewellFC165GlobalData.rating.stars,
       },
       {
         id: 3,
@@ -126,7 +123,7 @@ const turewellFC162: ProductDetails = {
         highlight: "Compact and portable design with magnetic handle",
         problem: "Lower water capacity compared to competitors",
         price: oeeterM01GlobalData.productPrice,
-        satisfaction: "4.0/5",
+        satisfaction: oeeterM01GlobalData.rating.stars,
       },
       {
         id: 4,
@@ -141,7 +138,7 @@ const turewellFC162: ProductDetails = {
         highlight: "10 adjustable pressure levels",
         problem: "May require frequent refills at high settings",
         price: sawgmoreFC166GlobalData.productPrice,
-        satisfaction: "8/10'",
+        satisfaction: sawgmoreFC166GlobalData.rating.stars,
       },
     ]
   },

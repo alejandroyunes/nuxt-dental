@@ -5,7 +5,7 @@ import { h2oflossHF9GlobalData } from './01-global';
 import { oeeterM01GlobalData } from './01-global';
 
 const heyaxa2302WF: ProductDetails = {
-  id: 5,
+  id: heyaxa2302WFGlobalData.id,
   fileName: 'heyaxa2302WF',
   info: {
     image: heyaxa2302WFGlobalData.image,
@@ -18,10 +18,7 @@ const heyaxa2302WF: ProductDetails = {
     updatedDate: heyaxa2302WFGlobalData.updatedDate,
     buyLink: heyaxa2302WFGlobalData.amazonUrl,
     cta: "Buy on Amazon",
-    rating: {
-      stars: 4.3,
-      reviews: 125,
-    },
+    rating: heyaxa2302WFGlobalData.rating,
     characteristics: [
       "1000ml large water tank for uninterrupted cleaning",
       "10 adjustable pressure levels (30-125 PSI)",
@@ -95,7 +92,7 @@ const heyaxa2302WF: ProductDetails = {
         highlight: "Compact and portable",
         problem: "Smaller tank capacity",
         price: heyaxa2302WFGlobalData.productPrice,
-        satisfaction: "4.0/5",
+        satisfaction: heyaxa2302WFGlobalData.rating.stars,
       },
       {
         id: 2,
@@ -110,7 +107,7 @@ const heyaxa2302WF: ProductDetails = {
         highlight: "Compact and portable design with magnetic handle",
         problem: "Lower water capacity compared to competitors",
         price: oeeterM01GlobalData.productPrice,
-        satisfaction: "4.0/5",
+        satisfaction: oeeterM01GlobalData.rating.stars,
       },
       {
         id: 3,
@@ -125,7 +122,7 @@ const heyaxa2302WF: ProductDetails = {
         highlight: "10 adjustable pressure levels",
         problem: "May require frequent refills at high settings",
         price: sawgmoreFC166GlobalData.productPrice,
-        satisfaction: "8/10'",
+        satisfaction: sawgmoreFC166GlobalData.rating.stars,
       },
       {
         id: 4,
@@ -140,7 +137,7 @@ const heyaxa2302WF: ProductDetails = {
         highlight: 'User-Friendly Design, Versatility and Cleaning Power',
         problem: 'Leaking Problems, Noise Levels',
         price: h2oflossHF9GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: h2oflossHF9GlobalData.rating.stars,
       },
     ],
   },

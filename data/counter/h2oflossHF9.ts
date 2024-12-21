@@ -5,7 +5,7 @@ import { h2oflossHF9GlobalData } from './01-global';
 import { oeeterM01GlobalData } from './01-global';
 
 const h2oflossHF9: ProductDetails = {
-  id: 2,
+  id: h2oflossHF9GlobalData.id,
   fileName: 'h2oflossHF9',
   info: {
     image: h2oflossHF9GlobalData.image,
@@ -17,10 +17,7 @@ const h2oflossHF9: ProductDetails = {
     updatedDate: h2oflossHF9GlobalData.updatedDate,
     buyLink: h2oflossHF9GlobalData.amazonUrl,
     cta: "Buy Now on Amazon",
-    rating: {
-      stars: 4.3,
-      reviews: 16116,
-    },
+    rating: h2oflossHF9GlobalData.rating,
     characteristics: [
       "13 Multifunctional Tips for versatile oral care.",
       "5 Water Pressure Settings with a range from 5-110 PSI.",
@@ -33,31 +30,19 @@ const h2oflossHF9: ProductDetails = {
     ],
   },
   tableOfContent: [
-    {
-      content: '\u2022 The Best of the H2ofloss HF-9 Water Flosser',
-      id: `#the-best-of-h2ofloss`
-    },
-    {
-      content: '\u2022 Best features of the H2ofloss HF-9',
-      id: `#features-of-h2ofloss`
-    },
-    {
-      content: '\u2022 Comparison table with other irrigators',
-      id: `#how-does-the-h2ofloss-compares-to-other-irrigators`
-    },
-    {
-      content: '\u2022 Pros and Cons of the H2ofloss HF-9?',
-      id: `#pros-and-cons`
-    },
+    { id: "#title", content: "Overview" },
+    { id: "#features", content: "Key Features" },
+    { id: "#comparison", content: "Comparison with Similar Models" },
+    { id: "#pros-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: "the-best-of-h2ofloss",
+    id: "title",
     title: "The Best of the H2ofloss HF-9 Water Flosser",
     description: "Discover the top features and benefits of the H2ofloss HF-9 Water Flosser. Keep your oral health in check with advanced pulse frequency, customizable water pressure settings, and more!",
     subtext: "The 800ml capacity and overheat protection ensure a convenient and safe experience. Ideal for the whole family, including those with braces, implants, crowns, or periodontal pockets.",
   },
   features: {
-    id: "features-of-h2ofloss",
+    id: "features",
     title: "Best features of the H2ofloss HF-9",
     data: [
       {
@@ -95,7 +80,7 @@ const h2oflossHF9: ProductDetails = {
     ],
   },
   comparison: {
-    id: "how-does-the-h2ofloss-compares-to-other-irrigators",
+    id: "comparison",
     title: "Compare the H2ofloss HF-9 with other irrigators",
     description: "In this table, you can see all the affordable countertop models, their features, notable advantages, user ratings, and the results of our analyses in 2024.",
     models: [
@@ -112,7 +97,7 @@ const h2oflossHF9: ProductDetails = {
         highlight: 'User-Friendly Design, Versatility and Cleaning Power',
         problem: 'Leaking Problems, Noise Levels',
         price: h2oflossHF9GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: h2oflossHF9GlobalData.rating.stars,
       },
       {
         id: 2,
@@ -127,7 +112,7 @@ const h2oflossHF9: ProductDetails = {
         highlight: '8 Nozzles, Value, Ease of use',
         problem: 'Water Resistance',
         price: turewellFC165GlobalData.productPrice,
-        satisfaction: '8/10',
+        satisfaction: turewellFC165GlobalData.rating.stars,
       },
       {
         id: 3,
@@ -142,7 +127,7 @@ const h2oflossHF9: ProductDetails = {
         highlight: "10 adjustable pressure levels",
         problem: "May require frequent refills at high settings",
         price: sawgmoreFC166GlobalData.productPrice,
-        satisfaction: "8/10'",
+        satisfaction: sawgmoreFC166GlobalData.rating.stars,
       },
       {
         id: 4,
@@ -157,7 +142,7 @@ const h2oflossHF9: ProductDetails = {
         highlight: "Compact and portable design with magnetic handle",
         problem: "Lower water capacity compared to competitors",
         price: oeeterM01GlobalData.productPrice,
-        satisfaction: "4.0/5",
+        satisfaction: oeeterM01GlobalData.rating.stars,
       },
     ]
   },

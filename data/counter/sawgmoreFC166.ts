@@ -5,7 +5,7 @@ import { sawgmoreFC166GlobalData } from './01-global';
 import { heyaxa2302WFGlobalData } from './01-global';
 
 const sawgmoreFC166: ProductDetails = {
-  id: 3,
+  id: sawgmoreFC166GlobalData.id,
   fileName: 'sawgmoreFC166',
   info: {
     image: sawgmoreFC166GlobalData.image,
@@ -17,10 +17,7 @@ const sawgmoreFC166: ProductDetails = {
     updatedDate: sawgmoreFC166GlobalData.updatedDate,
     buyLink: sawgmoreFC166GlobalData.amazonUrl,
     cta: "Buy Now on Amazon",
-    rating: {
-      stars: 4.3,
-      reviews: 3771,
-    },
+    rating: sawgmoreFC166GlobalData.rating,
     characteristics: [
       "Level pressure control adjustment",
       "600ML large detachable water tank",
@@ -31,31 +28,19 @@ const sawgmoreFC166: ProductDetails = {
     ],
   },
   tableOfContent: [
-    {
-      content: '\u2022 The Best of the Sawgmore FC166 Water Flosser',
-      id: `#the-best-of-sawgmoreFC166`,
-    },
-    {
-      content: '\u2022 Best features of the Sawgmore FC166',
-      id: `#features-of-sawgmoreFC166`,
-    },
-    {
-      content: '\u2022 Comparison table with other irrigators',
-      id: `#how-does-the-sawgmoreFC166-compares-to-other-irrigators`,
-    },
-    {
-      content: '\u2022 Pros and Cons of the Sawgmore FC166?',
-      id: `#pros-and-cons`,
-    },
+    { id: "#title", content: "Overview" },
+    { id: "#features", content: "Key Features" },
+    { id: "#comparison", content: "Comparison with Similar Models" },
+    { id: "#pros-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: "the-best-of-sawgmoreFC166",
+    id: "title",
     title: "The Best of the Sawgmore FC166 Water Flosser",
     description: "Sawgmore water flosser can effectively remove 99.9% of plaque and solve various oral problems.",
     subtext: "Advanced technology for enhanced performance.",
   },
   features: {
-    id: "features-of-sawgmoreFC166",
+    id: "features",
     title: "Best Features of the Sawgmore FC166",
     data: [
       { title: "Effectively Clean", description: "Removes food debris between teeth with 1250-1700 pulsations per minute." },
@@ -66,7 +51,7 @@ const sawgmoreFC166: ProductDetails = {
     ],
   },
   comparison: {
-    id: "how-does-the-sawgmoreFC166-compares-to-other-irrigators",
+    id: "comparison",
     title: "Comparison with Other Irrigators",
     description: "How the Sawgmore FC166 stands out in the market.",
     models: [
@@ -83,7 +68,7 @@ const sawgmoreFC166: ProductDetails = {
         highlight: "10 adjustable pressure levels",
         problem: "May require frequent refills at high settings",
         price: sawgmoreFC166GlobalData.productPrice,
-        satisfaction: "8/10'",
+        satisfaction: sawgmoreFC166GlobalData.rating.stars,
       },
       {
         id: 2,
@@ -98,7 +83,7 @@ const sawgmoreFC166: ProductDetails = {
         highlight: '8 Nozzles, Value, Ease of use',
         problem: 'Water Resistance',
         price: turewellFC165GlobalData.productPrice,
-        satisfaction: '8/10',
+        satisfaction: turewellFC165GlobalData.rating.stars,
       },
       {
         id: 3,
@@ -113,7 +98,7 @@ const sawgmoreFC166: ProductDetails = {
         highlight: 'User-Friendly Design, Versatility and Cleaning Power',
         problem: 'Leaking Problems, Noise Levels',
         price: h2oflossHF9GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: h2oflossHF9GlobalData.rating.stars,
       },
       {
         id: 4,
@@ -128,7 +113,7 @@ const sawgmoreFC166: ProductDetails = {
         highlight: "Compact and portable",
         problem: "Smaller tank capacity",
         price: heyaxa2302WFGlobalData.productPrice,
-        satisfaction: "4.0/5",
+        satisfaction: heyaxa2302WFGlobalData.rating.stars,
       },
     ],
   },

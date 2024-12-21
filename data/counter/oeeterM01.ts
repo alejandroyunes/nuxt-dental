@@ -5,7 +5,7 @@ import { sawgmoreFC166GlobalData } from './01-global'
 import { turewellFC165GlobalData } from './01-global'
 
 const oeeterM01: ProductDetails = {
-  id: 4,
+  id: oeeterM01GlobalData.id,
   fileName: 'oeeterM01',
   info: {
     image: oeeterM01GlobalData.image,
@@ -17,10 +17,7 @@ const oeeterM01: ProductDetails = {
     updatedDate: oeeterM01GlobalData.updatedDate,
     buyLink: oeeterM01GlobalData.amazonUrl,
     cta: "Buy on Amazon",
-    rating: {
-      stars: 4.0,
-      reviews: 379,
-    },
+    rating: oeeterM01GlobalData.rating,
     characteristics: [
       "10 Adjustable Pressure Settings",
       "3 Cleaning Modes: Normal, Soft, Pulse",
@@ -89,7 +86,7 @@ const oeeterM01: ProductDetails = {
         highlight: "Compact and portable design with magnetic handle",
         problem: "Lower water capacity compared to competitors",
         price: oeeterM01GlobalData.productPrice,
-        satisfaction: "4.0/5",
+        satisfaction: oeeterM01GlobalData.rating.stars,
       },
       {
         id: 2,
@@ -104,7 +101,7 @@ const oeeterM01: ProductDetails = {
         highlight: '8 Nozzles, Value, Ease of use',
         problem: 'Water Resistance',
         price: turewellFC165GlobalData.productPrice,
-        satisfaction: '8/10',
+        satisfaction: turewellFC165GlobalData.rating.stars,
       },
       {
         id: 3,
@@ -119,7 +116,7 @@ const oeeterM01: ProductDetails = {
         highlight: "10 adjustable pressure levels",
         problem: "May require frequent refills at high settings",
         price: sawgmoreFC166GlobalData.productPrice,
-        satisfaction: "8/10'",
+        satisfaction: sawgmoreFC166GlobalData.rating.stars,
       },
       {
         id: 4,
@@ -134,7 +131,7 @@ const oeeterM01: ProductDetails = {
         highlight: 'User-Friendly Design, Versatility and Cleaning Power',
         problem: 'Leaking Problems, Noise Levels',
         price: h2oflossHF9GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: h2oflossHF9GlobalData.rating.stars,
       },
     ]
   },
