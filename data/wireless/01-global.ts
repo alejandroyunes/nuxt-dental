@@ -4,7 +4,7 @@ export const waterPikWF02GlobalData = {
   amazonUrl: 'https://amzn.to/3TjtFqp',
   productPrice: '36.89',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/portable/waterpikFW02',
+  path: '/reviews/affordable-countertop-irrigators/wireless/waterpikFW02',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.2,
@@ -18,7 +18,7 @@ export const nicwellF5025GlobalData = {
   amazonUrl: 'https://amzn.to/3GsK58d',
   productPrice: '39.89',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/portable/nicwellF5025',
+  path: '/reviews/affordable-countertop-irrigators/wireless/nicwellF5025',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
@@ -32,7 +32,7 @@ export const nicefeelFC1592bkGlobalData = {
   amazonUrl: 'https://amzn.to/3RvbA7j',
   productPrice: '21.99',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/portable/nicefeelFC1592bk',
+  path: '/reviews/affordable-countertop-irrigators/wireless/nicefeelFC1592bk',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.2,
@@ -46,7 +46,7 @@ export const coslusC20F5020EGlobalData = {
   amazonUrl: 'https://amzn.to/3NhjGhd',
   productPrice: '37.15',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/portable/coslusF5020E',
+  path: '/reviews/affordable-countertop-irrigators/wireless/coslusF5020E',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.4,
@@ -60,7 +60,7 @@ export const insmartFC256GlobalData = {
   amazonUrl: 'https://amzn.to/3Nbst4b',
   productPrice: '25.98',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/portable/inSmartFC256',
+  path: '/reviews/affordable-countertop-irrigators/wireless/inSmartFC256',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
@@ -74,7 +74,7 @@ export const bitvaeC2GlobalData = {
   amazonUrl: 'https://amzn.to/3R3veFS',
   amazonPrime: 'https://www.amazon.com',
   productPrice: '25.99',
-  path: '/reviews/affordable-countertop-irrigators/portable/bitvaeC2',
+  path: '/reviews/affordable-countertop-irrigators/wireless/bitvaeC2',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.4,

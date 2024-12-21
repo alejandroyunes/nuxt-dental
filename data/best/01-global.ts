@@ -1,5 +1,3 @@
-import { id } from "@formkit/i18n"
-
 export const panasonicEW1511WGlobalData = {
   id: 1,
   image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734670235/irrigators/panasonic/panasonicEW1511W_fsjgoz.webp',

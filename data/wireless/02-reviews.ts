@@ -7,14 +7,14 @@ import inSmartFC256 from './inSmartFC256'
 import coslusF5020E from './coslusF5020E'
 import bitvaeC2 from './bitvaeC2'
 
-export const bestPortableReviewsTitle: TitleInfo = {
-  title: "Affordable And Portable Oral Irrigators",
+export const bestWirelessReviewsTitle: TitleInfo = {
+  title: "Affordable And Wireless Oral Irrigators",
   description: "Upgrade your smile game without breaking the bank! Dive into the coolest portable and affordable oral irrigators on Amazon. We've rounded up the best brands for easy, breezy dental care.",
-  subtext: "Click on view more to read our review of the top-rated portable oral Irrigators.",
-  slug: "reviews/affordable-and-portable-oral-irrigators/portable"
+  subtext: "Click on view more to read our review of the top-rated wireless oral Irrigators.",
+  slug: "reviews/affordable-and-wireless-oral-irrigators/wireless"
 }
 
-export const bestPortableReviewsDescription: ReviewGrid[] = [
+export const bestWirelessReviewsDescription: ReviewGrid[] = [
   {
     id: 1,
     productId: waterpikFW02.id,

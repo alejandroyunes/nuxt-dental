@@ -6,7 +6,7 @@ import InfoGridSection from '~/components/organisms/grids/InfoGridSection.vue'
 import TypeSection from '~/components/organisms/type-section/TypeSection.vue'
 import ComparisonSection from '~/components/organisms/tables/comparisor/index.vue'
 import WaterPickSection from '~/components/organisms/product/card/index.vue'
-import { getPortablesReviews } from '~/components/composables/getPortablesReviews'
+import { getWirelessReviews } from '~/components/composables/getWirelessReviews'
 import { getCounterReviews } from '~/components/composables/getCounterReviews'
 import QuestionsAndAnswers from '~/components/organisms/questions-answers/index.vue'
 
@@ -25,14 +25,14 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 })
 
-const { bestpPortableReviewDescription, bestpPortableReviewTitle } = getPortablesReviews()
+const { bestWirelessReviewDescription, bestWirelessReviewTitle } = getWirelessReviews()
 const { bestCounterReviewDescription, bestCounterReviewTitle } = getCounterReviews()
 
 </script>
 
 <template>
   <HeroSection />
-  <ReviewsGrid :reviews="bestpPortableReviewDescription" :reviewTitle="bestpPortableReviewTitle" />
+  <ReviewsGrid :reviews="bestWirelessReviewDescription" :reviewTitle="bestWirelessReviewTitle" />
   <ReviewsGrid :reviews="bestCounterReviewDescription" :reviewTitle="bestCounterReviewTitle" />
   <TypeSection />
   <QuestionsAndAnswers />
