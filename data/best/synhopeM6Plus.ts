@@ -1,8 +1,8 @@
 import type { ProductDetails } from '~/types/product-details';
-import { synhopeM6PlusGlobalData, panasonicEWDJ10GlobalData, waterpikwp580GlobalData, waterpikwp660GlobalData } from './01-global'
+import { synhopeM6PlusGlobalData, panasonicEW1511WGlobalData, waterpikwp580GlobalData, waterpikwp660GlobalData } from './01-global'
 
 const synhopeM6Plus: ProductDetails = {
-  id: 2,
+  id: synhopeM6PlusGlobalData.id,
   fileName: 'synhopeM6Plus',
   info: {
     image: synhopeM6PlusGlobalData.image,
@@ -14,10 +14,7 @@ const synhopeM6Plus: ProductDetails = {
     updatedDate: synhopeM6PlusGlobalData.updatedDate,
     buyLink: synhopeM6PlusGlobalData.amazonUrl,
     cta: "Buy on Amazon",
-    rating: {
-      stars: 4.2,
-      reviews: 15671,
-    },
+    rating: synhopeM6PlusGlobalData.rating,
     characteristics: [
       "Compact and portable design",
       "Telescopic water tank",
@@ -67,13 +64,13 @@ const synhopeM6Plus: ProductDetails = {
         highlight: "Portable design ideal for travel",
         problem: "Limited water capacity compared to larger models",
         price: synhopeM6PlusGlobalData.productPrice,
-        satisfaction: "Compact and efficient for daily use.",
+        satisfaction: synhopeM6PlusGlobalData.rating.stars,
       },
       {
         id: 2,
-        path: panasonicEWDJ10GlobalData.path,
+        path: panasonicEW1511WGlobalData.path,
         model: "EW-DJ10-W",
-        image: panasonicEWDJ10GlobalData.image,
+        image: panasonicEW1511WGlobalData.image,
         alt: "Panasonic Portable Water Flosser EW-DJ10",
         prime: true,
         dimensions: "2 x 2.7 x 8.6 inches",
@@ -81,8 +78,8 @@ const synhopeM6Plus: ProductDetails = {
         capacity: "165 ml",
         highlight: "Collapsible, travel-friendly design",
         problem: "Short operating time of 20 minutes",
-        price: panasonicEWDJ10GlobalData.productPrice,
-        satisfaction: "4.2/5",
+        price: panasonicEW1511WGlobalData.productPrice,
+        satisfaction: panasonicEW1511WGlobalData.rating.stars,
       },
       {
         id: 3,
@@ -97,7 +94,7 @@ const synhopeM6Plus: ProductDetails = {
         highlight: "Most affordable",
         problem: "Shorter battery life",
         price: waterpikwp580GlobalData.productPrice,
-        satisfaction: "4.2 stars",
+        satisfaction: waterpikwp580GlobalData.rating.stars,
       },
       {
         id: 4,
@@ -112,7 +109,7 @@ const synhopeM6Plus: ProductDetails = {
         highlight: '10 Nozzles, Best value',
         problem: 'Noise, size',
         price: waterpikwp660GlobalData.productPrice,
-        satisfaction: "8/10",
+        satisfaction: waterpikwp660GlobalData.rating.stars,
       },
     ],
   },

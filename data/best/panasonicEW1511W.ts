@@ -1,23 +1,20 @@
 import type { ProductDetails } from '~/types/product-details'
-import { panasonicEWDJ10GlobalData, waterpikwp580GlobalData, synhopeM6PlusGlobalData } from './01-global'
+import { panasonicEW1511WGlobalData, waterpikwp580GlobalData, synhopeM6PlusGlobalData } from './01-global'
 
 const panasonicEW1511W: ProductDetails = {
-  id: 1,
+  id: panasonicEW1511WGlobalData.id,
   fileName: 'panasonicEW1511W',
   info: {
-    image: panasonicEWDJ10GlobalData.image,
+    image: panasonicEW1511WGlobalData.image,
     alt: "Panasonic Portable Water Flosser EW-DJ10",
     title: "Panasonic EW1511W Portable Water Flosser, 165ml.",
     subtitle: "For Dental, Bridge and Orthodontic Care",
     description: "Portable oral irrigator with ultrasonic cleaning for effective dental hygiene. Ideal for braces, bridges, and general care.",
-    price: panasonicEWDJ10GlobalData.productPrice,
-    updatedDate: panasonicEWDJ10GlobalData.updatedDate,
-    buyLink: panasonicEWDJ10GlobalData.amazonUrl,
+    price: panasonicEW1511WGlobalData.productPrice,
+    updatedDate: panasonicEW1511WGlobalData.updatedDate,
+    buyLink: panasonicEW1511WGlobalData.amazonUrl,
     cta: "Buy on Amazon",
-    rating: {
-      stars: 4.4,
-      reviews: 532,
-    },
+    rating: panasonicEW1511WGlobalData.rating,
     characteristics: [
       "Cordless and portable design",
       "Ultrasonic water stream for thorough cleaning",
@@ -56,9 +53,9 @@ const panasonicEW1511W: ProductDetails = {
     models: [
       {
         id: 1,
-        path: panasonicEWDJ10GlobalData.path,
+        path: panasonicEW1511WGlobalData.path,
         model: "EW-DJ10-W",
-        image: panasonicEWDJ10GlobalData.image,
+        image: panasonicEW1511WGlobalData.image,
         alt: "Panasonic Portable Water Flosser EW-DJ10",
         prime: true,
         dimensions: "2 x 2.7 x 8.6 inches",
@@ -66,8 +63,8 @@ const panasonicEW1511W: ProductDetails = {
         capacity: "165 ml",
         highlight: "Collapsible, travel-friendly design",
         problem: "Short operating time of 20 minutes",
-        price: panasonicEWDJ10GlobalData.productPrice,
-        satisfaction: "4.2/5",
+        price: panasonicEW1511WGlobalData.productPrice,
+        satisfaction: panasonicEW1511WGlobalData.rating.stars,
       },
       {
         id: 2,
@@ -82,7 +79,7 @@ const panasonicEW1511W: ProductDetails = {
         highlight: "Portable design ideal for travel",
         problem: "Limited water capacity compared to larger models",
         price: synhopeM6PlusGlobalData.productPrice,
-        satisfaction: "Compact and efficient for daily use.",
+        satisfaction: synhopeM6PlusGlobalData.rating.stars,
       },
       {
         id: 3,
@@ -97,13 +94,13 @@ const panasonicEW1511W: ProductDetails = {
         highlight: "Most affordable",
         problem: "Shorter battery life",
         price: waterpikwp580GlobalData.productPrice,
-        satisfaction: "4.2 stars",
+        satisfaction: waterpikwp580GlobalData.rating.stars,
       },
       {
         id: 4,
-        path: panasonicEWDJ10GlobalData.path,
+        path: panasonicEW1511WGlobalData.path,
         model: "EW-DJ10-W",
-        image: panasonicEWDJ10GlobalData.image,
+        image: panasonicEW1511WGlobalData.image,
         alt: "Panasonic Portable Water Flosser EW-DJ10",
         prime: true,
         dimensions: "2 x 2.7 x 8.6 inches",
@@ -111,8 +108,8 @@ const panasonicEW1511W: ProductDetails = {
         capacity: "165 ml",
         highlight: "Collapsible, travel-friendly design",
         problem: "Short operating time of 20 minutes",
-        price: panasonicEWDJ10GlobalData.productPrice,
-        satisfaction: "4.2/5",
+        price: panasonicEW1511WGlobalData.productPrice,
+        satisfaction: panasonicEW1511WGlobalData.rating.stars,
       },
     ]
   },
@@ -121,7 +118,7 @@ const panasonicEW1511W: ProductDetails = {
     title: "Pros and Cons",
     description: "Weighing the benefits and drawbacks of the Panasonic EW-DJ10.",
     cta: "Buy on Amazon",
-    buyLink: panasonicEWDJ10GlobalData.amazonUrl,
+    buyLink: panasonicEW1511WGlobalData.amazonUrl,
     pros: [
       { title: "Portable and travel-friendly" },
       { title: "Easy to clean and maintain" },

@@ -1,8 +1,8 @@
 import type { ProductDetails } from '~/types/product-details';
-import { waterpikwp660GlobalData, waterpikwp580GlobalData, synhopeM6PlusGlobalData, panasonicEWDJ10GlobalData } from './01-global';
+import { waterpikwp660GlobalData, waterpikwp580GlobalData, synhopeM6PlusGlobalData, panasonicEW1511WGlobalData } from './01-global';
 
 const waterpikwp660: ProductDetails = {
-  id: 3,
+  id: waterpikwp660GlobalData.id,
   fileName: 'waterpikwp660',
   info: {
     image: waterpikwp660GlobalData.image,
@@ -14,10 +14,7 @@ const waterpikwp660: ProductDetails = {
     updatedDate: waterpikwp660GlobalData.updatedDate,
     buyLink: waterpikwp660GlobalData.amazonUrl,
     cta: "Buy on Amazon",
-    rating: {
-      stars: 4.6,
-      reviews: 143427,
-    },
+    rating: waterpikwp580GlobalData.rating,
     characteristics: [
       "ADA accepted for safety and effectiveness",
       "Removes up to 99.9% of plaque bacteria",
@@ -82,7 +79,7 @@ const waterpikwp660: ProductDetails = {
         highlight: '10 Nozzles, Best value',
         problem: 'Noise, size',
         price: waterpikwp660GlobalData.productPrice,
-        satisfaction: "8/10",
+        satisfaction: waterpikwp660GlobalData.rating.stars,
       },
       {
         id: 2,
@@ -97,7 +94,7 @@ const waterpikwp660: ProductDetails = {
         highlight: "Most affordable",
         problem: "Shorter battery life",
         price: waterpikwp580GlobalData.productPrice,
-        satisfaction: "4.2 stars",
+        satisfaction: waterpikwp580GlobalData.rating.stars,
       },
       {
         id: 3,
@@ -112,13 +109,13 @@ const waterpikwp660: ProductDetails = {
         highlight: "Portable design ideal for travel",
         problem: "Limited water capacity compared to larger models",
         price: synhopeM6PlusGlobalData.productPrice,
-        satisfaction: "Compact and efficient for daily use.",
+        satisfaction: synhopeM6PlusGlobalData.rating.stars,
       },
       {
         id: 4,
-        path: panasonicEWDJ10GlobalData.path,
+        path: panasonicEW1511WGlobalData.path,
         model: "EW-DJ10-W",
-        image: panasonicEWDJ10GlobalData.image,
+        image: panasonicEW1511WGlobalData.image,
         alt: "Panasonic Portable Water Flosser EW-DJ10",
         prime: true,
         dimensions: "2 x 2.7 x 8.6 inches",
@@ -126,8 +123,8 @@ const waterpikwp660: ProductDetails = {
         capacity: "165 ml",
         highlight: "Collapsible, travel-friendly design",
         problem: "Short operating time of 20 minutes",
-        price: panasonicEWDJ10GlobalData.productPrice,
-        satisfaction: "4.2/5",
+        price: panasonicEW1511WGlobalData.productPrice,
+        satisfaction: panasonicEW1511WGlobalData.rating.stars,
       },
     ],
   },
