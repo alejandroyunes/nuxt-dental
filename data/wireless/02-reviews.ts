@@ -6,6 +6,7 @@ import nicefeelFC1592 from './nicefeelFC1592'
 import inSmartFC256 from './inSmartFC256'
 import coslusF5020E from './coslusF5020E'
 import bitvaeC2 from './bitvaeC2'
+import { waterPikWF02GlobalData, nicwellF5025GlobalData, nicefeelFC1592bkGlobalData, insmartFC256GlobalData, coslusC20F5020EGlobalData, bitvaeC2GlobalData } from "./01-global"
 
 export const bestWirelessReviewsTitle: TitleInfo = {
   title: "Affordable And Wireless Oral Irrigators",
@@ -16,7 +17,7 @@ export const bestWirelessReviewsTitle: TitleInfo = {
 
 export const bestWirelessReviewsDescription: ReviewGrid[] = [
   {
-    id: 1,
+    id: waterPikWF02GlobalData.id,
     productId: waterpikFW02.id,
     fileName: waterpikFW02.fileName,
     name: waterpikFW02.info.title,
@@ -28,7 +29,7 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
     updatedDate: waterpikFW02.info.updatedDate
   },
   {
-    id: 2,
+    id: nicefeelFC1592bkGlobalData.id,
     productId: nicwellF5025.id,
     fileName: nicwellF5025.fileName,
     name: nicwellF5025.info.title,
@@ -40,7 +41,7 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
     updatedDate: nicwellF5025.info.updatedDate
   },
   {
-    id: 3,
+    id: nicefeelFC1592bkGlobalData.id,
     productId: nicefeelFC1592.id,
     fileName: nicefeelFC1592.fileName,
     name: nicefeelFC1592.info.title,
@@ -52,7 +53,7 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
     updatedDate: nicefeelFC1592.info.updatedDate
   },
   {
-    id: 4,
+    id: inSmartFC256.id,
     productId: inSmartFC256.id,
     fileName: inSmartFC256.fileName,
     name: inSmartFC256.info.title,
@@ -64,7 +65,7 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
     updatedDate: inSmartFC256.info.updatedDate
   },
   {
-    id: 5,
+    id: coslusC20F5020EGlobalData.id,
     productId: coslusF5020E.id,
     fileName: coslusF5020E.fileName,
     name: coslusF5020E.info.title,
@@ -76,7 +77,7 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
     updatedDate: coslusF5020E.info.updatedDate
   },
   {
-    id: 6,
+    id: bitvaeC2GlobalData.id,
     productId: bitvaeC2.id,
     fileName: bitvaeC2.fileName,
     name: bitvaeC2.info.title,

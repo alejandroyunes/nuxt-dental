@@ -94,7 +94,7 @@ const bitvaeC2: ProductDetails = {
         satisfaction: bitvaeC2GlobalData.rating.stars,
       },
       {
-        id: 1,
+        id: 2,
         path: coslusC20F5020EGlobalData.path,
         model: 'Coslus F5020E',
         image: coslusC20F5020EGlobalData.image,
@@ -109,7 +109,7 @@ const bitvaeC2: ProductDetails = {
         satisfaction: coslusC20F5020EGlobalData.rating.stars,
       },
       {
-        id: 2,
+        id: 3,
         path: insmartFC256GlobalData.path,
         model: 'InSmart FC256',
         image: insmartFC256GlobalData.image,
@@ -124,7 +124,7 @@ const bitvaeC2: ProductDetails = {
         satisfaction: insmartFC256GlobalData.rating.stars,
       },
       {
-        id: 3,
+        id: 4,
         path: nicwellF5025GlobalData.path,
         model: 'Nicwell F5025',
         image: nicwellF5025GlobalData.image,
