@@ -6,9 +6,9 @@ import waterpikwp580 from "./waterpikwp580"
 import waterpikwp660 from "./waterpikwp660"
 
 export const bestIrrigatorReviewsTitle: TitleInfo = {
-  title: 'Affordable CounterTop Irrigators',
-  description: 'Explore the best budget-friendly countertop oral irrigators that provide superior dental care with high water pulsation, multiple pressure settings, and various tips for different needs.',
-  subtext: 'Achieve effective, professional-level cleaning without the high cost. Perfect for families and individuals looking for a reliable and affordable oral care solution.',
+  title: 'Top 6 Best Dental Irrigators in 2025',
+  description: 'Maintaining optimal oral hygiene is crucial for overall health, and dental irrigators have become an essential tool in achieving that goal. These devices, also known as water flossers, use a stream of water to remove plaque and food particles from between your teeth and below the gumline.',
+  subtext: 'Here are some of the best dental irrigators you can buy online:',
   slug: 'reviews/best-dental-irrigators/best'
 }
 

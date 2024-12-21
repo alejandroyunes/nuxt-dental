@@ -1,5 +1,5 @@
 import type { ProductDetails } from '~/types/product-details'
-import { panasonicEWDJ10GlobalData } from './01-global'
+import { panasonicEWDJ10GlobalData, waterpikwp580GlobalData, synhopeM6PlusGlobalData } from './01-global'
 
 const panasonicEW1511W: ProductDetails = {
   id: 1,
@@ -35,8 +35,8 @@ const panasonicEW1511W: ProductDetails = {
   title: {
     id: "title",
     title: "Panasonic Professional Cordless Water Flosser",
-    description: "Advanced dental care with ultrasonic cleaning technology.",
-    subtext: "Your portable solution for maintaining oral hygiene.",
+    description: "The Panasonic EW1511W Portable Water Flosser is a compact and powerful device, perfect for maintaining oral hygiene on the go with its 165ml. water tank and high water pulsation for effective cleaning.",
+    subtext: "Portable solution for maintaining oral hygiene.",
   },
   features: {
     id: "features",
@@ -56,6 +56,51 @@ const panasonicEW1511W: ProductDetails = {
     models: [
       {
         id: 1,
+        path: panasonicEWDJ10GlobalData.path,
+        model: "EW-DJ10-W",
+        image: panasonicEWDJ10GlobalData.image,
+        alt: "Panasonic Portable Water Flosser EW-DJ10",
+        prime: true,
+        dimensions: "2 x 2.7 x 8.6 inches",
+        tips: "2 interchangeable tips",
+        capacity: "165 ml",
+        highlight: "Collapsible, travel-friendly design",
+        problem: "Short operating time of 20 minutes",
+        price: panasonicEWDJ10GlobalData.productPrice,
+        satisfaction: "4.2/5",
+      },
+      {
+        id: 2,
+        path: synhopeM6PlusGlobalData.path || "/products/synhope-flosser",
+        model: "SYNHOPE Mini Cordless",
+        image: synhopeM6PlusGlobalData.image,
+        alt: "SYNHOPE Mini Cordless Water Flosser",
+        prime: true,
+        dimensions: "Palm-sized, lightweight design",
+        tips: "Includes 4 replacement jet tips",
+        capacity: "Telescopic water tank for up to 50 seconds of flossing",
+        highlight: "Portable design ideal for travel",
+        problem: "Limited water capacity compared to larger models",
+        price: synhopeM6PlusGlobalData.productPrice,
+        satisfaction: "Compact and efficient for daily use.",
+      },
+      {
+        id: 3,
+        path: waterpikwp580GlobalData.path,
+        model: "Waterpik Cordless Express",
+        image: waterpikwp580GlobalData.image,
+        alt: "Waterpik Cordless Express Water Flosser",
+        prime: false,
+        dimensions: "11.75 x 2.5 x 3.63 inches",
+        tips: "2 Precision (Classic)",
+        capacity: "Up to 30 seconds",
+        highlight: "Most affordable",
+        problem: "Shorter battery life",
+        price: waterpikwp580GlobalData.productPrice,
+        satisfaction: "4.2 stars",
+      },
+      {
+        id: 4,
         path: panasonicEWDJ10GlobalData.path,
         model: "EW-DJ10-W",
         image: panasonicEWDJ10GlobalData.image,

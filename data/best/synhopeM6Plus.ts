@@ -1,5 +1,5 @@
 import type { ProductDetails } from '~/types/product-details';
-import { synhopeM6PlusGlobalData } from './01-global'
+import { synhopeM6PlusGlobalData, panasonicEWDJ10GlobalData, waterpikwp580GlobalData, waterpikwp660GlobalData } from './01-global'
 
 const synhopeM6Plus: ProductDetails = {
   id: 2,
@@ -68,7 +68,52 @@ const synhopeM6Plus: ProductDetails = {
         problem: "Limited water capacity compared to larger models",
         price: synhopeM6PlusGlobalData.productPrice,
         satisfaction: "Compact and efficient for daily use.",
-      }
+      },
+      {
+        id: 2,
+        path: panasonicEWDJ10GlobalData.path,
+        model: "EW-DJ10-W",
+        image: panasonicEWDJ10GlobalData.image,
+        alt: "Panasonic Portable Water Flosser EW-DJ10",
+        prime: true,
+        dimensions: "2 x 2.7 x 8.6 inches",
+        tips: "2 interchangeable tips",
+        capacity: "165 ml",
+        highlight: "Collapsible, travel-friendly design",
+        problem: "Short operating time of 20 minutes",
+        price: panasonicEWDJ10GlobalData.productPrice,
+        satisfaction: "4.2/5",
+      },
+      {
+        id: 3,
+        path: waterpikwp580GlobalData.path,
+        model: "Waterpik Cordless Express",
+        image: waterpikwp580GlobalData.image,
+        alt: "Waterpik Cordless Express Water Flosser",
+        prime: false,
+        dimensions: "11.75 x 2.5 x 3.63 inches",
+        tips: "2 Precision (Classic)",
+        capacity: "Up to 30 seconds",
+        highlight: "Most affordable",
+        problem: "Shorter battery life",
+        price: waterpikwp580GlobalData.productPrice,
+        satisfaction: "4.2 stars",
+      },
+      {
+        id: 4,
+        path: waterpikwp660GlobalData.path,
+        model: "Waterpik WP-660",
+        image: waterpikwp660GlobalData.image,
+        alt: 'Waterpik WP-660 Oral Irrigator',
+        prime: true,
+        dimensions: '3.8 x 4.7 x 10.3 in, 1.46 lbs',
+        tips: "4 included tips",
+        capacity: "650 ml",
+        highlight: '10 Nozzles, Best value',
+        problem: 'Noise, size',
+        price: waterpikwp660GlobalData.productPrice,
+        satisfaction: "8/10",
+      },
     ],
   },
   proAndCons: {
