@@ -6,6 +6,7 @@ import sawgmoreFC166 from './sawgmoreFC166'
 import oeeterM01 from './oeeterM01'
 import heyaxa2302WF from './heyaxa2302WF'
 import turewellFC162 from './turewellFC162'
+import { h2oflossHF9GlobalData, sawgmoreFC166GlobalData, turewellFC165GlobalData, oeeterM01GlobalData, heyaxa2302WFGlobalData, turewellFC162GlobalData } from "./01-global"
 
 export const bestCounterReviewsTitle: TitleInfo = {
   title: 'Affordable CounterTop Irrigators',
@@ -16,7 +17,7 @@ export const bestCounterReviewsTitle: TitleInfo = {
 
 export const bestCounterReviewsDescription: ReviewGrid[] = [
   {
-    id: 1,
+    id: turewellFC165GlobalData.id,
     productId: turewellFC165.id,
     fileName: turewellFC165.fileName,
     name: turewellFC165.info.title,
@@ -28,7 +29,7 @@ export const bestCounterReviewsDescription: ReviewGrid[] = [
     updatedDate: turewellFC165.info.updatedDate
   },
   {
-    id: 2,
+    id: h2oflossHF9GlobalData.id,
     productId: h2oflossHF9.id,
     fileName: h2oflossHF9.fileName,
     name: h2oflossHF9.info.title,
@@ -40,7 +41,7 @@ export const bestCounterReviewsDescription: ReviewGrid[] = [
     updatedDate: h2oflossHF9.info.updatedDate
   },
   {
-    id: 3,
+    id: sawgmoreFC166GlobalData.id,
     productId: sawgmoreFC166.id,
     fileName: sawgmoreFC166.fileName,
     name: sawgmoreFC166.info.title,
@@ -52,7 +53,7 @@ export const bestCounterReviewsDescription: ReviewGrid[] = [
     updatedDate: sawgmoreFC166.info.updatedDate
   },
   {
-    id: 4,
+    id: oeeterM01GlobalData.id,
     productId: oeeterM01.id,
     fileName: oeeterM01.fileName,
     name: oeeterM01.info.title,
@@ -64,7 +65,7 @@ export const bestCounterReviewsDescription: ReviewGrid[] = [
     updatedDate: oeeterM01.info.updatedDate
   },
   {
-    id: 5,
+    id: heyaxa2302WFGlobalData.id,
     productId: heyaxa2302WF.id,
     fileName: heyaxa2302WF.fileName,
     name: heyaxa2302WF.info.title,
@@ -76,7 +77,7 @@ export const bestCounterReviewsDescription: ReviewGrid[] = [
     updatedDate: heyaxa2302WF.info.updatedDate
   },
   {
-    id: 6,
+    id: turewellFC162GlobalData.id,
     productId: turewellFC162.id,
     fileName: turewellFC162.fileName,
     name: turewellFC162.info.title,

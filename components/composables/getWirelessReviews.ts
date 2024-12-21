@@ -12,7 +12,6 @@ export function getWirelessReviews() {
     slug: ''
   })
   const bestWirelessReviewDescription = ref<ReviewGrid[]>([])
-  const bestWirelessReviewDescriptionSorted = ref<ReviewGrid[]>([])
 
   const loadingBestWireless = ref(false)
   const errorBestWireless = ref(false)
@@ -22,7 +21,7 @@ export function getWirelessReviews() {
     try {
       bestWirelessReviewTitle.value = await bestWirelessReviewsTitle
       bestWirelessReviewDescription.value = await bestWirelessReviewsDescription
-      bestWirelessReviewDescriptionSorted.value = bestWirelessReviewDescription.value.sort((a, b) => a.id - b.id)
+      bestWirelessReviewDescription.value.sort((a, b) => a.id - b.id)
       loadingBestWireless.value = false
 
     } catch (e) {

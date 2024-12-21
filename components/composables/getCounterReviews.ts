@@ -21,6 +21,7 @@ export function getCounterReviews() {
     try {
       bestCounterReviewTitle.value = await bestCounterReviewsTitle
       bestCounterReviewDescription.value = await bestCounterReviewsDescription
+      bestCounterReviewDescription.value.sort((a, b) => a.id - b.id)
       loadingCounter.value = false
     } catch (e) {
       errorCounter.value = 'Failed to fetch posts'
