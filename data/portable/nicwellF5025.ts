@@ -2,7 +2,7 @@ import type { ProductDetails } from '~/types/product-details'
 import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, bitvaeC2GlobalData } from './01-global'
 
 const nicwellF5025: ProductDetails = {
-  id: 2,
+  id: nicefeelFC1592bkGlobalData.id,
   fileName: 'nicwellF5025',
   info: {
     image: nicwellF5025GlobalData.image,
@@ -14,10 +14,7 @@ const nicwellF5025: ProductDetails = {
     updatedDate: nicwellF5025GlobalData.updatedDate,
     buyLink: nicwellF5025GlobalData.amazonUrl,
     cta: 'Buy on Amazon',
-    rating: {
-      stars: 4.3,
-      reviews: 477986,
-    },
+    rating: nicwellF5025GlobalData.rating,
     characteristics: [
       "Cordless and portable",
       "Rechargeable battery",
@@ -72,7 +69,7 @@ const nicwellF5025: ProductDetails = {
         highlight: "Offers 5 cleaning modes with advanced features.",
         problem: "Slightly heavier than Nicefeel.",
         price: nicwellF5025GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: nicwellF5025GlobalData.rating.stars
       },
       {
         id: 2,
@@ -87,7 +84,7 @@ const nicwellF5025: ProductDetails = {
         highlight: "No outlets or charging needed",
         problem: "Requires regular battery replacement",
         price: waterPikWF02GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: waterPikWF02GlobalData.rating.stars,
       },
       {
         id: 3,
@@ -102,7 +99,7 @@ const nicwellF5025: ProductDetails = {
         highlight: 'Battery-powered, memory function, 3 cleaning modes',
         problem: 'Not suitable for large families',
         price: nicefeelFC1592bkGlobalData.productPrice,
-        satisfaction: '8/10',
+        satisfaction: nicefeelFC1592bkGlobalData.rating.stars,
       },
       {
         id: 4,
@@ -117,7 +114,7 @@ const nicwellF5025: ProductDetails = {
         highlight: 'Effective Cleaning, Compact Design, Long Battery Life',
         problem: 'Water Resistance, Durability',
         price: bitvaeC2GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: bitvaeC2GlobalData.rating.stars,
       },
     ]
   },

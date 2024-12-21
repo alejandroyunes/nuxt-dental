@@ -2,7 +2,7 @@ import type { ProductDetails } from '~/types/product-details'
 import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, coslusC20F5020EGlobalData } from './01-global'
 
 const waterpikF02: ProductDetails = {
-  id: 1,
+  id: waterPikWF02GlobalData.id,
   fileName: 'waterpikFW02',
   info: {
     image: waterPikWF02GlobalData.image,
@@ -14,10 +14,7 @@ const waterpikF02: ProductDetails = {
     updatedDate: waterPikWF02GlobalData.updatedDate,
     buyLink: waterPikWF02GlobalData.amazonUrl,
     cta: 'Buy on Amazon',
-    rating: {
-      stars: 4.2,
-      reviews: 48061,
-    },
+    rating: waterPikWF02GlobalData.rating,
     characteristics: [
       "Portable",
       "Waterproof for Shower Use",
@@ -94,7 +91,7 @@ const waterpikF02: ProductDetails = {
         highlight: "No outlets or charging needed",
         problem: "Requires regular battery replacement",
         price: waterPikWF02GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: waterPikWF02GlobalData.rating.stars,
       },
       {
         id: 2,
@@ -109,7 +106,7 @@ const waterpikF02: ProductDetails = {
         highlight: "Offers 5 cleaning modes with advanced features.",
         problem: "Slightly heavier than Nicefeel.",
         price: nicwellF5025GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: nicwellF5025GlobalData.rating.stars,
       },
       {
         id: 3,
@@ -124,7 +121,7 @@ const waterpikF02: ProductDetails = {
         highlight: 'Battery-powered, memory function, 3 cleaning modes',
         problem: 'Not suitable for large families',
         price: nicefeelFC1592bkGlobalData.productPrice,
-        satisfaction: '8/10',
+        satisfaction: nicefeelFC1592bkGlobalData.rating.stars,
       },
       {
         id: 4,
@@ -139,7 +136,7 @@ const waterpikF02: ProductDetails = {
         highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
         problem: 'Limited water capacity',
         price: coslusC20F5020EGlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: coslusC20F5020EGlobalData.rating.stars,
       },
     ]
   },

@@ -2,7 +2,7 @@ import type { ProductDetails } from '~/types/product-details'
 import { coslusC20F5020EGlobalData, nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, insmartFC256GlobalData } from './01-global'
 
 const coslusF5020E: ProductDetails = {
-  id: 5,
+  id: coslusC20F5020EGlobalData.id,
   fileName: 'coslusF5020E',
   info: {
     image: coslusC20F5020EGlobalData.image,
@@ -14,10 +14,7 @@ const coslusF5020E: ProductDetails = {
     updatedDate: coslusC20F5020EGlobalData.updatedDate,
     buyLink: coslusC20F5020EGlobalData.amazonUrl,
     cta: 'Buy on Amazon',
-    rating: {
-      stars: 4.4,
-      reviews: 28578,
-    },
+    rating: coslusC20F5020EGlobalData.rating,
     characteristics: [
       "Advanced 0.3mm+0.3mm ultra-fine dual-thread water pulse technology, professionally endorsed by an American dental team, removes 99.9% of dental plaque.",
       "Upgraded 300ml extra-large water tank for fewer refills and a thorough cleaning experience.",
@@ -94,7 +91,7 @@ const coslusF5020E: ProductDetails = {
         highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
         problem: 'Limited water capacity',
         price: coslusC20F5020EGlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: coslusC20F5020EGlobalData.rating.stars,
       },
       {
         id: 2,
@@ -109,7 +106,7 @@ const coslusF5020E: ProductDetails = {
         highlight: 'Travel Carrying bag, Ease of use, Size, 4 Water Pressure Modes',
         problem: 'Battery Life, Durability, Nozzle Wear',
         price: insmartFC256GlobalData.productPrice,
-        satisfaction: '8.5/10',
+        satisfaction: insmartFC256GlobalData.rating.stars,
       },
       {
         id: 3,
@@ -124,7 +121,7 @@ const coslusF5020E: ProductDetails = {
         highlight: "Offers 5 cleaning modes with advanced features.",
         problem: "Slightly heavier than Nicefeel.",
         price: nicwellF5025GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: nicwellF5025GlobalData.rating.stars,
       },
       {
         id: 4,
@@ -139,7 +136,7 @@ const coslusF5020E: ProductDetails = {
         highlight: 'Battery-powered, memory function, 3 cleaning modes',
         problem: 'Not suitable for large families',
         price: nicefeelFC1592bkGlobalData.productPrice,
-        satisfaction: '8/10',
+        satisfaction: nicefeelFC1592bkGlobalData.rating.stars,
       },
     ],
   },

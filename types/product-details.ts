@@ -52,7 +52,7 @@ export interface ProductDetails {
       highlight: string
       problem: string
       price: string
-      satisfaction: string
+      satisfaction: number
     }[]
   },
   proAndCons: {

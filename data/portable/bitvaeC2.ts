@@ -2,7 +2,7 @@ import type { ProductDetails } from '~/types/product-details'
 import { bitvaeC2GlobalData, coslusC20F5020EGlobalData, nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, insmartFC256GlobalData } from './01-global'
 
 const bitvaeC2: ProductDetails = {
-  id: 6,
+  id: bitvaeC2GlobalData.id,
   fileName: 'bitvaeC2',
   info: {
     image: bitvaeC2GlobalData.image,
@@ -14,10 +14,7 @@ const bitvaeC2: ProductDetails = {
     updatedDate: bitvaeC2GlobalData.updatedDate,
     buyLink: bitvaeC2GlobalData.amazonUrl,
     cta: 'Buy Now on Amazon',
-    rating: {
-      stars: 4.4,
-      reviews: 16804,
-    },
+    rating: bitvaeC2GlobalData.rating,
     characteristics: [
       "Wide Mouth Reservoir for Easy Cleaning.",
       "260ml tank for a 60-second full-mouth clean.",
@@ -94,7 +91,7 @@ const bitvaeC2: ProductDetails = {
         highlight: 'Effective Cleaning, Compact Design, Long Battery Life',
         problem: 'Water Resistance, Durability',
         price: bitvaeC2GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: bitvaeC2GlobalData.rating.stars,
       },
       {
         id: 1,
@@ -109,7 +106,7 @@ const bitvaeC2: ProductDetails = {
         highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
         problem: 'Limited water capacity',
         price: coslusC20F5020EGlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: coslusC20F5020EGlobalData.rating.stars,
       },
       {
         id: 2,
@@ -124,7 +121,7 @@ const bitvaeC2: ProductDetails = {
         highlight: 'Travel Carrying bag, Ease of use, Size, 4 Water Pressure Modes',
         problem: 'Battery Life, Durability, Nozzle Wear',
         price: insmartFC256GlobalData.productPrice,
-        satisfaction: '8.5/10',
+        satisfaction: insmartFC256GlobalData.rating.stars,
       },
       {
         id: 3,
@@ -139,7 +136,7 @@ const bitvaeC2: ProductDetails = {
         highlight: "Offers 5 cleaning modes with advanced features.",
         problem: "Slightly heavier than Nicefeel.",
         price: nicwellF5025GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: nicwellF5025GlobalData.rating.stars,
       },
     ]
   },
@@ -148,7 +145,7 @@ const bitvaeC2: ProductDetails = {
     title: "Pros and Cons",
     description: "Bitvae C2 offers impressive cleaning capabilities and portability, though durability and water resistance may be considerations.",
     cta: 'Buy on Amazon',
-    buyLink: 'https://amzn.to/3R3veFS',
+    buyLink: bitvaeC2GlobalData.amazonUrl,
     pros: [
       { title: 'Thorough cleaning with customizable modes and nozzles.' },
       { title: 'Portable and lightweight for travel.' },

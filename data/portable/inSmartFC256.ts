@@ -2,7 +2,7 @@ import type { ProductDetails } from '~/types/product-details'
 import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, insmartFC256GlobalData } from './01-global'
 
 const inSmartFC256: ProductDetails = {
-  id: 4,
+  id: insmartFC256GlobalData.id,
   fileName: 'inSmartFC256',
   info: {
     image: insmartFC256GlobalData.image,
@@ -14,10 +14,7 @@ const inSmartFC256: ProductDetails = {
     updatedDate: insmartFC256GlobalData.updatedDate,
     buyLink: insmartFC256GlobalData.amazonUrl,
     cta: 'Buy on Amazon',
-    rating: {
-      stars: 4.3,
-      reviews: 16103,
-    },
+    rating: insmartFC256GlobalData.rating,
     characteristics: [
       "Cordless and Portable for home and travel use.",
       "Charging with all USB port.",
@@ -80,7 +77,7 @@ const inSmartFC256: ProductDetails = {
         highlight: 'Travel Carrying bag, Ease of use, Size, 4 Water Pressure Modes',
         problem: 'Battery Life, Durability, Nozzle Wear',
         price: insmartFC256GlobalData.productPrice,
-        satisfaction: '8.5/10',
+        satisfaction: insmartFC256GlobalData.rating.stars,
       },
       {
         id: 2,
@@ -95,7 +92,7 @@ const inSmartFC256: ProductDetails = {
         highlight: "Offers 5 cleaning modes with advanced features.",
         problem: "Slightly heavier than Nicefeel.",
         price: nicwellF5025GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: nicwellF5025GlobalData.rating.stars,
       },
       {
         id: 3,
@@ -110,7 +107,7 @@ const inSmartFC256: ProductDetails = {
         highlight: "No outlets or charging needed",
         problem: "Requires regular battery replacement",
         price: waterPikWF02GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: waterPikWF02GlobalData.rating.stars,
       },
       {
         id: 4,
@@ -125,7 +122,7 @@ const inSmartFC256: ProductDetails = {
         highlight: 'Battery-powered, memory function, 3 cleaning modes',
         problem: 'Not suitable for large families',
         price: nicefeelFC1592bkGlobalData.productPrice,
-        satisfaction: '8/10',
+        satisfaction: nicefeelFC1592bkGlobalData.rating.stars,
       },
     ]
   },

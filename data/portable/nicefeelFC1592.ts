@@ -2,7 +2,7 @@ import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalD
 import type { ProductDetails } from '~/types/product-details'
 
 const nicefeelFC1592: ProductDetails = {
-  id: 3,
+  id: nicefeelFC1592bkGlobalData.id,
   fileName: 'nicefeelFC1592',
   info: {
     image: nicefeelFC1592bkGlobalData.image,
@@ -14,10 +14,7 @@ const nicefeelFC1592: ProductDetails = {
     updatedDate: nicefeelFC1592bkGlobalData.updatedDate,
     buyLink: nicefeelFC1592bkGlobalData.amazonUrl,
     cta: 'Buy on Amazon',
-    rating: {
-      stars: 4.2,
-      reviews: 22172,
-    },
+    rating: nicefeelFC1592bkGlobalData.rating,
     characteristics: [
       'Battery Powered: 1400mAh',
       'Portable',
@@ -81,7 +78,7 @@ const nicefeelFC1592: ProductDetails = {
         highlight: 'Battery-powered, memory function, 3 cleaning modes',
         problem: 'Not suitable for large families',
         price: nicefeelFC1592bkGlobalData.productPrice,
-        satisfaction: '8/10',
+        satisfaction: nicefeelFC1592bkGlobalData.rating.stars,
       },
       {
         id: 2,
@@ -96,7 +93,7 @@ const nicefeelFC1592: ProductDetails = {
         highlight: "Offers 5 cleaning modes with advanced features.",
         problem: "Slightly heavier than Nicefeel.",
         price: nicwellF5025GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: nicwellF5025GlobalData.rating.stars,
       },
       {
         id: 3,
@@ -111,7 +108,7 @@ const nicefeelFC1592: ProductDetails = {
         highlight: "No outlets or charging needed",
         problem: "Requires regular battery replacement",
         price: waterPikWF02GlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: waterPikWF02GlobalData.rating.stars,
       },
       {
         id: 4,
@@ -126,7 +123,7 @@ const nicefeelFC1592: ProductDetails = {
         highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
         problem: 'Limited water capacity',
         price: coslusC20F5020EGlobalData.productPrice,
-        satisfaction: '9/10',
+        satisfaction: coslusC20F5020EGlobalData.rating.stars,
       },
     ]
   },
@@ -138,26 +135,14 @@ const nicefeelFC1592: ProductDetails = {
     cta: 'Buy Now on Amazon',
     buyLink: nicefeelFC1592bkGlobalData.amazonUrl,
     pros: [
-      {
-        title: 'Large Water Tank: 300ml capacity for uninterrupted use.'
-      },
-      {
-        title: 'Efficient Cleaning: 1800 times/minute high pressure water pulse for effective removal of food residues.'
-      },
-      {
-        title: 'Memory Function: Allows presetting and remembering preferred cleaning modes.'
-      },
-      {
-        title: 'Orthodontic Tip: Great for users with braces and orthodontic appliances.'
-      }
+      { title: 'Large Water Tank: 300ml capacity for uninterrupted use.' },
+      { title: 'Efficient Cleaning: 1800 times/minute high pressure water pulse for effective removal of food residues.' },
+      { title: 'Memory Function: Allows presetting and remembering preferred cleaning modes.' },
+      { title: 'Orthodontic Tip: Great for users with braces and orthodontic appliances.' }
     ],
     cons: [
-      {
-        title: ' Initial Charging Time: Requires 4 hours of charging before first-time use.'
-      },
-      {
-        title: 'Nozzle Replacement: Suggested to change nozzles every 3 months for optimal health.'
-      }
+      { title: ' Initial Charging Time: Requires 4 hours of charging before first-time use.' },
+      { title: 'Nozzle Replacement: Suggested to change nozzles every 3 months for optimal health.' }
     ],
   },
 };

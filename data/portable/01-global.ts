@@ -5,7 +5,11 @@ export const waterPikWF02GlobalData = {
   productPrice: '36.89',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/affordable-countertop-irrigators/portable/waterpikFW02',
-  updatedDate: '11/23/2023'
+  updatedDate: '11/23/2023',
+  rating: {
+    stars: 4.2,
+    reviews: 48061,
+  }
 }
 
 export const nicwellF5025GlobalData = {
@@ -15,7 +19,11 @@ export const nicwellF5025GlobalData = {
   productPrice: '39.89',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/affordable-countertop-irrigators/portable/nicwellF5025',
-  updatedDate: '11/23/2023'
+  updatedDate: '11/23/2023',
+  rating: {
+    stars: 4.3,
+    reviews: 477986,
+  },
 }
 
 export const nicefeelFC1592bkGlobalData = {
@@ -25,7 +33,11 @@ export const nicefeelFC1592bkGlobalData = {
   productPrice: '21.99',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/affordable-countertop-irrigators/portable/nicefeelFC1592bk',
-  updatedDate: '11/23/2023'
+  updatedDate: '11/23/2023',
+  rating: {
+    stars: 4.2,
+    reviews: 22172,
+  },
 }
 
 export const coslusC20F5020EGlobalData = {
@@ -35,7 +47,11 @@ export const coslusC20F5020EGlobalData = {
   productPrice: '37.15',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/affordable-countertop-irrigators/portable/coslusF5020E',
-  updatedDate: '11/23/2023'
+  updatedDate: '11/23/2023',
+  rating: {
+    stars: 4.4,
+    reviews: 28578,
+  },
 }
 
 export const insmartFC256GlobalData = {
@@ -45,7 +61,11 @@ export const insmartFC256GlobalData = {
   productPrice: '25.98',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/affordable-countertop-irrigators/portable/inSmartFC256',
-  updatedDate: '11/23/2023'
+  updatedDate: '11/23/2023',
+  rating: {
+    stars: 4.3,
+    reviews: 16103,
+  },
 }
 
 export const bitvaeC2GlobalData = {
@@ -55,5 +75,9 @@ export const bitvaeC2GlobalData = {
   amazonPrime: 'https://www.amazon.com',
   productPrice: '25.99',
   path: '/reviews/affordable-countertop-irrigators/portable/bitvaeC2',
-  updatedDate: '11/23/2023'
+  updatedDate: '11/23/2023',
+  rating: {
+    stars: 4.4,
+    reviews: 16804,
+  },
 }
