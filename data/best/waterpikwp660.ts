@@ -1,22 +1,22 @@
 import type { ProductDetails } from '~/types/product-details';
+import { waterpikwp660GlobalData } from './01-global';
 
 const waterpikwp660: ProductDetails = {
   id: 3,
   fileName: 'waterpikwp660',
   info: {
-    image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701061723/compareIrrigators/WaterPicWP660/tepdnmxuyc7ninueroog.webp",
-    image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701061724/compareIrrigators/WaterPicWP660/vkmivxwn8bllfoochcoj.webp",
+    image: waterpikwp660GlobalData.image,
     alt: "Waterpik Aquarius WP-660 Water Flosser",
     title: "Waterpik Aquarius WP-660 Water Flosser",
     subtitle: "Professional, Advanced Water Flossing Technology",
     description: "The Waterpik Aquarius water flosser features advanced technology for effective plaque removal and healthier gums. It's clinically proven to be more effective than string floss and is ADA accepted.",
-    price: "$49.99",
-    updatedDate: "2024-12-02",
-    buyLink: "https://amzn.to/419tnE6",
+    price: waterpikwp660GlobalData.productPrice,
+    updatedDate: waterpikwp660GlobalData.updatedDate,
+    buyLink: waterpikwp660GlobalData.amazonUrl,
     cta: "Buy on Amazon",
     rating: {
       stars: 4.6,
-      reviews: 142922,
+      reviews: 143427,
     },
     characteristics: [
       "ADA accepted for safety and effectiveness",
@@ -71,9 +71,9 @@ const waterpikwp660: ProductDetails = {
     models: [
       {
         id: 1,
-        productUrl: "/reviews/portable-oral-irrigators/best/waterpikwp660",
-        model: "Waterpik WP-450",
-        image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701061724/compareIrrigators/WaterPicWP660/vkmivxwn8bllfoochcoj.webp",
+        path: waterpikwp660GlobalData.path,
+        model: "Waterpik WP-660",
+        image: waterpikwp660GlobalData.image,
         alt: 'Waterpik WP-660 Oral Irrigator',
         prime: true,
         dimensions: '3.8 x 4.7 x 10.3 in, 1.46 lbs',
@@ -81,9 +81,8 @@ const waterpikwp660: ProductDetails = {
         capacity: "650 ml",
         highlight: '10 Nozzles, Best value',
         problem: 'Noise, size',
-        price: "$39.99",
+        price: waterpikwp660GlobalData.productPrice,
         satisfaction: "8/10",
-        view: "View Details",
       },
     ],
   },
@@ -92,7 +91,7 @@ const waterpikwp660: ProductDetails = {
     title: "Pros and Cons",
     description: "Evaluate the strengths and limitations of the Waterpik Aquarius WP-660.",
     cta: "Buy on Amazon",
-    buyLink: "https://amzn.to/419tnE6",
+    buyLink: waterpikwp660GlobalData.amazonUrl,
     pros: [
       { title: "Effective plaque removal" },
       { title: "Improves gum health" },

@@ -4,14 +4,14 @@ const example: ProductDetails = {
   id: 1,
   fileName: '',
   info: {
-    image: "",
+    image: exampleGlobalData.image,
     alt: "",
     title: "",
     subtitle: "",
     description: "",
-    price: "",
-    updatedDate: "",
-    buyLink: "",
+    price: exampleGlobalData.productPrice,
+    updatedDate: exampleGlobalData.updatedDate,
+    buyLink: exampleGlobalData.amazonUrl,
     cta: "Buy on Amazon",
     rating: {
       stars: 0,
@@ -41,38 +41,11 @@ const example: ProductDetails = {
     id: "features",
     title: "",
     data: [
-      {
-        title: "",
-        description: "",
-      },
-      {
-        title: "",
-        description: "",
-      },
-      {
-        title: "",
-        description: "",
-      },
-      {
-        title: "",
-        description: "",
-      },
-      {
-        title: "",
-        description: "",
-      },
-      {
-        title: "",
-        description: "",
-      },
-      {
-        title: "",
-        description: "",
-      },
-      {
-        title: "",
-        description: "",
-      },
+      { title: "", description: "", },
+      { title: "", description: "", },
+      { title: "", description: "", },
+      { title: "", description: "", },
+      { title: "", description: "", },
     ],
   },
   comparison: {
@@ -82,9 +55,9 @@ const example: ProductDetails = {
     models: [
       {
         id: 0,
-        path: '',
+        path: exampleGlobalData.path,
         model: "",
-        image: "",
+        image: exampleGlobalData.image,
         alt: "",
         prime: false,
         dimensions: "",
@@ -92,7 +65,7 @@ const example: ProductDetails = {
         capacity: "",
         highlight: "",
         problem: "",
-        price: "",
+        price: exampleGlobalData.productPrice,
         satisfaction: "",
       }
     ]
@@ -102,7 +75,7 @@ const example: ProductDetails = {
     title: "",
     description: "",
     cta: "Buy on Amazon",
-    buyLink: "",
+    buyLink: exampleGlobalData.amazonUrl,
     pros: [
       { title: "" },
       { title: "" },

@@ -1,7 +1,9 @@
 import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
 import panasonicEW1511W from './panasonicEW1511W'
-
+import synhopeM6Plus from "./synhopeM6Plus"
+import waterpikwp580 from "./waterpikwp580"
+import waterpikwp660 from "./waterpikwp660"
 
 export const bestIrrigatorReviewsTitle: TitleInfo = {
   title: 'Affordable CounterTop Irrigators',
@@ -23,42 +25,42 @@ export const bestIrrigatorReviewsDescription: ReviewGrid[] = [
     reviewCount: panasonicEW1511W.info.rating.reviews,
     updatedDate: panasonicEW1511W.info.updatedDate
   },
-  // {
-  //   id: 2,
-  //   productId: h2oflossHF9.id,
-  //   fileName: h2oflossHF9.fileName,
-  //   name: h2oflossHF9.info.title,
-  //   image: h2oflossHF9.info.image,
-  //   alt: h2oflossHF9.info.alt,
-  //   price: h2oflossHF9.info.price,
-  //   rating: h2oflossHF9.info.rating.stars,
-  //   reviewCount: h2oflossHF9.info.rating.reviews,
-  //   updatedDate: h2oflossHF9.info.updatedDate
-  // },
-  // {
-  //   id: 3,
-  //   productId: sawgmoreFC166.id,
-  //   fileName: sawgmoreFC166.fileName,
-  //   name: sawgmoreFC166.info.title,
-  //   image: sawgmoreFC166.info.image,
-  //   alt: sawgmoreFC166.info.alt,
-  //   price: sawgmoreFC166.info.price,
-  //   rating: sawgmoreFC166.info.rating.stars,
-  //   reviewCount: sawgmoreFC166.info.rating.reviews,
-  //   updatedDate: sawgmoreFC166.info.updatedDate
-  // },
-  // {
-  //   id: 4,
-  //   productId: oeeterM01.id,
-  //   fileName: oeeterM01.fileName,
-  //   name: oeeterM01.info.title,
-  //   image: oeeterM01.info.image,
-  //   alt: oeeterM01.info.alt,
-  //   price: oeeterM01.info.price,
-  //   rating: oeeterM01.info.rating.stars,
-  //   reviewCount: oeeterM01.info.rating.reviews,
-  //   updatedDate: oeeterM01.info.updatedDate
-  // },
+  {
+    id: 2,
+    productId: synhopeM6Plus.id,
+    fileName: synhopeM6Plus.fileName,
+    name: synhopeM6Plus.info.title,
+    image: synhopeM6Plus.info.image,
+    alt: synhopeM6Plus.info.alt,
+    price: synhopeM6Plus.info.price,
+    rating: synhopeM6Plus.info.rating.stars,
+    reviewCount: synhopeM6Plus.info.rating.reviews,
+    updatedDate: synhopeM6Plus.info.updatedDate
+  },
+  {
+    id: 3,
+    productId: waterpikwp580.id,
+    fileName: waterpikwp580.fileName,
+    name: waterpikwp580.info.title,
+    image: waterpikwp580.info.image,
+    alt: waterpikwp580.info.alt,
+    price: waterpikwp580.info.price,
+    rating: waterpikwp580.info.rating.stars,
+    reviewCount: waterpikwp580.info.rating.reviews,
+    updatedDate: waterpikwp580.info.updatedDate
+  },
+  {
+    id: 4,
+    productId: waterpikwp660.id,
+    fileName: waterpikwp660.fileName,
+    name: waterpikwp660.info.title,
+    image: waterpikwp660.info.image,
+    alt: waterpikwp660.info.alt,
+    price: waterpikwp660.info.price,
+    rating: waterpikwp660.info.rating.stars,
+    reviewCount: waterpikwp660.info.rating.reviews,
+    updatedDate: waterpikwp660.info.updatedDate
+  },
   // {
   //   id: 5,
   //   productId: heyaxa2302WF.id,

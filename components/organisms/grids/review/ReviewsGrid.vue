@@ -48,9 +48,9 @@ const { reviewTitle, reviews } = defineProps<{
 
   .cards {
     display: grid;
+    margin-top: 4rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
-
 
     @media (max-width: 1024px) {
       grid-template-columns: 1fr;
