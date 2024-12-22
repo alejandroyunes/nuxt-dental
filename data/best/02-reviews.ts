@@ -5,7 +5,8 @@ import synhopeM6Plus from "./synhopeM6Plus"
 import waterpikwp580 from "./waterpikwp580"
 import waterpikwp660 from "./waterpikwp660"
 import waterpikwp662 from "./waterpikwp662"
-import { panasonicEW1511WGlobalData, synhopeM6PlusGlobalData, waterpikwp580GlobalData, waterpikwp660GlobalData, waterpikwp662GlobalData } from "./01-global"
+import waterpikwp667 from "./waterpikwp667"
+import { panasonicEW1511WGlobalData, synhopeM6PlusGlobalData, waterpikwp580GlobalData, waterpikwp660GlobalData, waterpikwp662GlobalData, waterpikwp667GlobalData } from "./01-global"
 
 export const bestIrrigatorReviewsTitle: TitleInfo = {
   title: 'Top 6 Best Dental Irrigators in 2025',
@@ -69,5 +70,16 @@ export const bestIrrigatorReviewsDescription: ReviewGrid[] = [
     rating: waterpikwp662.info.rating.stars,
     reviewCount: waterpikwp662.info.rating.reviews,
     updatedDate: waterpikwp662.info.updatedDate
+  },
+  {
+    id: waterpikwp667GlobalData.id,
+    fileName: waterpikwp667.fileName,
+    name: waterpikwp667.info.title,
+    image: waterpikwp667.info.image,
+    alt: waterpikwp667.info.alt,
+    price: waterpikwp667.info.price,
+    rating: waterpikwp667.info.rating.stars,
+    reviewCount: waterpikwp667.info.rating.reviews,
+    updatedDate: waterpikwp667.info.updatedDate
   }
 ]

@@ -1,23 +1,20 @@
 import type { ProductDetails } from '~/types/product-details'
-// import { waterpikwp662GlobalData } from './01-global'
+// import { waterpikwpGlobalData } from './01-global'
 
 const waterpikwp: ProductDetails = {
-  id: waterpikwp662GlobalData.id,
+  id: waterpikwpGlobalData.id,
   fileName: 'waterpikwp662',
   info: {
-    image: waterpikwp662GlobalData.image,
+    image: waterpikwpGlobalData.image,
     alt: "",
     title: "",
     subtitle: "",
     description: "",
-    price: waterpikwp662GlobalData.productPrice,
-    updatedDate: waterpikwp662GlobalData.updatedDate,
-    buyLink: waterpikwp662GlobalData.amazonUrl,
+    price: waterpikwpGlobalData.productPrice,
+    updatedDate: waterpikwpGlobalData.updatedDate,
+    buyLink: waterpikwpGlobalData.amazonUrl,
     cta: "Buy on Amazon",
-    rating: {
-      stars: 0,
-      reviews: 0,
-    },
+    rating: waterpikwpGlobalData.rating,
     characteristics: [
       "",
       "",
@@ -56,9 +53,9 @@ const waterpikwp: ProductDetails = {
     models: [
       {
         id: 0,
-        path: waterpikwp662GlobalData.path,
+        path: waterpikwpGlobalData.path,
         model: "",
-        image: waterpikwp662GlobalData.image,
+        image: waterpikwpGlobalData.image,
         alt: "",
         prime: false,
         dimensions: "",
@@ -66,8 +63,8 @@ const waterpikwp: ProductDetails = {
         capacity: "",
         highlight: "",
         problem: "",
-        price: waterpikwp662GlobalData.productPrice,
-        satisfaction: waterpikwp662GlobalData.rating.stars,
+        price: waterpikwpGlobalData.productPrice,
+        satisfaction: waterpikwpGlobalData.rating.stars,
       }
     ]
   },
@@ -76,7 +73,7 @@ const waterpikwp: ProductDetails = {
     title: "",
     description: "",
     cta: "Buy on Amazon",
-    buyLink: waterpikwp662GlobalData.amazonUrl,
+    buyLink: waterpikwpGlobalData.amazonUrl,
     pros: [
       { title: "" },
       { title: "" },

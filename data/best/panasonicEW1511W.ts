@@ -7,7 +7,7 @@ const panasonicEW1511W: ProductDetails = {
   info: {
     image: panasonicEW1511WGlobalData.image,
     alt: "Panasonic Portable Water Flosser EW-DJ10",
-    title: "Panasonic EW1511W Portable Water Flosser, 165ml.",
+    title: "Panasonic Portable EW1511W Water Flosser, 165ml.",
     subtitle: "For Dental, Bridge and Orthodontic Care",
     description: "Portable oral irrigator with ultrasonic cleaning for effective dental hygiene. Ideal for braces, bridges, and general care.",
     price: panasonicEW1511WGlobalData.productPrice,
@@ -32,7 +32,7 @@ const panasonicEW1511W: ProductDetails = {
   title: {
     id: "title",
     title: "Panasonic Professional Cordless Water Flosser",
-    description: "The Panasonic EW1511W Portable Water Flosser is a compact and powerful device, perfect for maintaining oral hygiene on the go with its 165ml. water tank and high water pulsation for effective cleaning.",
+    description: "The Panasonic Portable EW1511W Water Flosser is a compact and powerful device, perfect for maintaining oral hygiene on the go with its 165ml. water tank and high water pulsation for effective cleaning.",
     subtext: "Portable solution for maintaining oral hygiene.",
   },
   features: {
