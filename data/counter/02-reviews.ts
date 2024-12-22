@@ -18,7 +18,6 @@ export const bestCounterReviewsTitle: TitleInfo = {
 export const bestCounterReviewsDescription: ReviewGrid[] = [
   {
     id: turewellFC165GlobalData.id,
-    productId: turewellFC165.id,
     fileName: turewellFC165.fileName,
     name: turewellFC165.info.title,
     image: turewellFC165.info.image,
@@ -30,7 +29,6 @@ export const bestCounterReviewsDescription: ReviewGrid[] = [
   },
   {
     id: h2oflossHF9GlobalData.id,
-    productId: h2oflossHF9.id,
     fileName: h2oflossHF9.fileName,
     name: h2oflossHF9.info.title,
     image: h2oflossHF9.info.image,
@@ -42,7 +40,6 @@ export const bestCounterReviewsDescription: ReviewGrid[] = [
   },
   {
     id: sawgmoreFC166GlobalData.id,
-    productId: sawgmoreFC166.id,
     fileName: sawgmoreFC166.fileName,
     name: sawgmoreFC166.info.title,
     image: sawgmoreFC166.info.image,
@@ -54,7 +51,6 @@ export const bestCounterReviewsDescription: ReviewGrid[] = [
   },
   {
     id: oeeterM01GlobalData.id,
-    productId: oeeterM01.id,
     fileName: oeeterM01.fileName,
     name: oeeterM01.info.title,
     image: oeeterM01.info.image,
@@ -66,7 +62,6 @@ export const bestCounterReviewsDescription: ReviewGrid[] = [
   },
   {
     id: heyaxa2302WFGlobalData.id,
-    productId: heyaxa2302WF.id,
     fileName: heyaxa2302WF.fileName,
     name: heyaxa2302WF.info.title,
     image: heyaxa2302WF.info.image,
@@ -78,7 +73,6 @@ export const bestCounterReviewsDescription: ReviewGrid[] = [
   },
   {
     id: turewellFC162GlobalData.id,
-    productId: turewellFC162.id,
     fileName: turewellFC162.fileName,
     name: turewellFC162.info.title,
     image: turewellFC162.info.image,

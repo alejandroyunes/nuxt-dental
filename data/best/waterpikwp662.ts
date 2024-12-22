@@ -1,7 +1,7 @@
 import type { ProductDetails } from '~/types/product-details'
-// import { waterpikwp662GlobalData } from './01-global'
+import { waterpikwp662GlobalData } from './01-global'
 
-const waterpikwp: ProductDetails = {
+const waterpikwp662: ProductDetails = {
   id: waterpikwp662GlobalData.id,
   fileName: 'waterpikwp662',
   info: {
@@ -89,4 +89,4 @@ const waterpikwp: ProductDetails = {
   },
 }
 
-export default waterpikwp
+export default waterpikwp662

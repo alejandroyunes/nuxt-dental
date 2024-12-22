@@ -4,7 +4,8 @@ import panasonicEW1511W from './panasonicEW1511W'
 import synhopeM6Plus from "./synhopeM6Plus"
 import waterpikwp580 from "./waterpikwp580"
 import waterpikwp660 from "./waterpikwp660"
-import { panasonicEW1511WGlobalData, synhopeM6PlusGlobalData, waterpikwp580GlobalData, waterpikwp660GlobalData } from "./01-global"
+import waterpikwp662 from "./waterpikwp662"
+import { panasonicEW1511WGlobalData, synhopeM6PlusGlobalData, waterpikwp580GlobalData, waterpikwp660GlobalData, waterpikwp662GlobalData } from "./01-global"
 
 export const bestIrrigatorReviewsTitle: TitleInfo = {
   title: 'Top 6 Best Dental Irrigators in 2025',
@@ -16,7 +17,6 @@ export const bestIrrigatorReviewsTitle: TitleInfo = {
 export const bestIrrigatorReviewsDescription: ReviewGrid[] = [
   {
     id: panasonicEW1511WGlobalData.id,
-    productId: panasonicEW1511W.id,
     fileName: panasonicEW1511W.fileName,
     name: panasonicEW1511W.info.title,
     image: panasonicEW1511W.info.image,
@@ -28,7 +28,6 @@ export const bestIrrigatorReviewsDescription: ReviewGrid[] = [
   },
   {
     id: synhopeM6PlusGlobalData.id,
-    productId: synhopeM6Plus.id,
     fileName: synhopeM6Plus.fileName,
     name: synhopeM6Plus.info.title,
     image: synhopeM6Plus.info.image,
@@ -40,7 +39,6 @@ export const bestIrrigatorReviewsDescription: ReviewGrid[] = [
   },
   {
     id: waterpikwp580GlobalData.id,
-    productId: waterpikwp580.id,
     fileName: waterpikwp580.fileName,
     name: waterpikwp580.info.title,
     image: waterpikwp580.info.image,
@@ -52,7 +50,6 @@ export const bestIrrigatorReviewsDescription: ReviewGrid[] = [
   },
   {
     id: waterpikwp660GlobalData.id,
-    productId: waterpikwp660.id,
     fileName: waterpikwp660.fileName,
     name: waterpikwp660.info.title,
     image: waterpikwp660.info.image,
@@ -62,28 +59,15 @@ export const bestIrrigatorReviewsDescription: ReviewGrid[] = [
     reviewCount: waterpikwp660.info.rating.reviews,
     updatedDate: waterpikwp660.info.updatedDate
   },
-  // {
-  //   id: 5,
-  //   productId: heyaxa2302WF.id,
-  //   fileName: heyaxa2302WF.fileName,
-  //   name: heyaxa2302WF.info.title,
-  //   image: heyaxa2302WF.info.image,
-  //   alt: heyaxa2302WF.info.alt,
-  //   price: heyaxa2302WF.info.price,
-  //   rating: heyaxa2302WF.info.rating.stars,
-  //   reviewCount: heyaxa2302WF.info.rating.reviews,
-  //   updatedDate: heyaxa2302WF.info.updatedDate
-  // },
-  // {
-  //   id: 6,
-  //   productId: turewellFC162.id,
-  //   fileName: turewellFC162.fileName,
-  //   name: turewellFC162.info.title,
-  //   image: turewellFC162.info.image,
-  //   alt: turewellFC162.info.alt,
-  //   price: turewellFC162.info.price,
-  //   rating: turewellFC162.info.rating.stars,
-  //   reviewCount: turewellFC162.info.rating.reviews,
-  //   updatedDate: turewellFC162.info.updatedDate
-  // }
+  {
+    id: waterpikwp662GlobalData.id,
+    fileName: waterpikwp662.fileName,
+    name: waterpikwp662.info.title,
+    image: waterpikwp662.info.image,
+    alt: waterpikwp662.info.alt,
+    price: waterpikwp662.info.price,
+    rating: waterpikwp662.info.rating.stars,
+    reviewCount: waterpikwp662.info.rating.reviews,
+    updatedDate: waterpikwp662.info.updatedDate
+  }
 ]

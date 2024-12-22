@@ -18,7 +18,6 @@ export const bestWirelessReviewsTitle: TitleInfo = {
 export const bestWirelessReviewsDescription: ReviewGrid[] = [
   {
     id: waterPikWF02GlobalData.id,
-    productId: waterpikFW02.id,
     fileName: waterpikFW02.fileName,
     name: waterpikFW02.info.title,
     image: waterpikFW02.info.image,
@@ -30,7 +29,6 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
   },
   {
     id: nicefeelFC1592bkGlobalData.id,
-    productId: nicwellF5025.id,
     fileName: nicwellF5025.fileName,
     name: nicwellF5025.info.title,
     image: nicwellF5025.info.image,
@@ -42,7 +40,6 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
   },
   {
     id: nicefeelFC1592bkGlobalData.id,
-    productId: nicefeelFC1592.id,
     fileName: nicefeelFC1592.fileName,
     name: nicefeelFC1592.info.title,
     image: nicefeelFC1592.info.image,
@@ -54,7 +51,6 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
   },
   {
     id: inSmartFC256.id,
-    productId: inSmartFC256.id,
     fileName: inSmartFC256.fileName,
     name: inSmartFC256.info.title,
     image: inSmartFC256.info.image,
@@ -66,7 +62,6 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
   },
   {
     id: coslusC20F5020EGlobalData.id,
-    productId: coslusF5020E.id,
     fileName: coslusF5020E.fileName,
     name: coslusF5020E.info.title,
     image: coslusF5020E.info.image,
@@ -78,7 +73,6 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
   },
   {
     id: bitvaeC2GlobalData.id,
-    productId: bitvaeC2.id,
     fileName: bitvaeC2.fileName,
     name: bitvaeC2.info.title,
     image: bitvaeC2.info.image,

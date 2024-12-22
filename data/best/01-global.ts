@@ -53,3 +53,17 @@ export const waterpikwp660GlobalData = {
     reviews: 143429,
   },
 }
+
+export const waterpikwp662GlobalData = {
+  id: 5,
+  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734680191/irrigators/waterpik/waterpikwp662_f4jx9g.webp',
+  amazonUrl: 'https://www.amazon.com/Waterpik-Aquarius-Professional-WP-662-Packaging/dp/B01LXY19XD/ref=sr_1_8?crid=20WNVCMVPUX9B&dib=eyJ2IjoiMSJ9.VEQrCTF5oZR-RtjscthwHaVbFx1pBgsR4VLsXp5DLrmr5nBJ2ZMhkxa48l1PHzaOHVTl-g8OVqT1O7iiQ5CwlbRSChwrUmixoPZmB2l8RqU8D8ZOkx06moBixwLwiDdqXHfQW_BIuv3Pfd4uw3PGl6UPAjgwgfo9LYFRvRBwP98agBYleX5-mv5wlcr7Q1-l8_v6XWFBBoIhhsgKGRCnm52pP4inh-o5OnpzqXsE1URblQIjkuuAgQP1VO5BPko5aPyoyBwg77m6u1Kh0yOxbn68TM4itGq6T4X3-7dPT_Oa-eray0qCgO9SzVduK8Rz4Li-V-qHoq5RaYwymlg3ZBgrQHPwztvvbjrCOBwm3RceO2NoAtUIHsSWc5eSnjs6a4VqRzwijneuxuJt1U4fktzaDzn_TOaaKMkukbikupQLkZZ-tHtKxg5nlJG6LgDZ.9gqkXllz0KMvAa2u9i4EY9YPBtxxWvx5C-Lugir6Jn8&dib_tag=se&keywords=Waterpik+560&qid=1734843079&sprefix=waterpik+560%2Caps%2C301&sr=8-8',
+  productPrice: '79.99',
+  amazonPrime: 'https://www.amazon.com',
+  path: '/reviews/best-dental-irrigators/best/waterpikWP662',
+  updatedDate: '11/23/2023',
+  rating: {
+    stars: 4.3,
+    reviews: 65119,
+  },
+}

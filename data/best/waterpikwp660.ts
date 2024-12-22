@@ -98,7 +98,7 @@ const waterpikwp660: ProductDetails = {
       },
       {
         id: 3,
-        path: synhopeM6PlusGlobalData.path || "/products/synhope-flosser",
+        path: synhopeM6PlusGlobalData.path,
         model: "SYNHOPE Mini Cordless",
         image: synhopeM6PlusGlobalData.image,
         alt: "SYNHOPE Mini Cordless Water Flosser",
