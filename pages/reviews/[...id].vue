@@ -5,8 +5,9 @@ import Accordion from '~/components/organisms/accordion/index.vue'
 import Features from '~/components/organisms/product/features/index.vue'
 import ProsCons from '~/components/organisms/pros-cons/index.vue'
 import TableComparison from '~/components/organisms/tables/comparisor/index.vue'
-import { getProductDetails } from '~/components/composables/getProductDetails'
 import Title from '~/components/atoms/title-description/index.vue'
+import { getProductDetails } from '~/components/composables/getProductDetails'
+import Video from '~/components/organisms/product/video/index.vue'
 
 const route = useRoute()
 const fileRoute = route.params.id
@@ -41,8 +42,10 @@ if(product.value) {
     <CardDetails :info="product?.info" />
     <Accordion :info="product?.tableOfContent" />
     <Title :info="product?.title" marginTop />
+    <Video :videoUrl="product?.info.video"  />
+    <Features :info="product?.features" />
     <TableComparison :info="product?.comparison" />
     <ProsCons :info="product?.proAndCons" />
-    <Features :info="product?.features" />
+
   </section>
 </template>

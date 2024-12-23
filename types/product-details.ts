@@ -11,6 +11,7 @@ export interface ProductDetails {
     updatedDate: string
     buyLink: string
     cta: string
+    video: string
     rating: {
       stars: number
       reviews: number
@@ -25,7 +26,7 @@ export interface ProductDetails {
     id: string
     title: string
     description: string
-    subtext: string
+    subtext?: string
   }
   features: {
     id: string

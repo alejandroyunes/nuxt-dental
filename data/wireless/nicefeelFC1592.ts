@@ -9,12 +9,13 @@ const nicefeelFC1592: ProductDetails = {
     alt: 'Nicefeel Cordless Water Flosser FC1592BK, 300ml',
     title: "Nicefeel Cordless Water Flosser FC1592BK, 300ml.",
     subtitle: 'State-of-the-art oral care device designed for optimal gum health and effective teeth cleaning',
-    description: "Experience the pinnacle of oral care with Nicefeel's Cordless Water Flosser—a portable and rechargeable solution that enhances gum health, teeth cleaning, and overall hygiene.",
+    description: "The Nicefeel Cordless Water Flosser is not just effective but also incredibly convenient. It’s portable, rechargeable, and waterproof—perfect for on-the-go flossing, whether at home or traveling. Its compact size means it won’t take up much space in your bathroom, which is a bonus for those who are tight on space.",
     price: nicefeelFC1592bkGlobalData.productPrice,
     updatedDate: nicefeelFC1592bkGlobalData.updatedDate,
     buyLink: nicefeelFC1592bkGlobalData.amazonUrl,
     cta: 'Buy on Amazon',
     rating: nicefeelFC1592bkGlobalData.rating,
+    video: nicefeelFC1592bkGlobalData.videoUrl,
     characteristics: [
       'Battery Powered: 1400mAh',
       'Portable',
@@ -22,8 +23,6 @@ const nicefeelFC1592: ProductDetails = {
       'Multiple Operation Modes',
       'Rechargeable',
       'Multiple Tips',
-      'Prevents Bad Breath',
-      'Gum Health',
     ]
   },
   tableOfContent: [
@@ -35,8 +34,8 @@ const nicefeelFC1592: ProductDetails = {
   title: {
     id: "title",
     title: 'The Best of Nicefeel FC1592BK',
-    description: "Experience the pinnacle of oral care with Nicefeel's Cordless Water Flosser—a portable and rechargeable solution that effortlessly enhances gum health, teeth cleaning, and overall dental hygiene. With a 300ml detachable water tank, three cleaning modes, and a travel-friendly design.",
-    subtext: "It's the perfect choice for efficient, hassle-free oral care, earning praise for its value, performance, and portability.",
+    description: "The Nicefeel Cordless Water Flosser packs a punch with its 300ml water tank, offering uninterrupted flossing. With its IPX7 waterproof design, you can even use it in the shower for added convenience. It boasts three modes—Normal, Soft, and Pulse—allowing you to customize the flossing experience to suit your needs.",
+    subtext: "It’s particularly useful for those with sensitive gums or braces, offering a gentle yet thorough clean. Plus, the 360° rotating nozzle ensures that every nook and cranny is covered, leaving your teeth feeling fresh and clean.",
   },
   features: {
     id: "features",
@@ -74,7 +73,7 @@ const nicefeelFC1592: ProductDetails = {
         prime: true,
         dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
         tips: '4',
-        capacity: '300 ml',
+        capacity: '300ml',
         highlight: 'Battery-powered, memory function, 3 cleaning modes',
         problem: 'Not suitable for large families',
         price: nicefeelFC1592bkGlobalData.productPrice,
@@ -104,7 +103,7 @@ const nicefeelFC1592: ProductDetails = {
         prime: true,
         dimensions: "3.6 x 2.5 x 11.75 inches",
         tips: "Includes 2 Classic Jet Tips",
-        capacity: "5 oz Reservoir",
+        capacity: "150ml",
         highlight: "No outlets or charging needed",
         problem: "Requires regular battery replacement",
         price: waterPikWF02GlobalData.productPrice,
@@ -142,7 +141,8 @@ const nicefeelFC1592: ProductDetails = {
     ],
     cons: [
       { title: ' Initial Charging Time: Requires 4 hours of charging before first-time use.' },
-      { title: 'Nozzle Replacement: Suggested to change nozzles every 3 months for optimal health.' }
+      { title: 'Nozzle Replacement: Suggested to change nozzles every 3 months for optimal health.' },
+      { title: 'Noisy: Louder than other models.' }
     ],
   },
 };

@@ -1,6 +1,6 @@
 import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
-import waterpikFW02 from './waterpikFW02'
+import waterpikWF02 from './waterpikWF02'
 import nicwellF5025 from './nicwellF5025'
 import nicefeelFC1592 from './nicefeelFC1592'
 import inSmartFC256 from './inSmartFC256'
@@ -18,14 +18,14 @@ export const bestWirelessReviewsTitle: TitleInfo = {
 export const bestWirelessReviewsDescription: ReviewGrid[] = [
   {
     id: waterPikWF02GlobalData.id,
-    fileName: waterpikFW02.fileName,
-    name: waterpikFW02.info.title,
-    image: waterpikFW02.info.image,
-    alt: waterpikFW02.info.alt,
-    price: waterpikFW02.info.price,
-    rating: waterpikFW02.info.rating.stars,
-    reviewCount: waterpikFW02.info.rating.reviews,
-    updatedDate: waterpikFW02.info.updatedDate
+    fileName: waterpikWF02.fileName,
+    name: waterpikWF02.info.title,
+    image: waterpikWF02.info.image,
+    alt: waterpikWF02.info.alt,
+    price: waterpikWF02.info.price,
+    rating: waterpikWF02.info.rating.stars,
+    reviewCount: waterpikWF02.info.rating.reviews,
+    updatedDate: waterpikWF02.info.updatedDate
   },
   {
     id: nicefeelFC1592bkGlobalData.id,

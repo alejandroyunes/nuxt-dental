@@ -3,18 +3,19 @@ import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalD
 
 const waterpikF02: ProductDetails = {
   id: waterPikWF02GlobalData.id,
-  fileName: 'waterpikFW02',
+  fileName: 'waterpikWF02',
   info: {
     image: waterPikWF02GlobalData.image,
-    alt: "Waterpik Water Flosser Model WF-02",
-    title: "Waterpik WF-02, Water Flosser Model 29.5ml.",
+    alt: "Waterpik WF 02 Water Flosser, 29.5ml.",
+    title: "Waterpik WF 02 Water Flosser, 29.5ml.",
     subtitle: "Cordless Express Portable Water Flosser",
-    description: "Clinically proven to remove up to 99.9% of plaque, the Cordless Express combines water pressure with pulsating action for an exceptional clean that traditional methods can't match.",
+    description: "The Waterpik WF 02 Cordless Express Water Flosser is a portable, battery-operated device designed to enhance oral hygiene by effectively removing plaque and debris between teeth and along the gumline. Its cordless design and compact size make it an excellent choice for individuals with small bathrooms or those who travel frequently.",
     price: waterPikWF02GlobalData.productPrice,
     updatedDate: waterPikWF02GlobalData.updatedDate,
     buyLink: waterPikWF02GlobalData.amazonUrl,
     cta: 'Buy on Amazon',
     rating: waterPikWF02GlobalData.rating,
+    video: waterPikWF02GlobalData.videoUrl,
     characteristics: [
       "Portable",
       "Waterproof for Shower Use",
@@ -24,53 +25,37 @@ const waterpikF02: ProductDetails = {
     ],
   },
   tableOfContent: [
-    { id: "#title", content: "Overview" },
     { id: "#features", content: "Key Features" },
     { id: "#comparison", content: "Comparison with Similar Models" },
+    { id: "#feedback", content: "Feedback and Video" },
     { id: "#pros-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: "title",
-    title: "Waterpik Cordless Water Flosser",
-    description: "Battery Operated & Portable, ADA Accepted, for Travel & Home",
-    subtext: "Waterpik's Cordless Express Water Flosser, featuring a battery-operated, portable, and waterproof design, is perfect for on-the-go oral care. With 2 pressure settings, a water on/off slider, 30 seconds of flossing time, and included AA batteries, it's easy to use anytime, anywhere, for healthier gums and brighter teeth.",
+    id: "feedback",
+    title: "User Feedback",
+    description: "Users appreciate the WF 02 for its ease of use and portability, noting its effectiveness in cleaning and suitability for travel. However, some users mention the reservoir's limited capacity, necessitating refills during use. Additionally, the lack of a rotating nozzle and absence of a travel pouch are noted as areas for improvement.",
+    subtext: "For a visual review and demonstration of the Waterpik WF-02, you may find the following video helpful:"
   },
   features: {
     id: "features",
     title: "Key Features",
     data: [
       {
-        title: "Battery Operated",
-        description: "Powered by 3 AA batteries, no outlets or charging needed."
+        title: "Portability",
+        description: "Powered by three AA batteries, the WF 02 eliminates the need for charging cables, enhancing its convenience for travel. Its lightweight and waterproof design allows for use in the shower, adding to its versatility."
       },
       {
-        title: "Waterproof for Shower Use",
-        description: "Perfect for use in the shower, adding convenience."
+        title: "Performance",
+        description: "The device offers two pressure settings, ranging from 45 to 75 PSI, delivering up to 1,200 water pulses per minute. This functionality ensures efficient removal of plaque and food particles, contributing to improved gum health."
       },
       {
-        title: "ADA Accepted",
-        description: "Accepted by the American Dental Association for safety and effectiveness."
+        title: "Reservoir Capacity",
+        description: "Equipped with a removable 5-ounce (approximately 150 milliliters) water reservoir, the WF 02 provides up to 30 seconds of continuous flossing time. While this may require some users to refill during sessions, it is a common trait among portable water flossers."
       },
       {
-        title: "Removes Plaque",
-        description: "Removes up to 99.9% of plaque and bacteria from treated areas."
-      },
-      {
-        title: "Portable Design",
-        description: "Compact and travel-friendly for on-the-go use."
-      },
-      {
-        title: "Easy to Use",
-        description: "Fill the reservoir and glide the tip along the gumline for healthier gums."
-      },
-      {
-        title: "Two Pressure Settings",
-        description: "Adjustable water pressure for a customized cleaning experience."
-      },
-      {
-        title: "Long-lasting Batteries",
-        description: "Includes 3 AA batteries, lasting 1-2 months with daily use."
-      },
+        title: "Ease of Use",
+        description: "The flosser includes two flossing tips and an advanced pressure control system with two settings. Its ergonomic design ensures a comfortable grip, and the absence of cords enhances maneuverability during use."
+      }
     ]
   },
   comparison: {
@@ -81,13 +66,13 @@ const waterpikF02: ProductDetails = {
       {
         id: 1,
         path: waterPikWF02GlobalData.path,
-        model: 'Waterpik WF-02',
+        model: 'Waterpik WF 02',
         image: waterPikWF02GlobalData.image,
-        alt: 'Waterpik Model WF-02',
+        alt: 'Waterpik Model WF 02',
         prime: true,
         dimensions: "3.6 x 2.5 x 11.75 inches",
         tips: "Includes 2 Classic Jet Tips",
-        capacity: "5 oz Reservoir",
+        capacity: "150ml",
         highlight: "No outlets or charging needed",
         problem: "Requires regular battery replacement",
         price: waterPikWF02GlobalData.productPrice,
@@ -142,8 +127,8 @@ const waterpikF02: ProductDetails = {
   },
   proAndCons: {
     id: 'pro-and-cons',
-    title: "Pros and Cons Waterpik Model WF-02",
-    description: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the Waterpik Cordless Express WF-02 is the right fit for them.",
+    title: "Pros and Cons Waterpik Model WF 02",
+    description: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the Waterpik Cordless Express WF 02 is the right fit for them.",
     cta: 'Buy Now on Amazon',
     buyLink: waterPikWF02GlobalData.amazonUrl,
     pros: [
