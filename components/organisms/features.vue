@@ -13,10 +13,8 @@ const { info } = defineProps<{
 
     <div v-for="(feature, index) in info?.data" :key="index" class="feature">
       <div class="feature-content">
-        <h2 class="feature-title">{{ feature.title }}</h2>
-        <p class="feature-description">
-          {{ feature.description }}
-        </p>
+        <h2>{{ feature.title }}</h2>
+        <p> {{ feature.description }}</p>
       </div>
     </div>
 
@@ -29,7 +27,7 @@ const { info } = defineProps<{
   margin: 80px auto 0;
   padding: 30px 20px;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: var(--background-base);
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   scroll-margin-top: 100px;
@@ -49,7 +47,7 @@ const { info } = defineProps<{
     align-items: center;
     margin-bottom: 30px;
     padding: 15px;
-    background-color: #fff;
+    background-color: var(--background);
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
@@ -60,19 +58,17 @@ const { info } = defineProps<{
     }
 
     .feature-content {
-
-
-      .feature-title {
+      h2 {
         font-size: 1.8rem;
-        color: #007BFF;
+        color: var(--primary);
         margin-bottom: 10px;
         text-transform: capitalize;
         font-weight: 600;
       }
 
-      .feature-description {
+      p {
         font-size: 1.1rem;
-        color: #555;
+        color: var(--text);
         line-height: 1.6;
       }
     }

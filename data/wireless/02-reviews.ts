@@ -6,7 +6,7 @@ import nicefeelFC1592 from './nicefeelFC1592'
 import inSmartFC256 from './inSmartFC256'
 import coslusF5020E from './coslusF5020E'
 import bitvaeC2 from './bitvaeC2'
-import { waterPikWF02GlobalData, nicwellF5025GlobalData, nicefeelFC1592bkGlobalData, insmartFC256GlobalData, coslusC20F5020EGlobalData, bitvaeC2GlobalData } from "./01-global"
+import { waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, coslusC20F5020EGlobalData, bitvaeC2GlobalData, nicwellF5025GlobalData, insmartFC256GlobalData } from "./01-global"
 
 export const bestWirelessReviewsTitle: TitleInfo = {
   title: "Affordable And Wireless Oral Irrigators",
@@ -20,7 +20,7 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
     id: waterPikWF02GlobalData.id,
     fileName: waterpikWF02.fileName,
     name: waterpikWF02.info.title,
-    image: waterpikWF02.info.imageXs,
+    image: waterpikWF02.info.images[0].thumbnail,
     alt: waterpikWF02.info.alt,
     price: waterpikWF02.info.price,
     rating: waterpikWF02.info.rating.stars,
@@ -28,10 +28,10 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
     updatedDate: waterpikWF02.info.updatedDate
   },
   {
-    id: nicefeelFC1592bkGlobalData.id,
+    id: nicwellF5025GlobalData.id,
     fileName: nicwellF5025.fileName,
     name: nicwellF5025.info.title,
-    image: nicwellF5025.info.imageXs,
+    image: nicwellF5025.info.images[0].thumbnail,
     alt: nicwellF5025.info.alt,
     price: nicwellF5025.info.price,
     rating: nicwellF5025.info.rating.stars,
@@ -42,7 +42,7 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
     id: nicefeelFC1592bkGlobalData.id,
     fileName: nicefeelFC1592.fileName,
     name: nicefeelFC1592.info.title,
-    image: nicefeelFC1592.info.imageXs,
+    image: nicefeelFC1592.info.images[0].thumbnail,
     alt: nicefeelFC1592.info.alt,
     price: nicefeelFC1592.info.price,
     rating: nicefeelFC1592.info.rating.stars,
@@ -50,10 +50,10 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
     updatedDate: nicefeelFC1592.info.updatedDate
   },
   {
-    id: inSmartFC256.id,
+    id: insmartFC256GlobalData.id,
     fileName: inSmartFC256.fileName,
     name: inSmartFC256.info.title,
-    image: inSmartFC256.info.imageXs,
+    image: inSmartFC256.info.images[0].thumbnail,
     alt: inSmartFC256.info.alt,
     price: inSmartFC256.info.price,
     rating: inSmartFC256.info.rating.stars,
@@ -64,7 +64,7 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
     id: coslusC20F5020EGlobalData.id,
     fileName: coslusF5020E.fileName,
     name: coslusF5020E.info.title,
-    image: coslusF5020E.info.imageXs,
+    image: coslusF5020E.info.images[0].thumbnail,
     alt: coslusF5020E.info.alt,
     price: coslusF5020E.info.price,
     rating: coslusF5020E.info.rating.stars,
@@ -75,7 +75,7 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
     id: bitvaeC2GlobalData.id,
     fileName: bitvaeC2.fileName,
     name: bitvaeC2.info.title,
-    image: bitvaeC2.info.imageXs,
+    image: bitvaeC2.info.images[0].thumbnail,
     alt: bitvaeC2.info.alt,
     price: bitvaeC2.info.price,
     rating: bitvaeC2.info.rating.stars,

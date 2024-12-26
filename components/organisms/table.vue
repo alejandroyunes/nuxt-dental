@@ -25,7 +25,7 @@ const { info } = defineProps<{
             <tr>
               <td>Image</td>
               <td v-for="model in info?.models" :key="model.model">
-                <img :src="model.image" :alt="model.alt">
+                <NuxtImg :src="model.image" :alt="model.alt" format="webp" loading="lazy" sizes="xs:100vw"  />
               </td>
             </tr>
             <tr>
@@ -64,14 +64,14 @@ const { info } = defineProps<{
               <td>Satisfaction</td>
               <td v-for="model in info?.models" :key="model.id">
                 <div class="satisfaction">
-                  <span class="rating">{{ model.satisfaction }}</span>
+                  <span class="rating">⭐ {{ model.satisfaction }}</span>
                 </div>
               </td>
             </tr>
             <tr>
               <td>View</td>
               <td v-for="model in info?.models" :key="model.id">
-                <NuxtLink :href="model.productUrl" class="view-price-btn">More</NuxtLink>
+                <NuxtLink :href="model.path" class="view-price-btn">More</NuxtLink>
               </td>
             </tr>
           </tbody>
@@ -84,7 +84,7 @@ const { info } = defineProps<{
 <style scoped lang="scss">
 .comparison-section {
   padding: 5rem 0 0;
-  background: white;
+  background: var(--background);
   scroll-margin-top: 40px;
 
   h2 {
@@ -114,32 +114,33 @@ const { info } = defineProps<{
   .comparison-table {
     width: 100%;
     border-collapse: collapse;
-    background: white;
+    background: var(--background);
 
     th,
     td {
       padding: 1rem;
       text-align: center;
-      border: 1px solid #e5e7eb;
+      border: 1px solid var(--background-opposite);
     }
 
     th {
       background: var(--primary);
-      color: white;
+      color: var(--white);
       font-weight: 600;
       white-space: nowrap;
     }
 
     td:first-child {
-      background: #f8fafc;
+      background: var(--background);
       font-weight: 600;
       text-align: left;
     }
 
     img {
-      max-width: 150px;
+      max-width: 200px;
       height: auto;
       margin: 0 auto;
+      border-radius: 8px;
     }
 
     .prime-badge {
@@ -151,10 +152,10 @@ const { info } = defineProps<{
     .price-tag {
       display: inline-block;
       padding: 0.5rem 1rem;
-      background: #e5e7eb;
+      background: var(--background-dark);
       border-radius: 2rem;
       font-weight: 600;
-      color: var(--primary);
+      color: var(--white);
     }
 
     .satisfaction {
@@ -168,7 +169,7 @@ const { info } = defineProps<{
       display: inline-block;
       padding: 0.5rem 1rem;
       background: var(--primary);
-      color: white;
+      color: var(--white);
       text-decoration: none;
       border-radius: 0.5rem;
       transition: background-color 0.3s ease;

@@ -18,7 +18,7 @@ const { info } = defineProps<{
     </div>
 
     <div class="container">
-      <div class="column pros">
+      <div class="column">
         <h3>Pros</h3>
         <ul>
           <li v-for="(pro, index) in info?.pros" :key="index">
@@ -48,7 +48,7 @@ const { info } = defineProps<{
   </section>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .pros-cons {
   padding: 4rem 0 0;
   scroll-margin-top: 40px;
@@ -60,16 +60,13 @@ const { info } = defineProps<{
 
     h2 {
       font-size: 2.5rem;
-      color: var(--text-color);
+      color: var(--primary);
       margin-bottom: 1.5rem;
-      background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
     }
 
     p {
       font-size: 1.25rem;
-      color: #64748b;
+      color: var(--text);
       line-height: 1.8;
     }
   }
@@ -86,7 +83,7 @@ const { info } = defineProps<{
     }
 
     .column {
-      background: #f8fafc;
+      background: var(--background-base);
       border-radius: 12px;
       padding: 2rem;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -95,7 +92,7 @@ const { info } = defineProps<{
         font-size: 1.8rem;
         margin-bottom: 1.5rem;
         text-align: center;
-        color: var(--text-color);
+        color: var(--text);
       }
 
       ul {
@@ -108,7 +105,8 @@ const { info } = defineProps<{
           gap: 1rem;
           margin-bottom: 1.25rem;
           line-height: 1.6;
-          color: #4a5568;
+          color: var(--heading);
+          font-size: 1.2rem;
 
           .icon {
             flex-shrink: 0;

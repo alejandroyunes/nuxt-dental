@@ -6,8 +6,8 @@ const waterpikF02: ProductDetails = {
   fileName: 'waterpikWF02',
   info: {
     images: waterPikWF02GlobalData.images,
-    alt: "Waterpik WF 02 Water Flosser, 29.5ml.",
-    title: "Waterpik WF 02 Water Flosser, 29.5ml.",
+    alt: "Waterpik WF 02 Water Flosser, 148 ml.",
+    title: "Waterpik WF 02 Water Flosser, 148 ml.",
     subtitle: "Cordless Express Portable Water Flosser",
     description: "The Waterpik WF 02 Cordless Express Water Flosser is a portable, battery-operated device designed to enhance oral hygiene by effectively removing plaque and debris between teeth and along the gumline. Its cordless design and compact size make it an excellent choice for individuals with small bathrooms or those who travel frequently.",
     price: waterPikWF02GlobalData.productPrice,
@@ -16,6 +16,7 @@ const waterpikF02: ProductDetails = {
     cta: 'Buy on Amazon',
     rating: waterPikWF02GlobalData.rating,
     video: waterPikWF02GlobalData.videoUrl,
+    video2: waterPikWF02GlobalData.videoUrl2,
     characteristics: [
       "Portable",
       "Waterproof for Shower Use",
@@ -25,43 +26,21 @@ const waterpikF02: ProductDetails = {
     ],
   },
   tableOfContent: [
-    { id: "#feedback", content: "User Feedback" },
+    { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
-    { id: "#feedback", content: "Feedback and Video" },
-    { id: "#pros-cons", content: "Pros and Cons" },
+    { id: "#features", content: "Key Features of the Waterpik WF 02" },
+    { id: "#pro-and-cons", content: "Pros and Cons" },
   ],
   title: {
     id: "feedback",
-    title: "User Feedback and Videos",
+    title: "User Feedback & Videos",
     description: "Users appreciate the WF 02 for its ease of use and portability, noting its effectiveness in cleaning and suitability for travel. However, some users mention the reservoir's limited capacity, necessitating refills during use. Additionally, the lack of a rotating nozzle and absence of a travel pouch are noted as areas for improvement.",
     subtext: "For a visual review and demonstration of the Waterpik WF-02, you may find the following video helpful:"
   },
-  features: {
-    id: "features",
-    title: "Key Features",
-    data: [
-      {
-        title: "Portability",
-        description: "Powered by three AA batteries, the WF 02 eliminates the need for charging cables, enhancing its convenience for travel. Its lightweight and waterproof design allows for use in the shower, adding to its versatility."
-      },
-      {
-        title: "Performance",
-        description: "The device offers two pressure settings, ranging from 45 to 75 PSI, delivering up to 1,200 water pulses per minute. This functionality ensures efficient removal of plaque and food particles, contributing to improved gum health."
-      },
-      {
-        title: "Reservoir Capacity",
-        description: "Equipped with a removable 5-ounce (approximately 150 milliliters) water reservoir, the WF 02 provides up to 30 seconds of continuous flossing time. While this may require some users to refill during sessions, it is a common trait among portable water flossers."
-      },
-      {
-        title: "Ease of Use",
-        description: "The flosser includes two flossing tips and an advanced pressure control system with two settings. Its ergonomic design ensures a comfortable grip, and the absence of cords enhances maneuverability during use."
-      }
-    ]
-  },
   comparison: {
     id: "comparison",
-    title: "Comparison with Similar Models",
-    description: "Compare the Waterpik Cordless Express with other models for travel and home use.",
+    title: "Compare the Waterpik WF 02 with Similar Models",
+    description: "Compare the Waterpik WF 02 Cordless Express with other models for travel and home use.",
     models: [
       {
         id: 1,
@@ -70,9 +49,9 @@ const waterpikF02: ProductDetails = {
         image: waterPikWF02GlobalData.images[0].thumbnail,
         alt: 'Waterpik Model WF 02',
         prime: true,
-        dimensions: "3.6 x 2.5 x 11.75 inches",
+        dimensions: "3.6 x 2.5 x 11.75 in, 5 oz",
         tips: "Includes 2 Classic Jet Tips",
-        capacity: "150ml",
+        capacity: "148 ml.",
         highlight: "No outlets or charging needed",
         problem: "Requires regular battery replacement",
         price: waterPikWF02GlobalData.productPrice,
@@ -123,6 +102,28 @@ const waterpikF02: ProductDetails = {
         price: coslusC20F5020EGlobalData.productPrice,
         satisfaction: coslusC20F5020EGlobalData.rating.stars,
       },
+    ]
+  },
+  features: {
+    id: "features",
+    title: "Key Features",
+    data: [
+      {
+        title: "Portability",
+        description: "Powered by three AA batteries, the WF 02 eliminates the need for charging cables, enhancing its convenience for travel. Its lightweight and waterproof design allows for use in the shower, adding to its versatility."
+      },
+      {
+        title: "Performance",
+        description: "The device offers two pressure settings, ranging from 45 to 75 PSI, delivering up to 1,200 water pulses per minute. This functionality ensures efficient removal of plaque and food particles, contributing to improved gum health."
+      },
+      {
+        title: "Reservoir Capacity",
+        description: "Equipped with a removable 5-ounce (approximately 150 milliliters) water reservoir, the WF 02 provides up to 30 seconds of continuous flossing time. While this may require some users to refill during sessions, it is a common trait among portable water flossers."
+      },
+      {
+        title: "Ease of Use",
+        description: "The flosser includes two flossing tips and an advanced pressure control system with two settings. Its ergonomic design ensures a comfortable grip, and the absence of cords enhances maneuverability during use."
+      }
     ]
   },
   proAndCons: {

@@ -44,8 +44,8 @@ if (product.value) {
     <Title :info="product?.title" marginTop />
     <Video :videoUrl="product?.info.video" />
     <Video v-if="product?.info.video2" :videoUrl="product?.info.video2" />
-    <Features :info="product?.features" />
     <TableComparison :info="product?.comparison" />
+    <Features :info="product?.features" />
     <ProsCons :info="product?.proAndCons" />
   </section>
 </template>
