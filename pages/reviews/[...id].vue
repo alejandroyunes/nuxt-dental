@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
-import CardDetails from '~/components/organisms/card-details.vue'
+import ProductCard from '~/components/organisms/product-card.vue'
 import Accordion from '~/components/organisms/accordion.vue'
 import Features from '~/components/organisms/features.vue'
 import ProsCons from '~/components/organisms/pros-cons.vue'
@@ -23,15 +23,15 @@ watch([product, loading, error], ([newProduct, newLoading, newError]) => {
   }
 })
 
-if(loading.value) {
+if (loading.value) {
   console.log('loading')
 }
 
-if(error.value) { 
+if (error.value) {
   console.log('error')
 }
 
-if(product.value) {
+if (product.value) {
   console.log('product')
 }
 
@@ -39,14 +39,13 @@ if(product.value) {
 
 <template>
   <section class="product-section">
-    <CardDetails :info="product?.info" />
+    <ProductCard :info="product?.info" />
     <Accordion :info="product?.tableOfContent" />
     <Title :info="product?.title" marginTop />
-    <Video :videoUrl="product?.info.video"  />
-    <Video v-if="product?.info.video2" :videoUrl="product?.info.video2"  />
+    <Video :videoUrl="product?.info.video" />
+    <Video v-if="product?.info.video2" :videoUrl="product?.info.video2" />
     <Features :info="product?.features" />
     <TableComparison :info="product?.comparison" />
     <ProsCons :info="product?.proAndCons" />
-
   </section>
 </template>

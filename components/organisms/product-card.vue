@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { ProductDetails } from '~/types/product-details'
+import Galleria from '../organisms-raw/galleria.vue';
 
 const { info } = defineProps<{
   info?: ProductDetails['info']
@@ -10,13 +11,7 @@ const { info } = defineProps<{
 <template>
   <div class="card-details">
     <div class="card-image">
-      <NuxtImg 
-        :src="info?.image"
-        :alt="info?.title"
-        format="webp"
-        loading="lazy"
-        sizes="xs:100vw"
-        class="image" />
+      <Galleria />
     </div>
 
     <div class="card-info">
@@ -70,21 +65,6 @@ const { info } = defineProps<{
     display: flex;
     justify-content: center;
     width: 100%;
-
-    .image {
-      max-width: 700px;
-      height: auto;
-      border-radius: 0.5rem;
-
-      @media (max-width: 1280px) {
-        max-width: 400px;
-      }
-    }
-
-    @media (max-width: 1024px) {
-      justify-self: center;
-      margin-left: 0;
-    }
   }
 
   .card-info {
