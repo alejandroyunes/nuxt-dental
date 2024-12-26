@@ -1,7 +1,7 @@
 import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
-import waterpikWF02 from './waterpikWF02'
-import nicwellF5025 from './nicwellF5025'
+import waterpikWF02 from './waterpik-WF02'
+import nicwellF5025 from './nicwell-F5025'
 import nicefeelFC1592 from './nicefeelFC1592'
 import inSmartFC256 from './inSmartFC256'
 import coslusF5020E from './coslusF5020E'

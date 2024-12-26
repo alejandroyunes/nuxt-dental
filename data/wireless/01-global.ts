@@ -1,3 +1,5 @@
+import { th } from "@formkit/i18n"
+
 export const waterPikWF02GlobalData = {
   id: 1,
   images: [
@@ -15,11 +17,11 @@ export const waterPikWF02GlobalData = {
   videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
   productPrice: '36.89',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-and-wireless-oral-irrigators/wireless/waterpikWF02',
+  path: '/reviews/affordable-and-wireless-oral-irrigators/wireless/waterpik-WF02',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.2,
-    reviews: 48061,
+    reviews: 48102,
   }
 }
 
@@ -27,23 +29,28 @@ export const nicwellF5025GlobalData = {
   id: 2,
   images: [
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735199935/irrigators/nicwell/nicwell-F5025_fhzxcq.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735199936/irrigators/nicwell/nicwell-F5025-xs_le6qgo.webp'
     },
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735201248/irrigators/nicwell/nicwell-F5025-2_haeu6k.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735201248/irrigators/nicwell/nicwell-F5025-2-xs_d2n4hn.webp'
     },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735203617/irrigators/nicwell/nicwell-F5025_qblnoc.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735203578/irrigators/nicwell/nicwell-F5025_gs9yjj.webp'
+    }
   ],
   amazonUrl: 'https://amzn.to/3GsK58d',
   videoUrl: 'https://www.youtube.com/embed/F5TExCCDCxY?si=VfRqWBLDOlBbVUhX',
+  videoUrl2: 'https://www.youtube.com/embed/z52qAIuX3jk?si=ZK9ucquTlB-4pAik',
   productPrice: '39.89',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/wireless/nicwellF5025',
+  path: '/reviews/affordable-countertop-irrigators/wireless/nicwell-F5025',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
-    reviews: 477986,
+    reviews: 48121,
   },
 }
 

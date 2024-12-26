@@ -5,7 +5,6 @@ export interface ProductDetails {
     images: { url: string; thumbnail: string }[],
     alt: string
     title: string
-    subtitle: string
     description: string
     price: string
     updatedDate: string

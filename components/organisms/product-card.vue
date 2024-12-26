@@ -22,7 +22,7 @@ const { info } = defineProps<{
 
       <div class="price-and-date">
         <p class="price">{{ info?.price }}</p>
-        <p class="date">last updated: <strong>{{ info?.updatedDate }}</strong></p>
+        <p class="date">last updated: <strong>{{ info?.updatedDate }}</strong> - Price may vary</p>
       </div>
 
       <div class="rating">
@@ -100,6 +100,13 @@ const { info } = defineProps<{
         }
       }
     }
+
+    .disclaimer {
+        display: flex;
+        color: var(--text);
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
 
     .rating {
       display: flex;

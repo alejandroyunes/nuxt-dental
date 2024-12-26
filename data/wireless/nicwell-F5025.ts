@@ -3,50 +3,39 @@ import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalD
 
 const nicwellF5025: ProductDetails = {
   id: nicefeelFC1592bkGlobalData.id,
-  fileName: 'nicwellF5025',
+  fileName: 'nicwell-F5025',
   info: {
     images: nicwellF5025GlobalData.images,
-    alt: 'Nicwell Professional Water Flosser F5025',
-    title: 'Nicwell Professional Water Flosser F5025, 300ml.',
-    subtitle: 'Smart Oral Irrigator',
-    description: 'Maintaining optimal oral hygiene is essential for overall health, and incorporating advanced tools like the Nicwell Professional Water Flosser F5025 can significantly enhance your dental care routine. This cordless, portable device is designed to effectively remove plaque and food particles from areas that traditional brushing and flossing might miss.',
+    alt: 'Nicwell F5025 Water Dental Flosser Teeth Pick - Cordless, 200 ml.',
+    title: 'Nicwell F5025 Water Dental Flosser Teeth Pick - Cordless, 200 ml.',
+    description: 'The Nicwell Professional Water Flosser F5025, 200 ml, with upgraded unique pulsation technique, Nicwell water dental flosser can offer high pressure water pulse 1400-1800 times/min, 30-110PSI strong water pressure to remove 99.99% food residue hidden deep, massage the gum effectively and promoting blood circulation.',
     price: nicwellF5025GlobalData.productPrice,
     updatedDate: nicwellF5025GlobalData.updatedDate,
     buyLink: nicwellF5025GlobalData.amazonUrl,
     cta: 'Buy on Amazon',
     rating: nicwellF5025GlobalData.rating,
     video: nicwellF5025GlobalData.videoUrl,
+    video2: nicwellF5025GlobalData.videoUrl2,
     characteristics: [
-      "Cordless and portable",
-      "Rechargeable battery",
-      "300ml water tank",
-      "3 cleaning modes (Normal, Soft, Pulse)",
-      "4 jet tips for different cleaning needs",
-      "IPX7 waterproof",
+      "Cordless, portable and chargeable",
+      "Gentle pressure (1400/min) for sensitive teeth",
+      "Low Noise",
+      "5 jet tips for different cleaning needs",
+      "IPX7 waterproof 🔥",
+      "4 cleaning modes"
     ]
   },
   tableOfContent: [
-    { id: "#title", content: "Overview" },
-    { id: "#features", content: "Key Features" },
+    { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
-    { id: "#pros-cons", content: "Pros and Cons" },
+    { id: "#features", content: "Key Features of the Nicwell F5025" },
+    { id: "#pro-and-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: "title",
-    title: "Cordless Water Flosser Teeth Cleaner",
-    description: "Nicwell Professional Water Flosser is a game-changer for maintaining healthy gums and teeth, offering a refreshing and deep clean experience for your oral hygiene routine. Its advanced water pulse technology provides a superior clean, particularly for those with sensitive gums and dental appliances.",
-    subtext: "Improve your gum health and oral care routine with ease.",
-  },
-  features: {
-    id: "features",
-    title: "Key Features",
-    data: [
-      { title: "Advanced Pulsation Technology", description: "The Nicwell F5025 utilizes an upgraded pulsation technique that delivers high-pressure water pulses, effectively removing up to 99.99% of food residue. This deep cleaning action helps whiten teeth and improve gum health." },
-      { title: "300ml Water Reservoir", description: "The large-capacity water tank ensures uninterrupted flossing sessions, reducing the need for frequent refills." },
-      { title: "IPX7 Waterproof Rating", description: "With its double-sealing rings, the device is reliably waterproof, allowing for safe use in the bathroom or shower and easy cleaning." },
-      { title: "Long-Lasting Battery Life", description: " Equipped with a powerful lithium battery, the flosser charges fully in about four hours and lasts for approximately 21 days of regular use. The USB charging feature adds convenience, enabling charging via various devices." },
-      { title: "360-Degree Rotatable Nozzle", description: "This feature allows for comprehensive cleaning, reaching all areas of the mouth with ease." },
-    ]
+    id: "feedback",
+    title: "User Feedback & Videos",
+    description: "The reviews convey a generally positive sentiment, highlighting the product’s affordability, strong performance, portability, and long battery life. Many users find it effective and recommend it, though concerns about durability, a small water reservoir, and the lack of a low battery alert are noted.",
+    subtext: "For a visual review and demonstration of the Nicwell F5025, you may find the following video helpful:"
   },
   comparison: {
     id: "comparison",
@@ -59,13 +48,13 @@ const nicwellF5025: ProductDetails = {
         path: nicwellF5025GlobalData.path,
         model: 'Nicwell F5025',
         image: nicwellF5025GlobalData.images[0].thumbnail,
-        alt: 'Nicwell 300ml Oral Irrigator',
+        alt: 'Nicwell 200 ml Oral Irrigator',
         prime: true,
-        dimensions: '8.11 x 4.06 x 2.73 in, 14.4 oz',
-        tips: "6 replaceable tips",
-        capacity: "300ml",
-        highlight: "Offers 5 cleaning modes with advanced features.",
-        problem: "Slightly heavier than Nicefeel.",
+        dimensions: '8.11 x 4.06 x 2.73 in, 7 oz',
+        tips: "5 tips",
+        capacity: "200 ml",
+        highlight: "360° rotatable",
+        problem: "Slightly heavier",
         price: nicwellF5025GlobalData.productPrice,
         satisfaction: nicwellF5025GlobalData.rating.stars
       },
@@ -114,6 +103,16 @@ const nicwellF5025: ProductDetails = {
         price: bitvaeC2GlobalData.productPrice,
         satisfaction: bitvaeC2GlobalData.rating.stars,
       },
+    ]
+  },
+  features: {
+    id: "features",
+    title: "Key Features",
+    data: [
+      { title: "Advanced Pulsation Technology", description: "The Nicwell F5025 utilizes an upgraded pulsation technique that delivers high-pressure water pulses, effectively removing up to 99.99% of food residue. This deep cleaning action helps whiten teeth and improve gum health." },
+      { title: "IPX7 Waterproof Rating", description: "With its double-sealing rings, the device is reliably waterproof, allowing for safe use in the bathroom or shower and easy cleaning." },
+      { title: "Long-Lasting Battery Life", description: " Equipped with a powerful lithium battery, the flosser charges fully in about four hours and lasts for approximately 21 days of regular use. The USB charging feature adds convenience, enabling charging via various devices." },
+      { title: "360-Degree Rotatable Nozzle", description: "This feature allows for comprehensive cleaning, reaching all areas of the mouth with ease." },
     ]
   },
   proAndCons: {

@@ -3,13 +3,12 @@ import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalD
 
 const waterpikF02: ProductDetails = {
   id: waterPikWF02GlobalData.id,
-  fileName: 'waterpikWF02',
+  fileName: 'waterpik-WF02',
   info: {
     images: waterPikWF02GlobalData.images,
-    alt: "Waterpik WF 02 Water Flosser, 148 ml.",
-    title: "Waterpik WF 02 Water Flosser, 148 ml.",
-    subtitle: "Cordless Express Portable Water Flosser",
-    description: "The Waterpik WF 02 Cordless Express Water Flosser is a portable, battery-operated device designed to enhance oral hygiene by effectively removing plaque and debris between teeth and along the gumline. Its cordless design and compact size make it an excellent choice for individuals with small bathrooms or those who travel frequently.",
+    alt: "Waterpik WF-02 Cordless Express Portable Water Flosser, 148 ml.",
+    title: "Waterpik WF-02 Cordless Express Portable Water Flosser, 148 ml.",
+    description: "The Waterpik WF 02 Cordless Express Water Flosser is a portable, battery-operated device designed to enhance oral hygiene by effectively. Its cordless design and compact size make it an excellent choice for individuals with small bathrooms or those who travel frequently.",
     price: waterPikWF02GlobalData.productPrice,
     updatedDate: waterPikWF02GlobalData.updatedDate,
     buyLink: waterPikWF02GlobalData.amazonUrl,
@@ -119,7 +118,7 @@ const waterpikF02: ProductDetails = {
       },
       {
         title: "Reservoir Capacity",
-        description: "Equipped with a removable 5-ounce (approximately 150 milliliters) water reservoir, the WF 02 provides up to 30 seconds of continuous flossing time. While this may require some users to refill during sessions, it is a common trait among portable water flossers."
+        description: "Equipped with a removable 5-ounce 148 ml water reservoir, the WF 02 provides up to 30 seconds of continuous flossing time. While this may require some users to refill during sessions, it is a common trait among portable water flossers."
       },
       {
         title: "Ease of Use",
