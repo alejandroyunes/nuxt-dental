@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { ProductDetails } from '~/types/product-details'
-import Galleria from '../organisms-raw/galleria.vue';
+import Galleria from '../organisms/galleria.vue';
 
 const { info } = defineProps<{
   info?: ProductDetails['info']
@@ -11,7 +11,7 @@ const { info } = defineProps<{
 <template>
   <div class="card-details">
     <div class="card-image">
-      <Galleria />
+      <Galleria :images="info?.images || [{ url: '', thumbnail: '' }]" />
     </div>
 
     <div class="card-info">
@@ -51,7 +51,7 @@ const { info } = defineProps<{
   gap: 4rem;
   align-items: center;
   background: var(--background);
-  padding: 7rem 0 5rem;
+  padding: 4rem 0 5rem;
   max-width: var(--max-width);
   margin: 0 auto;
 

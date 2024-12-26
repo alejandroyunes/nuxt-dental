@@ -1,55 +1,30 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const images = [
-  {
-    itemImageSrc: "https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-w-02_lzvmu1.webp",
-    thumbnailImageSrc: "https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-w-02-xs_py0ekq.webp",
-    alt: "Image 1",
-  },
-  {
-    itemImageSrc: "https://picsum.photos/id/237/200/300",
-    thumbnailImageSrc: "https://picsum.photos/id/237/200/300",
-    alt: "Image 2",
-  },
-  {
-    itemImageSrc: "https://placehold.co/600x400",
-    thumbnailImageSrc: "https://placehold.co/600x400",
-    alt: "Image 3",
-  },
-]
 const activeIndex = ref(0);
 
 const setActive = (index: number) => {
   activeIndex.value = index;
 }
 
-// const { images, maxWidth } = defineProps<{
-//   images: {
-//     itemImageSrc: string;
-//     thumbnailImageSrc: string;
-//     alt: string;
-//   }[];
-//   maxWidth: string;
-// }>()
+const { images } = defineProps<{
+  images: {
+    url: string;
+    thumbnail: string;
+  }[]
+}>()
 
 </script>
 
 <template>
   <div class="galleria">
     <div class="galleria-main">
-      <NuxtImg 
-        :src="images[activeIndex].itemImageSrc"
-        :alt="images[activeIndex].alt"
-        format="webp"
-        loading="lazy"
-        sizes="xs:100vw"
-        class="image" />
+      <NuxtImg :src="images[activeIndex].url" format="webp" loading="lazy" sizes="xs:100vw" />
     </div>
     <div class="galleria-thumbnails">
       <div v-for="(image, index) in images" :key="index" class="galleria-thumbnail"
         :class="{ active: index === activeIndex }" @click="setActive(index)">
-        <img :src="image.thumbnailImageSrc" :alt="image.alt" />
+        <NuxtImg :src="image.thumbnail" format="webp" loading="lazy" sizes="xs:100vw" />
       </div>
     </div>
   </div>
@@ -70,7 +45,7 @@ const setActive = (index: number) => {
       height: auto;
 
       @media (max-width: 1280px) {
-        max-width: 400px;
+        max-width: 500px;
       }
     }
 
@@ -93,19 +68,17 @@ const setActive = (index: number) => {
       transition: border-color 0.3s ease;
 
       img {
-        width: 64px;
-        height: 64px;
+        display: block;
+        width: 100px;
+        height: 100px;
         object-fit: cover;
         border-radius: 4px;
         transition: transform 0.3s ease;
       }
 
-      &:hover img {
-        transform: scale(1.1);
-      }
-
       &.active {
-        border-color: #007bff;
+        border: 1px solid var(--primary);
+        cursor: not-allowed;
       }
     }
   }

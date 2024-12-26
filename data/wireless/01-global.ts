@@ -1,7 +1,15 @@
 export const waterPikWF02GlobalData = {
   id: 1,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-w-02_lzvmu1.webp',
-  imageXs: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-w-02-xs_py0ekq.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+    },
+  ],
   amazonUrl: 'https://amzn.to/3TjtFqp',
   videoUrl: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
   productPrice: '36.89',
@@ -16,7 +24,16 @@ export const waterPikWF02GlobalData = {
 
 export const nicwellF5025GlobalData = {
   id: 2,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733957343/irrigators/nicwell/f5025_aetfka.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+    },
+  ],
   amazonUrl: 'https://amzn.to/3GsK58d',
   videoUrl: 'https://www.youtube.com/embed/F5TExCCDCxY?si=VfRqWBLDOlBbVUhX',
   productPrice: '39.89',
@@ -31,7 +48,16 @@ export const nicwellF5025GlobalData = {
 
 export const nicefeelFC1592bkGlobalData = {
   id: 3,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733957238/irrigators/nicefeel/fc1592bk_hxsx75.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+    },
+  ],
   amazonUrl: 'https://amzn.to/3RvbA7j',
   videoUrl: 'https://www.youtube.com/embed/HTnrB3ME3y8?si=G_BZFa70Gc8cZDOM',
   productPrice: '21.99',
@@ -46,7 +72,16 @@ export const nicefeelFC1592bkGlobalData = {
 
 export const coslusC20F5020EGlobalData = {
   id: 4,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733957574/irrigators/coslus/f5020e_ahlexp.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+    },
+  ],
   amazonUrl: 'https://amzn.to/3NhjGhd',
   videoUrl: 'https://www.youtube.com/embed/VbH69k72y1o?si=XKJ69EYF_kTngRVa',
   videoUrl2: 'https://www.youtube.com/embed/YP0iiOTbgGI?si=PwmsSXLA5nTaxHqg',
@@ -62,7 +97,16 @@ export const coslusC20F5020EGlobalData = {
 
 export const insmartFC256GlobalData = {
   id: 5,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733957551/irrigators/insmart/fc256_qb9w8d.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+    },
+  ],
   amazonUrl: 'https://amzn.to/3Nbst4b',
   productPrice: '25.98',
   amazonPrime: 'https://www.amazon.com',
@@ -76,7 +120,16 @@ export const insmartFC256GlobalData = {
 
 export const bitvaeC2GlobalData = {
   id: 6,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734250326/irrigators/bitvae/bitvaeC2_lwkgaz.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+    },
+  ],
   amazonUrl: 'https://amzn.to/3R3veFS',
   amazonPrime: 'https://www.amazon.com',
   productPrice: '25.99',

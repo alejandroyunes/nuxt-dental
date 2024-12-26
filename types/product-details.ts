@@ -2,8 +2,7 @@ export interface ProductDetails {
   id: number
   fileName: string
   info: {
-    image: string
-    imageXs: string
+    images: { url: string; thumbnail: string }[],
     alt: string
     title: string
     subtitle: string
