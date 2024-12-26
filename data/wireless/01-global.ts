@@ -1,6 +1,7 @@
 export const waterPikWF02GlobalData = {
   id: 1,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733957216/irrigators/waterpik/wf-02_x378ij.webp',
+  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-w-02_lzvmu1.webp',
+  imageXs: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-w-02-xs_py0ekq.webp',
   amazonUrl: 'https://amzn.to/3TjtFqp',
   videoUrl: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
   productPrice: '36.89',
@@ -47,6 +48,8 @@ export const coslusC20F5020EGlobalData = {
   id: 4,
   image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733957574/irrigators/coslus/f5020e_ahlexp.webp',
   amazonUrl: 'https://amzn.to/3NhjGhd',
+  videoUrl: 'https://www.youtube.com/embed/VbH69k72y1o?si=XKJ69EYF_kTngRVa',
+  videoUrl2: 'https://www.youtube.com/embed/YP0iiOTbgGI?si=PwmsSXLA5nTaxHqg',
   productPrice: '37.15',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/affordable-countertop-irrigators/wireless/coslusF5020E',

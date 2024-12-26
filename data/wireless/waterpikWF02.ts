@@ -6,6 +6,7 @@ const waterpikF02: ProductDetails = {
   fileName: 'waterpikWF02',
   info: {
     image: waterPikWF02GlobalData.image,
+    imageXs: waterPikWF02GlobalData.imageXs,
     alt: "Waterpik WF 02 Water Flosser, 29.5ml.",
     title: "Waterpik WF 02 Water Flosser, 29.5ml.",
     subtitle: "Cordless Express Portable Water Flosser",
@@ -25,14 +26,14 @@ const waterpikF02: ProductDetails = {
     ],
   },
   tableOfContent: [
-    { id: "#features", content: "Key Features" },
+    { id: "#feedback", content: "User Feedback" },
     { id: "#comparison", content: "Comparison with Similar Models" },
     { id: "#feedback", content: "Feedback and Video" },
     { id: "#pros-cons", content: "Pros and Cons" },
   ],
   title: {
     id: "feedback",
-    title: "User Feedback",
+    title: "User Feedback and Videos",
     description: "Users appreciate the WF 02 for its ease of use and portability, noting its effectiveness in cleaning and suitability for travel. However, some users mention the reservoir's limited capacity, necessitating refills during use. Additionally, the lack of a rotating nozzle and absence of a travel pouch are noted as areas for improvement.",
     subtext: "For a visual review and demonstration of the Waterpik WF-02, you may find the following video helpful:"
   },

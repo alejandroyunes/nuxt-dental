@@ -3,6 +3,7 @@ export interface ProductDetails {
   fileName: string
   info: {
     image: string
+    imageXs: string
     alt: string
     title: string
     subtitle: string
@@ -12,6 +13,7 @@ export interface ProductDetails {
     buyLink: string
     cta: string
     video: string
+    video2?: string
     rating: {
       stars: number
       reviews: number

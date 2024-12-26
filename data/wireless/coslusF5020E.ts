@@ -15,6 +15,8 @@ const coslusF5020E: ProductDetails = {
     buyLink: coslusC20F5020EGlobalData.amazonUrl,
     cta: 'Buy on Amazon',
     rating: coslusC20F5020EGlobalData.rating,
+    video: coslusC20F5020EGlobalData.videoUrl,
+    video2: coslusC20F5020EGlobalData.videoUrl2,
     characteristics: [
       "Advanced 0.3mm+0.3mm ultra-fine dual-thread water pulse technology, professionally endorsed by an American dental team, removes 99.9% of dental plaque.",
       "Upgraded 300ml extra-large water tank for fewer refills and a thorough cleaning experience.",

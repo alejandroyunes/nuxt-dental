@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import ReviewsGrid from '~/components/organisms/grids/review/ReviewsGrid.vue'
-import TypeSection from '~/components/organisms/type-section/TypeSection.vue'
 import { getBestIrrigators } from '~/components/composables/getBestIrrigators'
-import QuestionsAndAnswers from '~/components/organisms/questions-answers/index.vue'
+import ReviewsGrid from '~/components/organisms/review-grid.vue'
+import TypeSection from '~/components/organisms-raw/types.vue'
 
 useSeoMeta({
   title: 'Servicio Web Profesional en Colombia',

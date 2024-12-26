@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
-import CardDetails from '~/components/organisms/product/card-details/index.vue'
-import Accordion from '~/components/organisms/accordion/index.vue'
-import Features from '~/components/organisms/product/features/index.vue'
-import ProsCons from '~/components/organisms/pros-cons/index.vue'
-import TableComparison from '~/components/organisms/tables/comparisor/index.vue'
+import CardDetails from '~/components/organisms/card-details.vue'
+import Accordion from '~/components/organisms/accordion.vue'
+import Features from '~/components/organisms/features.vue'
+import ProsCons from '~/components/organisms/pros-cons.vue'
+import TableComparison from '~/components/organisms/table.vue'
 import Title from '~/components/atoms/title-description/index.vue'
 import { getProductDetails } from '~/components/composables/getProductDetails'
-import Video from '~/components/organisms/product/video/index.vue'
+import Video from '~/components/organisms/video.vue'
 
 const route = useRoute()
 const fileRoute = route.params.id
@@ -43,6 +43,7 @@ if(product.value) {
     <Accordion :info="product?.tableOfContent" />
     <Title :info="product?.title" marginTop />
     <Video :videoUrl="product?.info.video"  />
+    <Video v-if="product?.info.video2" :videoUrl="product?.info.video2"  />
     <Features :info="product?.features" />
     <TableComparison :info="product?.comparison" />
     <ProsCons :info="product?.proAndCons" />

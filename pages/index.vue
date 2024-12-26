@@ -1,14 +1,10 @@
 <script setup lang="ts">
-import HeroSection from '~/components/organisms/hero/dental-main/index.vue'
-import ReviewsGrid from '~/components/organisms/grids/review/ReviewsGrid.vue'
-import ProsConsSection from '~/components/organisms/pros-cons/index.vue'
-import InfoGridSection from '~/components/organisms/grids/InfoGridSection.vue'
-import TypeSection from '~/components/organisms/type-section/TypeSection.vue'
-import ComparisonSection from '~/components/organisms/tables/comparisor/index.vue'
-import WaterPickSection from '~/components/organisms/product/card/index.vue'
+import Hero from '~/components/organisms-raw/hero.vue'
+import ReviewsGrid from '~/components/organisms/review-grid.vue'
+import TypeSection from '~/components/organisms-raw/types.vue'
 import { getWirelessReviews } from '~/components/composables/getWirelessReviews'
 import { getCounterReviews } from '~/components/composables/getCounterReviews'
-import QuestionsAndAnswers from '~/components/organisms/questions-answers/index.vue'
+import QuestionsAndAnswers from '~/components/organisms-raw/questions.vue'
 
 useSeoMeta({
   title: 'Servicio Web Profesional en Colombia',
@@ -31,7 +27,7 @@ const { bestCounterReviewDescription, bestCounterReviewTitle } = getCounterRevie
 </script>
 
 <template>
-  <HeroSection />
+  <Hero />
   <ReviewsGrid :reviews="bestWirelessReviewDescription" :reviewTitle="bestWirelessReviewTitle" />
   <ReviewsGrid :reviews="bestCounterReviewDescription" :reviewTitle="bestCounterReviewTitle" />
   <TypeSection />

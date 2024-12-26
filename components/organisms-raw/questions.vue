@@ -1,15 +1,14 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import './questions-answers.scss'
 import ChevronDownSvg from '~/components/icons/arrows/chevron/ChevronDownSvg.vue'
 import ChevronUpSvg from '~/components/icons/arrows/chevron/ChevronUpSvg.vue'
 
-interface FAQ  {
+interface FAQ {
   question: string
   answer: string
 }
 
-const questions = ref<FAQ []>([
+const questions = ref<FAQ[]>([
   {
     question: 'How to use the Dental Irrigator?',
     answer: 'The most important thing is to lean over the sink before starting to shoot the stream of water onto the teeth. We have written a step-by-step User Guide that will assist you with the process.',
@@ -70,3 +69,102 @@ const questions = ref<FAQ []>([
     </details>
   </section>
 </template>
+
+<style lang="scss" scoped>
+.questions-and-answers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 20px;
+  margin-top: 40px;
+
+  details {
+    font-size: 1.2rem;
+    box-shadow: var(--shadow-card);
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+    max-width: 800px;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-hover);
+      cursor: pointer;
+    }
+
+    summary {
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      list-style: none;
+      padding: 8px;
+
+      &:focus {
+        outline: none;
+      }
+
+      summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .summary-title {
+        user-select: none;
+        padding-right: 12px;
+        color: var(--primary);
+
+        @media (max-width: 900px) {
+          font-size: 0.9rem;
+          margin-right: 24px;
+        }
+      }
+
+      &:hover {
+        background-color: var(--light-hover);
+        color: var(--hover-primary);
+      }
+    }
+
+    .summary-content {
+      overflow: hidden;
+      opacity: 0;
+      border-top: 1px solid var(--border);
+      cursor: default;
+      padding: 8px;
+      line-height: 1.5;
+      color: var(--heading);
+      max-height: 0;
+      transform: scaleY(0.95);
+      transform-origin: top;
+      transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.4s ease;
+    }
+
+    &[open] .summary-content {
+      max-height: 500px;
+      opacity: 1;
+      transform: scaleY(1);
+    }
+
+    .summary-chevron-up,
+    .summary-chevron-down {
+      pointer-events: none;
+      position: absolute;
+      top: 1.5em;
+      right: 1em;
+      background-color: var(--primary);
+      color: var(--white);
+      transition: transform 0.3s ease;
+
+      svg {
+        display: block;
+      }
+    }
+  }
+}
+</style>
