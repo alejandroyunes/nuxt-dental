@@ -15,7 +15,7 @@ export const waterPikWF02GlobalData = {
   videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
   productPrice: '36.89',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/wireless/waterpikFW02',
+  path: '/reviews/affordable-and-wireless-oral-irrigators/wireless/waterpikWF02',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.2,

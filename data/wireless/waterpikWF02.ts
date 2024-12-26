@@ -23,6 +23,7 @@ const waterpikF02: ProductDetails = {
       "Removes Plaque",
       "ADA Accepted",
       "Gum Health",
+      "Waranty 1 Year 🔥",
     ],
   },
   tableOfContent: [
@@ -114,7 +115,7 @@ const waterpikF02: ProductDetails = {
       },
       {
         title: "Performance",
-        description: "The device offers two pressure settings, ranging from 45 to 75 PSI, delivering up to 1,200 water pulses per minute. This functionality ensures efficient removal of plaque and food particles, contributing to improved gum health."
+        description: "8 oz/min flow rate, 1200 pulses/min, 2 pressure settings, and 2 included flosser tips. Handle with an on/off slider, no chrome accents, rotating tip, travel bag, or plug."
       },
       {
         title: "Reservoir Capacity",
