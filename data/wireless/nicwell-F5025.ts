@@ -35,7 +35,7 @@ const nicwellF5025: ProductDetails = {
     id: "feedback",
     title: "User Feedback & Videos",
     description: "The reviews convey a generally positive sentiment, highlighting the product’s affordability, strong performance, portability, and long battery life. Many users find it effective and recommend it, though concerns about durability, a small water reservoir, and the lack of a low battery alert are noted.",
-    subtext: "For a visual review and demonstration of the Nicwell F5025, you may find the following video helpful:"
+    subtext: "For a visual review and demonstration of the Nicwell F5025, you may find the following videos helpful:"
   },
   comparison: {
     id: "comparison",
@@ -107,7 +107,7 @@ const nicwellF5025: ProductDetails = {
   },
   features: {
     id: "features",
-    title: "Key Features",
+    title: "Key Features of the Nicwell F5025",
     data: [
       { title: "Advanced Pulsation Technology", description: "The Nicwell F5025 utilizes an upgraded pulsation technique that delivers high-pressure water pulses, effectively removing up to 99.99% of food residue. This deep cleaning action helps whiten teeth and improve gum health." },
       { title: "IPX7 Waterproof Rating", description: "With its double-sealing rings, the device is reliably waterproof, allowing for safe use in the bathroom or shower and easy cleaning." },

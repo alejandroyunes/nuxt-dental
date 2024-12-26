@@ -35,7 +35,7 @@ const waterpikF02: ProductDetails = {
     id: "feedback",
     title: "User Feedback & Videos",
     description: "Users appreciate the WF 02 for its ease of use and portability, noting its effectiveness in cleaning and suitability for travel. However, some users mention the reservoir's limited capacity, necessitating refills during use. Additionally, the lack of a rotating nozzle and absence of a travel pouch are noted as areas for improvement.",
-    subtext: "For a visual review and demonstration of the Waterpik WF-02, you may find the following video helpful:"
+    subtext: "For a visual review and demonstration of the Waterpik WF-02, you may find the following videos helpful:"
   },
   comparison: {
     id: "comparison",
@@ -106,7 +106,7 @@ const waterpikF02: ProductDetails = {
   },
   features: {
     id: "features",
-    title: "Key Features",
+    title: "Key Features of the Waterpik WF 02",
     data: [
       {
         title: "Portability",

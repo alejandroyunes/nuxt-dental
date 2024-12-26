@@ -1,5 +1,3 @@
-import { th } from "@formkit/i18n"
-
 export const waterPikWF02GlobalData = {
   id: 1,
   images: [
@@ -58,23 +56,23 @@ export const nicefeelFC1592bkGlobalData = {
   id: 3,
   images: [
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735212529/irrigators/nicefeel/nicefeel-FC1592-BK_wovzxc.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735212528/irrigators/nicefeel/nicefeel-FC1592-BK-xs_wkkwsu.webp'
     },
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735215711/irrigators/nicefeel/nicefeel-FC1592-BK-2_v9dtnn.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735215710/irrigators/nicefeel/nicefeel-FC1592-BK-2-xs_mcgxcx.webp'
     },
   ],
   amazonUrl: 'https://amzn.to/3RvbA7j',
   videoUrl: 'https://www.youtube.com/embed/HTnrB3ME3y8?si=G_BZFa70Gc8cZDOM',
   productPrice: '21.99',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/wireless/nicefeelFC1592bk',
+  path: '/reviews/affordable-countertop-irrigators/wireless/nicefeel-FC1592-BK',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.2,
-    reviews: 22172,
+    reviews: 22197,
   },
 }
 
