@@ -48,7 +48,7 @@ export const nicwellF5025GlobalData = {
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
-    reviews: 48121,
+    reviews: 48138,
   },
 }
 

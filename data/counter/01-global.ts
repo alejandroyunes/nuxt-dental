@@ -1,10 +1,21 @@
 export const turewellFC165GlobalData = {
   id: 1,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733957781/irrigators/turewell/fc165_s4x5nl.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+    },
+  ],
   amazonUrl: 'https://amzn.to/46Ose6r',
+  videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
+  videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
   productPrice: '39.99',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/counter/turewellFC165',
+  path: '/reviews/affordable-countertop-irrigators/counter/turewell-FC165',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
@@ -14,11 +25,22 @@ export const turewellFC165GlobalData = {
 
 export const h2oflossHF9GlobalData = {
   id: 2,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733957767/irrigators/h2ofloss/hf-9_krb6qo.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+    },
+  ],
   amazonUrl: 'https://amzn.to/46Jx6tj',
+  videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
+  videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
   productPrice: '36.99',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/counter/h2oflossHF9',
+  path: '/reviews/affordable-countertop-irrigators/counter/h2ofloss-HF9',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
@@ -28,11 +50,22 @@ export const h2oflossHF9GlobalData = {
 
 export const sawgmoreFC166GlobalData = {
   id: 3,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733957752/irrigators/sawgmore/fc166_oacolv.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+    },
+  ],
   amazonUrl: 'https://amzn.to/4826pBe',
+  videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
+  videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
   productPrice: '35.99',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/counter/sawgmoreFC166',
+  path: '/reviews/affordable-countertop-irrigators/counter/sawgmore-FC166',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
@@ -42,11 +75,22 @@ export const sawgmoreFC166GlobalData = {
 
 export const oeeterM01GlobalData = {
   id: 4,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733958267/irrigators/oeeter/m01_dndi4v.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+    },
+  ],
   amazonUrl: 'https://www.amazon.com/Professional-Irrigator-Adjustable-Pressures-Magnectic/dp/B0CRF88X43',
+  videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
+  videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
   productPrice: '25.99',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/counter/oeeterM01',
+  path: '/reviews/affordable-countertop-irrigators/counter/oeeter-M01',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.0,
@@ -56,11 +100,22 @@ export const oeeterM01GlobalData = {
 
 export const heyaxa2302WFGlobalData = {
   id: 5,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733958250/irrigators/heyaxa/2302wf_gexigr.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+    },
+  ],
   amazonUrl: 'https://www.amazon.com/HEYAXA-Cleaning-Capacity-Adjustable-Irrigator/dp/B0CTBBD74C/ref=sr_1_1_sspa?crid=UFQQJ0FRNT0S&dib=eyJ2IjoiMSJ9.xX5ql6mkBJbaWrtU-_08qdjQm8lgH23JIRHdPHQwfPQ6f0tHbrn9IMOLZtUshjA5FLtCsQAyiJss3wfQ92nSxIsfm1pRvs0B5tY-9TViaP3NZxpZZ3tqEGkFTvNbs48lWttmMjIm8BqTEV9PvtHy7q4nifDBzJKMGjEMXK7G75-wuvbjr4Kj95kZ7KYGVONQbyQOJE6qQYz4p6L5Fh8IPcPH0NXzYCcMCJa30vPW7M9qUNH8ogvknophdgaM9HtnzeF9w5QjyxROZrbYzxbNHpE8zJsozk-r2TPg6mKjz5U.tgbFa4onwg-dWRI3RB6oUS3oduiOaF8tCGdS4pMIFbM&dib_tag=se&keywords=heyaxa+water+dental&qid=1734152141&sprefix=heyaxa+water+dental%2Caps%2C180&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1',
+  videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
+  videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
   productPrice: '55.99',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/affordable-countertop-irrigators/counter/oeeterM01',
+  path: '/reviews/affordable-countertop-irrigators/counter/oeeter-M01',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.4,
@@ -70,11 +125,22 @@ export const heyaxa2302WFGlobalData = {
 
 export const turewellFC162GlobalData = {
   id: 6,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1733958763/irrigators/turewell/fc162_ajdbgq.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+    },
+  ],
   amazonUrl: 'https://www.amazon.com/TUREWELL-FC162-Irrigator10-Adjustable-Replaceable/dp/B0876YT6RW/ref=sr_1_3_sspa?crid=3I5D5TLGJ0VLJ&dib=eyJ2IjoiMSJ9.WX-kO1B3iHSu_Kfy5dZcIO9lKZrfuQr3WyiiAOuiy2Y.Q48-jZLEYogdISvepYTX_3T67o5jAcI9Q-cgpYB_9P0&dib_tag=se&keywords=turewell+162&qid=1734152803&sprefix=turewell+162%2Caps%2C222&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1',
+  videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
+  videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
   productPrice: '39.99',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/portable-oral-irrigators/best/turewellFC162',
+  path: '/reviews/portable-oral-irrigators/best/turewell-FC162',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
@@ -85,8 +151,19 @@ export const turewellFC162GlobalData = {
 //New not included
 export const zerhuntFC169GlobalData = {
   id: 7,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734752582/irrigators/zerhunt/zerhuntFC169_cqvyhu.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+    },
+  ],
   amazonUrl: 'https://amzn.to/3Gycdqi',
+  videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
+  videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
   productPrice: '--.--',
   amazonPrime: 'https://www.amazon.com',
   rating: {
