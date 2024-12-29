@@ -28,7 +28,7 @@ const coslusF5020E: ProductDetails = {
   tableOfContent: [
     { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
-    { id: "#features", content: "Key Features of the Waterpik WF 02" },
+    { id: "#features", content: "Key Features of the Coslus Model F5020E" },
     { id: "#pro-and-cons", content: "Pros and Cons" },
   ],
   title: {

@@ -3,19 +3,18 @@ import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalD
 
 const inSmartFC256: ProductDetails = {
   id: insmartFC256GlobalData.id,
-  fileName: 'inSmartFC256',
+  fileName: 'inSmart-FC256',
   info: {
     images: insmartFC256GlobalData.images,
-    alt: 'InSmart Professional Cordless Water Dental Flosser FC256, 300ml',
-    title: "InSmart FC256 Professional Cordless Water Dental Flosser, 300ml.",
-    subtitle: 'Dentists highly recommend and choose the global-brand InSmart Portable Water Dental Flosser because it goes beyond the limitations of daily brushing.',
-    description: 'Upgrade your oral care routine with the InSmart Professional Cordless Water Dental Flosser. Featuring a 300ML detachable tank, 1800 times/minute water pulse, and 4 cleaning modes, this rechargeable flosser ensures efficient plaque removal and gum health. Perfect for home and travel.',
+    alt: 'InSmart Professional Cordless Water Dental Flosser FC256, 300 ml.',
+    title: "InSmart FC256 Professional Cordless Water Dental Flosser, 300 ml.",
+    description: 'Upgrade your oral care routine with the InSmart Professional Cordless Water Dental Flosser. Featuring a 300 ml detachable tank, 1800 times/minute water pulse, and 4 cleaning modes, this rechargeable flosser ensures efficient plaque removal and gum health. Perfect for home and travel.',
     price: insmartFC256GlobalData.productPrice,
     updatedDate: insmartFC256GlobalData.updatedDate,
     buyLink: insmartFC256GlobalData.amazonUrl,
     cta: 'Buy on Amazon',
     rating: insmartFC256GlobalData.rating,
-    video: '',
+    video: insmartFC256GlobalData.videoUrl,
     characteristics: [
       "Cordless and Portable for home and travel use.",
       "Charging with all USB port.",
@@ -27,36 +26,36 @@ const inSmartFC256: ProductDetails = {
     ]
   },
   tableOfContent: [
-    { id: "#title", content: "Overview" },
-    { id: "#features", content: "Key Features" },
+    { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
-    { id: "#pros-cons", content: "Pros and Cons" },
+    { id: "#features", content: "Key Features of the inSmart FC256" },
+    { id: "#pro-and-cons", content: "Pros and Cons" },
   ],
   title: {
     id: "title",
     title: 'The Best of InSmart FC256',
     description: "This portable water flosser creates over 1400-1800 pulsations/min of water jets, reaching areas normal toothbrushes can't, ensuring healthy gums and a thorough teeth clean. Its IPX7 waterproof design allows for use in the shower, featuring four operation modes for a personalized experience.",
-    subtext: 'With a large 300ml water tank and extended 2000 mAh battery life, it\'s perfect for daily use at home and on the go.',
+    subtext: 'With a large 300 ml water tank and extended 2000 mAh battery life, it\'s perfect for daily use at home and on the go.',
   },
   features: {
     id: "features",
     title: 'Why Choose InSmart FC256?',
     data: [
       {
-        title: 'InSmart cordless',
-        description: 'water dental flosser is an extremely convenient option over traditional oral irrigators. It provides flossing excellence with the convenience of being cordless and rechargeable.',
+        title: 'High Efficiency',
+        description: 'Cleans 99.99% of food debris and plaque, designed for periodontitis and braces.',
       },
       {
-        title: 'It is perfect',
-        description: 'for the removal of food residue between teeth and below the gums, where brushing alone cannot reach. It excels at removing hard-to-reach areas that can cause bad breath and tooth decay.',
+        title: '4 Water Pressure Modes',
+        description: 'Normal, Soft, Pulse, and DIY modes with a low-noise design.',
       },
       {
-        title: 'Built-in 2000mAh',
+        title: 'Powerful Battery',
         description: 'Li-ion rechargeable battery operates for up to 30 days on a full charge, offering excellent standby time.',
       },
       {
-        title: 'Separate flosser',
-        description: 'and water tank design allows easy cleaning of dirt and plaque in the water tank, keeping the device hygienic.',
+        title: 'Memory Function',
+        description: 'Remembers your preferred mode for next use.',
       },
     ]
   },
@@ -135,7 +134,7 @@ const inSmartFC256: ProductDetails = {
     description: "It's essential to consider these customer experiences to make an informed decision about the InSmart Professional Cordless Water Dental Flosser, ensuring it meets your needs for oral care and convenience.",
     pros: [
       {
-        title: 'Large 300ml water reservoir for uninterrupted use.',
+        title: 'Large 300 ml water reservoir for uninterrupted use.',
       },
       {
         title: '1400-1800 times/minute high-pressure water pulse for effective cleaning.',

@@ -105,15 +105,16 @@ export const insmartFC256GlobalData = {
   id: 5,
   images: [
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735459135/irrigators/insmart/inSmart-FC256_ozcarn.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735459138/irrigators/insmart/inSmart-FC256-x_yp38sv.webp'
     },
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735459136/irrigators/insmart/inSmart-FC256-2_wiqzz1.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735459134/irrigators/insmart/inSmart-FC256-2-xs_qjduuh.webp'
     },
   ],
   amazonUrl: 'https://amzn.to/3Nbst4b',
+  videoUrl: 'https://www.youtube.com/embed/7BegXWHgKHM?si=Zs1tOCTCMEGbXovv',
   productPrice: '25.98',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/affordable-countertop-irrigators/wireless/inSmartFC256',
