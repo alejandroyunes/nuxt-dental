@@ -80,12 +80,12 @@ export const coslusC20F5020EGlobalData = {
   id: 4,
   images: [
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735455847/irrigators/coslus/coslus-F5020E_qlbz19.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735455849/irrigators/coslus/coslus-F5020E-xs_bimae1.webp'
     },
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735455846/irrigators/coslus/coslus-F5020E_2_dlr2rc.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735455848/irrigators/coslus/coslus-F5020E_2_xs_jp8z4j.webp'
     },
   ],
   amazonUrl: 'https://amzn.to/3NhjGhd',

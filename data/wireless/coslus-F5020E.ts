@@ -3,12 +3,11 @@ import { coslusC20F5020EGlobalData, nicwellF5025GlobalData, waterPikWF02GlobalDa
 
 const coslusF5020E: ProductDetails = {
   id: coslusC20F5020EGlobalData.id,
-  fileName: 'coslusF5020E',
+  fileName: 'coslus-F5020E',
   info: {
     images: coslusC20F5020EGlobalData.images,
-    alt: 'Coslus Water Dental Flosser F5020E, 300ml',
-    title: "Coslus F5020E Water Dental Flosser Teeth Pick, 300ml.",
-    subtitle: 'Discover the superior dental care experience with the Coslus F5020E water dental flosser.',
+    alt: 'Coslus Water Dental Flosser F5020E, 300 ml.',
+    title: "Coslus F5020E Water Dental Flosser Teeth Pick, 300 ml.",
     description: 'Deep clean every oral corner precisely! Keep healthier gums and brighter teeth with Coslus F5020E. This water dental flosser offers superior dental care with high-pressure water pulses and advanced technology.',
     price: coslusC20F5020EGlobalData.productPrice,
     updatedDate: coslusC20F5020EGlobalData.updatedDate,
@@ -17,61 +16,50 @@ const coslusF5020E: ProductDetails = {
     rating: coslusC20F5020EGlobalData.rating,
     video: coslusC20F5020EGlobalData.videoUrl,
     video2: coslusC20F5020EGlobalData.videoUrl2,
+    
     characteristics: [
-      "Advanced 0.3mm+0.3mm ultra-fine dual-thread water pulse technology, professionally endorsed by an American dental team, removes 99.9% of dental plaque.",
-      "Upgraded 300ml extra-large water tank for fewer refills and a thorough cleaning experience.",
-      "Rechargeable, portable, and compact, offering 30 days of battery life with a 3-hour charge, perfect for home and on-the-go use.",
-      "IPX7 waterproof, durable design ensures safe use in the shower and easy cleaning.",
-      "Three adjustable pressure modes (Soft, Message, Clean) suitable for various age groups and preferences.",
+      "Advanced Cleaning Technology",
+      "Large Water Tank",
+      "Long Battery Life",
+      "Portable and Cordless",
+      "Multiple Modes and Nozzles",
     ],
   },
   tableOfContent: [
-    { id: "#title", content: "Overview" },
-    { id: "#features", content: "Key Features" },
+    { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
-    { id: "#pros-cons", content: "Pros and Cons" },
+    { id: "#features", content: "Key Features of the Waterpik WF 02" },
+    { id: "#pro-and-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: "title",
-    title: 'The Best of Coslus F5020E',
-    description: "The Coslus F5020E water dental flosser stands out with its advanced 0.3mm+0.3mm ultra-fine dual-thread water pulse technology, delivering high-pressure pulses at 1400-1800 times per minute. This ensures effective plaque removal for deep teeth cleaning, fresher breath, and improved gum health. The upgraded 300ml water tank allows for fewer refills, making your oral cleaning routine more convenient and efficient.",
-    subtext: "Experience the benefits of a long-lasting 30-day battery life, providing portability for both home and travel. With its IPX7 waterproof design, ergonomic handle, and durable 3-year lifespan, the Coslus F5020E is a reliable and thoughtful choice for optimal oral care."
+    id: "feedback",
+    title: 'User Feedback & Videos',
+    description: "The Coslus F5020E water dental flosser stands out with its advanced 0.3mm+0.3mm ultra-fine dual-thread water pulse technology, delivering high-pressure pulses at 1400-1800 times per minute. This ensures effective plaque removal for deep teeth cleaning, fresher breath, and improved gum health. The upgraded 300 ml water tank allows for fewer refills, making your oral cleaning routine more convenient and efficient.",
+    subtext: "Experience the benefits of a long-lasting 30-day battery life, providing portability for both home and travel."
   },
   features: {
     id: "features",
     title: "Why opt for the Coslus Model F5020E?",
     data: [
       {
-        title: 'Quality',
-        description: "Customers praise the oral irrigator's superior quality, effectiveness in dental cleaning, and ease of use. Overall satisfaction with its performance is consistently high.",
+        title: 'Advanced Technology',
+        description: "Advanced 0.3mm+0.3mm ultra-fine dual-thread water pulse technology, professionally endorsed by an American dental team, removes 99.9% of dental plaque.",
       },
       {
-        title: 'Ease of Use',
-        description: "Users find the Coslus F5020E oral irrigator convenient and easy to use, with multiple settings and modes. Many users integrate it into their daily routine due to its intuitive design.",
+        title: 'Large Water Tank',
+        description: "Upgraded 300 ml extra-large water tank for fewer refills and a thorough cleaning experience.",
       },
       {
-        title: 'Value',
-        description: "Customers believe the Coslus F5020E provides excellent value for money. They consider it a worthwhile investment given its performance, features, and durability.",
+        title: 'Portable and Rechargeable',
+        description: "Rechargeable, portable, and compact, offering 30 days of battery life with a 3-hour charge, perfect for home and on-the-go use.",
       },
       {
-        title: 'Ease of Cleaning',
-        description: "Users appreciate the ease of cleaning, as the flosser effectively removes debris, leaving their mouth feeling clean. The various nozzles and strong water pressure contribute to its efficiency.",
+        title: 'Waterproof Design',
+        description: "IPX7 waterproof, durable design ensures safe use in the shower and easy cleaning.",
       },
       {
-        title: 'Size',
-        description: "Customers love the compact, portable, and lightweight design of the Coslus F5020E. They also appreciate the adjustable pressure settings and long-lasting battery life.",
-      },
-      {
-        title: 'Battery Life',
-        description: "Users are highly satisfied with the Coslus F5020E's impressive battery life. It holds a charge for an extended period, and the rechargeable feature adds to its convenience.",
-      },
-      {
-        title: 'Power',
-        description: "Users commend the powerful performance of the oral irrigator, highlighting the three adjustable power levels that ensure effective cleaning. The flosser is efficient and user-friendly.",
-      },
-      {
-        title: 'Pressure',
-        description: "Customers are impressed with the water pressure, with strong flow and multiple modes to choose from. The variety of nozzles and water pressure settings make it ideal for a personalized cleaning experience.",
+        title: 'Adjustable Pressure Modes',
+        description: "Three adjustable pressure modes (Soft, Massage, Clean) suitable for various age groups and preferences.",
       }
     ]
   },
@@ -87,9 +75,9 @@ const coslusF5020E: ProductDetails = {
         image: coslusC20F5020EGlobalData.images[0].thumbnail,
         alt: 'Coslus F5020E Oral Irrigator',
         prime: true,
-        dimensions: '2.17 x 2.74 x 12.2 in, 15.31 oz',
+        dimensions: '2.17 x 2.74 x 12.2 in, 10 oz',
         tips: '5',
-        capacity: '300ml',
+        capacity: '300 ml',
         highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
         problem: 'Limited water capacity',
         price: coslusC20F5020EGlobalData.productPrice,
@@ -150,16 +138,16 @@ const coslusF5020E: ProductDetails = {
     buyLink: coslusC20F5020EGlobalData.amazonUrl,
     pros: [
       {
-        title: 'Advanced water pulse technology and adjustable pressure levels.',
+        title: 'Ease of Use',
       },
       {
-        title: 'Compact, lightweight design with a rechargeable battery for 30 days of use.',
+        title: 'Large Water Tank',
       },
       {
-        title: 'User-friendly settings and multiple nozzles provide a convenient and versatile experience for daily oral care routines.',
+        title: 'Durability',
       },
       {
-        title: 'Customers perceive the Coslus FC165 as a cost-effective choice.',
+        title: 'Cost-effective choice.',
       },
     ],
     cons: [

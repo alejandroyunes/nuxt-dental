@@ -4,7 +4,7 @@ import waterpikWF02 from './waterpik-WF02'
 import nicwellF5025 from './nicwell-F5025'
 import nicefeelFC1592 from './nicefeel-FC1592-BK'
 import inSmartFC256 from './inSmartFC256'
-import coslusF5020E from './coslusF5020E'
+import coslusF5020E from './coslus-F5020E'
 import bitvaeC2 from './bitvaeC2'
 import { waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, coslusC20F5020EGlobalData, bitvaeC2GlobalData, nicwellF5025GlobalData, insmartFC256GlobalData } from "./01-global"
 
