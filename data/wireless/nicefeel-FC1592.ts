@@ -1,20 +1,20 @@
-import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, coslusC20F5020EGlobalData } from './01-global'
+import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592GlobalData, coslusC20F5020EGlobalData } from './01-global'
 import type { ProductDetails } from '~/types/product-details'
 
 const nicefeelFC1592: ProductDetails = {
-  id: nicefeelFC1592bkGlobalData.id,
-  fileName: 'nicefeel-FC1592-BK',
+  id: nicefeelFC1592GlobalData.id,
+  fileName: 'nicefeel-FC1592',
   info: {
-    images: nicefeelFC1592bkGlobalData.images,
-    alt: 'Nicefeel FC1592-BK Cordless Water Flosser, 300 ml.',
-    title: "Nicefeel FC1592-BK Cordless Water Flosser, 300 ml.",
+    images: nicefeelFC1592GlobalData.images,
+    alt: 'Nicefeel FC1592 Cordless Water Flosser, 300 ml.',
+    title: "Nicefeel FC1592 Cordless Water Flosser, 300 ml.",
     description: "The Nicefeel Cordless Water Flosser packs a punch with its 300 ml water tank, offering uninterrupted flossing. With its IPX7 waterproof design, you can even use it in the shower for added convenience. It boasts three modes—Normal, Soft, and Pulse—allowing you to customize the flossing experience to suit your needs.",
-    price: nicefeelFC1592bkGlobalData.productPrice,
-    updatedDate: nicefeelFC1592bkGlobalData.updatedDate,
-    buyLink: nicefeelFC1592bkGlobalData.amazonUrl,
+    price: nicefeelFC1592GlobalData.productPrice,
+    updatedDate: nicefeelFC1592GlobalData.updatedDate,
+    buyLink: nicefeelFC1592GlobalData.amazonUrl,
     cta: 'Buy on Amazon',
-    rating: nicefeelFC1592bkGlobalData.rating,
-    video: nicefeelFC1592bkGlobalData.videoUrl,
+    rating: nicefeelFC1592GlobalData.rating,
+    video: nicefeelFC1592GlobalData.videoUrl,
     characteristics: [
       'Battery Powered: 1400mAh',
       'Bigger Water Tank: 300 ml 🔥',
@@ -42,9 +42,9 @@ const nicefeelFC1592: ProductDetails = {
     models: [
       {
         id: 1,
-        path: nicefeelFC1592bkGlobalData.path,
+        path: nicefeelFC1592GlobalData.path,
         model: 'Nicefeel FC1592-BK',
-        image: nicefeelFC1592bkGlobalData.images[0].thumbnail,
+        image: nicefeelFC1592GlobalData.images[0].thumbnail,
         alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
         prime: true,
         dimensions: '0.3 x 0.31 x 0.87 in, 10 oz',
@@ -52,8 +52,8 @@ const nicefeelFC1592: ProductDetails = {
         capacity: '300 ml',
         highlight: '3 Cleaning Modes',
         problem: 'Not suitable for large families',
-        price: nicefeelFC1592bkGlobalData.productPrice,
-        satisfaction: nicefeelFC1592bkGlobalData.rating.stars,
+        price: nicefeelFC1592GlobalData.productPrice,
+        satisfaction: nicefeelFC1592GlobalData.rating.stars,
       },
       {
         id: 2,
@@ -130,7 +130,7 @@ const nicefeelFC1592: ProductDetails = {
     description:
       'Evaluate the advantages and disadvantages of the Nicefeel FC1592-BK Cordless Water Flosser.',
     cta: 'Buy Now on Amazon',
-    buyLink: nicefeelFC1592bkGlobalData.amazonUrl,
+    buyLink: nicefeelFC1592GlobalData.amazonUrl,
     pros: [
       { title: 'Large Water Tank: 300ml capacity for uninterrupted use.' },
       { title: 'Efficient Cleaning: 1800 times/minute high pressure water pulse for effective removal of food residues.' },

@@ -1,5 +1,5 @@
 import type { ProductDetails } from '~/types/product-details'
-import { coslusC20F5020EGlobalData, nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, insmartFC256GlobalData } from './01-global'
+import { coslusC20F5020EGlobalData, nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592GlobalData, insmartFC256GlobalData } from './01-global'
 
 const coslusF5020E: ProductDetails = {
   id: coslusC20F5020EGlobalData.id,
@@ -115,9 +115,9 @@ const coslusF5020E: ProductDetails = {
       },
       {
         id: 4,
-        path: nicefeelFC1592bkGlobalData.path,
+        path: nicefeelFC1592GlobalData.path,
         model: 'Nicefeel FC1592-BK',
-        image: nicefeelFC1592bkGlobalData.images[0].thumbnail,
+        image: nicefeelFC1592GlobalData.images[0].thumbnail,
         alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
         prime: true,
         dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
@@ -125,8 +125,8 @@ const coslusF5020E: ProductDetails = {
         capacity: '300ml',
         highlight: 'Battery-powered, memory function, 3 cleaning modes',
         problem: 'Not suitable for large families',
-        price: nicefeelFC1592bkGlobalData.productPrice,
-        satisfaction: nicefeelFC1592bkGlobalData.rating.stars,
+        price: nicefeelFC1592GlobalData.productPrice,
+        satisfaction: nicefeelFC1592GlobalData.rating.stars,
       },
     ],
   },

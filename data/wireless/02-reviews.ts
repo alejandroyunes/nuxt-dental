@@ -2,11 +2,11 @@ import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
 import waterpikWF02 from './waterpik-WF02'
 import nicwellF5025 from './nicwell-F5025'
-import nicefeelFC1592 from './nicefeel-FC1592-BK'
+import nicefeelFC1592 from './nicefeel-FC1592'
 import inSmartFC256 from './inSmart-FC256'
 import coslusF5020E from './coslus-F5020E'
-import bitvaeC2 from './bitvaeC2'
-import { waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, coslusC20F5020EGlobalData, bitvaeC2GlobalData, nicwellF5025GlobalData, insmartFC256GlobalData } from "./01-global"
+import bitvaeC2 from './bitvae-C2'
+import { waterPikWF02GlobalData, nicefeelFC1592GlobalData, coslusC20F5020EGlobalData, bitvaeC2GlobalData, nicwellF5025GlobalData, insmartFC256GlobalData } from "./01-global"
 
 export const bestWirelessReviewsTitle: TitleInfo = {
   title: "Affordable And Wireless Oral Irrigators",
@@ -39,7 +39,7 @@ export const bestWirelessReviewsDescription: ReviewGrid[] = [
     updatedDate: nicwellF5025.info.updatedDate
   },
   {
-    id: nicefeelFC1592bkGlobalData.id,
+    id: nicefeelFC1592GlobalData.id,
     fileName: nicefeelFC1592.fileName,
     name: nicefeelFC1592.info.title,
     image: nicefeelFC1592.info.images[0].thumbnail,

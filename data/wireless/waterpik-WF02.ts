@@ -1,13 +1,13 @@
 import type { ProductDetails } from '~/types/product-details'
-import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, coslusC20F5020EGlobalData } from './01-global'
+import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592GlobalData, coslusC20F5020EGlobalData } from './01-global'
 
 const waterpikF02: ProductDetails = {
   id: waterPikWF02GlobalData.id,
   fileName: 'waterpik-WF02',
   info: {
     images: waterPikWF02GlobalData.images,
-    alt: "Waterpik WF-02 Cordless Express Portable Water Flosser, 148 ml.",
-    title: "Waterpik WF-02 Cordless Express Portable Water Flosser, 148 ml.",
+    alt: "Waterpik WF 02 Cordless Express Portable Water Flosser, 148 ml.",
+    title: "Waterpik WF 02 Cordless Express Portable Water Flosser, 148 ml.",
     description: "The Waterpik WF 02 Cordless Express Water Flosser is a portable, battery-operated device designed to enhance oral hygiene by effectively. Its cordless design and compact size make it an excellent choice for individuals with small bathrooms or those who travel frequently.",
     price: waterPikWF02GlobalData.productPrice,
     updatedDate: waterPikWF02GlobalData.updatedDate,
@@ -35,7 +35,7 @@ const waterpikF02: ProductDetails = {
     id: "feedback",
     title: "User Feedback & Videos",
     description: "Users appreciate the WF 02 for its ease of use and portability, noting its effectiveness in cleaning and suitability for travel. However, some users mention the reservoir's limited capacity, necessitating refills during use. Additionally, the lack of a rotating nozzle and absence of a travel pouch are noted as areas for improvement.",
-    subtext: "For a visual review and demonstration of the Waterpik WF-02, you may find the following videos helpful:"
+    subtext: "For a visual review and demonstration of the Waterpik WF 02, you may find the following videos helpful:"
   },
   comparison: {
     id: "comparison",
@@ -74,9 +74,9 @@ const waterpikF02: ProductDetails = {
       },
       {
         id: 3,
-        path: nicefeelFC1592bkGlobalData.path,
+        path: nicefeelFC1592GlobalData.path,
         model: 'Nicefeel FC1592-BK',
-        image: nicefeelFC1592bkGlobalData.images[0].thumbnail,
+        image: nicefeelFC1592GlobalData.images[0].thumbnail,
         alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
         prime: true,
         dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
@@ -84,8 +84,8 @@ const waterpikF02: ProductDetails = {
         capacity: '300 ml',
         highlight: 'Battery-powered, memory function, 3 cleaning modes',
         problem: 'Not suitable for large families',
-        price: nicefeelFC1592bkGlobalData.productPrice,
-        satisfaction: nicefeelFC1592bkGlobalData.rating.stars,
+        price: nicefeelFC1592GlobalData.productPrice,
+        satisfaction: nicefeelFC1592GlobalData.rating.stars,
       },
       {
         id: 4,

@@ -52,7 +52,7 @@ export const nicwellF5025GlobalData = {
   },
 }
 
-export const nicefeelFC1592bkGlobalData = {
+export const nicefeelFC1592GlobalData = {
   id: 3,
   images: [
     {
@@ -115,13 +115,13 @@ export const insmartFC256GlobalData = {
   ],
   amazonUrl: 'https://amzn.to/3Nbst4b',
   videoUrl: 'https://www.youtube.com/embed/7BegXWHgKHM?si=Zs1tOCTCMEGbXovv',
-  productPrice: '25.98',
+  productPrice: '26.98',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/affordable-countertop-irrigators/wireless/inSmartFC256',
   updatedDate: '11/23/2023',
   rating: {
-    stars: 4.3,
-    reviews: 16103,
+    stars: 4.2,
+    reviews: 16184,
   },
 }
 
@@ -129,21 +129,23 @@ export const bitvaeC2GlobalData = {
   id: 6,
   images: [
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735459906/irrigators/bitvae/bitvae-C2_lphly6.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735459904/irrigators/bitvae/bitvae-C2-x_smnfaq.webp'
     },
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
-    },
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735459905/irrigators/bitvae/bitvae-C2-2big_t3ggr8.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735459903/irrigators/bitvae/bitvae-C2-2_tqd703.webp'
+    }
   ],
   amazonUrl: 'https://amzn.to/3R3veFS',
+  videoUrl: 'https://www.youtube.com/embed/xCdAcy6jiMw?si=LPz6UoKRKzJC4puP',
+  videoUrl2: 'https://www.youtube.com/embed/-G5yefrlxr4',
   amazonPrime: 'https://www.amazon.com',
   productPrice: '25.99',
   path: '/reviews/affordable-countertop-irrigators/wireless/bitvaeC2',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.4,
-    reviews: 16804,
+    reviews: 16974,
   },
 }

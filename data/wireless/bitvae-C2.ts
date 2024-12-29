@@ -1,37 +1,37 @@
 import type { ProductDetails } from '~/types/product-details'
-import { bitvaeC2GlobalData, coslusC20F5020EGlobalData, nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592bkGlobalData, insmartFC256GlobalData } from './01-global'
+import { bitvaeC2GlobalData, coslusC20F5020EGlobalData, nicwellF5025GlobalData, nicefeelFC1592GlobalData, insmartFC256GlobalData } from './01-global'
 
 const bitvaeC2: ProductDetails = {
   id: bitvaeC2GlobalData.id,
-  fileName: 'bitvaeC2',
+  fileName: 'bitvae-C2',
   info: {
     images: bitvaeC2GlobalData.images,
-    alt: "Bitvae C2 Professional Water Dental Flosser, 260ml",
-    title: "Bitvae C2 Water Dental Flosser for Teeth, 260ml.",
-    subtitle: "Cordless, 3 Modes, 5 Intensities, IPX7 Waterproof, 260ml Reservoir",
+    alt: "Bitvae C2 Professional Water Dental Flosser, 260 ml.",
+    title: "Bitvae C2 Water Dental Flosser for Teeth, 260 ml.",
     description: "The Bitvae C2 provides advanced oral care with customizable cleaning options, a large-capacity reservoir, and a sleek design suitable for travel.",
     price: bitvaeC2GlobalData.productPrice,
     updatedDate: bitvaeC2GlobalData.updatedDate,
     buyLink: bitvaeC2GlobalData.amazonUrl,
-    video:'',
+    video: bitvaeC2GlobalData.videoUrl,
+    video2: bitvaeC2GlobalData.videoUrl2,
     cta: 'Buy Now on Amazon',
     rating: bitvaeC2GlobalData.rating,
     characteristics: [
       "Wide Mouth Reservoir for Easy Cleaning.",
-      "260ml tank for a 60-second full-mouth clean.",
+      "260 ml tank for a 60-second full-mouth clean.",
       "3 Modes and 5 Intensity Settings for personalized oral care.",
       "FDA, FCC, CE, PSE certified for safety.",
       "40-day battery life after 4 hours of charging.",
     ]
   },
   tableOfContent: [
-    { id: "#title", content: "Overview" },
-    { id: "#features", content: "Key Features" },
+    { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
-    { id: "#pros-cons", content: "Pros and Cons" },
+    { id: "#features", content: "Key Features of the inSmart FC256" },
+    { id: "#pro-and-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: "title",
+    id: "feedback",
     title: 'The Best of Bitvae C2',
     description: "Portable, with a 300ml tank, ergonomic design, 6 nozzles, and special pressure frequency for a brighter smile.",
     subtext: 'Achieve a brighter smile with advanced features and ergonomic design.',
@@ -86,9 +86,9 @@ const bitvaeC2: ProductDetails = {
         image: bitvaeC2GlobalData.images[0].thumbnail,
         alt: 'Bitvae C2 Oral Irrigator Image',
         prime: true,
-        dimensions: '2.6 x 3.7 x 8.78 inches; 13.44 ounces',
+        dimensions: '2.6 x 3.7 x 8.78 inches; 9 oz',
         tips: '6',
-        capacity: '260ml',
+        capacity: '260 ml.',
         highlight: 'Effective Cleaning, Compact Design, Long Battery Life',
         problem: 'Water Resistance, Durability',
         price: bitvaeC2GlobalData.productPrice,
