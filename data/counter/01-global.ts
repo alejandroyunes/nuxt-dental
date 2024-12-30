@@ -2,12 +2,12 @@ export const turewellFC165GlobalData = {
   id: 1,
   images: [
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735527219/irrigators/turewell/FC165/turewell-FC165_amowq8.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735527221/irrigators/turewell/FC165/turewell-FC165-x_ouquhg.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735597801/irrigators/turewell/FC165/turewell-FC165_gzxikb.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735597801/irrigators/turewell/FC165/turewell-FC165-x_ukyqte.webp'
     },
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735527218/irrigators/turewell/FC165/turewell-FC165-2_ufevnv.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735527220/irrigators/turewell/FC165/turewell-FC165-2-x_upt3q3.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735597801/irrigators/turewell/FC165/turewell-FC165-2_ci5ig6.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735597801/irrigators/turewell/FC165/turewell-FC165-2-x_sy4h8y.webp'
     },
   ],
   amazonUrl: 'https://amzn.to/46Ose6r',
@@ -125,24 +125,24 @@ export const turewellFC162GlobalData = {
   id: 6,
   images: [
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735597963/irrigators/turewell/FC162/turewell-FC162_enonma.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735597875/irrigators/turewell/FC162/turewell-FC162-x_r6z7rl.webp'
     },
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735598367/irrigators/turewell/FC162/turewell-FC162-2_yp96j6.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735598367/irrigators/turewell/FC162/turewell-FC162-2-x_knc2e5.webp'
     },
   ],
   amazonUrl: 'https://www.amazon.com/TUREWELL-FC162-Irrigator10-Adjustable-Replaceable/dp/B0876YT6RW/ref=sr_1_3_sspa?crid=3I5D5TLGJ0VLJ&dib=eyJ2IjoiMSJ9.WX-kO1B3iHSu_Kfy5dZcIO9lKZrfuQr3WyiiAOuiy2Y.Q48-jZLEYogdISvepYTX_3T67o5jAcI9Q-cgpYB_9P0&dib_tag=se&keywords=turewell+162&qid=1734152803&sprefix=turewell+162%2Caps%2C222&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1',
-  videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
-  videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
+  videoUrl: 'https://www.youtube.com/embed/VSFXQ6T9Y9o?si=n1zGbmQVfCRXJW_Z',
+  videoUrl2: 'https://www.youtube.com/embed/ifV--IooByU?si=2vevHWuE7_pPOe7-',
   productPrice: '39.99',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/portable-oral-irrigators/best/turewell-FC162',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
-    reviews: 8803,
+    reviews: 8820,
   },
 }
 
