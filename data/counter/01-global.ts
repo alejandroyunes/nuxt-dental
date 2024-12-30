@@ -44,7 +44,7 @@ export const h2oflossHF9GlobalData = {
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
-    reviews: 16149,
+    reviews: 16148,
   }
 }
 
@@ -52,24 +52,23 @@ export const sawgmoreFC166GlobalData = {
   id: 3,
   images: [
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735534904/irrigators/sawgmore/sawgmore-FC166_y055ts.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735534906/irrigators/sawgmore/sawgmore-FC166-x_gyjkf1.webp'
     },
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735534903/irrigators/sawgmore/sawgmore-FC166-2_acklco.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735534902/irrigators/sawgmore/sawgmore-FC166-2-x_plaljx.webp'
     },
   ],
   amazonUrl: 'https://amzn.to/4826pBe',
-  videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
-  videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
+  videoUrl: 'https://www.youtube.com/embed/TaXaA5CxwQI?si=bwowYT9u88s_SHDE',
   productPrice: '35.99',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/affordable-countertop-irrigators/counter/sawgmore-FC166',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
-    reviews: 3818,
+    reviews: 3834,
   },
 }
 
