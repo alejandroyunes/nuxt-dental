@@ -30,7 +30,7 @@ const oeeterM01: ProductDetails = {
   tableOfContent: [
     { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
-    { id: "#features", content: "Key Features of the M01 Water" },
+    { id: "#features", content: "Key Features of the Oeeter M01 Water" },
     { id: "#pro-and-cons", content: "Pros and Cons" },
   ],
   title: {
@@ -41,7 +41,7 @@ const oeeterM01: ProductDetails = {
   },
   features: {
     id: "features",
-    title: "Key Features",
+    title: "Key Features of the Oeeter M01",
     data: [
       {
         title: "10 Adjustable Pressure Settings",

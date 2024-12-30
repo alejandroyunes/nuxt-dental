@@ -80,8 +80,8 @@ export const oeeterM01GlobalData = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735541369/irrigators/oeeter/oeeter-M01-x_zlswmw.webp'
     },
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735541367/irrigators/oeeter/oeeter-M01-2-x_dniatf.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735541371/irrigators/oeeter/oeeter-M01-2_rigygo.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735541371/irrigators/oeeter/oeeter-M01-2_rigygo.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735541367/irrigators/oeeter/oeeter-M01-2-x_dniatf.webp'
     },
   ],
   amazonUrl: 'https://www.amazon.com/Professional-Irrigator-Adjustable-Pressures-Magnectic/dp/B0CRF88X43',
