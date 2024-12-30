@@ -8,7 +8,7 @@ const bitvaeC2: ProductDetails = {
     images: bitvaeC2GlobalData.images,
     alt: "Bitvae C2 Professional Water Dental Flosser, 260 ml.",
     title: "Bitvae C2 Water Dental Flosser for Teeth, 260 ml.",
-    description: "The Bitvae C2 provides advanced oral care with customizable cleaning options, a large-capacity reservoir, and a sleek design suitable for travel.",
+    description: "The Bitvae C2 provides advanced oral care with customizable cleaning options, a large-capacity reservoir, and a sleek design suitable for travel. Portable, with a 300 ml tank, ergonomic design, 6 nozzles, and special pressure frequency for a brighter smile.",
     price: bitvaeC2GlobalData.productPrice,
     updatedDate: bitvaeC2GlobalData.updatedDate,
     buyLink: bitvaeC2GlobalData.amazonUrl,
@@ -33,8 +33,8 @@ const bitvaeC2: ProductDetails = {
   title: {
     id: "feedback",
     title: 'The Best of Bitvae C2',
-    description: "Portable, with a 300ml tank, ergonomic design, 6 nozzles, and special pressure frequency for a brighter smile.",
-    subtext: 'Achieve a brighter smile with advanced features and ergonomic design.',
+    description: "The Bitvae Water Dental Flosser has received generally positive feedback from users. Many appreciate its customizable cleaning options, with three modes and five intensity settings, making it suitable for both gentle and deep cleaning.",
+    subtext: "For a visual review and demonstration of the H2ofloss HF 9, you may find the following videos helpful:"    
   },
   features: {
     id: "features",

@@ -6,12 +6,12 @@ import { oeeterM01GlobalData } from './01-global';
 
 const h2oflossHF9: ProductDetails = {
   id: h2oflossHF9GlobalData.id,
-  fileName: 'h2oflossHF9',
+  fileName: 'h2ofloss-HF9',
   info: {
     images: h2oflossHF9GlobalData.images,
-    alt: "H2ofloss HF-9 Dental Water Flosser",
-    title: "H2ofloss HF-9, Dental Water Flosser, 800ml.",
-    description: "Elevate your oral hygiene with 13 multifunctional tips, 800ml capacity, and a quiet design. Removes up to 99.9% of plaque and offers a customizable cleaning experience.",
+    alt: "H2ofloss HF 9 Dental Water Flosser",
+    title: "H2ofloss HF 9 Dental Water Flosser, 800 ml.",
+    description: "Elevate your oral hygiene with 13 multifunctional tips, 800 ml capacity, and a quiet design. Removes up to 99.9% of plaque and offers a customizable cleaning experience.",
     price: h2oflossHF9GlobalData.productPrice,
     updatedDate: h2oflossHF9GlobalData.updatedDate,
     buyLink: h2oflossHF9GlobalData.amazonUrl,
@@ -20,27 +20,24 @@ const h2oflossHF9: ProductDetails = {
     video: h2oflossHF9GlobalData.videoUrl,
     video2: h2oflossHF9GlobalData.videoUrl2,
     characteristics: [
-      "13 Multifunctional Tips for versatile oral care.",
-      "5 Water Pressure Settings with a range from 5-110 PSI.",
-      "1200 Pulses/Minute Frequency for effective plaque removal.",
-      "Quiet design with overheat protection function.",
-      "Exclusive Prime price with free shipping to Colombia.",
-      "Pause function on the handle for ease of use.",
-      "Compatible with 110VAC/60Hz outlets for North America.",
-      "24-month warranty for peace of mind.",
+      "13 Multifunctional Tips",
+      "5 Water Pressure Settings",
+      "1200 Pulses/Minute Frequency",
+      "Quiet design with 800 ml capacity",
+      "24-month warranty for peace of mind 🔥",
     ],
   },
   tableOfContent: [
-    { id: "#title", content: "Overview" },
-    { id: "#features", content: "Key Features" },
+    { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
-    { id: "#pros-cons", content: "Pros and Cons" },
+    { id: "#features", content: "Key Features of the H2ofloss HF 9" },
+    { id: "#pro-and-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: "title",
-    title: "The Best of the H2ofloss HF-9 Water Flosser",
-    description: "Discover the top features and benefits of the H2ofloss HF-9 Water Flosser. Keep your oral health in check with advanced pulse frequency, customizable water pressure settings, and more!",
-    subtext: "The 800ml capacity and overheat protection ensure a convenient and safe experience. Ideal for the whole family, including those with braces, implants, crowns, or periodontal pockets.",
+    id: "feedback",
+    title: "User Feedback & Videos",
+    description: "The sentiment around the H2ofloss HF 9 oral irrigator is generally positive. Users appreciate its effectiveness in removing plaque and debris, its large water capacity, and its quiet operation. Many reviews highlight its value for money, especially when compared to more expensive brands. However, some users have noted issues with leakage and the durability of the tips. Overall, it seems to be a well-regarded product for maintaining oral hygiene.",
+    subtext: "For a visual review and demonstration of the H2ofloss HF 9, you may find the following videos helpful:"    
   },
   features: {
     id: "features",
@@ -64,7 +61,7 @@ const h2oflossHF9: ProductDetails = {
       },
       {
         title: "Large Capacity",
-        description: "800ml water tank for convenience.",
+        description: "800 ml water tank for convenience.",
       },
       {
         title: "Family Friendly",
@@ -82,7 +79,7 @@ const h2oflossHF9: ProductDetails = {
   },
   comparison: {
     id: "comparison",
-    title: "Compare the H2ofloss HF-9 with other irrigators",
+    title: "Compare the H2ofloss HF 9 with other irrigators",
     description: "In this table, you can see all the affordable countertop models, their features, notable advantages, user ratings, and the results of our analyses in 2024.",
     models: [
       {
@@ -90,13 +87,13 @@ const h2oflossHF9: ProductDetails = {
         path: h2oflossHF9GlobalData.path,
         model: 'H2ofloss HF-9',
         image: h2oflossHF9GlobalData.images[0].thumbnail,
-        alt: 'H2ofloss HF-9 Oral Irrigator',
+        alt: 'H2ofloss HF 9 Oral Irrigator',
         prime: true,
-        dimensions: '8.39 x 2.56 x 4 in, 4.14 lbs',
+        dimensions: '2.56 x 4 x 8.39 in, 28 oz',
         tips: '13',
-        capacity: '800 ml',
-        highlight: 'User-Friendly Design, Versatility and Cleaning Power',
-        problem: 'Leaking Problems, Noise Levels',
+        capacity: '800 ml.',
+        highlight: 'User-Friendly Design',
+        problem: 'Leaking Problems',
         price: h2oflossHF9GlobalData.productPrice,
         satisfaction: h2oflossHF9GlobalData.rating.stars,
       },
@@ -149,7 +146,7 @@ const h2oflossHF9: ProductDetails = {
   },
   proAndCons: {
     id: "pros-and-cons",
-    title: "Pros and Cons of the H2ofloss HF-9",
+    title: "Pros and Cons of the H2ofloss HF 9",
     description: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the H2ofloss Dental Water Flosser, HF-9, 800ml is the right fit for them.",
     cta: "Buy Now on Amazon",
     buyLink: h2oflossHF9GlobalData.amazonUrl,

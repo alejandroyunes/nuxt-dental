@@ -8,7 +8,7 @@ const coslusF5020E: ProductDetails = {
     images: coslusC20F5020EGlobalData.images,
     alt: 'Coslus Water Dental Flosser F5020E, 300 ml.',
     title: "Coslus F5020E Water Dental Flosser Teeth Pick, 300 ml.",
-    description: 'Deep clean every oral corner precisely! Keep healthier gums and brighter teeth with Coslus F5020E. This water dental flosser offers superior dental care with high-pressure water pulses and advanced technology.',
+    description: 'The Coslus F5020E water dental flosser stands out with its advanced 0.3mm+0.3mm ultra-fine dual-thread water pulse technology, delivering high-pressure pulses at 1400-1800 times per minute. The upgraded 300 ml water tank allows for fewer refills, making your oral cleaning routine more convenient and efficient.',
     price: coslusC20F5020EGlobalData.productPrice,
     updatedDate: coslusC20F5020EGlobalData.updatedDate,
     buyLink: coslusC20F5020EGlobalData.amazonUrl,
@@ -34,7 +34,7 @@ const coslusF5020E: ProductDetails = {
   title: {
     id: "feedback",
     title: 'User Feedback & Videos',
-    description: "The Coslus F5020E water dental flosser stands out with its advanced 0.3mm+0.3mm ultra-fine dual-thread water pulse technology, delivering high-pressure pulses at 1400-1800 times per minute. This ensures effective plaque removal for deep teeth cleaning, fresher breath, and improved gum health. The upgraded 300 ml water tank allows for fewer refills, making your oral cleaning routine more convenient and efficient.",
+    description: "The sentiment towards the COSLUS Water Dental Flosser is generally positive, with users appreciating its ease of use, portability, and effectiveness in improving oral hygiene.",
     subtext: "Experience the benefits of a long-lasting 30-day battery life, providing portability for both home and travel."
   },
   features: {

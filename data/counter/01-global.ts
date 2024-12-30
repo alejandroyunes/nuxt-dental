@@ -27,24 +27,24 @@ export const h2oflossHF9GlobalData = {
   id: 2,
   images: [
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735530396/irrigators/h2ofloss/H2ofloss_o0ugrq.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735530400/irrigators/h2ofloss/H2ofloss-x_qyaafu.webp'
     },
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735530397/irrigators/h2ofloss/H2ofloss-2_csegye.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735530398/irrigators/h2ofloss/H2ofloss-2-x_w8xcbh.webp'
     },
   ],
   amazonUrl: 'https://amzn.to/46Jx6tj',
-  videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
-  videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
+  videoUrl: 'https://www.youtube.com/embed/z0cbEdX3Wqk?si=225Jg2EiIyOnlRxg',
+  videoUrl2: 'https://www.youtube.com/embed/p6MqcvmmWyA?si=gOcUUJmtG86dYK2f',
   productPrice: '36.99',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/affordable-countertop-irrigators/counter/h2ofloss-HF9',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
-    reviews: 16142,
+    reviews: 16149,
   }
 }
 

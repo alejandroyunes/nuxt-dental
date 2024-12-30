@@ -11,7 +11,7 @@ const turewellFC165: ProductDetails = {
     images: turewellFC165GlobalData.images,
     alt: 'Turewell Water Flossing Oral Irrigator',
     title: "Turewell FC165 Water Flossing Oral Irrigator, 600 ml.",
-    description: "The Turewell FC165 effectively removes 99.99% of debris, offering superior oral care by reaching areas traditional methods miss, ideal for braces, kids, and those seeking deep cleaning.",
+    description: "The Turewell FC165 is A budget-friendly water flosser with 8 nozzles and a 600 ml tank, providing a complete solution for oral hygiene.give me a brief sentence about the sentiment of this irrigator.",
     price: turewellFC165GlobalData.productPrice,
     updatedDate: turewellFC165GlobalData.updatedDate,
     buyLink: turewellFC165GlobalData.amazonUrl,
@@ -34,9 +34,9 @@ const turewellFC165: ProductDetails = {
   ],
   title: {
     id: "feedback",
-    title: "Turewell Water Flossing Oral Irrigator FC165, 600ml",
-    description: "A budget-friendly water flosser with 8 nozzles and a 600 ml tank, providing a complete solution for oral hygiene.",
-    subtext: "Best for braces, kids, and those looking for an efficient, easy-to-use water flosser."
+    title: "Turewell Water Flossing Oral Irrigator FC165, 600 ml",
+    description: "The Turewell Water Flossing Oral Irrigator is generally well-received by customers, who appreciate its effectiveness, ease of use, and variety of tools, though some have concerns about build quality.",
+    subtext: "For a visual review and demonstration of the H2ofloss HF 9, you may find the following videos helpful:"    
   },
   features: {
     id: "features",
