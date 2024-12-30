@@ -6,22 +6,21 @@ import { oeeterM01GlobalData } from './01-global';
 
 const heyaxa2302WF: ProductDetails = {
   id: heyaxa2302WFGlobalData.id,
-  fileName: 'heyaxa2302WF',
+  fileName: 'heyaxa-2302WF',
   info: {
     images: heyaxa2302WFGlobalData.images,
     alt: "Heyaxa 2302WF Water Dental Flosser",
-    title: "Heyaxa 2302WF, Water Dental Flosser, 1000ml.",
+    title: "Heyaxa 2302WF Water Dental Flosser, 1000 ml.",
     description:
-      "Efficient and deep cleaning for gum health and oral hygiene. Featuring a 1000ml tank, 10 adjustable pressure levels, and 7 nozzles for family use. Ideal for gum health and braces.",
+      "Efficient and deep cleaning for gum health and oral hygiene. Featuring a 1000 ml tank, 10 adjustable pressure levels, and 7 nozzles for family use. Ideal for gum health and braces.",
     price: heyaxa2302WFGlobalData.productPrice,
     updatedDate: heyaxa2302WFGlobalData.updatedDate,
     buyLink: heyaxa2302WFGlobalData.amazonUrl,
     cta: "Buy on Amazon",
     rating: heyaxa2302WFGlobalData.rating,
     video: heyaxa2302WFGlobalData.videoUrl,
-    video2: heyaxa2302WFGlobalData.videoUrl2,
     characteristics: [
-      "1000ml large water tank for uninterrupted cleaning",
+      "1000 ml large water tank for uninterrupted cleaning",
       "10 adjustable pressure levels (30-125 PSI)",
       "7 nozzles for various oral care needs",
       "Unique UV storage compartment for hygiene",
@@ -31,20 +30,20 @@ const heyaxa2302WF: ProductDetails = {
     ],
   },
   tableOfContent: [
-    { id: "#title", content: "Overview" },
-    { id: "#features", content: "Key Features" },
+    { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
-    { id: "#pros-cons", content: "Pros and Cons" },
+    { id: "#features", content: "Key Features of the Heyaxa 2302WF" },
+    { id: "#pro-and-cons", content: "Pros and Cons" },
   ],
   title: {
     id: "title",
-    title: "HEYAXA 1000ml Dental Water Flosser",
-    description: "Experience superior oral hygiene with this advanced oral irrigator.",
-    subtext: "Perfect for family use, braces, and gum health.",
+    title: "User Feedback & Videos",
+    description: "The overall sentiment of the reviews is positive, with most users praising the product's performance, especially its water pressure, large reservoir, and UV cleaning feature. While a few users noted issues like material quality and durability, the company’s excellent customer service mitigated these concerns.",
+    subtext: "For a visual review and demonstration of the Heyaxa 2302WF, you may find the following video helpful:"
   },
   features: {
     id: "features",
-    title: "Key Features",
+    title: "Key Features of the Heyaxa 2302WF",
     data: [
       {
         title: "Ultra-Powerful Water Flosser for Deep Clean",
@@ -77,8 +76,8 @@ const heyaxa2302WF: ProductDetails = {
   },
   comparison: {
     id: "comparison",
-    title: "Comparison with Similar Models",
-    description: "How the HEYAXA Water Flosser stands out.",
+    title: "Compare the Heyaxa 2302WF with Similar Models",
+    description: "Compare the Heyaxa 2302WF Cordless Express with other models for travel and home use.",
     models: [
       {
         id: 1,
@@ -87,11 +86,11 @@ const heyaxa2302WF: ProductDetails = {
         image: heyaxa2302WFGlobalData.images[0].thumbnail,
         alt: "HEYAXA 2302WF Water Flosser",
         prime: true,
-        dimensions: "10 x 8 x 6 inches",
+        dimensions: "10 x 8 x 6 in, 34 oz",
         tips: "6",
-        capacity: "900ml",
-        highlight: "Compact and portable",
-        problem: "Smaller tank capacity",
+        capacity: "1000 ml.",
+        highlight: "Large 1000ml Water Tank",
+        problem: "Noise level",
         price: heyaxa2302WFGlobalData.productPrice,
         satisfaction: heyaxa2302WFGlobalData.rating.stars,
       },
