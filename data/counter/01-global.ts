@@ -76,24 +76,24 @@ export const oeeterM01GlobalData = {
   id: 4,
   images: [
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735541366/irrigators/oeeter/oeeter-M01_jpwtxn.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735541369/irrigators/oeeter/oeeter-M01-x_zlswmw.webp'
     },
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735541367/irrigators/oeeter/oeeter-M01-2-x_dniatf.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735541371/irrigators/oeeter/oeeter-M01-2_rigygo.webp'
     },
   ],
   amazonUrl: 'https://www.amazon.com/Professional-Irrigator-Adjustable-Pressures-Magnectic/dp/B0CRF88X43',
-  videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
-  videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
+  videoUrl: 'https://www.youtube.com/embed/bdIUcgpYXIk?si=I0wLfTPdHVToaego',
+  videoUrl2: 'https://www.youtube.com/embed/iVF8oNzOzek',
   productPrice: '25.99',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/affordable-countertop-irrigators/counter/oeeter-M01',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.0,
-    reviews: 388,
+    reviews: 393,
   },
 }
 

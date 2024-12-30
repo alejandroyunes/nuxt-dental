@@ -6,12 +6,12 @@ import { turewellFC165GlobalData } from './01-global'
 
 const oeeterM01: ProductDetails = {
   id: oeeterM01GlobalData.id,
-  fileName: 'oeeterM01',
+  fileName: 'oeeter-M01',
   info: {
     images: oeeterM01GlobalData.images,
     alt: "Oeeter M01 Water Dental Flosser",
-    title: "Oeeter M01, Water Dental Flosser, 600ml.",
-    description: "Oeeter M01 water dental flosser offers 10 adjustable pressure settings, 3 cleaning modes, 7 tips, and a 600ml water reservoir for effective oral hygiene.",
+    title: "Oeeter M01 Water Dental Flosser, 600 ml.",
+    description: "Oeeter M01 water dental flosser offers 10 adjustable pressure settings, 3 cleaning modes, 7 tips, and a 600 ml water reservoir for effective oral hygiene. Designed for effective teeth cleaning and gum health.",
     price: oeeterM01GlobalData.productPrice,
     updatedDate: oeeterM01GlobalData.updatedDate,
     buyLink: oeeterM01GlobalData.amazonUrl,
@@ -22,22 +22,22 @@ const oeeterM01: ProductDetails = {
     characteristics: [
       "10 Adjustable Pressure Settings",
       "3 Cleaning Modes: Normal, Soft, Pulse",
-      "7 Flossing Tips for All Needs",
+      "7 Magnectic Flossing Tips for All Needs",
       "Convenient Magnetic Handle",
-      "600ML Water Reservoir",
+      "600 ml Water Reservoir",
     ]
   },
   tableOfContent: [
-    { id: "#title", content: "Overview" },
-    { id: "#features", content: "Key Features" },
+    { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
-    { id: "#pros-cons", content: "Pros and Cons" },
+    { id: "#features", content: "Key Features of the M01 Water" },
+    { id: "#pro-and-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: "title",
-    title: "Oeeter M01 Water Dental Flosser",
-    description: "Experience professional oral care with Oeeter M01. Designed for effective teeth cleaning and gum health.",
-    subtext: "Your journey to a healthier smile starts here.",
+    id: "feedback",
+    title: "User Feedback & Videos",
+    description: "The Oeeter M01 water dental flosser has received mixed reviews from customers. Many users appreciate its design, ease of use, and adjustable water pressure settings, which effectively clean teeth without causing gum irritation. However, some customers have reported issues with its durability and noise level.",
+    subtext: "For a visual review and demonstration of the Oeeter M01, you may find the following videos helpful:"
   },
   features: {
     id: "features",
@@ -52,7 +52,7 @@ const oeeterM01: ProductDetails = {
         description: "Choose from Normal, Soft, and Pulse for tailored oral care.",
       },
       {
-        title: "7 Flossing Tips",
+        title: "7 Magnetic Flossing Tips",
         description: "Includes tips for all needs: classic, periodontal, orthodontic, and tongue cleaning.",
       },
       {
@@ -60,7 +60,7 @@ const oeeterM01: ProductDetails = {
         description: "Stylish and convenient handle design with an ON/OFF switch.",
       },
       {
-        title: "600ML Water Reservoir",
+        title: "600 ml Water Reservoir",
         description: "High-capacity reservoir for up to 180 seconds of continuous use.",
       },
       {
@@ -71,8 +71,9 @@ const oeeterM01: ProductDetails = {
   },
   comparison: {
     id: "comparison",
-    title: "Comparison with Similar Models",
-    description: "How the Oeeter M01 stands out among competitors.",
+    title: "Compare the Oeeter M01 with Similar Models",
+    description: "Compare the Oeeter M01 Cordless Express with other models.",
+
     models: [
       {
         id: 1,
@@ -81,9 +82,9 @@ const oeeterM01: ProductDetails = {
         image: oeeterM01GlobalData.images[0].thumbnail,
         alt: "Oeeter M01 Water Dental Flosser",
         prime: true,
-        dimensions: "8 x 6 x 4 inches",
+        dimensions: "8 x 6 x 4 in, 20 oz",
         tips: "7 Tips",
-        capacity: "600ML",
+        capacity: "600 ml.",
         highlight: "Compact and portable design with magnetic handle",
         problem: "Lower water capacity compared to competitors",
         price: oeeterM01GlobalData.productPrice,
@@ -148,8 +149,8 @@ const oeeterM01: ProductDetails = {
       { title: "Large water reservoir for extended use" },
     ],
     cons: [
-      { title: "Corded electric, not portable" },
-      { title: "May require a learning curve for first-time users" },
+      { title: "Noisy" },
+      { title: "Durability may be a concern" },
     ],
   },
 }
