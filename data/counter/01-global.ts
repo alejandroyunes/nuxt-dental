@@ -2,24 +2,24 @@ export const turewellFC165GlobalData = {
   id: 1,
   images: [
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735176115/irrigators/waterpik/waterpik-wf-02/waterpik-w-02-xs_py0ekq.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735527219/irrigators/turewell/FC165/turewell-FC165_amowq8.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735527221/irrigators/turewell/FC165/turewell-FC165-x_ouquhg.webp'
     },
     {
-      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183416/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2_xmd02s.webp',
-      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735527218/irrigators/turewell/FC165/turewell-FC165-2_ufevnv.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735527220/irrigators/turewell/FC165/turewell-FC165-2-x_upt3q3.webp'
     },
   ],
   amazonUrl: 'https://amzn.to/46Ose6r',
-  videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
-  videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
+  videoUrl: 'https://www.youtube.com/embed/RY0YR3XJey8?si=1C8QIZvShMSU2eTs',
+  videoUrl2: 'https://www.youtube.com/embed/SPcXLhOCVSo?si=al5Cym5rnUqug0mh',
   productPrice: '39.99',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/affordable-countertop-irrigators/counter/turewell-FC165',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
-    reviews: 20479,
+    reviews: 20539,
   },
 }
 
