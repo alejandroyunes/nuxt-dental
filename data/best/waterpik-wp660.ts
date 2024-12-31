@@ -28,7 +28,7 @@ const waterpikwp660: ProductDetails = {
     { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
     { id: "#features", content: "Key Features of the Waterpik WP 660" },
-    { id: "#pro-and-cons", content: "Pros and Cons" },
+    { id: "#pros-and-cons", content: "Pros and Cons" },
   ],
   title: {
     id: "feedback",

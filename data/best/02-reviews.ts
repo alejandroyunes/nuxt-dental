@@ -4,7 +4,7 @@ import panasonicEW1511W from './panasonic-EW1511W'
 import synhopeM6Plus from "./synhope-M6Plus"
 import waterpikwp580 from "./waterpik-wp580"
 import waterpikwp660 from "./waterpik-wp660"
-import waterpikwp662 from "./waterpikwp662"
+import waterpikwp662 from "./waterpik-wp662"
 import waterpikwp667 from "./waterpik-wp667"
 import { panasonicEW1511WGlobalData, synhopeM6PlusGlobalData, waterpikwp580GlobalData, waterpikwp660GlobalData, waterpikwp662GlobalData, waterpikwp667GlobalData } from "./01-global"
 

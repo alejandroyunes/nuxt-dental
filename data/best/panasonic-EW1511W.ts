@@ -28,7 +28,7 @@ const panasonicEW1511W: ProductDetails = {
     { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
     { id: "#features", content: "Key Features of the Panasonic Portable EW1511W" },
-    { id: "#pro-and-cons", content: "Pros and Cons" },
+    { id: "#pros-and-cons", content: "Pros and Cons" },
   ],
   title: {
     id: "feedback",
@@ -115,7 +115,7 @@ const panasonicEW1511W: ProductDetails = {
     ]
   },
   proAndCons: {
-    id: "pro-and-cons",
+    id: "pros-and-cons",
     title: "Pros and Cons",
     description: "Weighing the benefits and drawbacks of the Panasonic EW-1511W.",
     cta: "Buy on Amazon",

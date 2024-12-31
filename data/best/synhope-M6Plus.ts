@@ -28,7 +28,7 @@ const synhopeM6Plus: ProductDetails = {
     { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
     { id: "#features", content: "Key Features of the SynHope Mini" },
-    { id: "#pro-and-cons", content: "Pros and Cons" },
+    { id: "#pros-and-cons", content: "Pros and Cons" },
   ],
   title: {
     id: "feedback",
@@ -115,7 +115,7 @@ const synhopeM6Plus: ProductDetails = {
     ],
   },
   proAndCons: {
-    id: "pros-cons",
+    id: "pros-and-cons",
     title: "Pros and Cons",
     description: "An honest look at the strengths and limitations of the SYNHOPE Mini Cordless Water Flosser.",
     cta: "Buy on Amazon",
