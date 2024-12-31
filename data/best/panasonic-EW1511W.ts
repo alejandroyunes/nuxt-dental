@@ -124,11 +124,11 @@ const panasonicEW1511W: ProductDetails = {
       { title: "Portable and travel-friendly" },
       { title: "Easy to clean and maintain" },
       { title: "Charging speed" },
-      { title: "Users report that it leaves their teeth feeling exceptionally clean" },
+      { title: "Users report that it leaves their teeth feeling exceptionally clean." },
     ],
     cons: [
-      { title: "Replacement Nozzles: One of the main drawbacks is the difficulty in finding replacement nozzles, which can be a significant issue for long-term use" },
-      { title: "It is relatively expensive compared to other models, but many users feel it is worth the investment" },
+      { title: "Replacement Nozzles: One of the main drawbacks is the difficulty in finding replacement nozzles, which can be a significant issue for long-term use." },
+      { title: "It is relatively expensive compared to other models, but many users feel it is worth the investment." },
     ],
   },
 }

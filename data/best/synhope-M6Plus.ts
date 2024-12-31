@@ -3,12 +3,12 @@ import { synhopeM6PlusGlobalData, panasonicEW1511WGlobalData, waterpikwp580Globa
 
 const synhopeM6Plus: ProductDetails = {
   id: synhopeM6PlusGlobalData.id,
-  fileName: 'synhopeM6Plus',
+  fileName: 'synhope-M6Plus',
   info: {
     images: synhopeM6PlusGlobalData.images,
-    alt: "SYNHOPE Mini Cordless Portable Water Flosser",
-    title: "SYNHOPE Mini Cordless Water Flosser, 140ml.",
-    description: "Compact and efficient water flosser designed for easy travel and effective oral hygiene. Featuring a telescopic water tank, 3 cleaning modes, and IPX7 waterproof design.",
+    alt: "SynHope Mini Cordless Portable Water Flosser",
+    title: "SynHope Mini Cordless Water Flosser, 140 ml.",
+    description: "The SynHope Mini Cordless Portable Water Flosser is highly recommended for those looking for a compact, efficient, and travel-friendly oral care solution.  Featuring a telescopic water tank, 3 cleaning modes, and IPX7 waterproof design.",
     price: synhopeM6PlusGlobalData.productPrice,
     updatedDate: synhopeM6PlusGlobalData.updatedDate,
     buyLink: synhopeM6PlusGlobalData.amazonUrl,
@@ -25,20 +25,20 @@ const synhopeM6Plus: ProductDetails = {
     ],
   },
   tableOfContent: [
-    { id: "#title", content: "Overview" },
-    { id: "#features", content: "Key Features" },
+    { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
-    { id: "#pros-cons", content: "Pros and Cons" },
+    { id: "#features", content: "Key Features of the SynHope Mini" },
+    { id: "#pro-and-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: "title",
-    title: "SYNHOPE Mini Cordless Portable Water Flosser",
-    description: "Effortless oral care with a compact and travel-friendly water flosser.",
-    subtext: "Perfect for daily use and on-the-go dental hygiene.",
+    id: "feedback",
+    title: "User Feedback & Videos",
+    description: "Users appreciate its compact size, making it ideal for travel. Many find it powerful and effective in cleaning teeth, with some noting that it works as well as larger, more expensive models.",
+    subtext: "For a visual review and demonstration of the SynHope Mini, you may find the following videos helpful:"
   },
   features: {
     id: "features",
-    title: "Key Features",
+    title: "Key Features of the SynHope Mini",
     data: [
       { title: "Compact Design", description: "Easy to carry with a telescopic water tank for portability." },
       { title: "High Pressure Performance", description: "1200 water pulses per minute with 140 PSI pressure." },
@@ -49,8 +49,8 @@ const synhopeM6Plus: ProductDetails = {
   },
   comparison: {
     id: "comparison",
-    title: "Comparison with Similar Models",
-    description: "See how the SYNHOPE Mini Cordless Water Flosser stacks up against similar products.",
+    title: "Comparison with Similar Models of Water Flossers",
+    description: "See how the SynHope Mini Cordless Water Flosser stacks up against similar products.",
     models: [
       {
         id: 1,
@@ -59,9 +59,9 @@ const synhopeM6Plus: ProductDetails = {
         image: synhopeM6PlusGlobalData.images[0].thumbnail,
         alt: "SYNHOPE Mini Cordless Water Flosser",
         prime: true,
-        dimensions: "Palm-sized, lightweight design",
+        dimensions: " 4.88 x 2.44 x 1.26 in, 5 oz",
         tips: "Includes 4 replacement jet tips",
-        capacity: "Telescopic water tank for up to 50 seconds of flossing",
+        capacity: "140 ml.",
         highlight: "Portable design ideal for travel",
         problem: "Limited water capacity compared to larger models",
         price: synhopeM6PlusGlobalData.productPrice,

@@ -1,7 +1,7 @@
 import type { ReviewGrid } from "~/types/review-grid"
 import type { TitleInfo } from "~/types/title-info"
 import panasonicEW1511W from './panasonic-EW1511W'
-import synhopeM6Plus from "./synhopeM6Plus"
+import synhopeM6Plus from "./synhope-M6Plus"
 import waterpikwp580 from "./waterpikwp580"
 import waterpikwp660 from "./waterpikwp660"
 import waterpikwp662 from "./waterpikwp662"
