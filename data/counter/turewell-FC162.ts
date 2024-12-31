@@ -37,7 +37,7 @@ const turewellFC162: ProductDetails = {
     { id: "#pro-and-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: "title",
+    id: "feedback",
     title: "Turewell FC162 Water Dental Flosser",
     description: "The overall sentiment of the reviews is predominantly positive, with most users praising the product's performance, value for money, and ease of use. Several reviewers highlight its efficiency, craftsmanship, and compact design, with many expressing high satisfaction and strong recommendations. However, a few mixed and negative reviews mention concerns about durability, minor design flaws, or functional issues, indicating some variability in user experiences. Despite these, the general consensus leans favorably toward the product's quality and affordability.",
     subtext: "For a visual review and demonstration of the Turewell FC162, you may find the following videos helpful:"

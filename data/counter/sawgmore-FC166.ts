@@ -2,7 +2,7 @@ import type { ProductDetails } from '~/types/product-details';
 import { turewellFC165GlobalData } from './01-global';
 import { h2oflossHF9GlobalData } from './01-global';
 import { sawgmoreFC166GlobalData } from './01-global';
-import { heyaxa2302WFGlobalData } from './01-global';
+import { oeeterM01GlobalData } from './01-global';
 
 const sawgmoreFC166: ProductDetails = {
   id: sawgmoreFC166GlobalData.id,
@@ -77,10 +77,10 @@ const sawgmoreFC166: ProductDetails = {
         image: turewellFC165GlobalData.images[0].thumbnail,
         alt: 'Turewell FC165 Oral Irrigator',
         prime: true,
-        dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
+        dimensions: '5.7 x 4.9 x 8.07 in, 20 oz',
         tips: '8',
-        capacity: '600 ml',
-        highlight: '8 Nozzles, Value, Ease of use',
+        capacity: '600 ml.',
+        highlight: '8 Nozzles',
         problem: 'Water Resistance',
         price: turewellFC165GlobalData.productPrice,
         satisfaction: turewellFC165GlobalData.rating.stars,
@@ -90,15 +90,30 @@ const sawgmoreFC166: ProductDetails = {
         path: h2oflossHF9GlobalData.path,
         model: 'H2ofloss HF-9',
         image: h2oflossHF9GlobalData.images[0].thumbnail,
-        alt: 'H2ofloss HF-9 Oral Irrigator',
+        alt: 'H2ofloss HF 9 Oral Irrigator',
         prime: true,
-        dimensions: '8.39 x 2.56 x 4 in, 4.14 lbs',
+        dimensions: '2.56 x 4 x 8.39 in, 28 oz',
         tips: '13',
-        capacity: '800 ml',
-        highlight: 'User-Friendly Design, Versatility and Cleaning Power',
-        problem: 'Leaking Problems, Noise Levels',
+        capacity: '800 ml.',
+        highlight: 'User-Friendly Design',
+        problem: 'Leaking Problems',
         price: h2oflossHF9GlobalData.productPrice,
         satisfaction: h2oflossHF9GlobalData.rating.stars,
+      },
+      {
+        id: 4,
+        path: oeeterM01GlobalData.path,
+        model: "Oeeter M01",
+        image: oeeterM01GlobalData.images[0].thumbnail,
+        alt: "Oeeter M01 Water Dental Flosser",
+        prime: true,
+        dimensions: "8 x 6 x 4 in, 20 oz",
+        tips: "7 Tips",
+        capacity: "600 ml.",
+        highlight: "Compact and portable design with magnetic handle",
+        problem: "Lower water capacity compared to competitors",
+        price: oeeterM01GlobalData.productPrice,
+        satisfaction: oeeterM01GlobalData.rating.stars,
       },
     ],
   },
