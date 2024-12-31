@@ -82,6 +82,7 @@ const waterpikwp: ProductDetails = {
     cons: [
       { title: "" },
       { title: "" },
+      { title: "" },
     ],
   },
 }

@@ -7,7 +7,7 @@ const waterpikwp580: ProductDetails = {
   info: {
     images: waterpikwp580GlobalData.images,
     alt: "Waterpik Cordless WP 580 Advanced 2.0 Water Flosser",
-    title: "Waterpik Cordless WP 580 Advanced 2.0 Water Flosser, 280ml.",
+    title: "Waterpik Cordless WP 580 Advanced 2.0 Water Flosser, 280 ml.",
     description: "The Waterpik Cordless Advanced 2.0 Water Flosser is a rechargeable, portable water flosser that removes plaque and debris between teeth and along the gumline. It is clinically proven to be up to 2x more effective than string floss for removing plaque and improving gum health.  Designed for easy and effective dental care, featuring a 360-degree rotating tip, rechargeable battery, and portability.",
     price: waterpikwp580GlobalData.productPrice,
     updatedDate: waterpikwp580GlobalData.updatedDate,
@@ -119,7 +119,7 @@ const waterpikwp580: ProductDetails = {
     ]
   },
   proAndCons: {
-    id: "pros-cons",
+    id: "pros-and-cons",
     title: "Pros and Cons of the Waterpik Cordless Advanced 2.0",
     description: "Here's a summary of the advantages and disadvantages of the Waterpik Cordless Advanced 2.0 Water Flosser:",
     cta: "Buy on Amazon",
