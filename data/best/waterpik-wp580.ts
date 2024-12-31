@@ -3,12 +3,12 @@ import { waterpikwp580GlobalData, waterpikwp660GlobalData, synhopeM6PlusGlobalDa
 
 const waterpikwp580: ProductDetails = {
   id: waterpikwp580GlobalData.id,
-  fileName: 'waterpikwp580',
+  fileName: 'waterpik-wp580',
   info: {
     images: waterpikwp580GlobalData.images,
-    alt: "Waterpik Cordless Advanced 2.0 Water Flosser",
-    title: "Waterpik Cordless WP-580 Advanced 2.0 Water Flosser, 280ml.",
-    description: "The Waterpik Cordless Advanced 2.0 Water Flosser is a rechargeable, portable water flosser that removes plaque and debris between teeth and along the gumline. It is clinically proven to be up to 2x more effective than string floss for removing plaque and improving gum health.",
+    alt: "Waterpik Cordless WP 580 Advanced 2.0 Water Flosser",
+    title: "Waterpik Cordless WP 580 Advanced 2.0 Water Flosser, 280ml.",
+    description: "The Waterpik Cordless Advanced 2.0 Water Flosser is a rechargeable, portable water flosser that removes plaque and debris between teeth and along the gumline. It is clinically proven to be up to 2x more effective than string floss for removing plaque and improving gum health.  Designed for easy and effective dental care, featuring a 360-degree rotating tip, rechargeable battery, and portability.",
     price: waterpikwp580GlobalData.productPrice,
     updatedDate: waterpikwp580GlobalData.updatedDate,
     buyLink: waterpikwp580GlobalData.amazonUrl,
@@ -27,16 +27,16 @@ const waterpikwp580: ProductDetails = {
     ]
   },
   tableOfContent: [
-    { id: "#Overview", content: "Overview" },
-    { id: "#features", content: "Key Features" },
+    { id: "#feedback", content: "User Feedback & Videos" },
     { id: "#comparison", content: "Comparison with Similar Models" },
-    { id: "#pros-cons", content: "Pros and Cons" },
+    { id: "#features", content: "Key Features of the Waterpik WP 580" },
+    { id: "#pro-and-cons", content: "Pros and Cons" },
   ],
   title: {
-    id: "Overview",
-    title: "Waterpik Cordless Advanced 2.0 Water Flosser",
-    description: "A Comprehensive Guide",
-    subtext: "Enhance Your Oral Hygiene with this Powerful and Portable Water Flosser",
+    id: "feedback",
+    title: "User Feedback & Videos",
+    description: "The sentiment of the reviews is overwhelmingly positive, highlighting the Waterpik Cordless Advanced Water Flosser as an effective, convenient, and user-friendly product. Customers praise its portability, ease of use, cleaning ability, and features like waterproofing, rechargeable batteries, and ADA acceptance. While some mention minor drawbacks like the small water reservoir and occasional recharging needs, these are largely overshadowed by the product's benefits. Overall, it is viewed as a valuable addition to oral hygiene routines.",
+    subtext: "For a visual review and demonstration of the Waterpik Cordless WP 580, you may find the following videos helpful:"
   },
   features: {
     id: "features",
@@ -59,13 +59,13 @@ const waterpikwp580: ProductDetails = {
       {
         id: 1,
         path: waterpikwp580GlobalData.path,
-        model: "Waterpik Cordless Express",
+        model: "WP 580",
         image: waterpikwp580GlobalData.images[0].thumbnail,
         alt: "Waterpik Cordless Express Water Flosser",
         prime: false,
-        dimensions: "11.75 x 2.5 x 3.63 inches",
+        dimensions: "4 x 2.8 x 11.6 in, 7 oz",
         tips: "2 Precision (Classic)",
-        capacity: "280ml.",
+        capacity: "207 ml.",
         highlight: "Most affordable",
         problem: "Shorter battery life",
         price: waterpikwp580GlobalData.productPrice,
@@ -111,8 +111,8 @@ const waterpikwp580: ProductDetails = {
         dimensions: "2 x 2.7 x 8.6 inches",
         tips: "2 interchangeable tips",
         capacity: "165 ml",
-        highlight: "Collapsible, travel-friendly design",
-        problem: "Short operating time of 20 minutes",
+        highlight: "360-degree rotating tip, rechargeable, portable, waterproof",
+        problem: "Smaller water reservoir",
         price: panasonicEW1511WGlobalData.productPrice,
         satisfaction: panasonicEW1511WGlobalData.rating.stars,
       },
@@ -125,18 +125,13 @@ const waterpikwp580: ProductDetails = {
     cta: "Buy on Amazon",
     buyLink: waterpikwp580GlobalData.amazonUrl,
     pros: [
-      { title: "Effective Plaque Removal" },
-      { title: "Improved Gum Health" },
-      { title: "Cordless and Portable" },
-      { title: "Rechargeable Battery" },
-      { title: "Multiple Pressure Settings" },
-      { title: "Waterproof Design" },
-      { title: "ADA Accepted" },
+      { title: "Portable and travel-friendly" },
+      { title: "Rechargeable with long battery life" },
+      { title: "Waterproof for shower use" },
     ],
     cons: [
-      { title: "Reservoir Size Might Be Small for Some" },
-      { title: "Mixed Reviews on Battery Life" },
-    ],
+      { title: "Smaller water reservoir" },
+      { title: "Higher price point" },],
   },
 }
 

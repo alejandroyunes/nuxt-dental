@@ -15,7 +15,7 @@ export const panasonicEW1511WGlobalData = {
   videoUrl2: 'https://www.youtube.com/embed/1VpwNDm0GLA?si=Tqgkmz8Z8_2swFYa',
   productPrice: '104.99',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/best-dental-irrigators/best/panasonicEW1511W',
+  path: '/reviews/best-dental-irrigators/best/panasonic-EW1511W',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.4,
@@ -40,7 +40,7 @@ export const synhopeM6PlusGlobalData = {
   videoUrl2: 'https://www.youtube.com/embed/HQ-qVwfQ0iI?si=4RCv_Id8jKDWC4rt',
   productPrice: '34.99',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/best-dental-irrigators/best/synhopeM6Plus',
+  path: '/reviews/best-dental-irrigators/best/synhope-M6Plus',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.2,
@@ -61,15 +61,15 @@ export const waterpikwp580GlobalData = {
     },
   ],
   amazonUrl: 'https://amzn.to/46O8vDQ',
-  videoUrl: '',
-  videoUrl2: '',
+  videoUrl: 'https://www.youtube.com/embed/BryQWjm1JyU?si=3LB72fkMvsT2G3XM',
+  videoUrl2: 'https://www.youtube.com/embed/kEwJEdrv-Sk',
   productPrice: '79.99',
   amazonPrime: 'https://www.amazon.com',
-  path: '/reviews/best-dental-irrigators/best/waterpikWP580',
+  path: '/reviews/best-dental-irrigators/best/waterpik-WP580',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.4,
-    reviews: 65087,
+    reviews: 65352,
   },
 }
 
