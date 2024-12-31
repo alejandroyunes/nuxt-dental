@@ -3,18 +3,19 @@ import { waterpikwp667GlobalData } from './01-global'
 
 const waterpikwp667: ProductDetails = {
   id: waterpikwp667GlobalData.id,
-  fileName: 'waterpikwp667',
+  fileName: 'waterpik-wp667',
   info: {
-    image: waterpikwp667GlobalData.image,
+    images: waterpikwp667GlobalData.images,
     alt: "Waterpik Aquarius Water Flosser WP-667 in Gray",
     title: "Waterpik Aquarius WP-667 Water Flosser Professional, 650ml.",
-    subtitle: "Electric Power with 10 Settings & 7 Tips",
     description: "The Waterpik Aquarius Water Flosser features advanced water flossing technology with 10 pressure settings and 7 tips for various dental needs. It improves gum health, removes 99.9% of plaque, and is ADA accepted.",
     price: waterpikwp667GlobalData.productPrice,
     updatedDate: waterpikwp667GlobalData.updatedDate,
     buyLink: waterpikwp667GlobalData.amazonUrl,
     cta: "Buy on Amazon",
     rating: waterpikwp667GlobalData.rating,
+    video: waterpikwp667GlobalData.videoUrl,
+    video2: waterpikwp667GlobalData.videoUrl2,
     characteristics: [
       "10 Pressure Settings",
       "7 Flossing Tips for Multiple Needs",
@@ -55,7 +56,7 @@ const waterpikwp667: ProductDetails = {
         id: 0,
         path: waterpikwp667GlobalData.path,
         model: "Waterpik Aquarius WP-667",
-        image: waterpikwp667GlobalData.image,
+        image: waterpikwp667GlobalData.images[0].thumbnail,
         alt: "Waterpik Aquarius WP-667 in Gray",
         prime: false,
         dimensions: "10.35 x 4.7 x 3.8 inches",

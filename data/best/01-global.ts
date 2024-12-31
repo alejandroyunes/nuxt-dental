@@ -1,8 +1,19 @@
 export const panasonicEW1511WGlobalData = {
   id: 1,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734670235/irrigators/panasonic/panasonicEW1511W_fsjgoz.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735617805/irrigators/panasonic/EW1511W/Pnasonic_csfqym.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735617804/irrigators/panasonic/EW1511W/Pnasonic-x_bbifsx.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735617804/irrigators/panasonic/EW1511W/Pnasonic2_kzfxwz.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735617816/irrigators/panasonic/EW1511W/Pnasonic2-x_hikvr8.webp'
+    },
+  ],
   amazonUrl: 'https://www.amazon.com/dp/B07R7RJMKP?ref=emc_s_m_5_i_atc',
-  productPrice: '84.99',
+  videoUrl: 'https://www.youtube.com/embed/NC0w7bLLQ3w?si=W88ob15cXPjGTojR',
+  videoUrl2: 'https://www.youtube.com/embed/1VpwNDm0GLA?si=Tqgkmz8Z8_2swFYa',
+  productPrice: '104.99',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/best-dental-irrigators/best/panasonicEW1511W',
   updatedDate: '11/23/2023',
@@ -14,22 +25,44 @@ export const panasonicEW1511WGlobalData = {
 
 export const synhopeM6PlusGlobalData = {
   id: 2,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734678548/irrigators/synhope/synhopeM6Plus_gqdn5x.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735618204/irrigators/synhope/Synhope_rwczgb.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735618205/irrigators/synhope/Synhope-x_xz7fih.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735618204/irrigators/synhope/Synhope2_lkjs9y.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735618205/irrigators/synhope/Synhope2-x_otfbyq.webp'
+    },
+  ],
   amazonUrl: 'https://amzn.to/46MIggT',
+  videoUrl: '',
+  videoUrl2: '',
   productPrice: '27.99',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/best-dental-irrigators/best/synhopeM6Plus',
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.2,
-    reviews: 15677,
+    reviews: 15720,
   },
 }
 
 export const waterpikwp580GlobalData = {
   id: 3,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734680191/irrigators/waterpik/waterpikwp580_cxsaob.webp',
+  images: [
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735618760/irrigators/waterpik/waterpik-wp-580/waterpikwp580_adqt8u.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735618759/irrigators/waterpik/waterpik-wp-580/waterpikwp580-x_oz5jxd.webp'
+    },
+    {
+      url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735618761/irrigators/waterpik/waterpik-wp-580/waterpikwp580-2_tzugxk.webp',
+      thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735618759/irrigators/waterpik/waterpik-wp-580/waterpikwp580-2-x_eczdte.webp'
+    },
+  ],
   amazonUrl: 'https://amzn.to/46O8vDQ',
+  videoUrl: '',
+  videoUrl2: '',
   productPrice: '79.99',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/best-dental-irrigators/best/waterpikWP580',
@@ -42,8 +75,19 @@ export const waterpikwp580GlobalData = {
 
 export const waterpikwp660GlobalData = {
   id: 4,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734680191/irrigators/waterpik/waterpikwp660_dvutki.webp',
+  images: [
+    {
+      url: '',
+      thumbnail: ''
+    },
+    {
+      url: '',
+      thumbnail: ''
+    },
+  ],
   amazonUrl: 'https://www.amazon.com/Waterpik-Aquarius-Professional-WP-660-Packaging/dp/B00HFQQ0VU/ref=sr_1_1?crid=1YSYW11P0SOV&dib=eyJ2IjoiMSJ9.wrsuFtGaprSqtKFbt-XiI7BYBN5ph9vJO7qENQhpH4GS6a7hufFDXuPCb7FYhbfz_ORZB9ZZcD-sqYLEElAHG7dVrkvHcZlYuQ4QDyn3UwQ60Wvb8LXUUI-Ix_BWBErvsYJOFHWoe-OXoRlYkz8gIu1iN7tvAIig4rKi5CURfn9EAfX-WpIaaNlPl8JDbW0q1ZSG60wJSEEiFlXsMcFFA2DK_0kZGZ13HK1-uIG4zJ6pezqawV0vLEggAuicja4F2KyNA1-gcDSTXn-vextDCnPNb5v5GWJgFuAH_zTW2AlIqfy8_9-LLZPl1an0UOo2KhfSq2WhDvrvctQZQAt94KNEB3cx_asD3sKByT0pcpQFvlA2h9pqMwJ8Yy2VDje3f5jNXHpxfkAVdtcREVKAdatT41wlAVMzYXn7v_ecvgfo6o5T6TbiU80ZNvRrfjs3.Jcp9lZ69qdFR65YSrjProsMPLPwFoG7BEe1FnK1RtAI&dib_tag=se&keywords=waterpik+660&qid=1734741684&sprefix=waterpik+6%2Caps%2C183&sr=8-1',
+  videoUrl: '',
+  videoUrl2: '',
   productPrice: '79.99',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/best-dental-irrigators/best/waterpikWP580',
@@ -56,8 +100,19 @@ export const waterpikwp660GlobalData = {
 
 export const waterpikwp662GlobalData = {
   id: 5,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734845325/irrigators/waterpik/waterpik662_lhhceo.webp',
+  images: [
+    {
+      url: '',
+      thumbnail: ''
+    },
+    {
+      url: '',
+      thumbnail: ''
+    },
+  ],
   amazonUrl: 'https://www.amazon.com/Waterpik-Aquarius-Professional-WP-662-Packaging/dp/B01LXY19XD/ref=sr_1_8?crid=20WNVCMVPUX9B&dib=eyJ2IjoiMSJ9.VEQrCTF5oZR-RtjscthwHaVbFx1pBgsR4VLsXp5DLrmr5nBJ2ZMhkxa48l1PHzaOHVTl-g8OVqT1O7iiQ5CwlbRSChwrUmixoPZmB2l8RqU8D8ZOkx06moBixwLwiDdqXHfQW_BIuv3Pfd4uw3PGl6UPAjgwgfo9LYFRvRBwP98agBYleX5-mv5wlcr7Q1-l8_v6XWFBBoIhhsgKGRCnm52pP4inh-o5OnpzqXsE1URblQIjkuuAgQP1VO5BPko5aPyoyBwg77m6u1Kh0yOxbn68TM4itGq6T4X3-7dPT_Oa-eray0qCgO9SzVduK8Rz4Li-V-qHoq5RaYwymlg3ZBgrQHPwztvvbjrCOBwm3RceO2NoAtUIHsSWc5eSnjs6a4VqRzwijneuxuJt1U4fktzaDzn_TOaaKMkukbikupQLkZZ-tHtKxg5nlJG6LgDZ.9gqkXllz0KMvAa2u9i4EY9YPBtxxWvx5C-Lugir6Jn8&dib_tag=se&keywords=Waterpik+560&qid=1734843079&sprefix=waterpik+560%2Caps%2C301&sr=8-8',
+  videoUrl: '',
+  videoUrl2: '',
   productPrice: '79.99',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/best-dental-irrigators/best/waterpikWP662',
@@ -70,8 +125,19 @@ export const waterpikwp662GlobalData = {
 
 export const waterpikwp667GlobalData = {
   id: 6,
-  image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734846922/irrigators/waterpik/waterpik667_chvkxw.webp',
+  images: [
+    {
+      url: '',
+      thumbnail: ''
+    },
+    {
+      url: '',
+      thumbnail: ''
+    },
+  ],
   amazonUrl: 'https://www.amazon.com/Waterpik-Aquarius-Professional-WP-667-Packaging/dp/B07HBGXJBM/ref=sr_1_1?crid=7I4JDI5B9T6Q&dib=eyJ2IjoiMSJ9.g2Cbu8tSsnYBLXq0TOeB7MZxyBPh9ft8kTnV4Iy9Vo0GAC82r3GyX4u_Has6FV03ZGUeB24PWCsr1BRfO52OqHdURnGOcJHLsQyMZ4AbzyoXc0HOxf5tDc5l8cqpQgU_6jexTyFdWfB0V1IktDXsoWwCbonpz8S2JnsnNBYEGUSgjei49PomwiWjvGSCtsE_3jPVV5oH_YEA4zrrToKZfKcFaD6ZG9xER9q8IvMxlkEXr9-Sh_hKGC7UQODBM0naVwcNPbAzOY97L5WgTYcisFNH5-9JxlrQ-f9y_7Gh69uiaQol5yzKK954V7saoGFxYqh_nHkfQyMzheJy-sBjeiAK2OXCec-ESXKYd-LSrXkrfpsJbN-e0BX4d9ODYiNgMmG02S5lCPQNFEc4fygrw4IKOH7OYc-haQfTQPZWkE_6HDdE9oTeIAoQjvrgpTGk.fmF7qQ-P_B8hjyZa_ndpko3ujAhqoJwndmbQbOgXA7c&dib_tag=se&keywords=Waterpik+667&qid=1734846812&sprefix=waterpik+667%2Caps%2C219&sr=8-1',
+  videoUrl: '',
+  videoUrl2: '',
   productPrice: '$78.52',
   amazonPrime: 'https://www.amazon.com',
   path: '/reviews/best-dental-irrigators/best/waterpikWP667',
