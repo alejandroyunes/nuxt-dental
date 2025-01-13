@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import Hero from '~/components/organisms-raw/hero.vue'
-import ReviewsGrid from '~/components/organisms/review-grid.vue'
-import TypeSection from '~/components/organisms-raw/types.vue'
-import { getWirelessReviews } from '~/components/composables/getWirelessReviews'
 import { getCounterReviews } from '~/components/composables/getCounterReviews'
+import { getWirelessReviews } from '~/components/composables/getWirelessReviews'
+import Hero from '~/components/organisms-raw/hero.vue'
+import ProductScroll from '~/components/organisms-raw/product-scroll.vue'
 import QuestionsAndAnswers from '~/components/organisms-raw/questions.vue'
+import TypeSection from '~/components/organisms-raw/types.vue'
+import ReviewsGrid from '~/components/organisms/review-grid.vue'
 
 useSeoMeta({
   title: 'Servicio Web Profesional en Colombia',
@@ -28,6 +29,7 @@ const { bestCounterReviewDescription, bestCounterReviewTitle } = getCounterRevie
 
 <template>
   <Hero />
+  <ProductScroll />
   <ReviewsGrid :reviews="bestWirelessReviewDescription" :reviewTitle="bestWirelessReviewTitle" />
   <ReviewsGrid :reviews="bestCounterReviewDescription" :reviewTitle="bestCounterReviewTitle" />
   <TypeSection />

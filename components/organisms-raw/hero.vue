@@ -1,13 +1,14 @@
 <script setup lang="ts">
-import RightArrowSvg from '~/components/icons/arrows/RightArrowSvg.vue';
+import RightArrowSvg from '~/components/icons/arrows/RightArrowSvg.vue'
 
 const heroData = {
-  titleH2: "Enhance your oral health with an",
-  title: "Oral Dental Irrigator",
-  subtitle: "We've gone the extra mile by diving deep into reviews, user comments, forum discussions, brand reputation sentiments, and more, all to empower you in making a well-informed decision for your Oral Dental Irrigator. Your dental care journey just got a whole lot easier! 😊",
-  buttonText: "View Best Dental Irrigators",
+  titleH2: "Discover the Top Picks for",
+  title: "Best Water Flossers of 2025",
+  subtitle: "Say goodbye to plaque and hello to a healthier smile! We've reviewed the top water flossers of 2025 based on performance, user reviews, and expert recommendations. Find the perfect water flosser for your dental care needs today!",
+  buttonText: "Browse Best Water Flossers",
   cta: "best-dental-irrigators"
-};
+}
+
 
 </script>
 

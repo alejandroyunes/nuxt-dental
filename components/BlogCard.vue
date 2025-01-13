@@ -1,5 +1,14 @@
 <script setup lang="ts">
-import type { BlogPost } from '~/types';
+interface BlogPost {
+  id: number;
+  title: string;
+  excerpt: string;
+  content: string;
+  image: string;
+  date: string;
+  author: string;
+}
+
 
 defineProps<{
   post: BlogPost;
