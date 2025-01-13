@@ -8,7 +8,7 @@ const panasonicEW1511W: ProductDetails = {
     images: panasonicEW1511WGlobalData.images,
     alt: "Panasonic EW1511W Portable Water Flosser",
     title: "Panasonic Portable EW1511W Water Flosser, 165 ml.",
-    description: "The Panasonic Portable Oral Irrigator with Ultrasonic Cleaning is a compact and powerful water flosser designed for effective dental hygiene. Featuring a 165 ml water tank and high water pulsation, it ensures thorough cleaning, making it the perfect companion for maintaining oral health on the go.",
+    description: "The Panasonic Portable Oral Irrigator with Ultrasonic Cleaning is a compact and powerful water flosser designed for effective dental hygiene. Featuring a 165 ml water tank, five pressure settings, rechargeable, IPX7 waterproof design provides 10 minutes of continuous use after a 60-minute charge, includes two rotating, tapered nozzles, and delivers 60 seconds of water flossing per fill.",
     price: panasonicEW1511WGlobalData.productPrice,
     updatedDate: panasonicEW1511WGlobalData.updatedDate,
     buyLink: panasonicEW1511WGlobalData.amazonUrl,
@@ -18,7 +18,7 @@ const panasonicEW1511W: ProductDetails = {
     video2: panasonicEW1511WGlobalData.videoUrl2,
     characteristics: [
       "Cordless and portable design",
-      "Ultrasonic water stream for thorough cleaning",
+      "Up to 1,600 ultrasonic water pulses per minute",
       "Quiet Operation:",
       "Five pressure settings",
       "Easy-to-fill water tank",
@@ -34,7 +34,7 @@ const panasonicEW1511W: ProductDetails = {
     id: "feedback",
     title: "User Feedback & Videos",
     description: "Reviewers praise the Panasonic EW1511 water flosser for its exceptional performance, quiet operation, and high-quality design. They appreciate its convenient charging base, strong water pressure, and durable construction. The device is often compared favorably to competitors, such as Waterpik models, highlighting its advantages like lower noise levels, ease of use, and fewer flaws.",
-    subtext: "For a visual review and demonstration of the Panasonic EW1511W, you may find the following videos helpful:",
+    subtext: "For a visual review and demonstration of the Panasonic portable water flosser EW1511W, you may find the following videos helpful:",
   },
   features: {
     id: "features",
@@ -50,14 +50,14 @@ const panasonicEW1511W: ProductDetails = {
   comparison: {
     id: "comparison",
     title: "Comparison with Similar Models",
-    description: "A detailed comparison of the EW1511W with other Panasonic models.",
+    description: "A detailed comparison of the Panasonic EW1511W Portable Water Flosser with other models.",
     models: [
       {
         id: 1,
         path: panasonicEW1511WGlobalData.path,
-        model: "EW-1511W",
+        model: "EW1511W",
         image: panasonicEW1511WGlobalData.images[0].thumbnail,
-        alt: "Panasonic Portable Water Flosser EW-1511W",
+        alt: "Panasonic Portable Water Flosser EW1511W",
         prime: true,
         dimensions: "3.3 x 3 x 8.3 in, 6 oz",
         tips: "2 interchangeable tips",
@@ -100,7 +100,7 @@ const panasonicEW1511W: ProductDetails = {
       {
         id: 4,
         path: panasonicEW1511WGlobalData.path,
-        model: "EW-DJ10-W",
+        model: "EWDJ10W",
         image: panasonicEW1511WGlobalData.images[0].thumbnail,
         alt: "Panasonic Portable Water Flosser EW-DJ10",
         prime: true,

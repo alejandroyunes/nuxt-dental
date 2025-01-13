@@ -8,7 +8,7 @@ const synhopeM6Plus: ProductDetails = {
     images: synhopeM6PlusGlobalData.images,
     alt: "SynHope Mini Cordless Portable Water Flosser",
     title: "SynHope Mini Cordless Water Flosser, 140 ml.",
-    description: "The SynHope Mini Cordless Portable Water Flosser is highly recommended for those looking for a compact, efficient, and travel-friendly oral care solution.  Featuring a telescopic water tank, 3 cleaning modes, and IPX7 waterproof design.",
+    description: "The SynHope Mini Cordless Portable Water Flosser is highly recommended for those looking for a compact, efficient, and travel-friendly oral care solution.  Featuring a telescopic water tank, 3 cleaning modes, IPX7 waterproof design, long battery life and 30 days no reason refund warranty.",
     price: synhopeM6PlusGlobalData.productPrice,
     updatedDate: synhopeM6PlusGlobalData.updatedDate,
     buyLink: synhopeM6PlusGlobalData.amazonUrl,
@@ -21,7 +21,7 @@ const synhopeM6Plus: ProductDetails = {
       "Telescopic water tank",
       "3 cleaning modes (Soft, Pulse, Strong)",
       "IPX7 waterproof for safe usage",
-      "Long battery life with USB charging",
+      "Continuous use for up to 30 days",
     ],
   },
   tableOfContent: [

@@ -88,3 +88,7 @@ const waterpikwp: ProductDetails = {
 }
 
 export default waterpikwp
+
+// waterpikwp660GlobalData
+// waterpikwp580GlobalData second  most bought
+// mini portable

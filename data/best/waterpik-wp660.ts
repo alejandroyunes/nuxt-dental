@@ -17,10 +17,10 @@ const waterpikwp660: ProductDetails = {
     video: waterpikwp660GlobalData.videoUrl,
     video2: waterpikwp660GlobalData.videoUrl2,
     characteristics: [
-      "ADA accepted",
+      "7 tips for a variety of dental needs",
       "10 adjustable pressure settings",
       "Backed by a 3-year limited",
-      "1 Plaque Seeker Tip (PS-100E)",
+      "90+ seconds of flossing time",
       "Rotation: 360-degree",
     ],
   },
@@ -75,7 +75,7 @@ const waterpikwp660: ProductDetails = {
         alt: 'Waterpik WP-660 Oral Irrigator',
         prime: true,
         dimensions: '3.8 x 4.7 x 10.3 in, 22 oz',
-        tips: "4 included tips",
+        tips: "7 tips",
         capacity: "650 ml.",
         highlight: '10 Nozzles, Best value',
         problem: 'Noise, size',
@@ -132,7 +132,7 @@ const waterpikwp660: ProductDetails = {
   proAndCons: {
     id: "pros-and-cons",
     title: "Pros and Cons",
-    description: "Evaluate the strengths and limitations of the Waterpik Aquarius WP-660.",
+    description: "Evaluate the strengths and limitations of the Waterpik Aquarius WP 660.",
     cta: "Buy on Amazon",
     buyLink: waterpikwp660GlobalData.amazonUrl,
     pros: [
